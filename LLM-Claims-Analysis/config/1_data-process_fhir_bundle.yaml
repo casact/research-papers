@@ -1,0 +1,280 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at https://mozilla.org/MPL/2.0/.
+#
+# This software was developed and implemented by MDSight, LLC
+# with project management by Lieberthal & Associates, LLC
+# and funding from the Casualty Actuarial Society.
+
+# FHIR Processor Configuration
+# Location: ./config/1_data-process_fhir_bundle.yaml
+
+
+# API SETTINGS
+
+api_settings:
+  # Provider selection: "openai" or "ollama"
+  provider: "openai"
+
+  # Token limits
+  classification_max_tokens: 1000
+  clinical_note_max_tokens: 2000
+  default_max_tokens: 1500
+
+  # Retry settings
+  retry_count: 3
+  retry_delay_base: 2  # Exponential backoff base (seconds)
+
+  # OpenAI-specific settings
+  openai:
+    models:
+      classification: "gpt-4o-mini-2024-07-18"
+      clinical_notes: "gpt-4o-mini-2024-07-18"
+      default: "gpt-4o-mini-2024-07-18"
+
+  # Pricing for cost tracking (USD per 1K tokens)
+  pricing:
+    gpt_4o_mini_input_cost_per_1k: 0.00015
+    gpt_4o_mini_output_cost_per_1k: 0.0006
+
+  # Ollama-specific settings
+  ollama:
+    base_url: "http://localhost:11434/v1"  # Ollama API endpoint
+
+    models:
+      classification: "phi3:mini"       # Fast, efficient model for encounter classification
+      clinical_notes: "qwen2.5:7b"      # Best balance for medical narratives and structured output
+      default: "qwen2.5:7b"             # Recommended: excellent instruction-following and coherent output
+
+      # Alternative options:
+      # Quality-focused: "qwen2.5:14b" or "mistral:7b"
+      # Budget/Speed-focused: "phi3:mini" for all tasks
+
+# PROCESSING SETTINGS
+
+processing:
+  # Default directories
+  input_folder: "input/fhir_bundles"
+  default_output_dir: "./output/1_data-process_fhir_bundle"
+
+  # Processing limits
+  min_encounters_to_process: 1
+  max_encounters_per_bundle: 100
+  skip_administrative_encounters: true
+
+
+# LOGGING CONFIGURATION
+
+logging:
+  level: DEBUG                   # DEBUG, INFO, WARNING, ERROR
+  console_format: "%(asctime)s %(levelname)-5s : %(message)s"
+  file_format: "%(asctime)s %(name)s %(levelname)-5s : %(message)s"
+  file_logging: false            # Set to true to enable file logging
+
+  # Debug mode controls (only active when level=DEBUG)
+  debug_options:
+    show_api_prompts: true       # Show full prompts sent to API
+    show_api_responses: true     # Show full API responses
+    show_encounter_details: true # Show detailed encounter information
+    show_classification_details: true # Show classification reasoning
+    max_prompt_chars: 2000       # Limit prompt display length (0 = no limit)
+    max_response_chars: 1000     # Limit response display length (0 = no limit)
+
+
+# ENCOUNTER FILTERING
+
+encounter_filtering:
+  enabled: true                  # Enable/disable encounter filtering
+  max_encounters_per_patient: 50 # Maximum encounters per patient (increased from 10)
+  recent_only_months: 0          # Only encounters within last N months (0 = no date limit)
+
+
+# RELEVANCE CLASSIFICATION
+
+relevance_classification:
+  confidence_threshold: 0.3      # Minimum confidence for relevance (lowered from 0.6 for testing)
+  cache_classifications: true    # Cache classification results
+
+  # High-cost categories for prioritization
+  high_cost_categories:
+    - "surgical"
+    - "chronic_disease"
+    - "emergency_care"
+    - "transplant_related"
+    - "renal_dialysis"
+    - "cancer_treatment"
+    - "mental_health_intensive"
+
+  moderate_cost_categories:
+    - "mental_health"
+    - "acute_illness"
+    - "diagnostic_procedures"
+    - "specialist_consultations"
+    - "medication_management"
+
+  low_cost_categories:
+    - "preventive_care"
+    - "routine_checkups"
+    - "administrative"
+    - "health_assessments"
+
+
+# MEDICAL CLASSIFICATION WITH HIGH-COST PRIORITIZATION
+
+medical_classification:
+  # Procedure groups (ordered by cost impact priority)
+  procedure_groups:
+    # VERY HIGH COST PROCEDURES
+    renal_dialysis:
+      keywords: ['dialysis', 'renal', 'kidney', 'nephro', 'hemodialysis', 'peritoneal']
+      priority: 1
+      cost_impact: 'very_high'
+
+    transplant_related:
+      keywords: ['transplant', 'donor', 'recipient', 'graft', 'organ']
+      priority: 2
+      cost_impact: 'very_high'
+
+    cancer_treatment:
+      keywords: ['chemotherapy', 'radiation', 'oncology', 'tumor', 'cancer', 'malignant', 'metastasis']
+      priority: 3
+      cost_impact: 'very_high'
+
+    cardiac_surgery:
+      keywords: ['cardiac surgery', 'heart surgery', 'bypass', 'valve replacement', 'angioplasty', 'stent']
+      priority: 4
+      cost_impact: 'very_high'
+
+    # HIGH COST PROCEDURES
+    orthopedic_surgery:
+      keywords: ['joint replacement', 'knee replacement', 'hip replacement', 'spinal fusion', 'orthopedic surgery']
+      priority: 5
+      cost_impact: 'high'
+
+    neurosurgery:
+      keywords: ['brain surgery', 'neurosurgery', 'craniotomy', 'spinal surgery', 'neurological']
+      priority: 6
+      cost_impact: 'high'
+
+    emergency_procedures:
+      keywords: ['emergency', 'urgent', 'trauma', 'ambulance', 'er visit', 'acute care', 'critical']
+      priority: 7
+      cost_impact: 'high'
+
+    # MODERATE COST PROCEDURES
+    cardiology_procedures:
+      keywords: ['cardiac', 'heart', 'cardio', 'ecg', 'ekg', 'stress test', 'echocardiogram']
+      priority: 8
+      cost_impact: 'moderate'
+
+    gastrointestinal_procedures:
+      keywords: ['endoscopy', 'colonoscopy', 'gastroscopy', 'gi', 'gastrointestinal']
+      priority: 9
+      cost_impact: 'moderate'
+
+    radiology_imaging:
+      keywords: ['x-ray', 'mri', 'ct scan', 'ultrasound', 'mammogram', 'imaging', 'scan']
+      priority: 10
+      cost_impact: 'moderate'
+
+    # LOW COST PROCEDURES
+    dental_care:
+      keywords: ['dental', 'tooth', 'oral', 'cavity', 'crown', 'bridge', 'denture', 'cleaning']
+      priority: 11
+      cost_impact: 'low'
+
+    health_assessments:
+      keywords: ['assessment', 'screening', 'wellness check', 'physical exam', 'checkup', 'routine']
+      priority: 12
+      cost_impact: 'low'
+
+    medication_management:
+      keywords: ['medication management', 'prescription', 'drug monitoring', 'pharmaceutical consultation']
+      priority: 13
+      cost_impact: 'low'
+
+  # Medication groups (ordered by cost impact priority)
+  medication_groups:
+    # VERY HIGH COST MEDICATIONS
+    immunosuppressants:
+      keywords: ['tacrolimus', 'cyclosporine', 'prednisone', 'methotrexate', 'azathioprine', 'rituximab']
+      category: 'immunosuppressive_medications'
+      priority: 1
+      cost_impact: 'very_high'
+
+    cancer_medications:
+      keywords: ['chemotherapy', 'oncology', 'cancer treatment', 'immunotherapy', 'targeted therapy']
+      category: 'oncology_medications'
+      priority: 2
+      cost_impact: 'very_high'
+
+    specialty_biologics:
+      keywords: ['biologic', 'monoclonal', 'infusion therapy', 'specialty drug', 'orphan drug']
+      category: 'specialty_medications'
+      priority: 3
+      cost_impact: 'very_high'
+
+    # HIGH COST MEDICATIONS
+    insulin:
+      keywords: ['insulin', 'humalog', 'novolog', 'lantus', 'levemir', 'diabetes medication']
+      category: 'diabetes_medications'
+      priority: 4
+      cost_impact: 'high'
+
+    mental_health_specialty:
+      keywords: ['antipsychotic', 'mood stabilizer', 'atypical antidepressant', 'adhd medication']
+      category: 'psychiatric_specialty_medications'
+      priority: 5
+      cost_impact: 'high'
+
+    # MODERATE COST MEDICATIONS
+    hypertension_medications:
+      keywords: ['hydrochlorothiazide', 'lisinopril', 'amlodipine', 'metoprolol', 'losartan', 'atenolol']
+      category: 'cardiovascular_medications'
+      priority: 6
+      cost_impact: 'moderate'
+
+    pain_medications:
+      keywords: ['oxycodone', 'morphine', 'tramadol', 'controlled substance', 'narcotic', 'opioid']
+      category: 'pain_management'
+      priority: 7
+      cost_impact: 'moderate'
+
+    mental_health_standard:
+      keywords: ['sertraline', 'fluoxetine', 'escitalopram', 'alprazolam', 'lorazepam', 'lithium']
+      category: 'psychiatric_medications'
+      priority: 8
+      cost_impact: 'moderate'
+
+    # LOW COST MEDICATIONS
+    cholesterol_medications:
+      keywords: ['atorvastatin', 'simvastatin', 'rosuvastatin', 'pravastatin', 'statin']
+      category: 'lipid_medications'
+      priority: 9
+      cost_impact: 'low'
+
+    antibiotics:
+      keywords: ['amoxicillin', 'azithromycin', 'ciprofloxacin', 'doxycycline', 'penicillin', 'antibiotic']
+      category: 'antimicrobial_medications'
+      priority: 10
+      cost_impact: 'low'
+
+    vitamins_supplements:
+      keywords: ['vitamin', 'supplement', 'multivitamin', 'calcium', 'iron', 'folic acid']
+      category: 'nutritional_supplements'
+      priority: 11
+      cost_impact: 'low'
+
+  # Classification settings
+  classification_settings:
+    max_procedure_groups: 6       # Maximum procedure groups in summaries
+    max_medication_groups: 5      # Maximum medication groups in summaries
+    use_fuzzy_matching: true      # Enable fuzzy keyword matching
+    case_sensitive: false         # Case sensitive keyword matching
+    minimum_confidence: 0.7       # Minimum confidence for classification
+
+
+# COST TRACKING
+
+cost_tracking:
+  track_api_usage: true                # Enable API usage tracking

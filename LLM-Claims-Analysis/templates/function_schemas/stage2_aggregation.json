@@ -1,0 +1,304 @@
+{
+  "name": "aggregate_claim_features",
+  "description": "Aggregate Stage 1 features from all documents into final actuarial variables for reserving, ratemaking, and claim management",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "actuarial_variables": {
+        "type": "object",
+        "description": "Final actuarial variables aggregated from all Stage 1 features. Rationale fields with conflict resolution injected if enabled.",
+        "properties": {
+          "reserving_variables": {
+            "type": "object",
+            "description": "Variables for reserving and ultimate cost prediction",
+            "properties": {
+              "claim_severity": {
+                "type": "string",
+                "enum": ["minor", "moderate", "major", "catastrophic"],
+                "description": "Final claim severity classification aggregated from all sources"
+              },
+              "injury_severity": {
+                "type": "string",
+                "enum": ["minor", "moderate", "major", "catastrophic"],
+                "description": "Clinical severity of the injury based on medical assessment"
+              },
+              "medical_complexity": {
+                "type": "string",
+                "enum": ["simple", "moderate", "complex", "highly_complex"],
+                "description": "Overall medical treatment COMPLEXITY level (NOT treatment type). Simple=straightforward care, Moderate=standard protocols, Complex=surgical/specialists, Highly_Complex=chronic/permanent disability care"
+              },
+              "treatment_type": {
+                "type": "string",
+                "enum": ["conservative", "surgical", "ongoing_chronic", "complex_rehab"],
+                "description": "Primary treatment approach for the injury"
+              },
+              "expected_development_pattern": {
+                "type": "string",
+                "enum": ["fast_resolution", "average", "slow_development", "long_tail"],
+                "description": "Expected claim development timeline and pattern for actuarial modeling and loss reserving"
+              },
+              "ultimate_cost_category": {
+                "type": "string",
+                "enum": ["<25K", "25K-50K", "50K-100K", "100K-150K", ">150K"],
+                "description": "Categorical range of ultimate claim cost for loss development modeling"
+              },
+              "total_incurred_cost": {
+                "type": "number",
+                "minimum": 0,
+                "description": "Total costs paid and incurred to date in dollars"
+              },
+              "estimated_outstanding_cost": {
+                "type": "number",
+                "minimum": 0,
+                "description": "Estimated future costs to be incurred from current date until claim closure in dollars"
+              },
+              "ultimate_cost_prediction": {
+                "type": "number",
+                "minimum": 0,
+                "description": "Final predicted total claim cost including all medical, indemnity, and administrative expenses in dollars"
+              },
+              "permanent_disability_rating": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 100,
+                "description": "Permanent partial or total disability rating if assessed (percentage)"
+              },
+              "recovery_timeline_days": {
+                "type": "number",
+                "minimum": 0,
+                "description": "Estimated or actual recovery period in days"
+              },
+              "maximum_medical_improvement_reached": {
+                "type": "boolean",
+                "description": "Whether claimant has reached maximum medical improvement"
+              },
+              "total_medical_costs": {
+                "type": "number",
+                "minimum": 0,
+                "description": "Total medical costs incurred (subset of total_incurred_cost) in dollars"
+              },
+              "total_indemnity_paid": {
+                "type": "number",
+                "minimum": 0,
+                "description": "Total indemnity/wage loss payments made in dollars"
+              },
+              "settlement_amount": {
+                "type": "number",
+                "minimum": 0,
+                "description": "Final settlement amount agreed upon (if claim settled) in dollars"
+              },
+              "reserve_adequacy": {
+                "type": "string",
+                "enum": ["adequate", "possibly_deficient", "deficient", "excessive"],
+                "description": "Assessment of whether reserves are adequate for expected costs"
+              },
+              "medical_provider_quality": {
+                "type": "string",
+                "enum": ["appropriate", "questionable", "excessive", "inadequate"],
+                "description": "Quality and appropriateness of medical care provided"
+              }
+            },
+            "required": [
+              "claim_severity",
+              "injury_severity",
+              "medical_complexity",
+              "treatment_type",
+              "expected_development_pattern",
+              "ultimate_cost_category"
+            ],
+            "additionalProperties": false,
+            "maxProperties": 17
+
+          },
+          "ratemaking_variables": {
+            "type": "object",
+            "description": "Variables for ratemaking and risk classification",
+            "properties": {
+              "risk_level": {
+                "type": "string",
+                "enum": ["low", "medium", "high", "extreme"],
+                "description": "Overall risk level classification for ratemaking and pricing decisions"
+              },
+              "causation_type": {
+                "type": "string",
+                "enum": ["equipment_failure", "environmental_hazard", "human_factor", "multiple_causes"],
+                "description": "Primary mechanism/cause of the injury or incident for risk classification and experience modification"
+              },
+              "industry_risk_category": {
+                "type": "string",
+                "enum": [
+                  "construction_heavy",
+                  "construction_light",
+                  "manufacturing_heavy",
+                  "manufacturing_light",
+                  "healthcare_hospital",
+                  "healthcare_outpatient",
+                  "transportation",
+                  "retail",
+                  "office_professional",
+                  "agriculture",
+                  "utilities",
+                  "public_safety",
+                  "education",
+                  "other"
+                ],
+                "description": "Industry risk classification for experience rating and pricing"
+              },
+              "industry_risk_level": {
+                "type": "string",
+                "enum": ["low_risk", "moderate_risk", "high_risk", "hazardous"],
+                "description": "Risk level of work environment based on industry hazards and safety factors"
+              },
+              "safety_compliance": {
+                "type": "string",
+                "enum": ["full", "partial", "none", "unknown"],
+                "description": "Level of safety protocol compliance observed or documented"
+              },
+              "experience_modifier_impact": {
+                "type": "string",
+                "enum": ["favorable", "neutral", "adverse", "severe_adverse"],
+                "description": "Expected impact of this claim on employer's experience modification factor"
+              },
+              "employer_size_category": {
+                "type": "string",
+                "enum": ["small", "medium", "large", "enterprise"],
+                "description": "Size classification of employer for experience rating"
+              },
+              "claim_frequency_indicator": {
+                "type": "string",
+                "enum": ["first_claim", "repeat_claimant", "high_frequency_employer", "unknown"],
+                "description": "Indicator of whether this is a repeat claimant or high-frequency employer"
+              }
+            },
+            "required": [
+              "risk_level",
+              "causation_type",
+              "industry_risk_category",
+              "industry_risk_level",
+              "safety_compliance"
+            ],
+            "additionalProperties": false,
+            "maxProperties": 8
+          },
+          "claim_management_variables": {
+            "type": "object",
+            "description": "Variables for claim handling and management strategy",
+            "properties": {
+              "litigation_risk": {
+                "type": "string",
+                "enum": ["low", "medium", "high"],
+                "description": "Assessed risk of claim proceeding to litigation"
+              },
+              "settlement_likelihood": {
+                "type": "string",
+                "enum": ["high", "medium", "low"],
+                "description": "Probability of claim reaching settlement agreement vs. prolonged litigation"
+              },
+              "management_complexity": {
+                "type": "string",
+                "enum": ["routine", "moderate", "complex", "high_touch"],
+                "description": "Level of complexity in managing and handling the claim"
+              },
+              "fraud_risk": {
+                "type": "string",
+                "enum": ["low", "medium", "high"],
+                "description": "Assessed risk of fraudulent claim elements"
+              },
+              "time_to_closure_days": {
+                "type": "number",
+                "minimum": 0,
+                "description": "Estimated or actual number of days from incident to claim closure"
+              },
+              "recommended_reserve": {
+                "type": "number",
+                "minimum": 0,
+                "description": "Recommended case reserve amount based on all available information in dollars"
+              },
+              "work_relatedness_status": {
+                "type": "string",
+                "enum": ["accepted", "disputed", "denied", "under_investigation"],
+                "description": "Official determination of whether injury is work-related and compensable under workers' compensation"
+              },
+              "return_to_work_status": {
+                "type": "string",
+                "enum": ["returned_full_duty", "returned_light_duty", "not_returned", "permanent_disability", "unknown"],
+                "description": "Claimant's current or projected return to work status"
+              },
+              "claim_closure_status": {
+                "type": "string",
+                "enum": ["open_active", "open_inactive", "closed_settled", "closed_denied", "pending_settlement"],
+                "description": "Current status of claim (open, closed, settled, denied)"
+              },
+              "subrogation_potential": {
+                "type": "string",
+                "enum": ["none", "low", "medium", "high"],
+                "description": "Potential for subrogation recovery from third parties"
+              },
+              "claimant_cooperation_level": {
+                "type": "string",
+                "enum": ["excellent", "good", "fair", "poor", "adversarial"],
+                "description": "Level of claimant cooperation throughout claim process"
+              }
+            },
+            "required": [
+              "litigation_risk",
+              "settlement_likelihood",
+              "management_complexity",
+              "fraud_risk",
+              "work_relatedness_status"
+            ],
+            "additionalProperties": false,
+            "maxProperties": 11
+          }
+        },
+        "required": [
+          "reserving_variables",
+          "ratemaking_variables",
+          "claim_management_variables"
+        ]
+      },
+      "aggregated_narrative": {
+        "type": "string",
+        "description": "Comprehensive narrative summary (1000-2000 characters) that: (1) Synthesizes all Stage 1 analyses, (2) Explains key findings and their actuarial significance, (3) Identifies any conflicts found and how they were resolved, (4) Provides recommendations for claim handling, (5) Highlights key risk factors and cost drivers"
+      },
+      "confidence_scores": {
+        "type": "object",
+        "description": "Confidence scores for different variable categories",
+        "properties": {
+          "overall": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Overall confidence in final aggregated analysis"
+          },
+          "reserving": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Confidence in reserving variables and cost predictions"
+          },
+          "ratemaking": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Confidence in ratemaking and risk classification variables"
+          },
+          "claim_management": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Confidence in claim management recommendations"
+          },
+          "data_completeness": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Completeness of input data (1.0 = all key documents present)"
+          }
+        },
+        "required": ["overall", "reserving", "ratemaking", "claim_management"]
+      }
+    },
+    "required": ["actuarial_variables", "aggregated_narrative", "confidence_scores"]
+  }
+}

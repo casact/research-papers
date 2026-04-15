@@ -1,0 +1,223 @@
+{
+  "name": "extract_settlement_notes_features",
+  "description": "Extract structured features from settlement adjuster notes for final claim resolution and cost validation",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "structured_features": {
+        "type": "object",
+        "description": "Structured features from settlement adjuster notes",
+        "properties": {
+          "settlement_amount": {
+            "type": "number",
+            "description": "Final settlement amount agreed upon in dollars"
+          },
+          "settlement_date": {
+            "type": "string",
+            "description": "Date of settlement (YYYY-MM-DD format)"
+          },
+          "settlement_type": {
+            "type": "string",
+            "enum": ["lump_sum", "structured", "medicare_set_aside", "compromise_and_release"],
+            "description": "Type of settlement structure"
+          },
+          "claim_closure_status": {
+            "type": "string",
+            "enum": ["closed_settled", "closed_denied", "closed_abandoned", "partial_closure"],
+            "description": "Final claim closure status"
+          },
+          "time_to_closure_days": {
+            "type": "number",
+            "description": "Total days from incident to claim closure"
+          },
+          "total_medical_costs": {
+            "type": "number",
+            "description": "Total actual medical costs incurred in dollars"
+          },
+          "total_wage_loss": {
+            "type": "number",
+            "description": "Total actual wage loss/indemnity paid in dollars"
+          },
+          "administrative_costs": {
+            "type": "number",
+            "description": "Administrative, legal, and case management costs in dollars"
+          },
+          "total_incurred_cost": {
+            "type": "number",
+            "description": "Total actual costs incurred (medical + wage loss + administrative) in dollars"
+          },
+          "cost_development_vs_reserves": {
+            "type": "string",
+            "enum": ["higher", "lower", "as_expected"],
+            "description": "How actual costs developed compared to initial reserves: higher (exceeded reserves), lower (under reserves), as_expected (matched reserves)"
+          },
+          "settlement_value_range": {
+            "type": "string",
+            "description": "Dollar range for settlement negotiation (e.g., '15000-25000', '20000-30000')"
+          },
+          "settlement_probability": {
+            "type": "string",
+            "enum": ["high", "medium", "low"],
+            "description": "Probability of achieving settlement"
+          },
+          "negotiation_position_strength": {
+            "type": "string",
+            "enum": ["strong", "moderate", "weak"],
+            "description": "Strength of negotiation position: strong (favorable leverage), moderate (balanced), weak (unfavorable position)"
+          },
+          "resolution_timeline_estimate": {
+            "type": "string",
+            "description": "Expected timeline to resolution (e.g., '3_months', '6_months', '1_year')"
+          },
+          "claim_stability": {
+            "type": "string",
+            "enum": ["stable", "volatile"],
+            "description": "Stability of claim development: stable (predictable progression), volatile (unpredictable changes)"
+          },
+          "litigation_risk": {
+            "type": "string",
+            "enum": ["low", "medium", "high"],
+            "description": "Risk of litigation or legal action"
+          },
+          "medical_complications": {
+            "type": "string",
+            "enum": ["none", "minor", "major"],
+            "description": "Medical complications encountered: none (no complications), minor (manageable issues), major (significant complications)"
+          },
+          "rtw_success": {
+            "type": "string",
+            "enum": ["successful", "partial", "failed"],
+            "description": "Return to work outcome: successful (full return), partial (limited capacity), failed (unable to return)"
+          },
+          "claim_development_speed": {
+            "type": "string",
+            "enum": ["fast", "average", "slow"],
+            "description": "Speed of claim development: fast (quick resolution), average (typical timeline), slow (prolonged development)"
+          },
+          "reserve_adequacy": {
+            "type": "string",
+            "enum": ["adequate", "inadequate"],
+            "description": "Whether initial reserves were adequate for actual costs"
+          },
+          "closure_likelihood": {
+            "type": "string",
+            "enum": ["high", "medium", "low"],
+            "description": "Likelihood of claim closure in near term"
+          },
+          "total_indemnity_paid": {
+            "type": "number",
+            "description": "Total indemnity/wage loss paid in dollars (same as total_wage_loss)"
+          },
+          "legal_fees": {
+            "type": "number",
+            "description": "Legal and defense costs in dollars"
+          },
+          "subrogation_recovery": {
+            "type": "number",
+            "description": "Amount recovered through subrogation in dollars"
+          },
+          "actual_vs_reserve": {
+            "type": "string",
+            "enum": ["under_reserve", "at_reserve", "over_reserve"],
+            "description": "Actual costs compared to initial reserve: under_reserve (costs below reserve), at_reserve (matched reserve), over_reserve (costs exceeded reserve)"
+          },
+          "reserve_adequacy_percentage": {
+            "type": "number",
+            "description": "Percentage of reserve utilized (e.g., 85 = 85% of reserve used)"
+          },
+          "negotiation_rounds": {
+            "type": "number",
+            "description": "Number of negotiation rounds to reach settlement"
+          },
+          "settlement_probability_initial": {
+            "type": "string",
+            "enum": ["high", "medium", "low"],
+            "description": "Initial settlement probability assessment at beginning of negotiations"
+          },
+          "return_to_work_achieved": {
+            "type": "boolean",
+            "description": "Whether claimant returned to work"
+          },
+          "return_to_work_capacity": {
+            "type": "string",
+            "enum": ["full_duty", "light_duty", "modified_duty", "no_return"],
+            "description": "Capacity of return to work if achieved"
+          },
+          "permanent_disability_final": {
+            "type": "string",
+            "description": "Final permanent disability rating (e.g., '15% permanent partial', '10% whole person impairment')"
+          },
+          "litigation_occurred": {
+            "type": "boolean",
+            "description": "Whether claim went to litigation"
+          },
+          "cost_escalation_factors": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Factors that drove cost increases (e.g., ['medical_complications', 'extended_recovery', 'litigation', 'specialist_care'])"
+          },
+          "cost_drivers": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Primary factors that drove overall claim costs"
+          },
+          "lessons_learned": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Key lessons learned from claim handling for future improvement"
+          }
+        },
+        "required": [
+          "settlement_amount",
+          "settlement_date",
+          "settlement_type",
+          "claim_closure_status",
+          "time_to_closure_days",
+          "total_medical_costs",
+          "total_wage_loss",
+          "administrative_costs",
+          "total_incurred_cost",
+          "cost_development_vs_reserves",
+          "settlement_value_range",
+          "settlement_probability",
+          "negotiation_position_strength",
+          "resolution_timeline_estimate",
+          "claim_stability",
+          "litigation_risk",
+          "medical_complications",
+          "rtw_success",
+          "claim_development_speed",
+          "reserve_adequacy",
+          "closure_likelihood"
+        ]
+      },
+      "narrative_analysis": {
+        "type": "string",
+        "description": "Rich text analysis (600-1200 characters) covering: (1) Settlement outcome, final amount, and rationale for resolution, (2) Actual costs compared to initial projections and reserve adequacy, (3) Key factors influencing final resolution (medical, legal, cooperation), (4) Claim development patterns and handling effectiveness, (5) Lessons learned and recommendations for future similar claims"
+      },
+      "confidence_metadata": {
+        "type": "object",
+        "properties": {
+          "overall_confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Confidence in extracted settlement information (typically high for final documentation)"
+          },
+          "data_quality": {
+            "type": "string",
+            "enum": ["excellent", "good", "fair", "poor"],
+            "description": "Quality and completeness of settlement documentation"
+          },
+          "missing_information": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Any missing settlement details or incomplete information"
+          }
+        },
+        "required": ["overall_confidence", "data_quality", "missing_information"]
+      }
+    },
+    "required": ["structured_features", "narrative_analysis", "confidence_metadata"]
+  }
+}

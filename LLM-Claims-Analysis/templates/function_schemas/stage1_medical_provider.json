@@ -1,0 +1,189 @@
+{
+  "name": "extract_medical_provider_features",
+  "description": "Extract structured features from medical provider letter for actuarial analysis and clinical assessment",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "structured_features": {
+        "type": "object",
+        "description": "Structured medical features from provider letter",
+        "properties": {
+          "primary_diagnosis": {
+            "type": "string",
+            "description": "Primary medical diagnosis (e.g., 'Lumbar disc herniation L4-L5', 'Rotator cuff tear')"
+          },
+          "body_parts_affected": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "List of affected body parts (e.g., ['lower back', 'left leg'])"
+          },
+          "specific_diagnosis": {
+            "type": "string",
+            "description": "Specific detailed medical diagnosis with severity indicators (e.g., 'L2 compression fracture with trabecular disruption', 'complete rotator cuff tear with retraction')"
+          },
+          "treatment_complexity": {
+            "type": "string",
+            "enum": ["conservative", "surgical", "complex"],
+            "description": "Treatment needs complexity: conservative (medication, PT, basic care), surgical (operative intervention), complex (multiple procedures, specialized care)"
+          },
+          "diagnostic_certainty": {
+            "type": "string",
+            "enum": ["definitive", "probable", "uncertain"],
+            "description": "Physician's certainty in diagnosis: definitive (confirmed), probable (likely), uncertain (unclear or requires further evaluation)"
+          },
+          "complication_risk": {
+            "type": "string",
+            "enum": ["low", "medium", "high"],
+            "description": "Risk of medical complications or treatment setbacks"
+          },
+          "treatment_duration_estimates": {
+            "type": "string",
+            "description": "Expected duration of treatment (e.g., '6-12 months', '4-6 weeks', '1-2 years')"
+          },
+          "specialist_care_requirements": {
+            "type": "string",
+            "description": "Specialist consultations needed (e.g., 'orthopedic consultations needed', 'pain management required', 'neurosurgical evaluation recommended', 'none')"
+          },
+          "therapy_rehabilitation_needs": {
+            "type": "string",
+            "description": "Physical therapy or occupational therapy requirements (e.g., 'PT required', '12 weeks physical therapy', 'OT for activities of daily living', 'none')"
+          },
+          "future_medical_necessity": {
+            "type": "string",
+            "description": "Ongoing medical needs expected (e.g., 'ongoing monitoring and rehabilitation', 'lifetime pain management', 'annual follow-ups', 'no future treatment expected')"
+          },
+          "work_restrictions_severity": {
+            "type": "string",
+            "enum": ["mild", "moderate", "severe"],
+            "description": "Severity of work restrictions: mild (minor limitations), moderate (significant restrictions), severe (unable to perform most work activities)"
+          },
+          "rtw_timeline_prediction": {
+            "type": "string",
+            "description": "Timeline for return to work (e.g., '12-16 weeks for modified duty', '6 months for full duty', 'unable to return', '4-6 weeks light duty')"
+          },
+          "permanent_impairment_likelihood": {
+            "type": "string",
+            "enum": ["unlikely", "possible", "likely", "definite"],
+            "description": "Likelihood of permanent impairment: unlikely (full recovery expected), possible (may have residual effects), likely (probable permanent restrictions), definite (confirmed permanent disability)"
+          },
+          "maximum_medical_improvement": {
+            "type": "string",
+            "description": "Timeline to reach maximum medical improvement (e.g., '6-12 months', '18-24 months', '3-4 months')"
+          },
+          "treatment_appropriateness": {
+            "type": "string",
+            "enum": ["appropriate", "questionable"],
+            "description": "Whether recommended treatment is appropriate for the condition: appropriate (medically necessary and standard), questionable (may be excessive or unnecessary)"
+          },
+          "standard_of_care_compliance": {
+            "type": "string",
+            "enum": ["meets", "exceeds", "below"],
+            "description": "Whether treatment meets standard of care: meets (standard treatment), exceeds (more conservative/thorough), below (substandard care)"
+          },
+          "diagnosis_confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Physician's confidence in diagnosis (0.0 to 1.0)"
+          },
+          "surgery_required": {
+            "type": "boolean",
+            "description": "Whether surgery is required or recommended"
+          },
+          "surgery_type": {
+            "type": "string",
+            "description": "Type of surgery if surgery_required is true (e.g., 'microdiscectomy', 'rotator cuff repair', 'spinal fusion')"
+          },
+          "recovery_timeline_days": {
+            "type": "number",
+            "description": "Estimated recovery timeline in days (convert months to days using midpoint: e.g., '4-6 months' = 150 days)"
+          },
+          "total_medical_cost": {
+            "type": "number",
+            "description": "Total estimated or actual medical costs in dollars"
+          },
+          "disability_rating": {
+            "type": "string",
+            "description": "Disability rating if mentioned (e.g., 'permanent partial 15%', 'temporary total', '10% whole person impairment')"
+          },
+          "return_to_work_prognosis": {
+            "type": "string",
+            "enum": ["full", "partial", "unlikely"],
+            "description": "Prognosis for return to work capability: full (able to return to pre-injury work), partial (modified/light duty), unlikely (unable to return)"
+          },
+          "permanent_disability_expected": {
+            "type": "boolean",
+            "description": "Whether permanent disability is expected"
+          },
+          "ongoing_treatment_required": {
+            "type": "boolean",
+            "description": "Whether ongoing treatment (PT, pain management, monitoring) is required"
+          },
+          "treatment_plan_duration_days": {
+            "type": "number",
+            "description": "Duration of treatment plan in days"
+          },
+          "alternative_treatments": {
+            "type": "string",
+            "description": "Alternative treatment options considered (e.g., 'No reasonable alternatives', 'Conservative management considered but inadequate', 'Multiple options discussed')"
+          },
+          "patient_compliance": {
+            "type": "string",
+            "enum": ["high", "medium", "low"],
+            "description": "Expected patient compliance with treatment plan"
+          },
+          "recovery_prognosis": {
+            "type": "string",
+            "enum": ["excellent", "good", "fair", "poor"],
+            "description": "Overall recovery prognosis"
+          }
+        },
+        "required": [
+          "primary_diagnosis",
+          "body_parts_affected",
+          "specific_diagnosis",
+          "treatment_complexity",
+          "diagnostic_certainty",
+          "complication_risk",
+          "treatment_duration_estimates",
+          "specialist_care_requirements",
+          "therapy_rehabilitation_needs",
+          "future_medical_necessity",
+          "work_restrictions_severity",
+          "rtw_timeline_prediction",
+          "permanent_impairment_likelihood",
+          "maximum_medical_improvement",
+          "treatment_appropriateness",
+          "standard_of_care_compliance"
+        ]
+      },
+      "narrative_analysis": {
+        "type": "string",
+        "description": "Rich text analysis (500-1000 characters) covering: (1) Clinical findings, diagnosis certainty, and their significance, (2) Treatment plan, medical necessity, and appropriateness, (3) Prognosis, return to work timeline, and disability expectations, (4) Actuarial implications for cost projections and reserving, (5) Key risk factors and medical complexity drivers"
+      },
+      "confidence_metadata": {
+        "type": "object",
+        "properties": {
+          "overall_confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Overall confidence in extracted features from medical provider letter"
+          },
+          "data_quality": {
+            "type": "string",
+            "enum": ["excellent", "good", "fair", "poor"],
+            "description": "Quality and completeness of medical provider documentation"
+          },
+          "missing_information": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Important information not addressed in provider letter (e.g., 'cost estimates', 'return to work timeline', 'prognosis')"
+          }
+        },
+        "required": ["overall_confidence", "data_quality", "missing_information"]
+      }
+    },
+    "required": ["structured_features", "narrative_analysis", "confidence_metadata"]
+  }
+}

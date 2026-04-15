@@ -1,0 +1,183 @@
+{
+  "claim_id": 4596967859,
+  "patient_initials": "AB",
+  "patient_metadata": {
+    "age": "23",
+    "gender": "Male",
+    "name": "Adolph80 Randell912 Bartoletti50"
+  },
+  "encounters": [
+    {
+      "encounter_id": "927d8f12-fb68-b443-c426-1e38c8f2011c",
+      "document_type": "document_text",
+      "document_text": "**Clinical Note**\n\n**Patient Name:** [Patient Name]  \n**Date of Encounter:** March 3, 2019  \n**Encounter Type:** Wellness  \n**Encounter Name:** Encounter Module Scheduled Wellness  \n**Encounter Cost:** $136.80  \n\n**Chief Complaint:**  \nThe patient presents for a scheduled wellness visit with a focus on medication review. The patient reports adherence to current medications but expresses concerns regarding potential side effects and interactions.\n\n**Assessment:**  \nThe patient is a [age]-year-old [gender] with a history of [relevant medical history, e.g., hypertension, diabetes, hyperlipidemia]. Current medications include [list medications, dosages, and frequency]. The patient denies any new symptoms or significant changes in health status since the last visit. Vital signs are stable: BP [value], HR [value], RR [value], Temp [value]. \n\nA comprehensive medication review was conducted, focusing on the following:\n\n1. **Antihypertensives:** [Medication name, dosage, and any noted side effects or efficacy].\n2. **Antidiabetics:** [Medication name, dosage, and any noted side effects or efficacy].\n3. **Lipid-lowering agents:** [Medication name, dosage, and any noted side effects or efficacy].\n4. **Other medications:** [List any additional medications, their purposes, and any concerns raised by the patient].\n\nThe patient expressed concerns regarding [specific side effects or interactions], which were addressed during the visit. No new medications were initiated, but adjustments to dosages were discussed based on the patient's current health status and lab results. \n\n**Plan:**  \n1. **Medication Management:** Continue current medication regimen with the following adjustments:\n   - [Specify any changes in medication dosages or discontinuation of medications].\n   - Schedule follow-up lab tests to monitor [specific parameters, e.g., renal function, lipid levels, HbA1c] in [time frame].\n   \n2. **Patient Education:** Provided education on the importance of medication adherence, potential side effects, and the significance of regular follow-up visits. Discussed lifestyle modifications, including diet and exercise, to support overall health and medication efficacy.\n\n3. **Follow-Up:** Schedule a follow-up appointment in [time frame, e.g., 3 months] to reassess medication efficacy and side effects. Encourage the patient to reach out sooner if any adverse effects occur or if there are changes in health status.\n\n4. **Documentation:** Ensure all medication changes and patient education are documented in the electronic health record for continuity of care.\n\n**Signature:**  \n[Provider Name, Credentials]  \n[Provider Contact Information]  \n[Date of Note Completion]  \n\n**Note:** This encounter is classified as moderate cost due to the complexity of medication management and the potential for ongoing medical needs, which may lead to future costs associated with chronic condition management.",
+      "encounter_date": "2019-03-03",
+      "source_file": "synthea",
+      "encounter_metadata": {
+        "resource_type": "Encounter",
+        "synthea_type": "wellness",
+        "synthea_name": "Encounter Module Scheduled Wellness",
+        "classification": {
+          "is_relevant": true,
+          "confidence": 0.8,
+          "reason": "The encounter involves a medication review, which is part of medication management and can indicate ongoing medical needs that may lead to future costs.",
+          "category": "moderate_cost",
+          "cost_indicators": [
+            "medication management",
+            "potential for chronic conditions",
+            "follow-up visits",
+            "lab tests"
+          ]
+        },
+        "processing_timestamp": "2026-03-03T20:13:21.133233",
+        "models_used": {
+          "classification_model": "unknown",
+          "clinical_note_model": "unknown"
+        }
+      }
+    },
+    {
+      "date": "2026-03-03T20:14:24.983070",
+      "type": "other_text_data",
+      "document_type": "medical_provider_letter",
+      "document_text": "[Your Medical Practice Letterhead]  \nDr. Mark Johnson, MD  \n123 Health St.  \nSpringfield, ST 12345  \nPhone: (555) 123-4567  \nFax: (555) 765-4321  \n\nJanuary 15th, 2024  \n\nInsurance Adjuster  \nXYZ Insurance Company  \n456 Claim Ave.  \nSpringfield, ST 12345  \n\nRe: Claim Number: CLM-2023-0456  \nClaimant: Alex Brown  \nPolicy Number: POL-2023-0987  \n\nDear Adjuster,  \n\nI am writing to provide a detailed summary of the medical treatment and progress for my patient, Alex Brown, who sustained an injury while working as a warehouse worker on March 3rd, 2019.  \n\n**Clinical Summary:**  \nOn the incident date, Alex was lifting a heavy box when he lost balance and fell, resulting in an acute lower back strain and a contusion to the right elbow. The incident was witnessed by John Smith and Lisa White, both of whom can verify the circumstances of the injury.  \n\n**Examination Findings:**  \nUpon evaluation on March 4th, 2019, Alex exhibited tenderness in the lumbar region with limited range of motion (ROM). Neurological exam showed DTRs (deep tendon reflexes) WNL (within normal limits), and strength was intact bilaterally, with no signs of radiculopathy. The contusion on the right elbow was superficial with no fractures noted. An MRI conducted on March 10th revealed no severe damage to the lumbar spine.  \n\n**Treatment Plan:**  \nInitial treatment consisted of ice therapy, NSAIDs (non-steroidal anti-inflammatory drugs), and a referral for physical therapy (PT) sessions. Alex began PT on March 15th, focusing on therapeutic exercises aimed at improving strength and flexibility. I monitored his progress with follow-up appointments, the last of which was on April 1st, 2019, where we noted significant improvement.  \n\n**Prognosis:**  \nAlex has demonstrated a favorable response to treatment and was cleared for restricted duties on April 15th, 2019, with a return to full work status by May 1st, 2019. His maximum medical improvement (MMI) was achieved on June 1st, 2019, and he has been advised to continue with home exercises as needed.  \n\n**Work Restrictions:**  \nAs of the last evaluation, Alex is able to perform his regular work duties without restrictions. However, I recommend avoiding heavy lifting (>50 lbs) and repetitive bending for an additional 2-3 weeks as a precautionary measure.  \n\nPlease feel free to contact me if you require further information or clarification regarding Alex's treatment and recovery process.  \n\nThank you for your attention to this matter.  \n\nSincerely,  \n\nDr. Mark Johnson, MD  \n[Signature]  \n\nEnclosures: Medical records, MRI report, PT progress notes",
+      "generation_metadata": {
+        "generated_timestamp": "2026-03-03T20:14:24.983070",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Medical Provider Letter",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 13.729303800035268,
+        "tokens": {
+          "prompt_tokens": 847,
+          "completion_tokens": 718,
+          "total_tokens": 1565
+        }
+      }
+    },
+    {
+      "date": "2026-03-03T20:14:37.449286",
+      "type": "other_text_data",
+      "document_type": "settlement_adjuster_notes",
+      "document_text": "**Claim Number:** CLM-2023-0456  \n**Claimant Name:** Alex Brown  \n**Date:** 01/15/2024  \n\n**Medical Treatment Summary:**  \n- Initial eval. by Dr. Mark Johnson on March 4th, 2019, for acute lower back strain and right elbow contusion.  \n- Treatment included ice therapy, NSAIDs, and referral for PT.  \n- MRI on March 10th, 2019, showed no severe damage.  \n- PT sessions began March 15th, 2019, w/ Dr. Emily Carter, PT.  \n- Follow-up w/ Dr. Johnson on April 1st, 2019.  \n- Cleared for restricted duties on April 15th, returning to full duties by May 1st.  \n- Achieved MMI on June 1st, 2019.  \n\n**Total Expenses Calculation:**  \n- Medical expenses:  \n  - Dr. Johnson visits: ~$300 (2 visits @ $150)  \n  - PT sessions: $500 x 12 visits = $6,000  \n  - MRI: $1,200  \n  - Total medical costs: $300 + $6,000 + $1,200 = $7,500  \n\n**Wage Loss Analysis:**  \n- Alex was out of work for approx. 6 weeks (March 3rd to May 1st)  \n- Weekly wage: $800  \n- Total wage loss: $800 x 6 weeks = $4,800  \n\n**Settlement Analysis:**  \n- Total expenses (medical + wage loss): $7,500 + $4,800 = $12,300  \n- Considering the claimant's age, occupation, and the nature of the injury, a fair settlement range would be between $15,000 - $20,000.  \n- Prior notes indicate that similar cases have settled around these amounts w/ potential for negotiation based on pain and suffering.  \n\n**Negotiation Strategy:**  \n- Start negotiations at $20,000, emphasizing the claimant's youth and the impact on future earning potential due to the injury.  \n- Highlight the clear liability evidenced by witness statements.  \n- Prepare to counter any low-ball offers by referring to the established wage loss and medical expenses, w/ supporting documentation.  \n\n**Settlement Authority Recommendation:**  \n- Recommend settlement authority for up to $18,000 to allow for flexibility in negotiations.  \n- Emphasis on the strong liability and medical documentation supports a solid case for settlement.  \n- Per file review, claimant is likely to accept a reasonable offer to avoid prolonged negotiations.",
+      "generation_metadata": {
+        "generated_timestamp": "2026-03-03T20:14:37.449286",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Settlement Adjuster Notes",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 12.31648939999286,
+        "tokens": {
+          "prompt_tokens": 888,
+          "completion_tokens": 640,
+          "total_tokens": 1528
+        }
+      }
+    },
+    {
+      "date": "2026-03-03T20:14:50.551436",
+      "type": "other_text_data",
+      "document_type": "adjuster_notes_initial",
+      "document_text": "**Initial Adjuster Notes**  \n**Claim Number**: CLM-2023-0456  \n**Claimant**: Alex Brown  \n**Date of Review**: 10/15/2023  \n**Adjuster**: J. Smith, AIC  \n\n**Incident Overview**:  \n- Date of Incident: 03/03/2019, approx. 10:30 AM  \n- Location: Local Warehouse, 123 Industrial Rd, Springfield  \n- Claimant was lifting a heavy box that fell from shelf, lost balance & fell.  \n- Witnesses: John Smith & Lisa White, confirmed sequence of events.  \n- Environment: Forklift & pallet jack in operation nearby.  \n\n**Injury Assessment**:  \n- Injuries: Acute lower back strain & contusion to right elbow.  \n- First medical treatment on 03/04/2019 by Dr. Mark Johnson, MD.  \n- Initial Tx: Ice therapy, NSAIDs, referral to PT.  \n- Ongoing care: PT sessions w/ Dr. Emily Carter, PT, for recovery monitoring.  \n\n**Timeline of Events**:  \n- 03/10/2019: MRI conducted, no severe damage found.  \n- 03/15/2019: PT sessions initiated.  \n- 04/01/2019: Follow-up w/ Dr. Johnson.  \n- 04/15/2019: Cleared for restricted duties.  \n- 05/01/2019: Returned to full work status.  \n- 06/01/2019: Achieved MMI.  \n\n**Liability Evaluation**:  \n- Witnesses corroborate clmt's account, indicating potential liability of employer for unsafe lifting conditions.  \n- Equipment in operation may have contributed to incident; need further investigation into safety protocols at warehouse.  \n\n**Initial Actions Taken**:  \n- Reviewed initial medical records from Dr. Johnson dated 03/04/2019.  \n- Contacted clmt via phone on 10/14/2023, confirmed ongoing recovery process and treatment updates.  \n- Email received from clmt regarding concerns about ongoing pain.  \n\n**Next Steps**:  \n- Obtain ROI from medical providers for complete treatment history & future care recommendations.  \n- Schedule IME to assess current condition and any lingering effects from injury.  \n- Follow up w/ clmt on 11/01/2023 to discuss findings and any additional documentation needed.  \n- Review potential for subrogation against employer for safety violations that may have contributed to incident.  \n\n**Notes**:  \n- Ensure all documentation is in order for timely claim processing.  \n- Keep lines of communication open w/ clmt for any new developments.",
+      "generation_metadata": {
+        "generated_timestamp": "2026-03-03T20:14:50.551436",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Initial Adjuster Notes",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 12.655109000043012,
+        "tokens": {
+          "prompt_tokens": 871,
+          "completion_tokens": 670,
+          "total_tokens": 1541
+        }
+      }
+    },
+    {
+      "date": "2026-03-03T20:15:06.236087",
+      "type": "other_text_data",
+      "document_type": "phone_transcript",
+      "document_text": "[Phone ringing, then answered]\n\nInsurance Rep: Hello, thank you for calling ABC Insurance. This is Samantha. How can I assist you today?\n\nAlex Brown: Hi, uh, this is Alex Brown. I’m calling about a claim I submitted, uh, a while back, claim number CLM-2023-0456.\n\nInsurance Rep: Sure, I can help you with that, Alex. Just to confirm, you’re 23 years old and you work as a warehouse worker, right?\n\nAlex Brown: Yes, that's correct. Um, I was, I had an accident at work a few years ago, back in, uh, March of 2019. \n\nInsurance Rep: Got it. Can you, uh, tell me exactly what happened during the incident?\n\nAlex Brown: Yeah, so I was lifting this heavy box that had, uh, fallen from the shelf at my job at... uh, the Local Warehouse on Industrial Rd. It was around 10:30 AM and, um, I lost my balance and just fell to the ground.\n\nInsurance Rep: Ouch, that sounds painful. What injuries did you sustain?\n\nAlex Brown: I ended up with, uh, an acute lower back strain and, um, I also had a bruise on my right elbow. \n\nInsurance Rep: Did you seek medical treatment after that?\n\nAlex Brown: Yeah, I went to see Dr. Mark Johnson the next day, on March 4th. He, uh, gave me a diagnosis and told me to do ice therapy and take NSAIDs. I had to go to physical therapy too.\n\nInsurance Rep: Okay, so you were under treatment for a while... just to clarify, you had an MRI done on March 10th, right?\n\nAlex Brown: Yeah, that’s correct. The MRI showed that, um, there was no severe damage. But I started physical therapy on March 15th and had a follow-up with Dr. Johnson on April 1st.\n\nInsurance Rep: And you were, uh, cleared for restricted duties on April 15th, is that right?\n\nAlex Brown: Exactly, then I went back to full duties by May 1st. It was a pretty quick recovery, um, I achieved MMI on June 1st, 2019.\n\nInsurance Rep: That’s great to hear you’ve fully recovered! So, for next steps, I’ll make sure all this info is updated in our system. We’ll process your claim and, um, you should receive a letter of information shortly with the claim decision.\n\nAlex Brown: Thanks, Samantha. I appreciate your help with this. Um, is there anything else I need to do on my end?\n\nInsurance Rep: Not at this moment, Alex. Just keep an eye out for that LOI in the mail. If you have any, uh, questions or need to provide more info, just give us a call back. Okay?\n\nAlex Brown: Sounds good. Thanks again. \n\nInsurance Rep: You’re welcome! Have a great day!\n\nAlex Brown: You too, bye!\n\n[Call ends]",
+      "generation_metadata": {
+        "generated_timestamp": "2026-03-03T20:15:06.236087",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Initial Phone Call Transcript",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 15.482261799974367,
+        "tokens": {
+          "prompt_tokens": 872,
+          "completion_tokens": 719,
+          "total_tokens": 1591
+        }
+      }
+    },
+    {
+      "date": "2026-03-03T20:15:18.118523",
+      "type": "other_text_data",
+      "document_type": "claimant_statement",
+      "document_text": "I, Alex Brown, am providing my statement regarding the incident that occurred on March 3rd, 2019, which has significantly impacted my life. On that day, around 10:30 AM, I was working at the Local Warehouse on Industrial Rd, Springfield. As part of my job, I was lifting boxes and, unfortunately, I lost my balance while picking up a heavy box that had fallen from a shelf. I couldn't believe how fast it happened. I fell straight to teh ground, and I was in so much pain that I couldn't move!!! I remember trying to get up, but my back was so so painful that I just laid there until help arrived. John Smith and Lisa White, who were working near me at the time, saw the whole thing and later told others about it. The area was busy with equipment like forklifts and pallet jacks zipping around, and I feel like it was all just chaos at that moment.\n\nAfter the incident, I sought medical help immediately on March 4th. Dr. Mark Johnson, who was really nice btw, diagnosed me with an acute lower back strain and a contusion on my right elbow. He recommended ice therapy and gave me some NSAIDs which, honestly, helped a bit but nothing compared to the pain I felt just trying to get through the day. I was referred to physical therapy sessions, and let me tell you, those were tough!!! I started my PT on March 15th and it felt like I couldn't catch a break. I even had an MRI on March 10th which luckily showed no severe damage, but I still felt horrible. It was hard to just get out of bed some days!!! \n\nNot being able to work like I used to was really frustrating – I was a warehouse worker and it involved a lot of physical strain, and being laid up for those weeks was hard... I missed out on work and felt so useless. I kept thinking about how I’d never be able to lift those boxes again but my PT with Dr. Emily Carter really helped me through it. I had regular follow-ups with her which was helpful to track my recovery progress. I gradually got better, and by April 15th, I was cleared for restricted duties but didn’t feel like myself. Finally, by May 1st I was back to full work status!!! I was ecstatic but still had this lingering worry about my back. I achieved maximum medical improvement on June 1st, 2019, but the whole experience really took a toll on me emotionally and physically. I just hope no one else has to go through something like this – it’s a weird feeling being a patient and a claimant all rolled into one, but this situation just really, really hurt my daily routine and my ability to work like I did. Thank you for considering my statement in this claim.",
+      "generation_metadata": {
+        "generated_timestamp": "2026-03-03T20:15:18.118523",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Claimant Statement",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 11.885862799943425,
+        "tokens": {
+          "prompt_tokens": 873,
+          "completion_tokens": 616,
+          "total_tokens": 1489
+        }
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_type": "fhir_processor",
+    "bundle_format": "synthea",
+    "bundle_file": "Adolph80_Bartoletti50_dabfdec7-929a-3269-fd84-ab7e6ecaa245.json",
+    "processing_timestamp": "2026-03-03T20:13:21.133233",
+    "total_encounters_evaluated": 1,
+    "relevant_encounters": 1,
+    "processing_stats": {
+      "total_evaluated": 1,
+      "relevant_encounters": 1,
+      "classification_errors": 0,
+      "note_generation_errors": 0,
+      "api_calls": 0,
+      "total_cost": 0.0,
+      "skipped_irrelevant": 0
+    },
+    "cost_summary": {
+      "total_cost": 0.00046469999999999997,
+      "total_calls": 2,
+      "average_cost_per_call": 0.00023234999999999998,
+      "total_tokens": 1112,
+      "total_input_tokens": 450,
+      "total_output_tokens": 662,
+      "total_time": 13.436769962310791,
+      "average_time_per_call": 6.7183849811553955
+    },
+    "processor_version": "1.0",
+    "llm_provider": "openai",
+    "models_used": {
+      "classification": [
+        "unknown"
+      ],
+      "clinical_notes": [
+        "unknown"
+      ]
+    },
+    "synthetic_documents_added": {
+      "timestamp": "2026-03-03T20:15:18.118523",
+      "generator": "synthetic_document_generator",
+      "documents_added": 5,
+      "total_encounters": 6
+    }
+  }
+}

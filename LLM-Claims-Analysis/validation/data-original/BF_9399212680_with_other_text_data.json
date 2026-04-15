@@ -1,0 +1,164 @@
+{
+  "claim_id": 9399212680,
+  "patient_initials": "BF",
+  "patient_metadata": {
+    "age": "39",
+    "gender": "Female",
+    "name": "Bernetta267 Marya246 Feeney44"
+  },
+  "encounters": [
+    {
+      "encounter_id": "82a96538-cc40-b7a2-1fd2-4dbc00fa02b9",
+      "document_type": "clinical_note",
+      "document_text": "**Clinical Note**\n\n**Patient Name:** [Patient Name]  \n**Date of Birth:** [Patient DOB]  \n**Date of Encounter:** 2002-10-25  \n**Encounter Type:** Wellness  \n**Encounter Name:** Encounter Module Scheduled Wellness  \n**Encounter Cost:** $136.80  \n\n**Chief Complaint:**  \nThe patient presents for a scheduled wellness visit. The primary focus of this encounter is to assess overall health status and address any potential risk factors associated with lifestyle choices.\n\n**Assessment:**  \nDuring the evaluation, the patient was found to be involved in risk activities that may predispose them to future health complications. These activities include [specific risk activities, e.g., smoking, excessive alcohol consumption, lack of physical activity, etc.]. The patient reports [any relevant symptoms or concerns related to risk activities, e.g., fatigue, shortness of breath, etc.], which may be associated with their lifestyle choices.\n\nVital signs were taken, revealing:  \n- Blood Pressure: [BP reading]  \n- Heart Rate: [HR reading]  \n- Respiratory Rate: [RR reading]  \n- BMI: [BMI value]  \n\nLaboratory tests were reviewed, including [list any relevant lab tests, e.g., lipid panel, glucose levels, etc.], which indicate [any abnormal findings]. The patient\u00e2\u20ac\u2122s family history is significant for [any relevant family history], which may further increase their risk for chronic conditions.\n\nThe patient was counseled on the importance of lifestyle modifications to mitigate the risks associated with their current activities. This includes recommendations for smoking cessation, moderation of alcohol intake, and increased physical activity. The patient expressed a willingness to engage in these changes and is motivated to improve their health status.\n\n**Plan:**  \n1. **Lifestyle Modification Counseling:**  \n   - Provide resources for smoking cessation programs and support groups.  \n   - Discuss dietary modifications to promote a balanced diet rich in fruits, vegetables, and whole grains.  \n   - Encourage a structured exercise program, aiming for at least 150 minutes of moderate-intensity aerobic activity per week.\n\n2. **Follow-Up Testing:**  \n   - Schedule follow-up laboratory tests in 3-6 months to monitor lipid levels and glucose levels.  \n   - Consider referral to a nutritionist for personalized dietary planning.\n\n3. **Preventive Care:**  \n   - Administer vaccinations as per the recommended schedule, including influenza and pneumococcal vaccines if indicated.  \n   - Schedule a follow-up appointment in 6 months to reassess risk factors and monitor progress.\n\n4. **Education:**  \n   - Provide educational materials on the risks associated with the identified activities and the benefits of lifestyle changes.  \n   - Discuss the importance of regular health screenings and preventive care.\n\n**Signature:**  \n[Provider Name, MD/DO]  \n[Provider Contact Information]  \n[Date of Note Completion]  \n\n**Note:** This encounter is classified as moderate cost due to the involvement of risk activities, which may indicate potential future health issues. The patient is encouraged to take proactive steps towards improving their health to prevent complications.",
+      "encounter_date": "2002-10-25",
+      "source_file": "synthea_native",
+      "encounter_metadata": {
+        "resource_type": "Encounter",
+        "synthea_type": "wellness",
+        "synthea_name": "Encounter Module Scheduled Wellness",
+        "classification": {
+          "is_relevant": true,
+          "confidence": 0.7,
+          "reason": "The encounter involves risk activity involvement, which may indicate potential future health issues or costs, despite being categorized as a wellness check.",
+          "category": "moderate_cost",
+          "cost_indicators": [
+            "risk activity involvement",
+            "potential future health issues",
+            "preventive measures"
+          ]
+        },
+        "processing_timestamp": "2025-10-25T02:01:29.418381"
+      }
+    },
+    {
+      "date": "2025-10-28T12:31:16.673994",
+      "type": "other_text_data",
+      "document_type": "medical_provider_letter",
+      "document_text": "[Dr. Emily White, M.D.]  \n[1234 Medical Center Drive]  \n[City, State, ZIP]  \n[Phone: (123) 456-7890]  \n[Date: 01/15/2024]  \n\n[Insurance Adjuster Name]  \n[Insurance Company Name]  \n[Address]  \n[City, State, ZIP]  \n\nRe: Claimant: BF  \nClaim Number: CLM123456  \nPolicy Number: POL987654  \n\nDear [Insurance Adjuster Name],  \n\nI am writing to provide a detailed medical summary regarding the above-referenced claimant, BF, who is a 39-year-old office manager. The claimant presented to my office following a slip and fall incident that occurred on October 25, 2002, at an office building in downtown. The injury was reported on November 1, 2002, and the claimant has been under my care since the initial treatment on October 26, 2002.\n\n**Clinical Summary:**  \nThe primary injury sustained was a sprained ankle, accompanied by secondary bruising on the left knee. Upon examination during the follow-up appointment on November 2, 2002, the claimant exhibited tenderness and swelling in the right ankle, with a limited range of motion (ROM). DTRs (deep tendon reflexes) were WNL (within normal limits), and the claimant reported pain levels of 6/10 on the pain scale, which was managed with over-the-counter pain medications. The bruising on the left knee was noted to be superficial and not indicative of further complications.\n\n**Treatment Plan:**  \nInitial treatment included the application of ice, elevation of the affected limb, and analgesics per os (by mouth) as needed. The claimant was referred to physical therapy (PT) starting on November 15, 2002, to promote recovery and restore function. The PT regimen included therapeutic exercises and modalities to improve strength and flexibility. Throughout the course of treatment, the claimant was advised to avoid weight-bearing activities on the affected ankle and to follow up with any exacerbation of symptoms.\n\n**Prognosis:**  \nThe claimant has shown significant improvement and achieved maximum medical improvement (MMI) by January 15, 2003. The sprain has healed appropriately, and the bruising has resolved. I believe that the claimant can return to full duty as of November 20, 2002, with no permanent restrictions anticipated. However, I recommend that the claimant continues to perform any strenuous activities with caution, particularly involving the ankle, for the next few weeks.\n\n**Work Restrictions:**  \nThe claimant was cleared to return to work on November 20, 2002, with no restrictions but should avoid any activities that may place undue stress on the ankle, such as climbing stairs or standing for prolonged periods, for approximately 2-3 weeks post-return. Follow-up appointments are suggested if any new symptoms occur or if the claimant feels that the ankle is not functioning as expected.\n\nPlease feel free to contact my office should you require further information or clarification regarding this case. Thank you for your attention to this matter.\n\nSincerely,  \n\n[Dr. Emily White, M.D.]  \n[Medical License Number]  \n[Signature]  \n",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:31:16.673994",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Medical Provider Letter",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 20.167898699990474,
+        "tokens": {
+          "prompt_tokens": 690,
+          "completion_tokens": 756,
+          "total_tokens": 1446
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:31:37.133646",
+      "type": "other_text_data",
+      "document_type": "phone_transcript",
+      "document_text": "[Background noise]  \n**Insurance Rep:** Thank you for calling, this is Sarah from Acme Insurance. How can I help you today?  \n**Claimant (BF):** Hi, uh, this is BF, I\u2019m calling about a claim I submitted, um, CLM123456.  \n**Insurance Rep:** Alright, BF, let me pull that up. So, this is regarding a slip and fall incident from... uh, October 25th, right?  \n**Claimant:** Yes, that\u2019s correct. [muffled] I slipped on a wet floor at my office.  \n**Insurance Rep:** Got it. And where exactly did this happen?  \n**Claimant:** It was in our, um, office building downtown.  \n**Insurance Rep:** Okay, and were there any witnesses present?  \n**Claimant:** Yeah, there were two\u2014John Smith and Lisa Jacks... um, Jackson.  \n**Insurance Rep:** Thanks for that. Now, can you describe the injuries you sustained?  \n**Claimant:** I, uh, sprained my ankle pretty badly. And I also have some bruising on my left knee.  \n**Insurance Rep:** I see. And, um, what kind of treatment did you seek?  \n**Claimant:** I... I applied ice initially, elevated it, and just took some over-the-counter pain meds.  \n**Insurance Rep:** That\u2019s, like, an important first step. Did you see a doctor?  \n**Claimant:** Yes, I saw Dr. Emily White the next day, and then Dr. Robert Brown for follow-up.  \n**Insurance Rep:** Great, great. And have you started physical therapy?  \n**Claimant:** Yeah, I started on November 15th.  \n**Insurance Rep:** Okay, just a couple of quick things here. So your return to work status\u2014when did you go back?  \n**Claimant:** I went back on November 20th.  \n**Insurance Rep:** Perfect. And I see here that you reached maximum medical improvement by January 15th, is that correct?  \n**Claimant:** Yeah, um, the docs said I was good to go by then.  \n**Insurance Rep:** Alright, BF, thanks for that. I\u2019ll need to, uh, process this information. You might be contacted for, um, additional documentation just to complete your claim.  \n**Claimant:** Sure, what kinda documentation?  \n**Insurance Rep:** Probably an LOI, and maybe some medical records from your doctors. Also, um, just keep an eye on your mail for anything we send out.  \n**Claimant:** Sounds good.  \n**Insurance Rep:** Thanks for your patience, and um, we hope to resolve this for you soon. Is there anything else I can help you with today?  \n**Claimant:** No, that\u2019s it for now, thanks.  \n**Insurance Rep:** You\u2019re welcome, BF! Have a great day. [overlap]  \n**Claimant:** You too, bye.  \n[Background noise fades out]",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:31:37.133646",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Initial Phone Call Transcript",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 20.44685649999883,
+        "tokens": {
+          "prompt_tokens": 715,
+          "completion_tokens": 735,
+          "total_tokens": 1450
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:31:55.514195",
+      "type": "other_text_data",
+      "document_type": "settlement_adjuster_notes",
+      "document_text": "**Settlement Evaluation Adjuster Notes**  \n**Claim Number:** CLM123456  \n**Claimant Name:** BF  \n**Date:** 01/15/2024  \n\n**Medical Treatment Summary:**  \nClaimant, BF, age 39, sustained a sprained ankle and bruising on left knee from a slip and fall accident on 10/25/2002 at the office building downtown. Initial treatment was administered on 10/26/2002, involving ice, elevation, and OTC pain meds. Follow-up appt. on 11/02/2002 noted continued pain and swelling. Physical Therapy (PT) began on 11/15/2002, with Tx focused on mobility and strength. Claimant returned to work on 11/20/2002, achieving Maximum Medical Improvement (MMI) by 01/15/2003.  \n\n**Total Expenses Calculation:**  \n- Medical Expenses:  \n  - Initial Treatment: ~$300  \n  - Follow-up Appointment: ~$150  \n  - PT Sessions: 12 sessions @ $500 each = $6,000  \n  - Total Medical Expenses: $6,450  \n\n- Wage Loss Analysis:  \n  - Claimant missed 3 days of work (10/26-10/28).  \n  - Daily Wage: $150  \n  - Total Wage Loss: $150 x 3 days = $450  \n\n- Total Expenses (Medical + Wage Loss):  \n  - Total: $6,450 + $450 = $6,900  \n\n**Settlement Analysis:**  \nBased on the claimant's treatment and recovery trajectory, the total expenses of ~$6,900 should be considered in the settlement. The claimant's injuries were primarily soft tissue, and while there is a clear impact on work, there were no long-term disabilities indicated.  \n\n**Negotiation Strategy:**  \nGiven the medical expenses and wage loss, it may be appropriate to start negotiations at $8,000, providing room for adjustments. Highlight the swift recovery and return to work as leverage to support a lower settlement figure. Recommend emphasizing the absence of long-term implications in future discussions.  \n\n**Settlement Authority Recommendation:**  \nRecommend settlement authority of up to $7,500 to finalize this claim efficiently.  \nPer previous notes and case history, this amount appears fair and justifiable given the circumstances and provided medical records.  \n\n**Conclusion:**  \nPer file review, claimant has cooperated fully, and the incident is well documented with witness accounts and medical follow-ups. The recommended settlement aligns with industry standards for similar claims.  \n\n**Next Steps:**  \n- Await response from claimant's counsel on proposed settlement.  \n- Prepare for potential negotiation discussions upon receipt of their feedback.  \n\n---  \n",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:31:55.514195",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Settlement Adjuster Notes",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 18.368847900012042,
+        "tokens": {
+          "prompt_tokens": 731,
+          "completion_tokens": 660,
+          "total_tokens": 1391
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:32:16.757401",
+      "type": "other_text_data",
+      "document_type": "claimant_statement",
+      "document_text": "My name is BF and I am 39 years old, an Office Manager. On October 25th, 2002, I had an accident at my workplace, which has really changed my day-to-day life. It was a regular workday, and I was just walking down the hallway of our office building in downtown when I slipped on a wet floor that had no signs or warnings posted. One moment I was just doing my job and the next I was on the ground hurting so much! I couldn\u2019t believe it when I fell, I was in so much pain, and all I could think about was my ankle, it felt like it was going to explode!!! \n\nJohn Smith and Lisa Jackson were there and saw the whole thing. They helped me get up and I remember telling them that my ankle was really, really hurting. I couldn\u2019t even put any weight on it at that moment. I was so embarrassed and angry that the floor was slippery without any proper caution being posted. The next day I went to Dr. Emily White for an eval and she diagnosed me with a sprained ankle and some bruising on my left knee. It was tough to get around because I couldn\u2019t walk properly, and I had to use crutches which was just exhausting. \n\nI started my initial treatment with ice application, elevation, and over-the-counter pain meds but nothing really seemed to help at first, the pain was just too much. I went back to the doctor for a follow-up on November 2nd, and she suggested physical therapy. I started that on November 15th, which felt like a long time to wait considering how uncomfortable I was. I was just trying to manage everything but it really affected my work life. I was out of the office for almost a month. \n\nI returned to work on November 20th, but it wasn\u2019t the same. I had to adjust my workload and ask for help, which was tough for me being used to managing everything myself. The pain was still there, and getting up from my desk took a lot longer than before. I really didn\u2019t want to burden my coworkers, but this whole incident messed with my daily routine and productivity. \n\nBy January 15th, 2003, I managed to achieve my maximum medical improvement but still, some days my ankle just feels off. It\u2019s frustrating to deal with lingering pain that I didn\u2019t have before. This experience has totally impacted my mental health as well. I often go to work worried about slipping again, and it demotivated me a lot. I never thought a simple slip and fall could turn my life upside down like this!",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:32:16.757401",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Claimant Statement",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 21.232161000021733,
+        "tokens": {
+          "prompt_tokens": 716,
+          "completion_tokens": 580,
+          "total_tokens": 1296
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:32:39.377639",
+      "type": "other_text_data",
+      "document_type": "adjuster_notes_initial",
+      "document_text": "**Adjuster Notes - Initial Review**  \n**Claim #:** CLM123456  \n**Claimant:** BF  \n**Date of Review:** 01/15/2024  \n**Adjuster:** [Your Name]  \n**Date/Time:** 10:30am, spoke w/ clmt  \n  \n**Incident Overview:**  \n- **Date of Incident:** 10/25/2002  \n- **Reported Date:** 11/01/2002  \n- **Location:** Office Building, Downtown  \n- **Mechanism of Injury:** Slip and fall on wet floor  \n- **Witnesses:** John Smith, Lisa Jackson  \n- **Equip. Involved:** None  \n  \n**Injury Assessment:**  \n- **Primary Injury:** Sprained ankle, swelling noted  \n- **Secondary:** Bruising on left knee  \n- **Initial Tx:** Ice application, elevation, OTC pain meds  \n- **Treating Drs:** Emily White, Robert Brown  \n  \n**Timeline of Treatment:**  \n- **1st Med. Tx:** 10/26/2002  \n- **Follow-up:** 11/02/2002  \n- **PT started:** 11/15/2002  \n- **Return to Work:** 11/20/2002  \n- **MMI Achieved:** 01/15/2003  \n  \n**Liability Evaluation:**  \n- **Preliminary Assessment:** Clmt slipped on wet floor - possible liability on part of office mgmt for not ensuring proper signage or matting.  \n- **Witness Statements:** Need to obtain full statements from John & Lisa.  \n- **Photos of Scene:** Consider req. for any available surveillance footage.  \n  \n**Initial Actions Taken:**  \n- **Contacted Claimant:** Discussed injuries and immediate treatment.  \n- **Requested Medical Records:** LOI to Dr. White & Dr. Brown for complete Tx records.  \n- **Incident Report Review:** Obtained from office mgmt.  \n  \n**Next Steps:**  \n- **Follow-up w/ Drs:** Eval. for any ongoing Tx needed.  \n- **Review Witness Statements:** Collect and assess for liability.  \n- **Set up IME:** Possible need for independent medical eval if disputes arise.  \n- **Check for any prior claims:** SIU review if applicable.  \n  \n**Notes:**  \n- Clmt seems to be recovering well, but ongoing documentation of Tx needs to be maintained.  \n- Per phone call 1/15, clmt reports no further issues at this time.  \n- Will reconvene after collecting medical records.  \n",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:32:39.377639",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Initial Adjuster Notes",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 22.608668699976988,
+        "tokens": {
+          "prompt_tokens": 714,
+          "completion_tokens": 657,
+          "total_tokens": 1371
+        }
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_type": "fhir_processor",
+    "bundle_file": "Bernetta267_Marya246_Feeney44_d146d332-a0a7-7923-f043-3a5461d8e77d.json",
+    "processing_timestamp": "2025-10-25T02:01:29.419634",
+    "total_encounters_evaluated": 1,
+    "relevant_encounters": 1,
+    "processing_stats": {
+      "total_evaluated": 1,
+      "relevant_encounters": 1,
+      "classification_errors": 0,
+      "note_generation_errors": 0,
+      "api_calls": 0,
+      "total_cost": 0.0,
+      "skipped_irrelevant": 0
+    },
+    "cost_summary": {
+      "total_cost": 0.00409935,
+      "total_calls": 19,
+      "total_tokens": 10310,
+      "average_cost_per_call": 0.00021575526315789474
+    },
+    "processor_version": "enhanced_v1.0",
+    "synthetic_documents_added": {
+      "timestamp": "2025-10-28T12:32:39.377639",
+      "generator": "synthetic_document_generator",
+      "documents_added": 5,
+      "total_encounters": 6
+    }
+  }
+}

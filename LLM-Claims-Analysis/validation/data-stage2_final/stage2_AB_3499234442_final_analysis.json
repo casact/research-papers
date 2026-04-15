@@ -1,0 +1,610 @@
+{
+  "claim_id": 3499234442,
+  "processing_timestamp": "2025-11-03T21:35:50.770499",
+  "actuarial_variables": {
+    "reserving_variables": {
+      "claim_severity": {
+        "value": "moderate",
+        "rationale": "The claim severity is classified as moderate based on the injury severity of a severe ankle sprain, treatment complexity being conservative, and total incurred costs being relatively low at $1650. The combination of these factors indicates a moderate impact on the claimant's life and financial situation.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "medical_provider_letter",
+            "stage1_feature": "injury_severity",
+            "value": "moderate",
+            "confidence": 0.9
+          },
+          {
+            "document_type": "medical_provider_letter",
+            "stage1_feature": "treatment_type",
+            "value": "conservative",
+            "confidence": 0.95
+          },
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "total_incurred_cost",
+            "value": "1650",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      },
+      "injury_severity": {
+        "value": "moderate",
+        "rationale": "The injury severity is classified as moderate due to the diagnosis of a severe ankle sprain, which typically involves significant pain and functional limitations but is not life-threatening or permanently disabling.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "medical_provider_letter",
+            "stage1_feature": "primary_diagnosis",
+            "value": "ankle sprain",
+            "confidence": 0.95
+          },
+          {
+            "document_type": "medical_provider_letter",
+            "stage1_feature": "injury_description",
+            "value": "Severe ankle sprain with mild bruising on the lower leg.",
+            "confidence": 1.0
+          }
+        ],
+        "confidence": 0.9
+      },
+      "medical_complexity": {
+        "value": "simple",
+        "rationale": "The medical complexity is classified as simple as the treatment involved conservative management, including RICE protocol and physical therapy, with no surgical intervention required.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "medical_provider_letter",
+            "stage1_feature": "treatment_complexity",
+            "value": "conservative",
+            "confidence": 0.95
+          },
+          {
+            "document_type": "medical_provider_letter",
+            "stage1_feature": "treatment_protocol",
+            "value": "conservative",
+            "confidence": 1.0
+          }
+        ],
+        "confidence": 0.9
+      },
+      "treatment_type": {
+        "value": "conservative",
+        "rationale": "The primary treatment approach for the injury was conservative management, including rest, ice, compression, elevation, and physical therapy, which aligns with standard care for sprained ankles.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "medical_provider_letter",
+            "stage1_feature": "treatment_type",
+            "value": "conservative",
+            "confidence": 0.95
+          },
+          {
+            "document_type": "medical_provider_letter",
+            "stage1_feature": "treatment_protocol",
+            "value": "conservative",
+            "confidence": 1.0
+          }
+        ],
+        "confidence": 0.9
+      },
+      "expected_development_pattern": {
+        "value": "fast_resolution",
+        "rationale": "The expected claim development pattern is classified as fast resolution due to the nature of the injury and the claimant's positive recovery prognosis, indicating a quick return to normal activities.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "medical_provider_letter",
+            "stage1_feature": "recovery_prognosis",
+            "value": "good",
+            "confidence": 0.9
+          },
+          {
+            "document_type": "adjuster_notes_initial",
+            "stage1_feature": "rtw_timeline_estimate",
+            "value": "4_weeks",
+            "confidence": 1.0
+          }
+        ],
+        "confidence": 0.85
+      },
+      "ultimate_cost_category": {
+        "value": "<25K",
+        "rationale": "The ultimate cost category is classified as <25K based on the total incurred costs of $1650 and the estimated future costs being low, indicating that the total claim costs will remain below $25,000.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "total_incurred_cost",
+            "value": "1650",
+            "confidence": 0.9
+          },
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "estimated_outstanding_cost",
+            "value": "0",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.9
+      },
+      "total_incurred_cost": {
+        "value": 1650,
+        "rationale": "Total incurred costs are calculated from medical expenses and wage loss, totaling $1650, which includes all payments made to date.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "total_medical_costs",
+            "value": "850",
+            "confidence": 0.9
+          },
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "total_wage_loss",
+            "value": "800",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.9
+      },
+      "estimated_outstanding_cost": {
+        "value": 0,
+        "rationale": "Estimated outstanding costs are assessed as zero based on the medical provider's indication that no further treatment is expected and the claimant has returned to normal activities.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "medical_provider_letter",
+            "stage1_feature": "future_medical_necessity",
+            "value": "no future treatment expected",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      },
+      "ultimate_cost_prediction": {
+        "value": 1650,
+        "rationale": "The ultimate cost prediction is based on the total incurred costs and estimated future costs, which are both low, leading to a final prediction of $1650.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "total_incurred_cost",
+            "value": "1650",
+            "confidence": 0.9
+          },
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "estimated_outstanding_cost",
+            "value": "0",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.9
+      },
+      "permanent_disability_rating": {
+        "value": 0,
+        "rationale": "The permanent disability rating is assessed as 0% as the claimant achieved maximum medical improvement with no expected long-term impairments.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "medical_provider_letter",
+            "stage1_feature": "permanent_impairment_likelihood",
+            "value": "unlikely",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      },
+      "recovery_timeline_days": {
+        "value": 30,
+        "rationale": "The estimated recovery timeline is 30 days based on the adjuster's notes and the medical provider's assessment of the recovery period.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "adjuster_notes_initial",
+            "stage1_feature": "rtw_timeline_estimate",
+            "value": "4_weeks",
+            "confidence": 1.0
+          },
+          {
+            "document_type": "medical_provider_letter",
+            "stage1_feature": "treatment_duration_estimates",
+            "value": "1 month",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.9
+      },
+      "maximum_medical_improvement_reached": {
+        "value": true,
+        "rationale": "The claimant has reached maximum medical improvement as indicated by the medical provider's assessment and the absence of further treatment needs.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "medical_provider_letter",
+            "stage1_feature": "maximum_medical_improvement",
+            "value": "1 month",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      },
+      "total_medical_costs": {
+        "value": 850,
+        "rationale": "Total medical costs incurred are calculated from the medical expenses detailed in the adjuster's notes, totaling $850.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "total_medical_costs",
+            "value": "850",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.9
+      },
+      "total_indemnity_paid": {
+        "value": 800,
+        "rationale": "Total indemnity payments made are calculated from the wage loss details provided in the adjuster's notes, totaling $800.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "total_wage_loss",
+            "value": "800",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.9
+      },
+      "settlement_amount": {
+        "value": 1800,
+        "rationale": "The final settlement amount is based on the recommended settlement authority as indicated in the adjuster's notes, totaling $1800.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "cost_development_vs_reserves",
+            "value": "lower",
+            "confidence": 0.85
+          }
+        ],
+        "confidence": 0.85
+      },
+      "reserve_adequacy": {
+        "value": "adequate",
+        "rationale": "The reserves are assessed as adequate based on the total incurred costs and the recommended settlement amount, indicating sufficient funds to cover expected costs.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "adjuster_notes_initial",
+            "stage1_feature": "reserve_adequacy_assessment",
+            "value": "adequate",
+            "confidence": 1.0
+          }
+        ],
+        "confidence": 0.9
+      },
+      "medical_provider_quality": {
+        "value": "appropriate",
+        "rationale": "The quality of medical care provided is classified as appropriate based on the adherence to standard treatment protocols for the injury.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "medical_provider_letter",
+            "stage1_feature": "treatment_appropriateness",
+            "value": "appropriate",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.9
+      }
+    },
+    "ratemaking_variables": {
+      "risk_level": {
+        "value": "medium",
+        "rationale": "The overall risk level is classified as medium based on the nature of the injury, the claimant's age, and the context of the incident occurring during a sports activity.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "phone_transcript",
+            "stage1_feature": "claimant_age_and_occupation",
+            "value": "student",
+            "confidence": 0.85
+          },
+          {
+            "document_type": "phone_transcript",
+            "stage1_feature": "incident_type",
+            "value": "sports injury",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      },
+      "causation_type": {
+        "value": "human_factor",
+        "rationale": "The primary mechanism of injury is classified as a human factor due to the claimant's actions while playing soccer, which led to the injury.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "phone_transcript",
+            "stage1_feature": "mechanism_of_injury",
+            "value": "twisting ankle while playing soccer",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      },
+      "industry_risk_category": {
+        "value": "healthcare_outpatient",
+        "rationale": "The industry risk category is classified as healthcare outpatient based on the nature of the injury and the treatment provided by medical professionals.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "medical_provider_letter",
+            "stage1_feature": "treating_physician_specialty",
+            "value": "orthopedic_specialist",
+            "confidence": 1.0
+          }
+        ],
+        "confidence": 0.85
+      },
+      "industry_risk_level": {
+        "value": "moderate_risk",
+        "rationale": "The risk level of the work environment is classified as moderate risk due to the nature of the sports activity involved in the incident.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "phone_transcript",
+            "stage1_feature": "incident_type",
+            "value": "sports injury",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      },
+      "safety_compliance": {
+        "value": "unknown",
+        "rationale": "The level of safety protocol compliance is classified as unknown due to insufficient information regarding safety measures taken during the incident.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "phone_transcript",
+            "stage1_feature": "safety_protocol_compliance",
+            "value": "unknown",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.5
+      },
+      "experience_modifier_impact": {
+        "value": "neutral",
+        "rationale": "The expected impact of this claim on the employer's experience modification factor is classified as neutral due to the moderate nature of the injury and the claimant's positive recovery prognosis.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "medical_provider_letter",
+            "stage1_feature": "recovery_prognosis",
+            "value": "good",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      },
+      "employer_size_category": {
+        "value": "medium",
+        "rationale": "The size classification of the employer is classified as medium based on the nature of the business and the number of employees typically involved in such activities.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "phone_transcript",
+            "stage1_feature": "claimant_age_and_occupation",
+            "value": "student",
+            "confidence": 0.85
+          }
+        ],
+        "confidence": 0.85
+      },
+      "claim_frequency_indicator": {
+        "value": "first_claim",
+        "rationale": "The indicator of whether this is a repeat claimant is classified as first claim based on the absence of prior claims mentioned in the documentation.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "phone_transcript",
+            "stage1_feature": "claim_frequency_indicator",
+            "value": "first_claim",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      }
+    },
+    "claim_management_variables": {
+      "litigation_risk": {
+        "value": "medium",
+        "rationale": "The assessed risk of the claim proceeding to litigation is classified as medium due to the disputed liability and the need for further investigation as noted in the adjuster's notes.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "adjuster_notes_initial",
+            "stage1_feature": "legal_involvement_potential",
+            "value": "medium",
+            "confidence": 1.0
+          }
+        ],
+        "confidence": 0.85
+      },
+      "settlement_likelihood": {
+        "value": "medium",
+        "rationale": "The probability of the claim reaching a settlement agreement is classified as medium based on the current status of negotiations and the nature of the injury.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "adjuster_notes_initial",
+            "stage1_feature": "settlement_likelihood",
+            "value": "medium",
+            "confidence": 1.0
+          }
+        ],
+        "confidence": 0.85
+      },
+      "management_complexity": {
+        "value": "moderate",
+        "rationale": "The level of complexity in managing and handling the claim is classified as moderate due to the need for follow-up actions and potential legal considerations.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "adjuster_notes_initial",
+            "stage1_feature": "investigation_complexity",
+            "value": "medium",
+            "confidence": 1.0
+          }
+        ],
+        "confidence": 0.85
+      },
+      "fraud_risk": {
+        "value": "low",
+        "rationale": "The assessed risk of fraudulent claim elements is classified as low based on the claimant's consistent narrative and cooperation throughout the process.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "claimant_statement",
+            "stage1_feature": "malingering_risk",
+            "value": "low",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      },
+      "time_to_closure_days": {
+        "value": 30,
+        "rationale": "The estimated number of days from incident to claim closure is classified as 30 days based on the expected recovery timeline and the adjuster's notes.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "adjuster_notes_initial",
+            "stage1_feature": "rtw_timeline_estimate",
+            "value": "4_weeks",
+            "confidence": 1.0
+          }
+        ],
+        "confidence": 0.85
+      },
+      "recommended_reserve": {
+        "value": 1800,
+        "rationale": "The recommended case reserve amount is based on the total incurred costs and expected future costs, totaling $1800 as indicated in the adjuster's notes.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "settlement_amount",
+            "value": "1800",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      },
+      "work_relatedness_status": {
+        "value": "accepted",
+        "rationale": "The official determination of whether the injury is work-related is classified as accepted based on the nature of the incident occurring during a sports activity.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "phone_transcript",
+            "stage1_feature": "incident_type",
+            "value": "sports injury",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      },
+      "return_to_work_status": {
+        "value": "returned_full_duty",
+        "rationale": "The claimant's current or projected return to work status is classified as returned full duty based on the medical provider's assessment and the claimant's recovery progress.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "medical_provider_letter",
+            "stage1_feature": "rtw_timeline_prediction",
+            "value": "full_duty_soon",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      },
+      "claim_closure_status": {
+        "value": "open_active",
+        "rationale": "The current status of the claim is classified as open active as the claimant is still undergoing recovery and the claim is not yet settled or closed.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "adjuster_notes_initial",
+            "stage1_feature": "claim_closure_status",
+            "value": "open_active",
+            "confidence": 1.0
+          }
+        ],
+        "confidence": 0.85
+      },
+      "subrogation_potential": {
+        "value": "low",
+        "rationale": "The potential for subrogation recovery from third parties is classified as low based on the nature of the incident and the absence of third-party involvement.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "phone_transcript",
+            "stage1_feature": "equipment_involvement",
+            "value": "none",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      },
+      "claimant_cooperation_level": {
+        "value": "excellent",
+        "rationale": "The level of claimant cooperation throughout the claim process is classified as excellent based on the claimant's responsiveness and detailed information provided during the phone call.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "phone_transcript",
+            "stage1_feature": "claimant_cooperation_level",
+            "value": "high",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      }
+    }
+  },
+  "aggregated_narrative": "The analysis of claim ID 3499234442 reveals a moderate claim severity primarily due to a severe ankle sprain sustained during a soccer game. The treatment approach was conservative, involving standard protocols such as RICE and physical therapy, leading to a good recovery prognosis. Total incurred costs amount to $1650, with no expected future medical expenses, resulting in an ultimate cost prediction of $1650. The claimant has reached maximum medical improvement and is expected to return to full duty soon. The risk level is classified as medium, with a low fraud risk and a medium likelihood of settlement. The reserves are deemed adequate based on the expected costs, and the claim is currently open and active. Overall, the claimant demonstrated excellent cooperation throughout the process, contributing to a consistent narrative and a low risk of litigation. Recommendations include maintaining the current reserve levels and monitoring the claimant's recovery progress closely.",
+  "confidence_scores": {
+    "overall": 0.85,
+    "reserving": 0.85,
+    "ratemaking": 0.85,
+    "claim_management": 0.85,
+    "data_completeness": 1.0
+  },
+  "cost_predictions": {
+    "ultimate_cost_category": "<25K",
+    "total_incurred_cost": 1650,
+    "estimated_outstanding_cost": 0,
+    "ultimate_cost_prediction": 1650,
+    "total_medical_costs": 850,
+    "reserve_adequacy": "adequate",
+    "recommended_reserve": 1800
+  },
+  "risk_assessment": {
+    "risk_level": "medium",
+    "industry_risk_category": "healthcare_outpatient",
+    "industry_risk_level": "moderate_risk",
+    "litigation_risk": "medium",
+    "fraud_risk": "low"
+  },
+  "encounters_processed": 5,
+  "stage2_method": "function_calling_aggregation",
+  "input_source": "stage1_features",
+  "quality_flags": []
+}

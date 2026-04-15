@@ -1,0 +1,5 @@
+age: 45
+gender: female
+name: Mary Rodriguez
+patient_initials: mr
+occupation: Construction Worker

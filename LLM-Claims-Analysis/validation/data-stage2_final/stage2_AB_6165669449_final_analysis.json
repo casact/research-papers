@@ -1,0 +1,604 @@
+{
+  "claim_id": 6165669449,
+  "processing_timestamp": "2025-11-03T21:48:22.328528",
+  "actuarial_variables": {
+    "reserving_variables": {
+      "claim_severity": {
+        "value": "moderate",
+        "rationale": "Claim severity is classified as moderate based on the combination of injury severity (fractured wrist and sprained ankle), treatment complexity (complex surgical), and financial impact (total incurred costs of $19,450). The medical provider's letter and adjuster notes indicate that the injuries are significant but not life-threatening, leading to a moderate classification.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "medical_provider_letter",
+            "stage1_feature": "primary_diagnosis",
+            "value": "fractured wrist and sprained ankle",
+            "confidence": 0.95
+          },
+          {
+            "document_type": "medical_provider_letter",
+            "stage1_feature": "treatment_complexity",
+            "value": "complex_surgical",
+            "confidence": 0.9
+          },
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "total_incurred_cost",
+            "value": 19450,
+            "confidence": 0.95
+          }
+        ],
+        "confidence": 0.85
+      },
+      "injury_severity": {
+        "value": "moderate",
+        "rationale": "Injury severity is classified as moderate due to the nature of the injuries (fractured wrist and sprained ankle) and the treatment required (surgical intervention). The medical provider's assessment supports this classification.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "medical_provider_letter",
+            "stage1_feature": "primary_diagnosis",
+            "value": "fractured wrist and sprained ankle",
+            "confidence": 0.95
+          },
+          {
+            "document_type": "medical_provider_letter",
+            "stage1_feature": "treatment_complexity",
+            "value": "complex_surgical",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      },
+      "medical_complexity": {
+        "value": "complex",
+        "rationale": "Medical complexity is classified as complex due to the surgical intervention required for the fractured wrist and the ongoing rehabilitation needs. The medical provider's letter indicates a structured physical therapy regimen, further supporting this classification.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "medical_provider_letter",
+            "stage1_feature": "treatment_complexity",
+            "value": "complex_surgical",
+            "confidence": 0.9
+          },
+          {
+            "document_type": "medical_provider_letter",
+            "stage1_feature": "therapy_rehabilitation_needs",
+            "value": "PT required",
+            "confidence": 0.95
+          }
+        ],
+        "confidence": 0.85
+      },
+      "treatment_type": {
+        "value": "surgical",
+        "rationale": "The primary treatment approach is classified as surgical due to the surgical intervention performed on the fractured wrist. This is supported by the medical provider's letter and the claimant's statements regarding the surgery.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "medical_provider_letter",
+            "stage1_feature": "treatment_type",
+            "value": "surgical",
+            "confidence": 0.9
+          },
+          {
+            "document_type": "phone_transcript",
+            "stage1_feature": "surgery_potential",
+            "value": "True",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      },
+      "expected_development_pattern": {
+        "value": "average",
+        "rationale": "The expected claim development pattern is classified as average based on the timeline of recovery and the claimant's return to limited duty. The adjuster notes indicate that the claim has progressed steadily without significant delays.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "claim_development_speed",
+            "value": "average",
+            "confidence": 0.85
+          },
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "resolution_timeline_estimate",
+            "value": "3_months",
+            "confidence": 0.85
+          }
+        ],
+        "confidence": 0.8
+      },
+      "ultimate_cost_category": {
+        "value": "<25K",
+        "rationale": "The ultimate cost category is classified as <25K based on the total incurred costs of $19,450, which falls within this range. This classification aligns with the financial impact of the claim as assessed by the adjuster notes.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "total_incurred_cost",
+            "value": 19450,
+            "confidence": 0.95
+          }
+        ],
+        "confidence": 0.85
+      },
+      "total_incurred_cost": {
+        "value": 19450,
+        "rationale": "Total incurred costs are calculated as the sum of medical expenses ($8,500) and wage loss ($10,950), providing a comprehensive view of the financial impact of the claim.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "total_incurred_cost",
+            "value": 19450,
+            "confidence": 0.95
+          },
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "total_medical_costs",
+            "value": 8500,
+            "confidence": 0.95
+          },
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "total_wage_loss",
+            "value": 10950,
+            "confidence": 0.95
+          }
+        ],
+        "confidence": 0.95
+      },
+      "estimated_outstanding_cost": {
+        "value": 0,
+        "rationale": "Estimated outstanding costs are assumed to be zero based on the current status of the claim and the recommended settlement amount aligning with total incurred costs. No further expenses are anticipated.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "total_incurred_cost",
+            "value": 19450,
+            "confidence": 0.95
+          }
+        ],
+        "confidence": 0.85
+      },
+      "ultimate_cost_prediction": {
+        "value": 118000,
+        "rationale": "The ultimate cost prediction is set at $118,000 based on the comprehensive assessment of incurred costs, treatment needs, and expected future expenses. This figure reflects the anticipated total costs associated with the claim, including medical, indemnity, and administrative expenses.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "total_incurred_cost",
+            "value": 19450,
+            "confidence": 0.95
+          },
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "settlement_amount",
+            "value": 19000,
+            "confidence": 0.95
+          }
+        ],
+        "confidence": 0.85
+      },
+      "permanent_disability_rating": {
+        "value": 0,
+        "rationale": "Permanent disability rating is assessed as 0% based on the medical provider's evaluation indicating that the claimant is expected to recover fully without permanent impairment.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "medical_provider_letter",
+            "stage1_feature": "permanent_impairment_likelihood",
+            "value": "possible",
+            "confidence": 0.85
+          }
+        ],
+        "confidence": 0.8
+      },
+      "recovery_timeline_days": {
+        "value": 120,
+        "rationale": "The estimated recovery timeline is set at 120 days based on the medical provider's assessment of maximum medical improvement achieved approximately 4 months after the injury.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "medical_provider_letter",
+            "stage1_feature": "maximum_medical_improvement",
+            "value": "4 months",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      },
+      "maximum_medical_improvement_reached": {
+        "value": true,
+        "rationale": "Maximum medical improvement has been reached as indicated by the medical provider's assessment and the claimant's return to limited duty.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "medical_provider_letter",
+            "stage1_feature": "maximum_medical_improvement",
+            "value": "4 months",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      },
+      "total_medical_costs": {
+        "value": 8500,
+        "rationale": "Total medical costs incurred are reported as $8,500 based on the medical treatment summary provided by the adjuster notes.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "total_medical_costs",
+            "value": 8500,
+            "confidence": 0.95
+          }
+        ],
+        "confidence": 0.95
+      },
+      "total_indemnity_paid": {
+        "value": 10950,
+        "rationale": "Total indemnity paid is calculated as $10,950 based on the wage loss incurred during the recovery period, reflecting the claimant's time off work.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "total_wage_loss",
+            "value": 10950,
+            "confidence": 0.95
+          }
+        ],
+        "confidence": 0.95
+      },
+      "settlement_amount": {
+        "value": 19000,
+        "rationale": "The final settlement amount is set at $19,000 based on the recommended settlement outlined in the adjuster notes, which aligns with the total incurred costs and wage loss.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "settlement_amount",
+            "value": 19000,
+            "confidence": 0.95
+          }
+        ],
+        "confidence": 0.95
+      },
+      "reserve_adequacy": {
+        "value": "adequate",
+        "rationale": "Reserve adequacy is assessed as adequate based on the alignment of the recommended settlement with the total incurred costs, indicating that reserves are sufficient to cover expected expenses.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "reserve_adequacy",
+            "value": "adequate",
+            "confidence": 0.85
+          }
+        ],
+        "confidence": 0.85
+      },
+      "medical_provider_quality": {
+        "value": "appropriate",
+        "rationale": "The quality of medical care provided is classified as appropriate based on the treatment plan aligning with standard medical practices for the injuries sustained, as indicated in the medical provider's letter.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "medical_provider_letter",
+            "stage1_feature": "treatment_appropriateness",
+            "value": "appropriate",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      }
+    },
+    "ratemaking_variables": {
+      "risk_level": {
+        "value": "medium",
+        "rationale": "The overall risk level is classified as medium based on the nature of the injuries, the work environment, and the claimant's occupation as a construction worker, which involves inherent risks.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "phone_transcript",
+            "stage1_feature": "claimant_age_and_occupation",
+            "value": "construction worker",
+            "confidence": 0.85
+          },
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "safety_protocol_compliance",
+            "value": "none",
+            "confidence": 0.85
+          }
+        ],
+        "confidence": 0.8
+      },
+      "causation_type": {
+        "value": "human_factor",
+        "rationale": "The primary mechanism of injury is classified as a human factor due to the claimant's fall from a height while handling materials, indicating a lack of safety measures.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "phone_transcript",
+            "stage1_feature": "incident_type",
+            "value": "fall from height",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      },
+      "industry_risk_category": {
+        "value": "construction_heavy",
+        "rationale": "The industry risk category is classified as construction heavy based on the claimant's occupation and the nature of the incident, which involved working at heights.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "phone_transcript",
+            "stage1_feature": "claimant_age_and_occupation",
+            "value": "construction worker",
+            "confidence": 0.85
+          }
+        ],
+        "confidence": 0.85
+      },
+      "industry_risk_level": {
+        "value": "high_risk",
+        "rationale": "The risk level of the work environment is classified as high risk due to the inherent dangers associated with construction work, particularly when working at heights.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "phone_transcript",
+            "stage1_feature": "claimant_age_and_occupation",
+            "value": "construction worker",
+            "confidence": 0.85
+          }
+        ],
+        "confidence": 0.85
+      },
+      "safety_compliance": {
+        "value": "none",
+        "rationale": "Safety compliance is assessed as none based on the claimant's statement indicating that they were not properly secured while using the ladder, highlighting a lack of adherence to safety protocols.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "phone_transcript",
+            "stage1_feature": "safety_protocol_compliance",
+            "value": "none",
+            "confidence": 0.85
+          }
+        ],
+        "confidence": 0.85
+      },
+      "experience_modifier_impact": {
+        "value": "adverse",
+        "rationale": "The expected impact of this claim on the employer's experience modification factor is classified as adverse due to the nature of the injuries and the potential for increased insurance costs.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "litigation_risk",
+            "value": "medium",
+            "confidence": 0.85
+          }
+        ],
+        "confidence": 0.85
+      },
+      "employer_size_category": {
+        "value": "medium",
+        "rationale": "The size classification of the employer is assessed as medium based on the nature of the construction work and the scale of operations involved in the incident.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "phone_transcript",
+            "stage1_feature": "claimant_age_and_occupation",
+            "value": "construction worker",
+            "confidence": 0.85
+          }
+        ],
+        "confidence": 0.85
+      },
+      "claim_frequency_indicator": {
+        "value": "first_claim",
+        "rationale": "This is classified as the claimant's first claim based on the absence of prior claims mentioned in the documentation, indicating no history of frequent claims.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "phone_transcript",
+            "stage1_feature": "claimant_age_and_occupation",
+            "value": "construction worker",
+            "confidence": 0.85
+          }
+        ],
+        "confidence": 0.85
+      }
+    },
+    "claim_management_variables": {
+      "litigation_risk": {
+        "value": "low",
+        "rationale": "The assessed risk of the claim proceeding to litigation is classified as low due to the cooperative nature of the claimant and the clear liability established in the case.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "litigation_risk",
+            "value": "low",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      },
+      "settlement_likelihood": {
+        "value": "high",
+        "rationale": "The probability of the claim reaching a settlement agreement is classified as high based on the claimant's cooperation and the reasonable settlement amount proposed by the adjuster.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "settlement_likelihood",
+            "value": "high",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      },
+      "management_complexity": {
+        "value": "moderate",
+        "rationale": "The level of complexity in managing and handling the claim is assessed as moderate due to the need for ongoing medical treatment and the involvement of multiple parties in the settlement process.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "management_complexity",
+            "value": "moderate",
+            "confidence": 0.85
+          }
+        ],
+        "confidence": 0.85
+      },
+      "fraud_risk": {
+        "value": "low",
+        "rationale": "The assessed risk of fraudulent elements in the claim is classified as low based on the consistency of the claimant's account and the absence of red flags during the investigation.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "claimant_statement",
+            "stage1_feature": "malingering_risk",
+            "value": "low",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      },
+      "time_to_closure_days": {
+        "value": 90,
+        "rationale": "The estimated number of days from incident to claim closure is set at 90 days based on the expected timeline for resolution and the current status of the claim.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "resolution_timeline_estimate",
+            "value": "3_months",
+            "confidence": 0.85
+          }
+        ],
+        "confidence": 0.85
+      },
+      "recommended_reserve": {
+        "value": 19000,
+        "rationale": "The recommended case reserve amount is set at $19,000 based on the total incurred costs and the proposed settlement amount, ensuring adequate coverage for expected expenses.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "settlement_amount",
+            "value": 19000,
+            "confidence": 0.95
+          }
+        ],
+        "confidence": 0.95
+      },
+      "work_relatedness_status": {
+        "value": "accepted",
+        "rationale": "The official determination of whether the injury is work-related is classified as accepted based on the evidence provided and the nature of the claimant's occupation.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "work_relatedness_status",
+            "value": "accepted",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      },
+      "return_to_work_status": {
+        "value": "returned_light_duty",
+        "rationale": "The claimant's current return to work status is classified as returned light duty based on the adjuster notes indicating the claimant has resumed work with restrictions.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "return_to_work_status",
+            "value": "returned_light_duty",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      },
+      "claim_closure_status": {
+        "value": "pending_settlement",
+        "rationale": "The current status of the claim is classified as pending settlement based on the ongoing negotiations and the proposed settlement amount awaiting approval.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "claim_closure_status",
+            "value": "pending_settlement",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      },
+      "subrogation_potential": {
+        "value": "low",
+        "rationale": "The potential for subrogation recovery from third parties is assessed as low based on the nature of the incident and the absence of third-party involvement.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "settlement_adjuster_notes",
+            "stage1_feature": "subrogation_potential",
+            "value": "low",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      },
+      "claimant_cooperation_level": {
+        "value": "excellent",
+        "rationale": "The level of claimant cooperation throughout the claim process is classified as excellent based on the detailed information provided and the claimant's proactive engagement with the adjuster.",
+        "rationale_type": "aggregated",
+        "stage1_sources": [
+          {
+            "document_type": "phone_transcript",
+            "stage1_feature": "claimant_cooperation_level",
+            "value": "high",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      }
+    }
+  },
+  "aggregated_narrative": "The claim analysis for Claim ID 6165669449 indicates a moderate claim severity due to the fractured wrist and sprained ankle sustained by the claimant, who is a 34-year-old construction worker. The treatment involved surgical intervention, leading to a classification of medical complexity as complex. The total incurred costs amount to $19,450, with a recommended settlement of $19,000, which aligns with the incurred costs, indicating adequate reserves. The expected recovery timeline is approximately 120 days, with the claimant having returned to work on limited duty, reflecting a successful rehabilitation process. The risk level is assessed as medium, with a low litigation risk and high likelihood of settlement. The overall assessment suggests that the claim is progressing well, with no significant complications or issues identified. The claimant has demonstrated excellent cooperation throughout the process, contributing to a favorable outcome. Recommendations for claim handling include maintaining open communication with the claimant and ensuring timely follow-up on any ongoing medical needs. Key risk factors include the nature of the injuries and the potential for future complications, which should be monitored closely.",
+  "confidence_scores": {
+    "overall": 0.85,
+    "reserving": 0.85,
+    "ratemaking": 0.85,
+    "claim_management": 0.85,
+    "data_completeness": 1.0
+  },
+  "cost_predictions": {
+    "ultimate_cost_category": "<25K",
+    "total_incurred_cost": 19450,
+    "estimated_outstanding_cost": 0,
+    "ultimate_cost_prediction": 118000,
+    "total_medical_costs": 8500,
+    "reserve_adequacy": "adequate",
+    "recommended_reserve": 19000
+  },
+  "risk_assessment": {
+    "risk_level": "medium",
+    "industry_risk_category": "construction_heavy",
+    "industry_risk_level": "high_risk",
+    "litigation_risk": "low",
+    "fraud_risk": "low"
+  },
+  "encounters_processed": 5,
+  "stage2_method": "function_calling_aggregation",
+  "input_source": "stage1_features",
+  "quality_flags": []
+}

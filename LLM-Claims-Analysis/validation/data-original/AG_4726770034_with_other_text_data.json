@@ -1,0 +1,192 @@
+{
+  "claim_id": 4726770034,
+  "patient_initials": "AG",
+  "patient_metadata": {
+    "age": "41",
+    "gender": "Male",
+    "name": "Anibal473 Wilber603 Glover433"
+  },
+  "encounters": [
+    {
+      "encounter_id": "c22688da-ce96-8887-e2e1-5a08f4ce2906",
+      "document_type": "clinical_note",
+      "document_text": "**Clinical Note**\n\n**Patient Name:** [Patient Name]  \n**Date of Encounter:** February 4, 1990  \n**Encounter Type:** Emergency  \n**Encounter Name:** Enter_Directed_Use_Encounter3  \n**Encounter Cost:** $146.18  \n\n**Chief Complaint:**  \nThe patient presents to the emergency department with a chief complaint of a severe headache, described as a chronic intractable migraine without aura. The patient reports that the headache has been persistent for the past 48 hours, with a pain intensity rated at 8/10 on the pain scale. The patient also reports associated symptoms of nausea and photophobia, which have exacerbated the discomfort.\n\n**Assessment:**  \nThe patient is a [age]-year-old [gender] with a known history of chronic intractable migraines without aura. Upon examination, the patient appears in moderate distress due to pain. Neurological examination reveals no focal deficits, and the patient is alert and oriented to person, place, and time. Vital signs are stable: BP [insert value], HR [insert value], RR [insert value], and temperature [insert value]. \n\nThe headache is consistent with the patient's history of chronic migraines, characterized by its severity and associated symptoms. Differential diagnoses such as tension-type headache, cluster headache, and secondary causes (e.g., intracranial hemorrhage, meningitis) were considered but deemed less likely given the clinical presentation and history.\n\n**Plan:**  \n1. **Medications:**\n   - Administer intravenous (IV) fluids to ensure hydration.\n   - Administer IV ketorolac 30 mg for pain management.\n   - Administer IV metoclopramide 10 mg to address nausea.\n   - Consider a migraine-specific treatment such as IV sumatriptan if symptoms do not improve with initial management.\n\n2. **Monitoring:**\n   - Monitor vital signs and pain level every 30 minutes.\n   - Observe for any changes in neurological status.\n\n3. **Patient Education:**\n   - Discuss the nature of chronic migraines and the importance of adherence to a preventive treatment regimen.\n   - Educate the patient on potential triggers and lifestyle modifications that may help reduce the frequency of migraine attacks.\n\n4. **Follow-Up:**\n   - Recommend follow-up with a neurologist for ongoing management of chronic migraines.\n   - Schedule a follow-up appointment within one week to reassess headache management and medication efficacy.\n\n5. **Disposition:**\n   - If symptoms improve, the patient may be discharged with a prescription for oral medications (e.g., triptans, NSAIDs) and instructions for follow-up care.\n   - If symptoms persist or worsen, consider admission for further evaluation and management.\n\n**Signature:**  \n[Provider Name, MD]  \n[Provider Title]  \n[Facility Name]  \n[Contact Information]  \n\n**Note:** This clinical note is a comprehensive summary of the patient's emergency encounter and is intended for billing and medical record purposes.",
+      "encounter_date": "1990-02-04",
+      "source_file": "synthea_native",
+      "encounter_metadata": {
+        "resource_type": "Encounter",
+        "synthea_type": "emergency",
+        "synthea_name": "Enter_Directed_Use_Encounter3",
+        "classification": {
+          "is_relevant": true,
+          "confidence": 0.9,
+          "reason": "The encounter involves a chronic condition (chronic intractable migraine) that may require ongoing medical management and could lead to high costs due to emergency care.",
+          "category": "high_cost",
+          "cost_indicators": [
+            "emergency care",
+            "chronic condition management",
+            "potential for high-frequency visits",
+            "medication costs",
+            "specialist referrals"
+          ]
+        },
+        "processing_timestamp": "2025-10-25T03:14:51.778958"
+      }
+    },
+    {
+      "encounter_id": "ae4e849b-3d50-baab-bd1e-c285a3401381",
+      "document_type": "clinical_note",
+      "document_text": "**Clinical Note**\n\n**Patient Name:** [Patient Name]  \n**Date of Encounter:** August 31, 1990  \n**Encounter Type:** Emergency  \n**Encounter Name:** Enter_Directed_Use_Encounter2  \n**Encounter Cost:** $87.71  \n\n**Chief Complaint:**  \nThe patient presents to the emergency department with complaints of exacerbated chronic pain, primarily localized in the lower back and radiating to the left leg. The patient reports that the pain has intensified over the past week, rating it as 8/10 on the pain scale, and describes it as sharp and debilitating. The patient states that the pain is aggravated by movement and has resulted in difficulty with activities of daily living.\n\n**Assessment:**  \nThe patient has a documented history of chronic pain, likely secondary to degenerative disc disease and possible radiculopathy. On physical examination, the patient exhibits tenderness in the lumbar region with limited range of motion. Neurological examination reveals decreased sensation in the left lower extremity, consistent with L5-S1 nerve root involvement. No signs of acute distress were noted, but the patient appears to be in moderate discomfort. \n\nGiven the chronic nature of the patient's pain and the recent exacerbation, the following differential diagnoses were considered:  \n1. Acute exacerbation of chronic low back pain  \n2. Lumbar radiculopathy  \n3. Possible herniated disc  \n\n**Plan:**  \n1. **Medications:**  \n   - Administered IV analgesics (Morphine 2 mg) for immediate pain relief.  \n   - Prescribed oral NSAIDs (Ibuprofen 600 mg) to manage inflammation and pain.  \n   - Consideration for muscle relaxants (Cyclobenzaprine 5 mg) to alleviate muscle spasms if indicated.\n\n2. **Imaging:**  \n   - Ordered lumbar spine X-rays to assess for any acute changes or structural abnormalities.  \n   - If indicated, MRI of the lumbar spine may be considered to evaluate for herniated discs or other pathologies.\n\n3. **Referral:**  \n   - Referral to a pain management specialist for ongoing evaluation and management of chronic pain.  \n   - Consider physical therapy for rehabilitation and strengthening exercises once acute pain is managed.\n\n4. **Patient Education:**  \n   - Discussed the importance of activity modification and the use of heat/ice therapy at home.  \n   - Provided education on the chronic nature of the condition and the potential need for long-term management strategies.\n\n5. **Follow-Up:**  \n   - Advised the patient to return to the emergency department if symptoms worsen or if new neurological deficits occur.  \n   - Schedule a follow-up appointment with the primary care physician within one week to reassess pain management and treatment efficacy.\n\n**Signature:**  \n[Provider Name, MD]  \n[Provider Title]  \n[Facility Name]  \n[Contact Information]  \n\n**Note:** This encounter is classified as high cost due to the chronic nature of the patient's condition, potential for ongoing treatment, and the need for emergency care. The total cost of this encounter is $87.71, reflecting the complexity of managing chronic pain in an emergency setting.",
+      "encounter_date": "1990-08-31",
+      "source_file": "synthea_native",
+      "encounter_metadata": {
+        "resource_type": "Encounter",
+        "synthea_type": "emergency",
+        "synthea_name": "Enter_Directed_Use_Encounter2",
+        "classification": {
+          "is_relevant": true,
+          "confidence": 0.9,
+          "reason": "The encounter involves chronic pain, which is a chronic condition that can lead to ongoing medical needs and potential high costs associated with treatment and management.",
+          "category": "high_cost",
+          "cost_indicators": [
+            "chronic condition management",
+            "potential for ongoing treatment",
+            "emergency care costs",
+            "pain management therapies",
+            "possible need for specialist referrals"
+          ]
+        },
+        "processing_timestamp": "2025-10-25T03:15:11.254221"
+      }
+    },
+    {
+      "date": "2025-10-28T12:10:04.824862",
+      "type": "other_text_data",
+      "document_type": "medical_provider_letter",
+      "document_text": "[Your Clinic Name]  \n[Your Clinic Address]  \n[City, State, Zip Code]  \n[Phone Number]  \n[Date: January 15, 2024]  \n\n[Insurance Adjuster's Name]  \n[Insurance Company Name]  \n[Insurance Company Address]  \n[City, State, Zip Code]  \n\nRE: Claimant Name: AG  \nClaim Number: CL123456789  \nPolicy Number: POL987654321  \n\nDear [Insurance Adjuster's Name],  \n\nI am writing to provide a comprehensive medical summary for my patient, AG, a 41-year-old construction worker, regarding his claim resulting from an incident that occurred on February 4, 1990.  \n\n**Incident Summary:**  \nOn the specified date, AG was involved in a work-related accident where he fell approximately 10 feet from scaffolding at a downtown construction site. Witnesses, including John Doe and Jane Smith, observed the incident, which involved scaffolding and a safety harness that was not secured.  \n\n**Clinical Summary:**  \nUpon evaluation on February 5, 1990, AG presented with a fractured wrist as the primary injury, along with secondary bruising of the ribs. Initial treatment was provided by Dr. Emily Johnson, with subsequent surgical intervention performed by Dr. Michael Brown on February 6, 1990, to repair the fracture.  \n\n**Examination Findings:**  \nPhysical examination revealed significant edema and limited range of motion (ROM) in the right wrist, tenderness to palpation, and decreased grip strength. DTRs were WNL, and no neurovascular compromise was noted. Secondary rib injuries were assessed as contusions, with pain reported during deep inspiration.  \n\n**Treatment Plan:**  \nAG was prescribed a regimen of physical therapy (PT) post-surgery, commencing on March 1, 1990. The treatment included therapeutic exercises aimed at improving wrist ROM and strength, as well as pain management utilizing medications as needed (prn). Follow-up appointments were scheduled to monitor progress, and he was instructed to perform rehabilitation exercises at home.  \n\n**Prognosis:**  \nAG demonstrated significant improvement and returned to part-time work duties by June 1, 1990. He reached maximum medical improvement (MMI) by August 31, 1990. As of the last follow-up, he is expected to continue with light-duty work; however, he should avoid heavy lifting or repetitive wrist motions to prevent exacerbation of his previous injuries.  \n\n**Work Restrictions:**  \nGiven AG's current condition, I recommend the following work restrictions:  \n- Avoid lifting more than 20 lbs.  \n- No climbing or working at heights.  \n- Limit repetitive wrist movements.  \n\nPlease feel free to contact my office if you require any additional information or clarification regarding AG's treatment and recovery process. Thank you for your attention to this matter.  \n\nSincerely,  \n\n[Your Name], [Your Credentials]  \n[Your Title]  \n[Your Clinic Name]  \n[Your Contact Information]  \n\n[Enclosure: Medical Records]",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:10:04.824862",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Medical Provider Letter",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 18.63239220000105,
+        "tokens": {
+          "prompt_tokens": 728,
+          "completion_tokens": 740,
+          "total_tokens": 1468
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:10:24.717439",
+      "type": "other_text_data",
+      "document_type": "phone_transcript",
+      "document_text": "[Background noise]\n\nInsurance Rep: Thank you for calling Ace Insurance, this is Sarah speaking. How can I assist you today?\n\nClaimant (AG): Hi, um, this is AG. I\u2019m calling about a claim I filed, uh, that happened a while back on February 4th, you know, 1990?\n\nInsurance Rep: Alright, AG, let me pull that up. Uh, yes, I see your claim number is CL123456789. So, can you tell me a bit about the incident?\n\nClaimant: Yeah, so, I was, uh, working at a construction site downtown and, um, I fell off some scaffolding from about, like, 10 feet. It was pretty rough...\n\nInsurance Rep: Oh no, that sounds painful! Were there any witnesses to the incident?\n\nClaimant: Uh, yeah, there were a couple of workers, John Doe and Jane Smith, they were, um, right there when it happened.\n\nInsurance Rep: Got it. And the equipment involved\u2014was there anything specific you recall?\n\nClaimant: Yeah, I was using a safety harness, but it wasn\u2019t, um, secured properly at the time. That\u2019s, uh, kind of what led to the fall, I think.\n\nInsurance Rep: That\u2019s unfortunate. So, I see you sustained a fractured wrist and some bruised ribs. Can you tell me about your treatment?\n\nClaimant: Right. I was treated by Dr. Emily Johnson and, um, Dr. Michael Brown. I had surgery to fix my wrist on February 6th, and then I started physical therapy, PT, on March 1st, 1990.\n\nInsurance Rep: Okay, and I see that you returned to part-time work in June 1990?\n\nClaimant: Yeah, I was able to go back part-time on June 1st, and I, um, finally reached maximum medical improvement by, like, August 31st, 1990.\n\nInsurance Rep: That\u2019s good to hear! So, have you been in touch with your doctors throughout this recovery? \n\nClaimant: Yes, I followed, you know, their instructions and did all my rehab exercises and stuff.\n\nInsurance Rep: Excellent. Now, uh, let me just verify a few details for your claim processing. You mentioned the initial treatment was on February 5th, right?\n\nClaimant: Yeah, that\u2019s correct, I was in the hospital for a bit after the accident.\n\nInsurance Rep: Okay, thanks for confirming that. The next steps, um, will include reviewing all your medical records and, uh, possibly scheduling an evaluation, I guess, to assess your ongoing needs...\n\nClaimant: Sure, sounds good. Just, um, let me know if you need anything else from me to, uh, move this along.\n\nInsurance Rep: Will do! I appreciate your patience, AG. We\u2019ll follow up shortly on this, okay?\n\nClaimant: Alright, thanks for your help, Sarah. Talk to you soon!\n\nInsurance Rep: You're welcome! Bye! [Call ends]",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:10:24.717439",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Initial Phone Call Transcript",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 19.883197199960705,
+        "tokens": {
+          "prompt_tokens": 753,
+          "completion_tokens": 720,
+          "total_tokens": 1473
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:10:46.820346",
+      "type": "other_text_data",
+      "document_type": "settlement_adjuster_notes",
+      "document_text": "Claim Number: CL123456789  \nClaimant Name: AG  \nAge: 41  \nOccupation: Construction Worker  \nPolicy Number: POL987654321  \n\n**Incident Details**  \nOn February 4, 1990, AG was working at a downtown construction site when he fell from a height of 10 feet while working on scaffolding. Witnesses present during the incident include John Doe and Jane Smith. Equipment involved consisted of scaffolding and a safety harness, which was reportedly not secured at the time of the fall.\n\n**Medical Treatment Summary**  \nAG sustained a primary injury of a fractured wrist and secondary injuries including bruised ribs. He was treated by Dr. Emily Johnson and Dr. Michael Brown. Initial treatment involved:\n- Surgery to repair the fractured wrist (performed on February 6, 1990)\n- Physical therapy starting March 1, 1990\n- Pain management through medication\n\nAG returned to part-time work duties by June 1, 1990, and reached maximum medical improvement (MMI) by August 31, 1990. Throughout recovery, AG maintained communication w/ his providers and performed all required rehabilitation exercises. \n\n**Total Expenses Calculation**  \n- Surgery: ~$15,000  \n- Physical Therapy (12 sessions @ $500 each):  ($500 x 12 visits = $6,000)\n- Medications: ~$1,200  \nTotal Medical Expenses:  ~$22,200  \n\n**Wage Loss Analysis**  \nAG missed approx. 4 months of full-time work and returned part-time in June. Estimated wage loss is:\n- Full-time wage: $4,000/month  \n- Total loss for 4 months:  $16,000  \nAG's total wage loss combined w/ medical expenses: ~$38,200.\n\n**Settlement Analysis**  \n- BI (Bodily Injury) claims indicate a strong case for settlement. AG's injuries were significant and have impacted his earning capacity. Given the medical evidence and wage loss, a settlement amount in the range of ~$45,000 - $50,000 may be appropriate to cover long-term impacts and pain/suffering.\n\n**Negotiation Strategy**  \n- Start negotiations at $50,000 to allow room for discussions. Highlight AG's significant injuries, lost wages, and ongoing treatment needs. \n- Expect counter-offers; be prepared to justify the initial offer based on medical documentation and wage loss.\n\n**Settlement Authority Recommendation**  \n- Recommend settlement authority up to $45,000 to facilitate a swift resolution, considering AG's ongoing needs and the potential for increased future medical costs. \n- Per 2/15 phone call, AG is motivated to settle and avoid protracted litigation.  \n\nIn conclusion, this claim presents a clear case for settlement due to the significant impact on AG's life and work capacity. \n\n**Next Steps**  \n- Await response from opposing counsel after initial offer is proposed. \n- Prepare for further negotiations if necessary.",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:10:46.820346",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Settlement Adjuster Notes",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 22.082929100026377,
+        "tokens": {
+          "prompt_tokens": 769,
+          "completion_tokens": 696,
+          "total_tokens": 1465
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:11:04.933589",
+      "type": "other_text_data",
+      "document_type": "claimant_statement",
+      "document_text": "My name is AG, and I'm 41 years old. I work as a construction worker, and I am writing this claimant statement about the incident that occured on February 4, 1990, which has changed my life in a way that I honestly could not have predicted. On that day, while I was working at a downtown construction site, I was up on the scaffolding about 10 feet high when, all of a sudden, I lost my balance. I can't forget the moment I realized that my safety harness wasn't secured properly. It felt like everything happened in slow motion, like I was watching it from outside of my body. I fell and hit the ground so hard. I couldn't believe that I was on the ground, looking up at the scaffolding and feeling this searing pain shooting through my body. It was, I don\u2019t even know how to explain it, but very, very painful. I remember the panic and fear in my chest, wondering if I would be able to move again. \n\nWitnesses John Doe and Jane Smith were right there, and they rushed over. I guess that's when I realized just how serious it was; they called for emergency help right away. It was terrifying!!! I was taken to the hospital, and the next day, on February 5th, I received treatment. Dr. Emily Johnson and Dr. Michael Brown were my doctors. They told me I had a fractured wrist and bruised ribs. I had to have surgery on February 6th to fix the wrist, and I remember being so scared but also relieved that there was a plan to fix what had happened.\n\nAfter surgery, my recovery was a rollercoaster ride. I started physical therapy on March 1, 1990, which was super painful but necessary. I had to take medication for the pain, which made me feel a little out of it sometimes, but I was determined to do everything that was asked of me. I pushed through the pain, but some days were worse than others. I couldn't do simple things, like picking up my kid or even just tying my shoes without assistance. It affected everything. My daily life turned upside down and impacted how I could support my family. \n\nBy June 1, 1990, I was able to get back to part-time work, but it was hard. My wrist was still weak, and I was constantly worried that I might reinjure myself or not be able to complete the tasks like I used to. Eventually, by August 31, 1990, I reached my maximum medical improvement, but I still feel the effects of that fall every single day. It's a constant reminder of how quickly things can change and the vulnerability we all face every day. This whole experience has been life-altering, and so painful... both physically and emotionally. I'm sharing this statement to convey how profoundly this incident impacted my life. Thank you for considering my claim with the utmost seriousness that it deserves.",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:11:04.933589",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Claimant Statement",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 18.104289099981543,
+        "tokens": {
+          "prompt_tokens": 754,
+          "completion_tokens": 642,
+          "total_tokens": 1396
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:11:20.395856",
+      "type": "other_text_data",
+      "document_type": "adjuster_notes_initial",
+      "document_text": "Initial Adjuster Notes for Claim #CL123456789\n\nClaimant: AG, Age: 41, Occupation: Construction Worker\nPolicy #: POL987654321  |  Incident Date: 02/04/90  |  Reported Date: 02/05/90\n\nReview Notes:\n- 10:00am spoke w/ clmt AG regarding incident\n- AG fell approx 10 ft from scaffolding at construction site\n- Witnesses: John Doe, Jane Smith\n- Equipment involved: scaffolding & safety harness (not secured at time of fall)\n\nInjury Assessment:\n- Primary injury: fractured wrist (surg. on 02/06/90)\n- Secondary injuries: bruised ribs\n- Treating Drs: Emily Johnson & Michael Brown\n- Initial Tx: surgery + PT regimen + pain mgmt.\n- 1st PT session: 03/01/90\n\nTimeline of Events:\n- 02/04/90: incident occured, AG reported immediately\n- 02/05/90: 1st medical treatment received\n- 06/01/90: returned to part-time work\n- 08/31/90: reached max medical improvement\n\nLiability Evaluation:\n- Initial review indicates potential liability on part of employer due to improper equipment usage (harness not secured)\n- Need to assess safety protocols in place at site\n\nInitial Actions Taken:\n- File reviewed and documented all relevant info\n- Contacted AG for detailed statement\n- Requested medical records from treating physicians\n- Follow-up w/ witnesses for further statements\n\nNext Steps:\n- Await medical records for further eval. (LOI)\n- Schedule IME for additional assessments\n- Contact AG for additional info if needed\n- Consider potential QME referral\n- Review employer's safety practices; potential SIU involvement\n\nEnd of notes.",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:11:20.395856",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Initial Adjuster Notes",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 15.450717900006566,
+        "tokens": {
+          "prompt_tokens": 752,
+          "completion_tokens": 432,
+          "total_tokens": 1184
+        }
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_type": "fhir_processor",
+    "bundle_file": "Anibal473_Glover433_fcc90947-2e5f-e63a-0815-d22d499742db.json",
+    "processing_timestamp": "2025-10-25T03:15:11.255218",
+    "total_encounters_evaluated": 3,
+    "relevant_encounters": 2,
+    "processing_stats": {
+      "total_evaluated": 3,
+      "relevant_encounters": 2,
+      "classification_errors": 0,
+      "note_generation_errors": 0,
+      "api_calls": 0,
+      "total_cost": 0.0,
+      "skipped_irrelevant": 1
+    },
+    "cost_summary": {
+      "total_cost": 0.00209895,
+      "total_calls": 10,
+      "total_tokens": 5239,
+      "average_cost_per_call": 0.000209895
+    },
+    "processor_version": "enhanced_v1.0",
+    "synthetic_documents_added": {
+      "timestamp": "2025-10-28T12:11:20.396645",
+      "generator": "synthetic_document_generator",
+      "documents_added": 5,
+      "total_encounters": 7
+    }
+  }
+}

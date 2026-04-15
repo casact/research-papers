@@ -1,0 +1,4798 @@
+{
+  "seed": -5404080405594186050,
+  "lastUpdated": 1761024699542,
+  "coverage": {
+    "planHistory": [
+      {
+        "id": "9ec23a80-a2f6-c906-426e-7d3094c5e0e7",
+        "start": 1569907899542,
+        "stop": 1601357499542,
+        "plan": {
+          "id": 60001,
+          "payer": {
+            "name": "UnitedHealthcare",
+            "uuid": "d31fccc3-1767-390d-966a-22a5156f4219"
+          },
+          "deductible": 1458,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.8,
+          "monthlyPremium": 503,
+          "maxOutOfPocket": 8700,
+          "priority": 2147483647,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "private",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Guardian",
+        "ownerName": "Dina200 Lind531",
+        "coveredExpenses": 358.80,
+        "remainingDeductible": 0.00,
+        "outOfPocketExpenses": 1547.70,
+        "insuranceExpenses": 1026.12000000000024124702235894801560789346694946289062500
+      },
+      {
+        "id": "9ec23a80-a2f6-c906-426e-7d3094c5e0e7",
+        "start": 1664256699542,
+        "stop": 1695706299542,
+        "plan": {
+          "id": 60001,
+          "payer": {
+            "name": "UnitedHealthcare",
+            "uuid": "d31fccc3-1767-390d-966a-22a5156f4219"
+          },
+          "deductible": 1458,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.8,
+          "monthlyPremium": 503,
+          "maxOutOfPocket": 8700,
+          "priority": 2147483647,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "private",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Guardian",
+        "ownerName": "Dina200 Lind531",
+        "coveredExpenses": 0.00,
+        "remainingDeductible": 641.20,
+        "outOfPocketExpenses": 816.80,
+        "insuranceExpenses": 1026.12000000000024124702235894801560789346694946289062500
+      },
+      {
+        "id": "9ec23a80-a2f6-c906-426e-7d3094c5e0e7",
+        "start": 1727760699542,
+        "stop": 1759210299542,
+        "plan": {
+          "id": 60001,
+          "payer": {
+            "name": "UnitedHealthcare",
+            "uuid": "d31fccc3-1767-390d-966a-22a5156f4219"
+          },
+          "deductible": 1458,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.8,
+          "monthlyPremium": 503,
+          "maxOutOfPocket": 8700,
+          "priority": 2147483647,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "private",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Guardian",
+        "ownerName": "Dina200 Lind531",
+        "coveredExpenses": 1881.24,
+        "remainingDeductible": 0.00,
+        "outOfPocketExpenses": 1928.31,
+        "insuranceExpenses": 1026.12000000000024124702235894801560789346694946289062500
+      },
+      {
+        "id": "9ec23a80-a2f6-c906-426e-7d3094c5e0e7",
+        "start": 1601357499542,
+        "stop": 1632807099542,
+        "plan": {
+          "id": 60001,
+          "payer": {
+            "name": "UnitedHealthcare",
+            "uuid": "d31fccc3-1767-390d-966a-22a5156f4219"
+          },
+          "deductible": 1458,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.8,
+          "monthlyPremium": 503,
+          "maxOutOfPocket": 8700,
+          "priority": 2147483647,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "private",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Guardian",
+        "ownerName": "Dina200 Lind531",
+        "coveredExpenses": 2414.29,
+        "remainingDeductible": 0.00,
+        "outOfPocketExpenses": 2061.57,
+        "insuranceExpenses": 1026.12000000000024124702235894801560789346694946289062500
+      },
+      {
+        "id": "9ec23a80-a2f6-c906-426e-7d3094c5e0e7",
+        "start": 1695706299542,
+        "stop": 1727760699542,
+        "plan": {
+          "id": 60001,
+          "payer": {
+            "name": "UnitedHealthcare",
+            "uuid": "d31fccc3-1767-390d-966a-22a5156f4219"
+          },
+          "deductible": 1458,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.8,
+          "monthlyPremium": 503,
+          "maxOutOfPocket": 8700,
+          "priority": 2147483647,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "private",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Guardian",
+        "ownerName": "Dina200 Lind531",
+        "coveredExpenses": 2350.93,
+        "remainingDeductible": 0.00,
+        "outOfPocketExpenses": 2045.73,
+        "insuranceExpenses": 1026.12000000000024124702235894801560789346694946289062500
+      },
+      {
+        "id": "9ec23a80-a2f6-c906-426e-7d3094c5e0e7",
+        "start": 1537853499542,
+        "stop": 1569907899542,
+        "plan": {
+          "id": 60001,
+          "payer": {
+            "name": "UnitedHealthcare",
+            "uuid": "d31fccc3-1767-390d-966a-22a5156f4219"
+          },
+          "deductible": 1458,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.8,
+          "monthlyPremium": 503,
+          "maxOutOfPocket": 8700,
+          "priority": 2147483647,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "private",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Guardian",
+        "ownerName": "Dina200 Lind531",
+        "coveredExpenses": 2259.11,
+        "remainingDeductible": 0.00,
+        "outOfPocketExpenses": 2022.78,
+        "insuranceExpenses": 1111.63000000000026135094088886035024188458919525146484375
+      },
+      {
+        "id": "9ec23a80-a2f6-c906-426e-7d3094c5e0e7",
+        "start": 1759210299542,
+        "stop": 1790314299542,
+        "plan": {
+          "id": 60001,
+          "payer": {
+            "name": "UnitedHealthcare",
+            "uuid": "d31fccc3-1767-390d-966a-22a5156f4219"
+          },
+          "deductible": 1458,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.8,
+          "monthlyPremium": 503,
+          "maxOutOfPocket": 8700,
+          "priority": 2147483647,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "private",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Guardian",
+        "ownerName": "Dina200 Lind531",
+        "coveredExpenses": 0.00,
+        "remainingDeductible": 1458,
+        "outOfPocketExpenses": 0.00,
+        "insuranceExpenses": 85.51000000000002010391852991233463399112224578857421875
+      },
+      {
+        "id": "9ec23a80-a2f6-c906-426e-7d3094c5e0e7",
+        "start": 1632807099542,
+        "stop": 1664256699542,
+        "plan": {
+          "id": 60001,
+          "payer": {
+            "name": "UnitedHealthcare",
+            "uuid": "d31fccc3-1767-390d-966a-22a5156f4219"
+          },
+          "deductible": 1458,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.8,
+          "monthlyPremium": 503,
+          "maxOutOfPocket": 8700,
+          "priority": 2147483647,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "private",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Guardian",
+        "ownerName": "Dina200 Lind531",
+        "coveredExpenses": 0.00,
+        "remainingDeductible": 185.60,
+        "outOfPocketExpenses": 1272.40,
+        "insuranceExpenses": 1026.12000000000024124702235894801560789346694946289062500
+      }
+    ],
+    "nextEnrollmentPeriod": 1790314299542
+  },
+  "symptoms": {
+    "Sinus Pain": {
+      "sources": {
+        "Sinusitis Module": {
+          "source": "Sinusitis Module",
+          "resolved": false,
+          "lastUpdateTime": 1719592299542,
+          "timeInfos": {
+            "1719592299542": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1719592299542
+            },
+            "1716701499542": {
+              "cause": "Sinusitis Module",
+              "value": 71,
+              "time": 1716701499542
+            }
+          }
+        }
+      },
+      "name": "Sinus Pain"
+    },
+    "Headache": {
+      "sources": {
+        "Sinusitis Module": {
+          "source": "Sinusitis Module",
+          "resolved": false,
+          "lastUpdateTime": 1719592299542,
+          "timeInfos": {
+            "1719592299542": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1719592299542
+            },
+            "1716701499542": {
+              "cause": "Sinusitis Module",
+              "value": 39,
+              "time": 1716701499542
+            }
+          }
+        }
+      },
+      "name": "Headache"
+    },
+    "Pain with Bright Lights": {
+      "sources": {
+        "Sinusitis Module": {
+          "source": "Sinusitis Module",
+          "resolved": false,
+          "lastUpdateTime": 1719592299542,
+          "timeInfos": {
+            "1719592299542": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1719592299542
+            },
+            "1716701499542": {
+              "cause": "Sinusitis Module",
+              "value": 40,
+              "time": 1716701499542
+            }
+          }
+        }
+      },
+      "name": "Pain with Bright Lights"
+    },
+    "Facial Swelling": {
+      "sources": {
+        "Sinusitis Module": {
+          "source": "Sinusitis Module",
+          "resolved": false,
+          "lastUpdateTime": 1719592299542,
+          "timeInfos": {
+            "1719592299542": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1719592299542
+            },
+            "1716701499542": {
+              "cause": "Sinusitis Module",
+              "value": 33,
+              "time": 1716701499542
+            }
+          }
+        }
+      },
+      "name": "Facial Swelling"
+    },
+    "Nasal Discharge": {
+      "sources": {
+        "Sinusitis Module": {
+          "source": "Sinusitis Module",
+          "resolved": false,
+          "lastUpdateTime": 1719592299542,
+          "timeInfos": {
+            "1719592299542": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1719592299542
+            },
+            "1716701499542": {
+              "cause": "Sinusitis Module",
+              "value": 12,
+              "time": 1716701499542
+            }
+          }
+        }
+      },
+      "name": "Nasal Discharge"
+    },
+    "Nasal Congestion": {
+      "sources": {
+        "Sinusitis Module": {
+          "source": "Sinusitis Module",
+          "resolved": false,
+          "lastUpdateTime": 1719592299542,
+          "timeInfos": {
+            "1719592299542": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1719592299542
+            },
+            "1716701499542": {
+              "cause": "Sinusitis Module",
+              "value": 2,
+              "time": 1716701499542
+            }
+          }
+        }
+      },
+      "name": "Nasal Congestion"
+    },
+    "Fever": {
+      "sources": {
+        "Sinusitis Module": {
+          "source": "Sinusitis Module",
+          "resolved": false,
+          "lastUpdateTime": 1719592299542,
+          "timeInfos": {
+            "1719592299542": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1719592299542
+            },
+            "1716701499542": {
+              "cause": "Sinusitis Module",
+              "value": 13,
+              "time": 1716701499542
+            }
+          }
+        }
+      },
+      "name": "Fever"
+    },
+    "Sore Throat": {
+      "sources": {
+        "Sinusitis Module": {
+          "source": "Sinusitis Module",
+          "resolved": false,
+          "lastUpdateTime": 1719592299542,
+          "timeInfos": {
+            "1719592299542": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1719592299542
+            },
+            "1716701499542": {
+              "cause": "Sinusitis Module",
+              "value": 14,
+              "time": 1716701499542
+            }
+          }
+        }
+      },
+      "name": "Sore Throat"
+    },
+    "Cough": {
+      "sources": {
+        "Sinusitis Module": {
+          "source": "Sinusitis Module",
+          "resolved": false,
+          "lastUpdateTime": 1719592299542,
+          "timeInfos": {
+            "1719592299542": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1719592299542
+            },
+            "1716701499542": {
+              "cause": "Sinusitis Module",
+              "value": 46,
+              "time": 1716701499542
+            }
+          }
+        }
+      },
+      "name": "Cough"
+    }
+  },
+  "attributes": {
+    "QOLS": {
+      "2018": 1.0,
+      "2019": 1.0,
+      "2020": 1.0,
+      "2021": 1.0,
+      "2022": 1.0,
+      "2023": 1.0,
+      "2024": 1.0,
+      "2025": 1.0
+    },
+    "employment_model": {
+      "chanceOfUnemployment": 0.054,
+      "nextTimeToCheck": 0,
+      "unemployed": false
+    },
+    "county": "Essex County",
+    "metabolic_syndrome_review": {
+      "system": "SNOMED-CT",
+      "code": "763288003",
+      "display": "Patient review (procedure)"
+    },
+    "vhd_as_risk": true,
+    "state": "Massachusetts",
+    "name_mother": "Dina200 Lind531",
+    "food_insecurity": false,
+    "active_wellness_encounter Lung Cancer Module": false,
+    "fips": "25009",
+    "preferredProvideroutpatient": {
+      "uuid": "b014aec7-7bd8-351f-8808-3e280cbc5be6",
+      "locationUuid": "57ae39bf-e7fc-3c2d-a9dd-1e9cd23c636f",
+      "id": "1245543032",
+      "npi": "1245543032",
+      "cmsProviderNum": "22S080",
+      "cmsPin": "",
+      "cmsUpin": "",
+      "cmsCategory": "",
+      "cmsProviderType": "00-09",
+      "cmsRegion": "",
+      "cliaNumber": "",
+      "name": "STEWARD HOLY FAMILY HOSPITAL INC",
+      "location": {
+        "totalPopulation": 7069851,
+        "state": "Massachusetts"
+      },
+      "address": "70 EAST ST",
+      "city": "HAVERHILL",
+      "state": "MA",
+      "zip": "018306700",
+      "fipsCountyCode": "",
+      "phone": "9786870151",
+      "type": "HOSPITAL",
+      "institutional": true,
+      "revenue": 0.0,
+      "coordinates": {
+        "x": -71.0767724,
+        "y": 42.7777829
+      },
+      "servicesProvided": [
+        "INPATIENT",
+        "AMBULATORY",
+        "OUTPATIENT"
+      ]
+    },
+    "active_wellness_encounter Wellness Encounters Module": false,
+    "vhd_ms_risk": true,
+    "active_wellness_encounter hiv_diagnosis Module": false,
+    "active_wellness_encounter Bone Marrow Transplant Module": false,
+    "active_wellness_encounter Homelessness Module": false,
+    "ethnicity": "nonhispanic",
+    "active_wellness_encounter Asthma Module": false,
+    "active_wellness_encounter Veteran Hyperlipidemia Module": false,
+    "active_wellness_encounter Home Health Treatment Module": false,
+    "target_age": 7,
+    "active_wellness_encounter Veteran Substance Abuse Treatment Module": false,
+    "adherence probability": 0.05,
+    "active_wellness_encounter Dental and Oral Examination Module": false,
+    "disabled": false,
+    "unemployed": false,
+    "address": "698 Rath Crossing",
+    "active_wellness_encounter Medication Reconciliation Module": false,
+    "active_wellness_encounter Metabolic Syndrome Disease Progression Module": false,
+    "first_language": "english",
+    "vhd_tr_risk": true,
+    "active_wellness_encounter Hospice Treatment Module": false,
+    "active_wellness_encounter Stable Ischemic Heart Disease Module": false,
+    "active_wellness_encounter Sexual Activity Module": false,
+    "Sinusitis Condition": {
+      "uuid": "234da879-fe19-95c6-a161-90533ee17edd",
+      "fullUrl": "urn:uuid:234da879-fe19-95c6-a161-90533ee17edd",
+      "name": "Viral_Infection_Starts",
+      "start": 1717518699542,
+      "stop": 1719592299542,
+      "type": "444814009",
+      "codes": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "444814009",
+          "display": "Viral sinusitis (disorder)"
+        }
+      ],
+      "cost": 0.00
+    },
+    "uninsured": false,
+    "active_wellness_encounter Contraceptive Maintenance Module": false,
+    "active_wellness_encounter Sore Throat Module": false,
+    "birth_country": "US",
+    "active_wellness_encounter Food Allergies Module": false,
+    "active_wellness_encounter vhd_mitral Module": false,
+    "active_wellness_encounter Sleep Apnea Module": false,
+    "active_wellness_encounter Urinary Tract Infections Module": false,
+    "active_wellness_encounter Atopy Module": false,
+    "vhd_pr_risk": true,
+    "coordinate": {
+      "x": -71.08126142357114,
+      "y": 42.77770350727124
+    },
+    "most-recent-qaly": 6.0,
+    "active_wellness_encounter Sinusitis Module": false,
+    "active_wellness_encounter Injuries Module": false,
+    "active_wellness_encounter Female Reproduction Module": false,
+    "active_wellness_encounter Veteran mild TBI  Module": false,
+    "socioeconomic_category": "Middle",
+    "diabetic_eye_damage": 0,
+    "poverty_ratio": 5.682165242165242,
+    "name": "Rosendo998 Kuhn96",
+    "income": 99722,
+    "low_hdl": false,
+    "active_wellness_encounter COPD Module": false,
+    "cardio_risk": -0.0013302073019139105,
+    "active_wellness_encounter Dermatitis Module": false,
+    "active_wellness_encounter Colorectal Cancer Module": false,
+    "active_wellness_encounter Veteran MDD Module": false,
+    "last_month_paid": 10,
+    "vhd_ps_risk": true,
+    "DALY": {
+      "2018": 0.0,
+      "2019": 0.0,
+      "2020": 0.0,
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0,
+      "2025": 0.0
+    },
+    "active_wellness_encounter Veteran Self Harm Module": false,
+    "first_name": "Rosendo998",
+    "AGE": 7,
+    "race": "black",
+    "bmi_percentile": 78.4593902189626,
+    "preferredProviderwellness": {
+      "uuid": "cabc0f0d-dcca-34a2-bc6b-519ed1cc7f74",
+      "locationUuid": "bee0c1f0-ab71-3dd4-8431-e5d8a345aeea",
+      "id": "1639736838",
+      "npi": "1639736838",
+      "cmsProviderNum": "",
+      "cmsPin": "",
+      "cmsUpin": "",
+      "cmsCategory": "",
+      "cmsProviderType": "12-70",
+      "cmsRegion": "",
+      "cliaNumber": "",
+      "name": "ACHIEVE WELLNESS, LLC",
+      "location": {
+        "totalPopulation": 7069851,
+        "state": "Massachusetts"
+      },
+      "address": "191 MERRIMACK ST STE 712",
+      "city": "HAVERHILL",
+      "state": "MA",
+      "zip": "018306199",
+      "fipsCountyCode": "",
+      "phone": "9788914928",
+      "type": "PRIMARY",
+      "institutional": false,
+      "revenue": 0.0,
+      "coordinates": {
+        "x": -71.08181133783422,
+        "y": 42.7742236
+      },
+      "servicesProvided": [
+        "WELLNESS"
+      ]
+    },
+    "dental_filling_reason": {
+      "uuid": "f5bfd25b-8579-0f45-dbb8-5c9dd24e7ef1",
+      "fullUrl": "urn:uuid:f5bfd25b-8579-0f45-dbb8-5c9dd24e7ef1",
+      "name": "New Cavity",
+      "start": 1726561317542,
+      "stop": 1726562933542,
+      "type": "109570002",
+      "codes": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "109570002",
+          "display": "Primary dental caries (disorder)"
+        }
+      ],
+      "cost": 0.00
+    },
+    "ascvd_risk": -1.0,
+    "location": {
+      "totalPopulation": 7069851,
+      "state": "Massachusetts"
+    },
+    "time": 1758605499542,
+    "ckd": 0,
+    "active_wellness_encounter Hypertension Module": false,
+    "education": "some_college",
+    "birthdate": 1537853499542,
+    "active_wellness_encounter Osteoporosis Module": false,
+    "active_wellness_encounter Gallstones Module": false,
+    "vhd_ar_risk": true,
+    "high_total_chol": false,
+    "active_wellness_encounter Total Joint Replacement Module": false,
+    "current_weight_length_percentile": 99.0,
+    "id": "d58666f4-3d39-9f05-81f4-bd6bf4861e29",
+    "socioeconomic_score": 0.6429458364796616,
+    "active_wellness_encounter trigger_bone_marrow_transplant Module": false,
+    "zip": "01832",
+    "active_wellness_encounter Dialysis Module": false,
+    "active_wellness_encounter vhd_pulmonic Module": false,
+    "active_wellness_encounter Kidney Transplant Module": false,
+    "active_wellness_encounter Anemia - Unknown Etiology Module": false,
+    "active_wellness_encounter Atrial Fibrillation Module": false,
+    "active_wellness_encounter Cerebral Palsy Module": false,
+    "active_wellness_encounter Veteran PTSD Module": false,
+    "atrial_fibrillation_risk": -0.0013302073019139105,
+    "active_wellness_encounter Veteran Lung Cancer Module": false,
+    "active_wellness_encounter Home Hospice SNF Module": false,
+    "bp_baseline_false_SYSTOLIC": 101.63332622914884,
+    "birthplace": "Millbury, Massachusetts, US",
+    "preferredProviderambulatory": {
+      "uuid": "b014aec7-7bd8-351f-8808-3e280cbc5be6",
+      "locationUuid": "57ae39bf-e7fc-3c2d-a9dd-1e9cd23c636f",
+      "id": "1245543032",
+      "npi": "1245543032",
+      "cmsProviderNum": "22S080",
+      "cmsPin": "",
+      "cmsUpin": "",
+      "cmsCategory": "",
+      "cmsProviderType": "00-09",
+      "cmsRegion": "",
+      "cliaNumber": "",
+      "name": "STEWARD HOLY FAMILY HOSPITAL INC",
+      "location": {
+        "totalPopulation": 7069851,
+        "state": "Massachusetts"
+      },
+      "address": "70 EAST ST",
+      "city": "HAVERHILL",
+      "state": "MA",
+      "zip": "018306700",
+      "fipsCountyCode": "",
+      "phone": "9786870151",
+      "type": "HOSPITAL",
+      "institutional": true,
+      "revenue": 0.0,
+      "coordinates": {
+        "x": -71.0767724,
+        "y": 42.7777829
+      },
+      "servicesProvided": [
+        "INPATIENT",
+        "AMBULATORY",
+        "OUTPATIENT"
+      ]
+    },
+    "mi_risk": -0.005713359451406275,
+    "active_wellness_encounter Bronchitis Module": false,
+    "active_wellness_encounter Dementia Module": false,
+    "active_wellness_encounter vhd_tricuspid Module": false,
+    "birth_city": "Millbury",
+    "gender": "M",
+    "city": "Haverhill",
+    "active_wellness_encounter Allergies and Treatment Module": false,
+    "income_level": 1.0,
+    "birth_state": "Massachusetts",
+    "active_wellness_encounter Gout Module": false,
+    "ihd_risk": -0.028566797257031373,
+    "stroke_risk": -0.0013302073019139105,
+    "immunizations": {
+      "hib": [
+        1546320699542,
+        1551763899542,
+        1575351099542
+      ],
+      "zoster": [],
+      "var": [
+        1575351099542,
+        1693891899542
+      ],
+      "tdap": [],
+      "rv_mono": [
+        1546320699542,
+        1551763899542
+      ],
+      "ipv": [
+        1546320699542,
+        1551763899542,
+        1559626299542,
+        1693891899542
+      ],
+      "flu": [
+        1559626299542,
+        1598938299542,
+        1630387899542,
+        1661837499542,
+        1693891899542,
+        1725946299542,
+        1758000699542
+      ],
+      "hpv": [],
+      "dtap": [
+        1546320699542,
+        1551763899542,
+        1559626299542,
+        1583213499542,
+        1693891899542
+      ],
+      "td": [],
+      "hepa_adult": [],
+      "mmr": [
+        1575351099542,
+        1693891899542
+      ],
+      "hepb_adult": [],
+      "men": [],
+      "ppsv23": [],
+      "pcv13": [
+        1546320699542,
+        1551763899542,
+        1559626299542,
+        1575351099542
+      ],
+      "hepa": [
+        1575351099542,
+        1614663099542
+      ],
+      "hepb": [
+        1537853499542,
+        1540877499542,
+        1559626299542
+      ]
+    },
+    "no_vehicle_access": false,
+    "vhd_mr_risk": true,
+    "telecom": "555-954-2043",
+    "active_wellness_encounter Myocardial Infarction Module": false,
+    "active_wellness_encounter Veteran Module": false,
+    "last_name": "Kuhn96",
+    "active_weight_management": false,
+    "active_wellness_encounter Fibromyalgia Module": false,
+    "active_wellness_encounter Metabolic Syndrome Standards of Care Module": false,
+    "active_wellness_encounter Contraceptives Module": false,
+    "active_wellness_encounter Lupus Module": false,
+    "insurance_status": "private",
+    "name_father": "Maynard46 Kuhn96",
+    "active_wellness_encounter Hypothyroidism Module": false,
+    "most-recent-daly": 0.0,
+    "wellness_encounter_reason": {
+      "system": "SNOMED-CT",
+      "code": "410424005",
+      "display": "Wellness surveillance (regime/therapy)"
+    },
+    "active_wellness_encounter MEND Program Module": false,
+    "active_wellness_encounter Stroke Module": false,
+    "active_wellness_encounter Ear Infections Module": false,
+    "active_wellness_encounter Cystic Fibrosis Module": false,
+    "growth_trajectory": {
+      "initialSample": {
+        "id": 54819,
+        "sex": 1,
+        "agem": 31,
+        "wt": 13.3,
+        "ht": 88.8,
+        "swt": 8933.854831999999,
+        "racec": "other",
+        "bmi": 16.866528690853016,
+        "prob": 2.8772970401775866E-4
+      },
+      "trajectory": [
+        {
+          "ageInMonths": 31,
+          "timeInSimulation": 1618205499542,
+          "bmi": 16.866528690853016
+        },
+        {
+          "ageInMonths": 43,
+          "timeInSimulation": 1649741499542,
+          "bmi": 17.019946778829272
+        },
+        {
+          "ageInMonths": 55,
+          "timeInSimulation": 1681277499542,
+          "bmi": 16.764602230288745
+        },
+        {
+          "ageInMonths": 67,
+          "timeInSimulation": 1712813499542,
+          "bmi": 16.7506339958196
+        },
+        {
+          "ageInMonths": 79,
+          "timeInSimulation": 1744349499542,
+          "bmi": 17.010204530593263
+        },
+        {
+          "ageInMonths": 91,
+          "timeInSimulation": 1775885499542,
+          "bmi": 16.683743855574974
+        }
+      ],
+      "seed": -5404080405594186050
+    },
+    "active_wellness_encounter Acute Myeloid Leukemia for PCOR Research Module": false,
+    "active_wellness_encounter Pregnancy Module": false,
+    "active_wellness_encounter Spina Bifida Module": false,
+    "active_wellness_encounter covid19 Module": false,
+    "bp_baseline_false_DIASTOLIC": 75.28725821118907,
+    "identifier_ssn": "999-72-4972",
+    "QALY": {
+      "2018": 0.0,
+      "2019": 0.0,
+      "2020": 1.0,
+      "2021": 2.0,
+      "2022": 3.0,
+      "2023": 4.0,
+      "2024": 5.0,
+      "2025": 6.0
+    },
+    "active_wellness_encounter Attention Deficit Disorder Module": false,
+    "active_wellness_encounter Veteran Prostate Cancer Module": false,
+    "education_level": 0.5792023789188908,
+    "active_wellness_encounter vhd_aortic Module": false,
+    "active_wellness_encounter hiv_care Module": false,
+    "sexually_active": false,
+    "active_wellness_encounter Allergic Rhinitis Module": false,
+    "active_wellness_encounter Sepsis Module": false,
+    "vhd_ts_risk": true,
+    "active_wellness_encounter Veteran Substance Abuse Conditions Module": false,
+    "active_wellness_encounter Opioid Addiction Module": false,
+    "active_wellness_encounter Osteoarthritis Module": false,
+    "active_wellness_encounter Appendicitis Module": false,
+    "active_wellness_encounter Chronic Kidney Disease Module": false,
+    "occupation_level": 0.3750417123643818,
+    "diabetic_nerve_damage": 0,
+    "active_wellness_encounter Epilepsy Module": false,
+    "active_wellness_encounter Dentures Module": false,
+    "active_wellness_encounter Breast_cancer Module": false,
+    "active_wellness_encounter Congestive Heart Failure Module": false,
+    "middle_name": "Augustine565",
+    "active_wellness_encounter Prescribing Opioids for Chronic Pain and Treatment of OUD Module": false,
+    "severe_housing_cost_burden": false,
+    "sexual_orientation": "heterosexual",
+    "active_wellness_encounter Rheumatoid Arthritis Module": false,
+    "C19_VACCINE_STATUS": "NOT_ELIGIBLE",
+    "RH_NEG": false,
+    "AGE_MONTHS": 84,
+    "mend_encounter_reason": {
+      "system": "SNOMED-CT",
+      "code": "763288003",
+      "display": "Patient review (procedure)"
+    },
+    "birthdate_as_localdate": "2018-09-25",
+    "active_wellness_encounter Self Harm Module": false
+  },
+  "record": {
+    "encounters": [
+      {
+        "observations": [],
+        "reports": [],
+        "conditions": [
+          {
+            "uuid": "d94a5d29-705c-5b37-a10f-2910684a9327",
+            "fullUrl": "urn:uuid:d94a5d29-705c-5b37-a10f-2910684a9327",
+            "name": "Medication_Review_Due",
+            "start": 1661837499542,
+            "stop": 1725946299542,
+            "type": "314529007",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "314529007",
+                "display": "Medication review due (situation)"
+              }
+            ],
+            "cost": 0.00
+          }
+        ],
+        "allergies": [],
+        "procedures": [],
+        "immunizations": [],
+        "medications": [],
+        "careplans": [],
+        "imagingStudies": [],
+        "devices": [],
+        "supplies": [],
+        "claim": {
+          "mainEntry": {
+            "cost": 136.80,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 136.80,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 0.00
+          },
+          "items": [
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            }
+          ],
+          "totals": {
+            "cost": 272.80,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 272.80,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 0.00
+          },
+          "uuid": "89f099dc-bb15-7149-ef83-ffbfe8d5330d",
+          "planRecord": {
+            "id": "9ec23a80-a2f6-c906-426e-7d3094c5e0e7",
+            "start": 1632807099542,
+            "stop": 1664256699542,
+            "plan": {
+              "id": 60001,
+              "payer": {
+                "name": "UnitedHealthcare",
+                "uuid": "d31fccc3-1767-390d-966a-22a5156f4219"
+              },
+              "deductible": 1458,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0.8,
+              "monthlyPremium": 503,
+              "maxOutOfPocket": 8700,
+              "priority": 2147483647,
+              "servicesCovered": [
+                "*"
+              ],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "private",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "secondaryPlan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "ownership": "Guardian",
+            "ownerName": "Dina200 Lind531",
+            "coveredExpenses": 0.00,
+            "remainingDeductible": 185.60,
+            "outOfPocketExpenses": 1272.40,
+            "insuranceExpenses": 1026.12000000000024124702235894801560789346694946289062500
+          }
+        },
+        "provider": {
+          "uuid": "cabc0f0d-dcca-34a2-bc6b-519ed1cc7f74",
+          "locationUuid": "bee0c1f0-ab71-3dd4-8431-e5d8a345aeea",
+          "id": "1639736838",
+          "npi": "1639736838",
+          "cmsProviderNum": "",
+          "cmsPin": "",
+          "cmsUpin": "",
+          "cmsCategory": "",
+          "cmsProviderType": "12-70",
+          "cmsRegion": "",
+          "cliaNumber": "",
+          "name": "ACHIEVE WELLNESS, LLC",
+          "location": {
+            "totalPopulation": 7069851,
+            "state": "Massachusetts"
+          },
+          "address": "191 MERRIMACK ST STE 712",
+          "city": "HAVERHILL",
+          "state": "MA",
+          "zip": "018306199",
+          "fipsCountyCode": "",
+          "phone": "9788914928",
+          "type": "PRIMARY",
+          "institutional": false,
+          "revenue": 0.0,
+          "coordinates": {
+            "x": -71.08181133783422,
+            "y": 42.7742236
+          },
+          "servicesProvided": [
+            "WELLNESS"
+          ]
+        },
+        "clinician": {
+          "identifier": 5530,
+          "uuid": "155afb3a-2511-3031-af9d-7be01801eeed",
+          "npi": "9999944694",
+          "attributes": {
+            "zip": "018306199",
+            "specialty": "GENERAL PRACTICE",
+            "address": "191 MERRIMACK ST STE 712",
+            "coordinate": {
+              "x": -71.08181133783422,
+              "y": 42.7742236
+            },
+            "education": "bs_degree",
+            "race": "white",
+            "ethnicity": "nonhispanic",
+            "gender": "M",
+            "city": "HAVERHILL",
+            "last_name": "Huels583",
+            "name_prefix": "Dr.",
+            "first_language": "english",
+            "identifier_ssn": "999-63-1279",
+            "name": "Ronald408 Huels583",
+            "state": "MA",
+            "first_name": "Ronald408"
+          },
+          "servicesProvided": [],
+          "organization": {
+            "uuid": "cabc0f0d-dcca-34a2-bc6b-519ed1cc7f74",
+            "locationUuid": "bee0c1f0-ab71-3dd4-8431-e5d8a345aeea",
+            "id": "1639736838",
+            "npi": "1639736838",
+            "cmsProviderNum": "",
+            "cmsPin": "",
+            "cmsUpin": "",
+            "cmsCategory": "",
+            "cmsProviderType": "12-70",
+            "cmsRegion": "",
+            "cliaNumber": "",
+            "name": "ACHIEVE WELLNESS, LLC",
+            "location": {
+              "totalPopulation": 7069851,
+              "state": "Massachusetts"
+            },
+            "address": "191 MERRIMACK ST STE 712",
+            "city": "HAVERHILL",
+            "state": "MA",
+            "zip": "018306199",
+            "fipsCountyCode": "",
+            "phone": "9788914928",
+            "type": "PRIMARY",
+            "institutional": false,
+            "revenue": 0.0,
+            "coordinates": {
+              "x": -71.08181133783422,
+              "y": 42.7742236
+            },
+            "servicesProvided": [
+              "WELLNESS"
+            ]
+          },
+          "encounters": 16,
+          "procedures": 0,
+          "populationSeed": 0
+        },
+        "ended": true,
+        "endedTime": 1661837499542,
+        "chronicMedsRenewed": false,
+        "uuid": "7e99eb17-da74-859f-4f94-8183363607c1",
+        "name": "Encounter Module Scheduled Wellness",
+        "start": 1661837499542,
+        "stop": 1661838399542,
+        "type": "wellness",
+        "codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "410620009",
+            "display": "Well child visit (procedure)"
+          }
+        ],
+        "cost": 136.80
+      },
+      {
+        "observations": [
+          {
+            "value": 119.2,
+            "category": "vital-signs",
+            "unit": "cm",
+            "observations": [],
+            "uuid": "acb5148f-d707-b0c1-aeb6-3e532e7ecbf1",
+            "fullUrl": "urn:uuid:acb5148f-d707-b0c1-aeb6-3e532e7ecbf1",
+            "name": "Record_Height",
+            "start": 1693891899542,
+            "stop": 0,
+            "type": "8302-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8302-2",
+                "display": "Body Height"
+              }
+            ]
+          },
+          {
+            "value": 1.0,
+            "category": "vital-signs",
+            "unit": "{score}",
+            "observations": [],
+            "uuid": "fd761204-a681-673e-e483-39e070ae415c",
+            "fullUrl": "urn:uuid:fd761204-a681-673e-e483-39e070ae415c",
+            "name": "Record_Pain",
+            "start": 1693891899542,
+            "stop": 0,
+            "type": "72514-3",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "72514-3",
+                "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+              }
+            ]
+          },
+          {
+            "value": 23.8,
+            "category": "vital-signs",
+            "unit": "kg",
+            "observations": [],
+            "uuid": "9d13d4a9-6e4f-c84f-cd86-4fdaece8312c",
+            "fullUrl": "urn:uuid:9d13d4a9-6e4f-c84f-cd86-4fdaece8312c",
+            "name": "Record_Weight",
+            "start": 1693891899542,
+            "stop": 0,
+            "type": "29463-7",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body Weight"
+              }
+            ]
+          },
+          {
+            "value": 16.76,
+            "category": "vital-signs",
+            "unit": "kg/m2",
+            "observations": [],
+            "uuid": "0d8ba808-1ea9-79be-5853-d0793c9b97bb",
+            "fullUrl": "urn:uuid:0d8ba808-1ea9-79be-5853-d0793c9b97bb",
+            "name": "Record_BMI",
+            "start": 1693891899542,
+            "stop": 0,
+            "type": "39156-5",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "39156-5",
+                "display": "Body mass index (BMI) [Ratio]"
+              }
+            ]
+          },
+          {
+            "value": 83.81515164300171,
+            "category": "vital-signs",
+            "unit": "%",
+            "observations": [],
+            "uuid": "2c7c9453-ba59-e39a-9f63-8156298c4274",
+            "fullUrl": "urn:uuid:2c7c9453-ba59-e39a-9f63-8156298c4274",
+            "name": "Record_BMI_Percentile",
+            "start": 1693891899542,
+            "stop": 0,
+            "type": "59576-9",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "59576-9",
+                "display": "Body mass index (BMI) [Percentile] Per age and sex"
+              }
+            ]
+          },
+          {
+            "category": "vital-signs",
+            "observations": [
+              {
+                "value": 84.0,
+                "category": "vital-signs",
+                "unit": "mm[Hg]",
+                "observations": [],
+                "uuid": "a84e62f3-2506-1942-8caa-31b6a26024f1",
+                "start": 1693891899542,
+                "stop": 0,
+                "type": "8462-4",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8462-4",
+                    "display": "Diastolic Blood Pressure"
+                  }
+                ]
+              },
+              {
+                "value": 103.0,
+                "category": "vital-signs",
+                "unit": "mm[Hg]",
+                "observations": [],
+                "uuid": "db563f59-7e38-048e-b71d-dd3caef8ca88",
+                "start": 1693891899542,
+                "stop": 0,
+                "type": "8480-6",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8480-6",
+                    "display": "Systolic Blood Pressure"
+                  }
+                ]
+              }
+            ],
+            "uuid": "6592b6be-a999-d601-1008-81e4d5c1aeb3",
+            "fullUrl": "urn:uuid:6592b6be-a999-d601-1008-81e4d5c1aeb3",
+            "name": "Record_BP",
+            "start": 1693891899542,
+            "stop": 0,
+            "type": "85354-9",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "85354-9",
+                "display": "Blood pressure panel with all children optional"
+              }
+            ]
+          },
+          {
+            "value": 62.0,
+            "category": "vital-signs",
+            "unit": "/min",
+            "observations": [],
+            "uuid": "90434115-3d1c-169b-2366-428eda1b3964",
+            "fullUrl": "urn:uuid:90434115-3d1c-169b-2366-428eda1b3964",
+            "name": "Record_Heart_Rate",
+            "start": 1693891899542,
+            "stop": 0,
+            "type": "8867-4",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ]
+          },
+          {
+            "value": 15.0,
+            "category": "vital-signs",
+            "unit": "/min",
+            "observations": [],
+            "uuid": "c9f634be-bc09-135d-20a5-5a037e428b94",
+            "fullUrl": "urn:uuid:c9f634be-bc09-135d-20a5-5a037e428b94",
+            "name": "Record_Respiratory_Rate",
+            "start": 1693891899542,
+            "stop": 0,
+            "type": "9279-1",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "9279-1",
+                "display": "Respiratory rate"
+              }
+            ]
+          },
+          {
+            "value": {
+              "system": "http://snomed.info/sct",
+              "code": "266919005",
+              "display": "Never smoked tobacco (finding)"
+            },
+            "category": "social-history",
+            "unit": "",
+            "observations": [],
+            "uuid": "a3758268-5409-834a-c45a-a0e1b3ffc132",
+            "fullUrl": "urn:uuid:a3758268-5409-834a-c45a-a0e1b3ffc132",
+            "name": "Record_Never_Smoker",
+            "start": 1693891899542,
+            "stop": 0,
+            "type": "72166-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "72166-2",
+                "display": "Tobacco smoking status"
+              }
+            ]
+          }
+        ],
+        "reports": [],
+        "conditions": [],
+        "allergies": [],
+        "procedures": [],
+        "immunizations": [
+          {
+            "series": 2,
+            "uuid": "d3170174-75e6-1385-3aec-e869b49d8f94",
+            "fullUrl": "urn:uuid:d3170174-75e6-1385-3aec-e869b49d8f94",
+            "start": 1693891899542,
+            "stop": 0,
+            "type": "var",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "21",
+                "display": "varicella"
+              }
+            ],
+            "cost": 136.00
+          },
+          {
+            "series": 4,
+            "uuid": "7df22524-9324-ec4d-f33f-b13741ece87d",
+            "fullUrl": "urn:uuid:7df22524-9324-ec4d-f33f-b13741ece87d",
+            "start": 1693891899542,
+            "stop": 0,
+            "type": "ipv",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "10",
+                "display": "IPV"
+              }
+            ],
+            "cost": 136.00
+          },
+          {
+            "series": 5,
+            "uuid": "3fec4828-894a-b853-409e-5fd6da6f0959",
+            "fullUrl": "urn:uuid:3fec4828-894a-b853-409e-5fd6da6f0959",
+            "start": 1693891899542,
+            "stop": 0,
+            "type": "flu",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "140",
+                "display": "Influenza, seasonal, injectable, preservative free"
+              }
+            ],
+            "cost": 136.00
+          },
+          {
+            "series": 5,
+            "uuid": "732a9f7a-ecfa-6419-8725-0daa2225920e",
+            "fullUrl": "urn:uuid:732a9f7a-ecfa-6419-8725-0daa2225920e",
+            "start": 1693891899542,
+            "stop": 0,
+            "type": "dtap",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "20",
+                "display": "DTaP"
+              }
+            ],
+            "cost": 136.00
+          },
+          {
+            "series": 2,
+            "uuid": "4304dace-4c2a-f2d0-6667-3ce7e70a29a6",
+            "fullUrl": "urn:uuid:4304dace-4c2a-f2d0-6667-3ce7e70a29a6",
+            "start": 1693891899542,
+            "stop": 0,
+            "type": "mmr",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "03",
+                "display": "MMR"
+              }
+            ],
+            "cost": 136.00
+          }
+        ],
+        "medications": [],
+        "careplans": [],
+        "imagingStudies": [],
+        "devices": [],
+        "supplies": [],
+        "claim": {
+          "mainEntry": {
+            "cost": 136.80,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 136.80,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 0.00
+          },
+          "items": [
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 136.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 136.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 136.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 136.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 136.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            }
+          ],
+          "totals": {
+            "cost": 816.80,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 816.80,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 0.00
+          },
+          "uuid": "236574b3-54fa-2df9-c507-a1e0cdd7a1f2",
+          "planRecord": {
+            "id": "9ec23a80-a2f6-c906-426e-7d3094c5e0e7",
+            "start": 1664256699542,
+            "stop": 1695706299542,
+            "plan": {
+              "id": 60001,
+              "payer": {
+                "name": "UnitedHealthcare",
+                "uuid": "d31fccc3-1767-390d-966a-22a5156f4219"
+              },
+              "deductible": 1458,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0.8,
+              "monthlyPremium": 503,
+              "maxOutOfPocket": 8700,
+              "priority": 2147483647,
+              "servicesCovered": [
+                "*"
+              ],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "private",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "secondaryPlan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "ownership": "Guardian",
+            "ownerName": "Dina200 Lind531",
+            "coveredExpenses": 0.00,
+            "remainingDeductible": 641.20,
+            "outOfPocketExpenses": 816.80,
+            "insuranceExpenses": 1026.12000000000024124702235894801560789346694946289062500
+          }
+        },
+        "provider": {
+          "uuid": "cabc0f0d-dcca-34a2-bc6b-519ed1cc7f74",
+          "locationUuid": "bee0c1f0-ab71-3dd4-8431-e5d8a345aeea",
+          "id": "1639736838",
+          "npi": "1639736838",
+          "cmsProviderNum": "",
+          "cmsPin": "",
+          "cmsUpin": "",
+          "cmsCategory": "",
+          "cmsProviderType": "12-70",
+          "cmsRegion": "",
+          "cliaNumber": "",
+          "name": "ACHIEVE WELLNESS, LLC",
+          "location": {
+            "totalPopulation": 7069851,
+            "state": "Massachusetts"
+          },
+          "address": "191 MERRIMACK ST STE 712",
+          "city": "HAVERHILL",
+          "state": "MA",
+          "zip": "018306199",
+          "fipsCountyCode": "",
+          "phone": "9788914928",
+          "type": "PRIMARY",
+          "institutional": false,
+          "revenue": 0.0,
+          "coordinates": {
+            "x": -71.08181133783422,
+            "y": 42.7742236
+          },
+          "servicesProvided": [
+            "WELLNESS"
+          ]
+        },
+        "clinician": {
+          "identifier": 5530,
+          "uuid": "155afb3a-2511-3031-af9d-7be01801eeed",
+          "npi": "9999944694",
+          "attributes": {
+            "zip": "018306199",
+            "specialty": "GENERAL PRACTICE",
+            "address": "191 MERRIMACK ST STE 712",
+            "coordinate": {
+              "x": -71.08181133783422,
+              "y": 42.7742236
+            },
+            "education": "bs_degree",
+            "race": "white",
+            "ethnicity": "nonhispanic",
+            "gender": "M",
+            "city": "HAVERHILL",
+            "last_name": "Huels583",
+            "name_prefix": "Dr.",
+            "first_language": "english",
+            "identifier_ssn": "999-63-1279",
+            "name": "Ronald408 Huels583",
+            "state": "MA",
+            "first_name": "Ronald408"
+          },
+          "servicesProvided": [],
+          "organization": {
+            "uuid": "cabc0f0d-dcca-34a2-bc6b-519ed1cc7f74",
+            "locationUuid": "bee0c1f0-ab71-3dd4-8431-e5d8a345aeea",
+            "id": "1639736838",
+            "npi": "1639736838",
+            "cmsProviderNum": "",
+            "cmsPin": "",
+            "cmsUpin": "",
+            "cmsCategory": "",
+            "cmsProviderType": "12-70",
+            "cmsRegion": "",
+            "cliaNumber": "",
+            "name": "ACHIEVE WELLNESS, LLC",
+            "location": {
+              "totalPopulation": 7069851,
+              "state": "Massachusetts"
+            },
+            "address": "191 MERRIMACK ST STE 712",
+            "city": "HAVERHILL",
+            "state": "MA",
+            "zip": "018306199",
+            "fipsCountyCode": "",
+            "phone": "9788914928",
+            "type": "PRIMARY",
+            "institutional": false,
+            "revenue": 0.0,
+            "coordinates": {
+              "x": -71.08181133783422,
+              "y": 42.7742236
+            },
+            "servicesProvided": [
+              "WELLNESS"
+            ]
+          },
+          "encounters": 16,
+          "procedures": 0,
+          "populationSeed": 0
+        },
+        "ended": true,
+        "endedTime": 1693891899542,
+        "chronicMedsRenewed": false,
+        "uuid": "931868ec-301a-71e8-e228-d1a92c700481",
+        "name": "Encounter Module Scheduled Wellness",
+        "start": 1693891899542,
+        "stop": 1693892799542,
+        "type": "wellness",
+        "codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "410620009",
+            "display": "Well child visit (procedure)"
+          }
+        ],
+        "cost": 136.80
+      },
+      {
+        "observations": [],
+        "reports": [],
+        "conditions": [
+          {
+            "uuid": "234da879-fe19-95c6-a161-90533ee17edd",
+            "fullUrl": "urn:uuid:234da879-fe19-95c6-a161-90533ee17edd",
+            "name": "Viral_Infection_Starts",
+            "start": 1717518699542,
+            "stop": 1719592299542,
+            "type": "444814009",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "444814009",
+                "display": "Viral sinusitis (disorder)"
+              }
+            ],
+            "cost": 0.00
+          }
+        ],
+        "allergies": [],
+        "procedures": [],
+        "immunizations": [],
+        "medications": [],
+        "careplans": [],
+        "imagingStudies": [],
+        "devices": [],
+        "supplies": [],
+        "claim": {
+          "mainEntry": {
+            "cost": 85.55,
+            "copayPaidByPatient": 0,
+            "deductiblePaidByPatient": 85.55,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 0.00
+          },
+          "items": [
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            }
+          ],
+          "totals": {
+            "cost": 85.55,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 85.55,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 0.00
+          },
+          "uuid": "a6512434-45a5-61a4-c8a3-3bae98e2da26",
+          "planRecord": {
+            "id": "9ec23a80-a2f6-c906-426e-7d3094c5e0e7",
+            "start": 1695706299542,
+            "stop": 1727760699542,
+            "plan": {
+              "id": 60001,
+              "payer": {
+                "name": "UnitedHealthcare",
+                "uuid": "d31fccc3-1767-390d-966a-22a5156f4219"
+              },
+              "deductible": 1458,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0.8,
+              "monthlyPremium": 503,
+              "maxOutOfPocket": 8700,
+              "priority": 2147483647,
+              "servicesCovered": [
+                "*"
+              ],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "private",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "secondaryPlan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "ownership": "Guardian",
+            "ownerName": "Dina200 Lind531",
+            "coveredExpenses": 2350.93,
+            "remainingDeductible": 0.00,
+            "outOfPocketExpenses": 2045.73,
+            "insuranceExpenses": 1026.12000000000024124702235894801560789346694946289062500
+          }
+        },
+        "reason": {
+          "system": "http://snomed.info/sct",
+          "code": "444814009",
+          "display": "Viral sinusitis (disorder)"
+        },
+        "provider": {
+          "uuid": "b014aec7-7bd8-351f-8808-3e280cbc5be6",
+          "locationUuid": "57ae39bf-e7fc-3c2d-a9dd-1e9cd23c636f",
+          "id": "1245543032",
+          "npi": "1245543032",
+          "cmsProviderNum": "22S080",
+          "cmsPin": "",
+          "cmsUpin": "",
+          "cmsCategory": "",
+          "cmsProviderType": "00-09",
+          "cmsRegion": "",
+          "cliaNumber": "",
+          "name": "STEWARD HOLY FAMILY HOSPITAL INC",
+          "location": {
+            "totalPopulation": 7069851,
+            "state": "Massachusetts"
+          },
+          "address": "70 EAST ST",
+          "city": "HAVERHILL",
+          "state": "MA",
+          "zip": "018306700",
+          "fipsCountyCode": "",
+          "phone": "9786870151",
+          "type": "HOSPITAL",
+          "institutional": true,
+          "revenue": 0.0,
+          "coordinates": {
+            "x": -71.0767724,
+            "y": 42.7777829
+          },
+          "servicesProvided": [
+            "INPATIENT",
+            "AMBULATORY",
+            "OUTPATIENT"
+          ]
+        },
+        "clinician": {
+          "identifier": 1050,
+          "uuid": "5ba7f13e-0c4f-3d0c-8056-6dcbf79cc588",
+          "npi": "9999989491",
+          "attributes": {
+            "zip": "018306700",
+            "specialty": "GENERAL PRACTICE",
+            "address": "70 EAST ST",
+            "coordinate": {
+              "x": -71.0767724,
+              "y": 42.7777829
+            },
+            "education": "bs_degree",
+            "race": "white",
+            "ethnicity": "nonhispanic",
+            "gender": "F",
+            "city": "HAVERHILL",
+            "last_name": "Volkman526",
+            "name_prefix": "Dr.",
+            "first_language": "english",
+            "identifier_ssn": "999-65-9031",
+            "name": "Rosaria177 Volkman526",
+            "state": "MA",
+            "first_name": "Rosaria177"
+          },
+          "servicesProvided": [],
+          "organization": {
+            "uuid": "b014aec7-7bd8-351f-8808-3e280cbc5be6",
+            "locationUuid": "57ae39bf-e7fc-3c2d-a9dd-1e9cd23c636f",
+            "id": "1245543032",
+            "npi": "1245543032",
+            "cmsProviderNum": "22S080",
+            "cmsPin": "",
+            "cmsUpin": "",
+            "cmsCategory": "",
+            "cmsProviderType": "00-09",
+            "cmsRegion": "",
+            "cliaNumber": "",
+            "name": "STEWARD HOLY FAMILY HOSPITAL INC",
+            "location": {
+              "totalPopulation": 7069851,
+              "state": "Massachusetts"
+            },
+            "address": "70 EAST ST",
+            "city": "HAVERHILL",
+            "state": "MA",
+            "zip": "018306700",
+            "fipsCountyCode": "",
+            "phone": "9786870151",
+            "type": "HOSPITAL",
+            "institutional": true,
+            "revenue": 0.0,
+            "coordinates": {
+              "x": -71.0767724,
+              "y": 42.7777829
+            },
+            "servicesProvided": [
+              "INPATIENT",
+              "AMBULATORY",
+              "OUTPATIENT"
+            ]
+          },
+          "encounters": 5,
+          "procedures": 0,
+          "populationSeed": 0
+        },
+        "ended": true,
+        "endedTime": 1717518699542,
+        "chronicMedsRenewed": false,
+        "uuid": "21ec5716-de03-2033-7e5c-a3bd988fcaf4",
+        "name": "Doctor_Visit",
+        "start": 1717518699542,
+        "stop": 1717519599542,
+        "type": "ambulatory",
+        "codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "185345009",
+            "display": "Encounter for symptom (procedure)"
+          }
+        ],
+        "cost": 85.55
+      },
+      {
+        "observations": [
+          {
+            "value": 126.7,
+            "category": "vital-signs",
+            "unit": "cm",
+            "observations": [],
+            "uuid": "b62a3e21-ad3f-5898-6db4-ea1fa61a62bc",
+            "fullUrl": "urn:uuid:b62a3e21-ad3f-5898-6db4-ea1fa61a62bc",
+            "name": "Record_Height",
+            "start": 1725946299542,
+            "stop": 0,
+            "type": "8302-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8302-2",
+                "display": "Body Height"
+              }
+            ]
+          },
+          {
+            "value": 3.0,
+            "category": "vital-signs",
+            "unit": "{score}",
+            "observations": [],
+            "uuid": "4c9f3d06-3193-90ad-5c04-6a4443c9599e",
+            "fullUrl": "urn:uuid:4c9f3d06-3193-90ad-5c04-6a4443c9599e",
+            "name": "Record_Pain",
+            "start": 1725946299542,
+            "stop": 0,
+            "type": "72514-3",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "72514-3",
+                "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+              }
+            ]
+          },
+          {
+            "value": 27.1,
+            "category": "vital-signs",
+            "unit": "kg",
+            "observations": [],
+            "uuid": "73b1c725-d7fc-f7f6-eba1-f5248a444c0e",
+            "fullUrl": "urn:uuid:73b1c725-d7fc-f7f6-eba1-f5248a444c0e",
+            "name": "Record_Weight",
+            "start": 1725946299542,
+            "stop": 0,
+            "type": "29463-7",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body Weight"
+              }
+            ]
+          },
+          {
+            "value": 16.85,
+            "category": "vital-signs",
+            "unit": "kg/m2",
+            "observations": [],
+            "uuid": "62b2ce93-d6fb-faaa-87be-8356de26edc2",
+            "fullUrl": "urn:uuid:62b2ce93-d6fb-faaa-87be-8356de26edc2",
+            "name": "Record_BMI",
+            "start": 1725946299542,
+            "stop": 0,
+            "type": "39156-5",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "39156-5",
+                "display": "Body mass index (BMI) [Ratio]"
+              }
+            ]
+          },
+          {
+            "value": 83.17566372077306,
+            "category": "vital-signs",
+            "unit": "%",
+            "observations": [],
+            "uuid": "da23a149-f68e-0243-6f60-5ef31853b845",
+            "fullUrl": "urn:uuid:da23a149-f68e-0243-6f60-5ef31853b845",
+            "name": "Record_BMI_Percentile",
+            "start": 1725946299542,
+            "stop": 0,
+            "type": "59576-9",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "59576-9",
+                "display": "Body mass index (BMI) [Percentile] Per age and sex"
+              }
+            ]
+          },
+          {
+            "category": "vital-signs",
+            "observations": [
+              {
+                "value": 84.0,
+                "category": "vital-signs",
+                "unit": "mm[Hg]",
+                "observations": [],
+                "uuid": "62c73ddc-f8fd-e7ee-2346-4046b3f3a89e",
+                "start": 1725946299542,
+                "stop": 0,
+                "type": "8462-4",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8462-4",
+                    "display": "Diastolic Blood Pressure"
+                  }
+                ]
+              },
+              {
+                "value": 103.0,
+                "category": "vital-signs",
+                "unit": "mm[Hg]",
+                "observations": [],
+                "uuid": "608b4370-0115-ca90-c09b-44bf3c2b5368",
+                "start": 1725946299542,
+                "stop": 0,
+                "type": "8480-6",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8480-6",
+                    "display": "Systolic Blood Pressure"
+                  }
+                ]
+              }
+            ],
+            "uuid": "30bc50dd-3540-fcb6-2df0-a644f24c5786",
+            "fullUrl": "urn:uuid:30bc50dd-3540-fcb6-2df0-a644f24c5786",
+            "name": "Record_BP",
+            "start": 1725946299542,
+            "stop": 0,
+            "type": "85354-9",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "85354-9",
+                "display": "Blood pressure panel with all children optional"
+              }
+            ]
+          },
+          {
+            "value": 83.0,
+            "category": "vital-signs",
+            "unit": "/min",
+            "observations": [],
+            "uuid": "2d190f33-ee3b-51f5-8841-d149379d5fc7",
+            "fullUrl": "urn:uuid:2d190f33-ee3b-51f5-8841-d149379d5fc7",
+            "name": "Record_Heart_Rate",
+            "start": 1725946299542,
+            "stop": 0,
+            "type": "8867-4",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ]
+          },
+          {
+            "value": 14.0,
+            "category": "vital-signs",
+            "unit": "/min",
+            "observations": [],
+            "uuid": "f8545128-902d-4e8c-79e1-1948d51faac6",
+            "fullUrl": "urn:uuid:f8545128-902d-4e8c-79e1-1948d51faac6",
+            "name": "Record_Respiratory_Rate",
+            "start": 1725946299542,
+            "stop": 0,
+            "type": "9279-1",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "9279-1",
+                "display": "Respiratory rate"
+              }
+            ]
+          },
+          {
+            "value": 4.596132104115388,
+            "category": "laboratory",
+            "unit": "10*3/uL",
+            "observations": [],
+            "uuid": "99cbd9be-b1c7-fedf-b689-3597d61f4398",
+            "fullUrl": "urn:uuid:99cbd9be-b1c7-fedf-b689-3597d61f4398",
+            "start": 1725946299542,
+            "stop": 0,
+            "type": "6690-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "6690-2",
+                "display": "Leukocytes [#/volume] in Blood by Automated count"
+              }
+            ]
+          },
+          {
+            "value": 4.000956637726027,
+            "category": "laboratory",
+            "unit": "10*6/uL",
+            "observations": [],
+            "uuid": "660b2727-e444-b037-6ff9-85b746e5476b",
+            "fullUrl": "urn:uuid:660b2727-e444-b037-6ff9-85b746e5476b",
+            "start": 1725946299542,
+            "stop": 0,
+            "type": "789-8",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "789-8",
+                "display": "Erythrocytes [#/volume] in Blood by Automated count"
+              }
+            ]
+          },
+          {
+            "value": 13.173259062128592,
+            "category": "laboratory",
+            "unit": "g/dL",
+            "observations": [],
+            "uuid": "01990a2d-5f19-faf5-b053-68493deb8b36",
+            "fullUrl": "urn:uuid:01990a2d-5f19-faf5-b053-68493deb8b36",
+            "start": 1725946299542,
+            "stop": 0,
+            "type": "718-7",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "718-7",
+                "display": "Hemoglobin [Mass/volume] in Blood"
+              }
+            ]
+          },
+          {
+            "value": 42.28065152966288,
+            "category": "laboratory",
+            "unit": "%",
+            "observations": [],
+            "uuid": "d33ff66e-9d9a-c431-dee3-e1e0b17a0850",
+            "fullUrl": "urn:uuid:d33ff66e-9d9a-c431-dee3-e1e0b17a0850",
+            "start": 1725946299542,
+            "stop": 0,
+            "type": "4544-3",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "4544-3",
+                "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+              }
+            ]
+          },
+          {
+            "value": 93.50315699054403,
+            "category": "laboratory",
+            "unit": "fL",
+            "observations": [],
+            "uuid": "1ab08256-567a-ba1c-053d-7524fa3db88e",
+            "fullUrl": "urn:uuid:1ab08256-567a-ba1c-053d-7524fa3db88e",
+            "start": 1725946299542,
+            "stop": 0,
+            "type": "787-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "787-2",
+                "display": "MCV [Entitic volume] by Automated count"
+              }
+            ]
+          },
+          {
+            "value": 30.275310241265124,
+            "category": "laboratory",
+            "unit": "pg",
+            "observations": [],
+            "uuid": "1a8c327d-e37c-dc54-216b-fcd918759889",
+            "fullUrl": "urn:uuid:1a8c327d-e37c-dc54-216b-fcd918759889",
+            "start": 1725946299542,
+            "stop": 0,
+            "type": "785-6",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "785-6",
+                "display": "MCH [Entitic mass] by Automated count"
+              }
+            ]
+          },
+          {
+            "value": 34.30781431852486,
+            "category": "laboratory",
+            "unit": "g/dL",
+            "observations": [],
+            "uuid": "6aebdca5-8164-38b1-c824-608c78346681",
+            "fullUrl": "urn:uuid:6aebdca5-8164-38b1-c824-608c78346681",
+            "start": 1725946299542,
+            "stop": 0,
+            "type": "786-4",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "786-4",
+                "display": "MCHC [Mass/volume] by Automated count"
+              }
+            ]
+          },
+          {
+            "value": 40.40421219828571,
+            "category": "laboratory",
+            "unit": "fL",
+            "observations": [],
+            "uuid": "7c6d4e46-a579-807c-cd73-f6dde702c159",
+            "fullUrl": "urn:uuid:7c6d4e46-a579-807c-cd73-f6dde702c159",
+            "start": 1725946299542,
+            "stop": 0,
+            "type": "21000-5",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "21000-5",
+                "display": "Erythrocyte distribution width [Entitic volume] by Automated count"
+              }
+            ]
+          },
+          {
+            "value": 182.45875057315374,
+            "category": "laboratory",
+            "unit": "10*3/uL",
+            "observations": [],
+            "uuid": "e073415a-1780-bb14-e97f-9098cc83ee96",
+            "fullUrl": "urn:uuid:e073415a-1780-bb14-e97f-9098cc83ee96",
+            "start": 1725946299542,
+            "stop": 0,
+            "type": "777-3",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "777-3",
+                "display": "Platelets [#/volume] in Blood by Automated count"
+              }
+            ]
+          },
+          {
+            "value": 276.52511832775826,
+            "category": "laboratory",
+            "unit": "fL",
+            "observations": [],
+            "uuid": "490115fc-c94f-f260-ca37-0e0d44c31771",
+            "fullUrl": "urn:uuid:490115fc-c94f-f260-ca37-0e0d44c31771",
+            "start": 1725946299542,
+            "stop": 0,
+            "type": "32207-3",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "32207-3",
+                "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+              }
+            ]
+          },
+          {
+            "value": 11.438595944965922,
+            "category": "laboratory",
+            "unit": "fL",
+            "observations": [],
+            "uuid": "37b0d1ee-6962-92a8-c2ea-147215080c56",
+            "fullUrl": "urn:uuid:37b0d1ee-6962-92a8-c2ea-147215080c56",
+            "start": 1725946299542,
+            "stop": 0,
+            "type": "32623-1",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "32623-1",
+                "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+              }
+            ]
+          },
+          {
+            "value": {
+              "system": "http://snomed.info/sct",
+              "code": "266919005",
+              "display": "Never smoked tobacco (finding)"
+            },
+            "category": "social-history",
+            "unit": "",
+            "observations": [],
+            "uuid": "3efe8b45-5743-e36a-431e-06e3ac748716",
+            "fullUrl": "urn:uuid:3efe8b45-5743-e36a-431e-06e3ac748716",
+            "name": "Record_Never_Smoker",
+            "start": 1725946299542,
+            "stop": 0,
+            "type": "72166-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "72166-2",
+                "display": "Tobacco smoking status"
+              }
+            ]
+          }
+        ],
+        "reports": [
+          {
+            "observations": [
+              {
+                "value": 4.596132104115388,
+                "category": "laboratory",
+                "unit": "10*3/uL",
+                "observations": [],
+                "uuid": "99cbd9be-b1c7-fedf-b689-3597d61f4398",
+                "fullUrl": "urn:uuid:99cbd9be-b1c7-fedf-b689-3597d61f4398",
+                "start": 1725946299542,
+                "stop": 0,
+                "type": "6690-2",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "6690-2",
+                    "display": "Leukocytes [#/volume] in Blood by Automated count"
+                  }
+                ]
+              },
+              {
+                "value": 4.000956637726027,
+                "category": "laboratory",
+                "unit": "10*6/uL",
+                "observations": [],
+                "uuid": "660b2727-e444-b037-6ff9-85b746e5476b",
+                "fullUrl": "urn:uuid:660b2727-e444-b037-6ff9-85b746e5476b",
+                "start": 1725946299542,
+                "stop": 0,
+                "type": "789-8",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "789-8",
+                    "display": "Erythrocytes [#/volume] in Blood by Automated count"
+                  }
+                ]
+              },
+              {
+                "value": 13.173259062128592,
+                "category": "laboratory",
+                "unit": "g/dL",
+                "observations": [],
+                "uuid": "01990a2d-5f19-faf5-b053-68493deb8b36",
+                "fullUrl": "urn:uuid:01990a2d-5f19-faf5-b053-68493deb8b36",
+                "start": 1725946299542,
+                "stop": 0,
+                "type": "718-7",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "718-7",
+                    "display": "Hemoglobin [Mass/volume] in Blood"
+                  }
+                ]
+              },
+              {
+                "value": 42.28065152966288,
+                "category": "laboratory",
+                "unit": "%",
+                "observations": [],
+                "uuid": "d33ff66e-9d9a-c431-dee3-e1e0b17a0850",
+                "fullUrl": "urn:uuid:d33ff66e-9d9a-c431-dee3-e1e0b17a0850",
+                "start": 1725946299542,
+                "stop": 0,
+                "type": "4544-3",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "4544-3",
+                    "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+                  }
+                ]
+              },
+              {
+                "value": 93.50315699054403,
+                "category": "laboratory",
+                "unit": "fL",
+                "observations": [],
+                "uuid": "1ab08256-567a-ba1c-053d-7524fa3db88e",
+                "fullUrl": "urn:uuid:1ab08256-567a-ba1c-053d-7524fa3db88e",
+                "start": 1725946299542,
+                "stop": 0,
+                "type": "787-2",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "787-2",
+                    "display": "MCV [Entitic volume] by Automated count"
+                  }
+                ]
+              },
+              {
+                "value": 30.275310241265124,
+                "category": "laboratory",
+                "unit": "pg",
+                "observations": [],
+                "uuid": "1a8c327d-e37c-dc54-216b-fcd918759889",
+                "fullUrl": "urn:uuid:1a8c327d-e37c-dc54-216b-fcd918759889",
+                "start": 1725946299542,
+                "stop": 0,
+                "type": "785-6",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "785-6",
+                    "display": "MCH [Entitic mass] by Automated count"
+                  }
+                ]
+              },
+              {
+                "value": 34.30781431852486,
+                "category": "laboratory",
+                "unit": "g/dL",
+                "observations": [],
+                "uuid": "6aebdca5-8164-38b1-c824-608c78346681",
+                "fullUrl": "urn:uuid:6aebdca5-8164-38b1-c824-608c78346681",
+                "start": 1725946299542,
+                "stop": 0,
+                "type": "786-4",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "786-4",
+                    "display": "MCHC [Mass/volume] by Automated count"
+                  }
+                ]
+              },
+              {
+                "value": 40.40421219828571,
+                "category": "laboratory",
+                "unit": "fL",
+                "observations": [],
+                "uuid": "7c6d4e46-a579-807c-cd73-f6dde702c159",
+                "fullUrl": "urn:uuid:7c6d4e46-a579-807c-cd73-f6dde702c159",
+                "start": 1725946299542,
+                "stop": 0,
+                "type": "21000-5",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "21000-5",
+                    "display": "Erythrocyte distribution width [Entitic volume] by Automated count"
+                  }
+                ]
+              },
+              {
+                "value": 182.45875057315374,
+                "category": "laboratory",
+                "unit": "10*3/uL",
+                "observations": [],
+                "uuid": "e073415a-1780-bb14-e97f-9098cc83ee96",
+                "fullUrl": "urn:uuid:e073415a-1780-bb14-e97f-9098cc83ee96",
+                "start": 1725946299542,
+                "stop": 0,
+                "type": "777-3",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "777-3",
+                    "display": "Platelets [#/volume] in Blood by Automated count"
+                  }
+                ]
+              },
+              {
+                "value": 276.52511832775826,
+                "category": "laboratory",
+                "unit": "fL",
+                "observations": [],
+                "uuid": "490115fc-c94f-f260-ca37-0e0d44c31771",
+                "fullUrl": "urn:uuid:490115fc-c94f-f260-ca37-0e0d44c31771",
+                "start": 1725946299542,
+                "stop": 0,
+                "type": "32207-3",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "32207-3",
+                    "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+                  }
+                ]
+              },
+              {
+                "value": 11.438595944965922,
+                "category": "laboratory",
+                "unit": "fL",
+                "observations": [],
+                "uuid": "37b0d1ee-6962-92a8-c2ea-147215080c56",
+                "fullUrl": "urn:uuid:37b0d1ee-6962-92a8-c2ea-147215080c56",
+                "start": 1725946299542,
+                "stop": 0,
+                "type": "32623-1",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "32623-1",
+                    "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+                  }
+                ]
+              }
+            ],
+            "uuid": "9118602a-5f12-1ba9-aaa8-9f1d890b2aad",
+            "name": "Record_CBC_Panel",
+            "start": 1725946299542,
+            "stop": 0,
+            "type": "58410-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "58410-2",
+                "display": "CBC panel - Blood by Automated count"
+              }
+            ],
+            "cost": 74.58
+          }
+        ],
+        "conditions": [],
+        "allergies": [],
+        "procedures": [
+          {
+            "reasons": [],
+            "uuid": "adb72024-55cb-11ea-789d-7e468fdacfba",
+            "fullUrl": "urn:uuid:adb72024-55cb-11ea-789d-7e468fdacfba",
+            "name": "Med_Rec",
+            "start": 1725946299542,
+            "stop": 1725947199542,
+            "type": "430193006",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "430193006",
+                "display": "Medication reconciliation (procedure)"
+              }
+            ],
+            "cost": 426.98
+          },
+          {
+            "reasons": [],
+            "uuid": "79776922-05b7-0c9d-c1fa-ccca033399f9",
+            "fullUrl": "urn:uuid:79776922-05b7-0c9d-c1fa-ccca033399f9",
+            "name": "Go see a Dentist",
+            "start": 1725946299542,
+            "stop": 1725946624542,
+            "type": "103697008",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "103697008",
+                "display": "Patient referral for dental care (procedure)"
+              }
+            ],
+            "cost": 431.40
+          }
+        ],
+        "immunizations": [
+          {
+            "series": 6,
+            "uuid": "03fca9cc-5178-db4c-b5d2-0deb6846c06c",
+            "fullUrl": "urn:uuid:03fca9cc-5178-db4c-b5d2-0deb6846c06c",
+            "start": 1725946299542,
+            "stop": 0,
+            "type": "flu",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "140",
+                "display": "Influenza, seasonal, injectable, preservative free"
+              }
+            ],
+            "cost": 136.00
+          }
+        ],
+        "medications": [],
+        "careplans": [],
+        "imagingStudies": [],
+        "devices": [],
+        "supplies": [],
+        "claim": {
+          "mainEntry": {
+            "cost": 136.80,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 136.80,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 0.00
+          },
+          "items": [
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 136.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 426.98,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 426.98,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 74.58,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 74.58,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 431.40,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 431.40,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            }
+          ],
+          "totals": {
+            "cost": 1205.76,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 1205.76,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 0.00
+          },
+          "uuid": "4edbbcae-6a20-7f42-5766-e7c1e10755c4",
+          "planRecord": {
+            "id": "9ec23a80-a2f6-c906-426e-7d3094c5e0e7",
+            "start": 1695706299542,
+            "stop": 1727760699542,
+            "plan": {
+              "id": 60001,
+              "payer": {
+                "name": "UnitedHealthcare",
+                "uuid": "d31fccc3-1767-390d-966a-22a5156f4219"
+              },
+              "deductible": 1458,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0.8,
+              "monthlyPremium": 503,
+              "maxOutOfPocket": 8700,
+              "priority": 2147483647,
+              "servicesCovered": [
+                "*"
+              ],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "private",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "secondaryPlan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "ownership": "Guardian",
+            "ownerName": "Dina200 Lind531",
+            "coveredExpenses": 2350.93,
+            "remainingDeductible": 0.00,
+            "outOfPocketExpenses": 2045.73,
+            "insuranceExpenses": 1026.12000000000024124702235894801560789346694946289062500
+          }
+        },
+        "provider": {
+          "uuid": "cabc0f0d-dcca-34a2-bc6b-519ed1cc7f74",
+          "locationUuid": "bee0c1f0-ab71-3dd4-8431-e5d8a345aeea",
+          "id": "1639736838",
+          "npi": "1639736838",
+          "cmsProviderNum": "",
+          "cmsPin": "",
+          "cmsUpin": "",
+          "cmsCategory": "",
+          "cmsProviderType": "12-70",
+          "cmsRegion": "",
+          "cliaNumber": "",
+          "name": "ACHIEVE WELLNESS, LLC",
+          "location": {
+            "totalPopulation": 7069851,
+            "state": "Massachusetts"
+          },
+          "address": "191 MERRIMACK ST STE 712",
+          "city": "HAVERHILL",
+          "state": "MA",
+          "zip": "018306199",
+          "fipsCountyCode": "",
+          "phone": "9788914928",
+          "type": "PRIMARY",
+          "institutional": false,
+          "revenue": 0.0,
+          "coordinates": {
+            "x": -71.08181133783422,
+            "y": 42.7742236
+          },
+          "servicesProvided": [
+            "WELLNESS"
+          ]
+        },
+        "clinician": {
+          "identifier": 5530,
+          "uuid": "155afb3a-2511-3031-af9d-7be01801eeed",
+          "npi": "9999944694",
+          "attributes": {
+            "zip": "018306199",
+            "specialty": "GENERAL PRACTICE",
+            "address": "191 MERRIMACK ST STE 712",
+            "coordinate": {
+              "x": -71.08181133783422,
+              "y": 42.7742236
+            },
+            "education": "bs_degree",
+            "race": "white",
+            "ethnicity": "nonhispanic",
+            "gender": "M",
+            "city": "HAVERHILL",
+            "last_name": "Huels583",
+            "name_prefix": "Dr.",
+            "first_language": "english",
+            "identifier_ssn": "999-63-1279",
+            "name": "Ronald408 Huels583",
+            "state": "MA",
+            "first_name": "Ronald408"
+          },
+          "servicesProvided": [],
+          "organization": {
+            "uuid": "cabc0f0d-dcca-34a2-bc6b-519ed1cc7f74",
+            "locationUuid": "bee0c1f0-ab71-3dd4-8431-e5d8a345aeea",
+            "id": "1639736838",
+            "npi": "1639736838",
+            "cmsProviderNum": "",
+            "cmsPin": "",
+            "cmsUpin": "",
+            "cmsCategory": "",
+            "cmsProviderType": "12-70",
+            "cmsRegion": "",
+            "cliaNumber": "",
+            "name": "ACHIEVE WELLNESS, LLC",
+            "location": {
+              "totalPopulation": 7069851,
+              "state": "Massachusetts"
+            },
+            "address": "191 MERRIMACK ST STE 712",
+            "city": "HAVERHILL",
+            "state": "MA",
+            "zip": "018306199",
+            "fipsCountyCode": "",
+            "phone": "9788914928",
+            "type": "PRIMARY",
+            "institutional": false,
+            "revenue": 0.0,
+            "coordinates": {
+              "x": -71.08181133783422,
+              "y": 42.7742236
+            },
+            "servicesProvided": [
+              "WELLNESS"
+            ]
+          },
+          "encounters": 16,
+          "procedures": 0,
+          "populationSeed": 0
+        },
+        "ended": true,
+        "endedTime": 1725946299542,
+        "chronicMedsRenewed": false,
+        "uuid": "c74113b2-3cfe-2501-643d-71ea71a1374e",
+        "name": "Encounter Module Scheduled Wellness",
+        "start": 1725946299542,
+        "stop": 1725947199542,
+        "type": "wellness",
+        "codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "410620009",
+            "display": "Well child visit (procedure)"
+          }
+        ],
+        "cost": 136.80
+      },
+      {
+        "observations": [],
+        "reports": [],
+        "conditions": [
+          {
+            "uuid": "f5bfd25b-8579-0f45-dbb8-5c9dd24e7ef1",
+            "fullUrl": "urn:uuid:f5bfd25b-8579-0f45-dbb8-5c9dd24e7ef1",
+            "name": "New Cavity",
+            "start": 1726561317542,
+            "stop": 1726562933542,
+            "type": "109570002",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "109570002",
+                "display": "Primary dental caries (disorder)"
+              }
+            ],
+            "cost": 0.00
+          }
+        ],
+        "allergies": [],
+        "procedures": [
+          {
+            "reasons": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "103697008",
+                "display": "Patient referral for dental care (procedure)"
+              }
+            ],
+            "uuid": "09d85585-ba22-97f3-7897-9242d92a3482",
+            "fullUrl": "urn:uuid:09d85585-ba22-97f3-7897-9242d92a3482",
+            "name": "Dental consultation and report",
+            "start": 1726551099542,
+            "stop": 1726553088542,
+            "type": "34043003",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "34043003",
+                "display": "Dental consultation and report (procedure)"
+              }
+            ],
+            "cost": 431.40
+          },
+          {
+            "reasons": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "103697008",
+                "display": "Patient referral for dental care (procedure)"
+              }
+            ],
+            "uuid": "0702fd36-f0e8-ff6c-4d63-8d74e1c3ee46",
+            "fullUrl": "urn:uuid:0702fd36-f0e8-ff6c-4d63-8d74e1c3ee46",
+            "name": "Dental care",
+            "start": 1726553088542,
+            "stop": 1726555470542,
+            "type": "225362009",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "225362009",
+                "display": "Dental care (regime/therapy)"
+              }
+            ],
+            "cost": 431.40
+          },
+          {
+            "reasons": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "103697008",
+                "display": "Patient referral for dental care (procedure)"
+              }
+            ],
+            "uuid": "eabc4583-4404-a28e-34d8-57b0dc47c2aa",
+            "fullUrl": "urn:uuid:eabc4583-4404-a28e-34d8-57b0dc47c2aa",
+            "name": "Supragingival Cleaning",
+            "start": 1726555470542,
+            "stop": 1726556917542,
+            "type": "1260009003",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "1260009003",
+                "display": "Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure)"
+              }
+            ],
+            "cost": 431.40
+          },
+          {
+            "reasons": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "103697008",
+                "display": "Patient referral for dental care (procedure)"
+              }
+            ],
+            "uuid": "7f4cb63a-a4d0-716e-9140-26649d4437ac",
+            "fullUrl": "urn:uuid:7f4cb63a-a4d0-716e-9140-26649d4437ac",
+            "name": "Subgingival Cleaning",
+            "start": 1726556917542,
+            "stop": 1726559235542,
+            "type": "1260010008",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "1260010008",
+                "display": "Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure)"
+              }
+            ],
+            "cost": 431.40
+          },
+          {
+            "reasons": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "103697008",
+                "display": "Patient referral for dental care (procedure)"
+              }
+            ],
+            "uuid": "3235826b-913d-6fc0-8cbe-1e581937f7c8",
+            "fullUrl": "urn:uuid:3235826b-913d-6fc0-8cbe-1e581937f7c8",
+            "name": "Examination of gingivae",
+            "start": 1726559235542,
+            "stop": 1726561317542,
+            "type": "274788003",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "274788003",
+                "display": "Examination of gingivae (procedure)"
+              }
+            ],
+            "cost": 431.40
+          },
+          {
+            "reasons": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "109570002",
+                "display": "Primary dental caries (disorder)"
+              }
+            ],
+            "uuid": "643c267f-b2f3-db0c-beb2-5f3bc60c7f50",
+            "fullUrl": "urn:uuid:643c267f-b2f3-db0c-beb2-5f3bc60c7f50",
+            "name": "Application of composite dental filling material to dentin of tooth following fracture of tooth",
+            "start": 1726561317542,
+            "stop": 1726562933542,
+            "type": "1259293006",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "1259293006",
+                "display": "Application of composite dental filling material to dentin of tooth following fracture of tooth (procedure)"
+              }
+            ],
+            "cost": 431.40
+          },
+          {
+            "reasons": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "103697008",
+                "display": "Patient referral for dental care (procedure)"
+              }
+            ],
+            "uuid": "b0e63633-ee92-7679-c45c-5fc5031f233a",
+            "fullUrl": "urn:uuid:b0e63633-ee92-7679-c45c-5fc5031f233a",
+            "name": "Oral health education",
+            "start": 1726562933542,
+            "stop": 1726564355542,
+            "type": "243085009",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "243085009",
+                "display": "Oral health education (procedure)"
+              }
+            ],
+            "cost": 431.40
+          }
+        ],
+        "immunizations": [],
+        "medications": [],
+        "careplans": [],
+        "imagingStudies": [],
+        "devices": [],
+        "supplies": [
+          {
+            "quantity": 1,
+            "uuid": "6cb7d32a-95f3-dd04-2161-2c544ae1045b",
+            "start": 1726555470542,
+            "stop": 0,
+            "type": "Dental equipment (physical object)",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "277183007",
+                "display": "Dental equipment (physical object)"
+              }
+            ],
+            "cost": 0.00
+          },
+          {
+            "quantity": 1,
+            "uuid": "d3e79c3e-2b68-a221-9a29-aedafccbd8dd",
+            "start": 1726555470542,
+            "stop": 0,
+            "type": "Conventional release periodontal gel (dose form)",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "1230220004",
+                "display": "Conventional release periodontal gel (dose form)"
+              }
+            ],
+            "cost": 0.00
+          },
+          {
+            "quantity": 1,
+            "uuid": "f8edff86-9c81-12c5-4ac3-097b1f6f64c7",
+            "start": 1726555470542,
+            "stop": 0,
+            "type": "Dental floss (physical object)",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "469020004",
+                "display": "Dental floss (physical object)"
+              }
+            ],
+            "cost": 0.00
+          }
+        ],
+        "claim": {
+          "mainEntry": {
+            "cost": 85.55,
+            "copayPaidByPatient": 0,
+            "deductiblePaidByPatient": 85.55,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 0.00
+          },
+          "items": [
+            {
+              "cost": 431.40,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 81.14,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 280.21,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 70.05
+            },
+            {
+              "cost": 431.40,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 345.12,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 86.28
+            },
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 431.40,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 345.12,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 86.28
+            },
+            {
+              "cost": 431.40,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 345.12,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 86.28
+            },
+            {
+              "cost": 431.40,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 345.12,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 86.28
+            },
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 431.40,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 345.12,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 86.28
+            },
+            {
+              "cost": 431.40,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 345.12,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 86.28
+            }
+          ],
+          "totals": {
+            "cost": 3105.35,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 166.69,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 2350.93,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 587.73
+          },
+          "uuid": "6422ce70-2431-8fe0-c0a7-64083a0fecdf",
+          "planRecord": {
+            "id": "9ec23a80-a2f6-c906-426e-7d3094c5e0e7",
+            "start": 1695706299542,
+            "stop": 1727760699542,
+            "plan": {
+              "id": 60001,
+              "payer": {
+                "name": "UnitedHealthcare",
+                "uuid": "d31fccc3-1767-390d-966a-22a5156f4219"
+              },
+              "deductible": 1458,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0.8,
+              "monthlyPremium": 503,
+              "maxOutOfPocket": 8700,
+              "priority": 2147483647,
+              "servicesCovered": [
+                "*"
+              ],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "private",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "secondaryPlan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "ownership": "Guardian",
+            "ownerName": "Dina200 Lind531",
+            "coveredExpenses": 2350.93,
+            "remainingDeductible": 0.00,
+            "outOfPocketExpenses": 2045.73,
+            "insuranceExpenses": 1026.12000000000024124702235894801560789346694946289062500
+          }
+        },
+        "reason": {
+          "system": "http://snomed.info/sct",
+          "code": "103697008",
+          "display": "Patient referral for dental care (procedure)"
+        },
+        "provider": {
+          "uuid": "b014aec7-7bd8-351f-8808-3e280cbc5be6",
+          "locationUuid": "57ae39bf-e7fc-3c2d-a9dd-1e9cd23c636f",
+          "id": "1245543032",
+          "npi": "1245543032",
+          "cmsProviderNum": "22S080",
+          "cmsPin": "",
+          "cmsUpin": "",
+          "cmsCategory": "",
+          "cmsProviderType": "00-09",
+          "cmsRegion": "",
+          "cliaNumber": "",
+          "name": "STEWARD HOLY FAMILY HOSPITAL INC",
+          "location": {
+            "totalPopulation": 7069851,
+            "state": "Massachusetts"
+          },
+          "address": "70 EAST ST",
+          "city": "HAVERHILL",
+          "state": "MA",
+          "zip": "018306700",
+          "fipsCountyCode": "",
+          "phone": "9786870151",
+          "type": "HOSPITAL",
+          "institutional": true,
+          "revenue": 0.0,
+          "coordinates": {
+            "x": -71.0767724,
+            "y": 42.7777829
+          },
+          "servicesProvided": [
+            "INPATIENT",
+            "AMBULATORY",
+            "OUTPATIENT"
+          ]
+        },
+        "clinician": {
+          "identifier": 1050,
+          "uuid": "5ba7f13e-0c4f-3d0c-8056-6dcbf79cc588",
+          "npi": "9999989491",
+          "attributes": {
+            "zip": "018306700",
+            "specialty": "GENERAL PRACTICE",
+            "address": "70 EAST ST",
+            "coordinate": {
+              "x": -71.0767724,
+              "y": 42.7777829
+            },
+            "education": "bs_degree",
+            "race": "white",
+            "ethnicity": "nonhispanic",
+            "gender": "F",
+            "city": "HAVERHILL",
+            "last_name": "Volkman526",
+            "name_prefix": "Dr.",
+            "first_language": "english",
+            "identifier_ssn": "999-65-9031",
+            "name": "Rosaria177 Volkman526",
+            "state": "MA",
+            "first_name": "Rosaria177"
+          },
+          "servicesProvided": [],
+          "organization": {
+            "uuid": "b014aec7-7bd8-351f-8808-3e280cbc5be6",
+            "locationUuid": "57ae39bf-e7fc-3c2d-a9dd-1e9cd23c636f",
+            "id": "1245543032",
+            "npi": "1245543032",
+            "cmsProviderNum": "22S080",
+            "cmsPin": "",
+            "cmsUpin": "",
+            "cmsCategory": "",
+            "cmsProviderType": "00-09",
+            "cmsRegion": "",
+            "cliaNumber": "",
+            "name": "STEWARD HOLY FAMILY HOSPITAL INC",
+            "location": {
+              "totalPopulation": 7069851,
+              "state": "Massachusetts"
+            },
+            "address": "70 EAST ST",
+            "city": "HAVERHILL",
+            "state": "MA",
+            "zip": "018306700",
+            "fipsCountyCode": "",
+            "phone": "9786870151",
+            "type": "HOSPITAL",
+            "institutional": true,
+            "revenue": 0.0,
+            "coordinates": {
+              "x": -71.0767724,
+              "y": 42.7777829
+            },
+            "servicesProvided": [
+              "INPATIENT",
+              "AMBULATORY",
+              "OUTPATIENT"
+            ]
+          },
+          "encounters": 5,
+          "procedures": 0,
+          "populationSeed": 0
+        },
+        "ended": true,
+        "endedTime": 1726564355542,
+        "chronicMedsRenewed": false,
+        "uuid": "9fdb4b8f-8bdc-31c0-2793-34e12c39ab8e",
+        "name": "Dental Encounter",
+        "start": 1726551099542,
+        "stop": 1726564355542,
+        "type": "ambulatory",
+        "codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "185349003",
+            "display": "Encounter for check up (procedure)"
+          }
+        ],
+        "cost": 85.55
+      },
+      {
+        "observations": [
+          {
+            "value": 134.2,
+            "category": "vital-signs",
+            "unit": "cm",
+            "observations": [],
+            "uuid": "6d9dabbb-fef6-3d7b-c31f-bc971e669a05",
+            "fullUrl": "urn:uuid:6d9dabbb-fef6-3d7b-c31f-bc971e669a05",
+            "name": "Record_Height",
+            "start": 1758000699542,
+            "stop": 0,
+            "type": "8302-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8302-2",
+                "display": "Body Height"
+              }
+            ]
+          },
+          {
+            "value": 1.0,
+            "category": "vital-signs",
+            "unit": "{score}",
+            "observations": [],
+            "uuid": "6b0f506b-2eaa-aefc-e92f-81e834c866e2",
+            "fullUrl": "urn:uuid:6b0f506b-2eaa-aefc-e92f-81e834c866e2",
+            "name": "Record_Pain",
+            "start": 1758000699542,
+            "stop": 0,
+            "type": "72514-3",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "72514-3",
+                "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+              }
+            ]
+          },
+          {
+            "value": 30.4,
+            "category": "vital-signs",
+            "unit": "kg",
+            "observations": [],
+            "uuid": "df6f3aba-662a-c7d8-af3d-f5c5fc5ce828",
+            "fullUrl": "urn:uuid:df6f3aba-662a-c7d8-af3d-f5c5fc5ce828",
+            "name": "Record_Weight",
+            "start": 1758000699542,
+            "stop": 0,
+            "type": "29463-7",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body Weight"
+              }
+            ]
+          },
+          {
+            "value": 16.89,
+            "category": "vital-signs",
+            "unit": "kg/m2",
+            "observations": [],
+            "uuid": "9cb2239e-12ce-45a6-9469-56eb09d5a12c",
+            "fullUrl": "urn:uuid:9cb2239e-12ce-45a6-9469-56eb09d5a12c",
+            "name": "Record_BMI",
+            "start": 1758000699542,
+            "stop": 0,
+            "type": "39156-5",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "39156-5",
+                "display": "Body mass index (BMI) [Ratio]"
+              }
+            ]
+          },
+          {
+            "value": 79.35466944832565,
+            "category": "vital-signs",
+            "unit": "%",
+            "observations": [],
+            "uuid": "a82296d2-68ec-2176-430d-d4c4d426e029",
+            "fullUrl": "urn:uuid:a82296d2-68ec-2176-430d-d4c4d426e029",
+            "name": "Record_BMI_Percentile",
+            "start": 1758000699542,
+            "stop": 0,
+            "type": "59576-9",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "59576-9",
+                "display": "Body mass index (BMI) [Percentile] Per age and sex"
+              }
+            ]
+          },
+          {
+            "category": "vital-signs",
+            "observations": [
+              {
+                "value": 78.0,
+                "category": "vital-signs",
+                "unit": "mm[Hg]",
+                "observations": [],
+                "uuid": "9ec01247-d0a5-cd07-e815-264ddd5b4970",
+                "start": 1758000699542,
+                "stop": 0,
+                "type": "8462-4",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8462-4",
+                    "display": "Diastolic Blood Pressure"
+                  }
+                ]
+              },
+              {
+                "value": 107.0,
+                "category": "vital-signs",
+                "unit": "mm[Hg]",
+                "observations": [],
+                "uuid": "fda9d2ab-3fd0-4241-1150-c74a555d854b",
+                "start": 1758000699542,
+                "stop": 0,
+                "type": "8480-6",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8480-6",
+                    "display": "Systolic Blood Pressure"
+                  }
+                ]
+              }
+            ],
+            "uuid": "a8dac707-d9f3-d338-dfef-a218344a2d32",
+            "fullUrl": "urn:uuid:a8dac707-d9f3-d338-dfef-a218344a2d32",
+            "name": "Record_BP",
+            "start": 1758000699542,
+            "stop": 0,
+            "type": "85354-9",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "85354-9",
+                "display": "Blood pressure panel with all children optional"
+              }
+            ]
+          },
+          {
+            "value": 70.0,
+            "category": "vital-signs",
+            "unit": "/min",
+            "observations": [],
+            "uuid": "8600753b-b4cc-0354-47eb-3131ab295425",
+            "fullUrl": "urn:uuid:8600753b-b4cc-0354-47eb-3131ab295425",
+            "name": "Record_Heart_Rate",
+            "start": 1758000699542,
+            "stop": 0,
+            "type": "8867-4",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ]
+          },
+          {
+            "value": 13.0,
+            "category": "vital-signs",
+            "unit": "/min",
+            "observations": [],
+            "uuid": "2dcdb100-09b6-404c-646d-2a92c8162232",
+            "fullUrl": "urn:uuid:2dcdb100-09b6-404c-646d-2a92c8162232",
+            "name": "Record_Respiratory_Rate",
+            "start": 1758000699542,
+            "stop": 0,
+            "type": "9279-1",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "9279-1",
+                "display": "Respiratory rate"
+              }
+            ]
+          },
+          {
+            "value": {
+              "system": "http://snomed.info/sct",
+              "code": "266919005",
+              "display": "Never smoked tobacco (finding)"
+            },
+            "category": "social-history",
+            "unit": "",
+            "observations": [],
+            "uuid": "461725c6-ba72-a0c9-1a62-973e25d77046",
+            "fullUrl": "urn:uuid:461725c6-ba72-a0c9-1a62-973e25d77046",
+            "name": "Record_Never_Smoker",
+            "start": 1758000699542,
+            "stop": 0,
+            "type": "72166-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "72166-2",
+                "display": "Tobacco smoking status"
+              }
+            ]
+          }
+        ],
+        "reports": [],
+        "conditions": [
+          {
+            "uuid": "4cf98f31-a2b6-e3fc-e96f-84cee05df931",
+            "fullUrl": "urn:uuid:4cf98f31-a2b6-e3fc-e96f-84cee05df931",
+            "name": "Medication_Review_Due",
+            "start": 1758000699542,
+            "stop": 0,
+            "type": "314529007",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "314529007",
+                "display": "Medication review due (situation)"
+              }
+            ],
+            "cost": 0.00
+          }
+        ],
+        "allergies": [],
+        "procedures": [
+          {
+            "reasons": [],
+            "uuid": "1ee84f90-b236-fc6a-652e-b99c79d61961",
+            "fullUrl": "urn:uuid:1ee84f90-b236-fc6a-652e-b99c79d61961",
+            "name": "Go see a Dentist",
+            "start": 1758000699542,
+            "stop": 1758001425542,
+            "type": "103697008",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "103697008",
+                "display": "Patient referral for dental care (procedure)"
+              }
+            ],
+            "cost": 431.40
+          }
+        ],
+        "immunizations": [
+          {
+            "series": 7,
+            "uuid": "1e54d383-ebdb-18e7-eb66-c821b0a1eba8",
+            "fullUrl": "urn:uuid:1e54d383-ebdb-18e7-eb66-c821b0a1eba8",
+            "start": 1758000699542,
+            "stop": 0,
+            "type": "flu",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "140",
+                "display": "Influenza, seasonal, injectable, preservative free"
+              }
+            ],
+            "cost": 136.00
+          }
+        ],
+        "medications": [],
+        "careplans": [],
+        "imagingStudies": [],
+        "devices": [],
+        "supplies": [],
+        "claim": {
+          "mainEntry": {
+            "cost": 136.80,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 136.80,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 0.00
+          },
+          "items": [
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 136.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 431.40,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 431.40,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            }
+          ],
+          "totals": {
+            "cost": 704.20,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 704.20,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 0.00
+          },
+          "uuid": "6b990451-30f1-7fe3-296a-ada6cb01a44c",
+          "planRecord": {
+            "id": "9ec23a80-a2f6-c906-426e-7d3094c5e0e7",
+            "start": 1727760699542,
+            "stop": 1759210299542,
+            "plan": {
+              "id": 60001,
+              "payer": {
+                "name": "UnitedHealthcare",
+                "uuid": "d31fccc3-1767-390d-966a-22a5156f4219"
+              },
+              "deductible": 1458,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0.8,
+              "monthlyPremium": 503,
+              "maxOutOfPocket": 8700,
+              "priority": 2147483647,
+              "servicesCovered": [
+                "*"
+              ],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "private",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "secondaryPlan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "ownership": "Guardian",
+            "ownerName": "Dina200 Lind531",
+            "coveredExpenses": 1881.24,
+            "remainingDeductible": 0.00,
+            "outOfPocketExpenses": 1928.31,
+            "insuranceExpenses": 1026.12000000000024124702235894801560789346694946289062500
+          }
+        },
+        "provider": {
+          "uuid": "cabc0f0d-dcca-34a2-bc6b-519ed1cc7f74",
+          "locationUuid": "bee0c1f0-ab71-3dd4-8431-e5d8a345aeea",
+          "id": "1639736838",
+          "npi": "1639736838",
+          "cmsProviderNum": "",
+          "cmsPin": "",
+          "cmsUpin": "",
+          "cmsCategory": "",
+          "cmsProviderType": "12-70",
+          "cmsRegion": "",
+          "cliaNumber": "",
+          "name": "ACHIEVE WELLNESS, LLC",
+          "location": {
+            "totalPopulation": 7069851,
+            "state": "Massachusetts"
+          },
+          "address": "191 MERRIMACK ST STE 712",
+          "city": "HAVERHILL",
+          "state": "MA",
+          "zip": "018306199",
+          "fipsCountyCode": "",
+          "phone": "9788914928",
+          "type": "PRIMARY",
+          "institutional": false,
+          "revenue": 0.0,
+          "coordinates": {
+            "x": -71.08181133783422,
+            "y": 42.7742236
+          },
+          "servicesProvided": [
+            "WELLNESS"
+          ]
+        },
+        "clinician": {
+          "identifier": 5530,
+          "uuid": "155afb3a-2511-3031-af9d-7be01801eeed",
+          "npi": "9999944694",
+          "attributes": {
+            "zip": "018306199",
+            "specialty": "GENERAL PRACTICE",
+            "address": "191 MERRIMACK ST STE 712",
+            "coordinate": {
+              "x": -71.08181133783422,
+              "y": 42.7742236
+            },
+            "education": "bs_degree",
+            "race": "white",
+            "ethnicity": "nonhispanic",
+            "gender": "M",
+            "city": "HAVERHILL",
+            "last_name": "Huels583",
+            "name_prefix": "Dr.",
+            "first_language": "english",
+            "identifier_ssn": "999-63-1279",
+            "name": "Ronald408 Huels583",
+            "state": "MA",
+            "first_name": "Ronald408"
+          },
+          "servicesProvided": [],
+          "organization": {
+            "uuid": "cabc0f0d-dcca-34a2-bc6b-519ed1cc7f74",
+            "locationUuid": "bee0c1f0-ab71-3dd4-8431-e5d8a345aeea",
+            "id": "1639736838",
+            "npi": "1639736838",
+            "cmsProviderNum": "",
+            "cmsPin": "",
+            "cmsUpin": "",
+            "cmsCategory": "",
+            "cmsProviderType": "12-70",
+            "cmsRegion": "",
+            "cliaNumber": "",
+            "name": "ACHIEVE WELLNESS, LLC",
+            "location": {
+              "totalPopulation": 7069851,
+              "state": "Massachusetts"
+            },
+            "address": "191 MERRIMACK ST STE 712",
+            "city": "HAVERHILL",
+            "state": "MA",
+            "zip": "018306199",
+            "fipsCountyCode": "",
+            "phone": "9788914928",
+            "type": "PRIMARY",
+            "institutional": false,
+            "revenue": 0.0,
+            "coordinates": {
+              "x": -71.08181133783422,
+              "y": 42.7742236
+            },
+            "servicesProvided": [
+              "WELLNESS"
+            ]
+          },
+          "encounters": 16,
+          "procedures": 0,
+          "populationSeed": 0
+        },
+        "ended": true,
+        "endedTime": 1758000699542,
+        "chronicMedsRenewed": false,
+        "uuid": "4d932a02-f134-4249-ef2a-2aeb74b18ae2",
+        "name": "Encounter Module Scheduled Wellness",
+        "start": 1758000699542,
+        "stop": 1758001599542,
+        "type": "wellness",
+        "codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "410620009",
+            "display": "Well child visit (procedure)"
+          }
+        ],
+        "cost": 136.80
+      },
+      {
+        "observations": [],
+        "reports": [],
+        "conditions": [],
+        "allergies": [],
+        "procedures": [
+          {
+            "reasons": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "103697008",
+                "display": "Patient referral for dental care (procedure)"
+              }
+            ],
+            "uuid": "90e7f80b-84ae-6f9b-aada-afbd9ae399a6",
+            "fullUrl": "urn:uuid:90e7f80b-84ae-6f9b-aada-afbd9ae399a6",
+            "name": "Dental consultation and report",
+            "start": 1758605499542,
+            "stop": 1758608179542,
+            "type": "34043003",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "34043003",
+                "display": "Dental consultation and report (procedure)"
+              }
+            ],
+            "cost": 431.40
+          },
+          {
+            "reasons": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "103697008",
+                "display": "Patient referral for dental care (procedure)"
+              }
+            ],
+            "uuid": "13eca34f-3857-0ad9-b372-ccdba98674a2",
+            "fullUrl": "urn:uuid:13eca34f-3857-0ad9-b372-ccdba98674a2",
+            "name": "Dental care",
+            "start": 1758608179542,
+            "stop": 1758609882542,
+            "type": "225362009",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "225362009",
+                "display": "Dental care (regime/therapy)"
+              }
+            ],
+            "cost": 431.40
+          },
+          {
+            "reasons": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "103697008",
+                "display": "Patient referral for dental care (procedure)"
+              }
+            ],
+            "uuid": "8c4401cd-7ffa-19e6-aa53-efef1452f18c",
+            "fullUrl": "urn:uuid:8c4401cd-7ffa-19e6-aa53-efef1452f18c",
+            "name": "Supragingival Cleaning",
+            "start": 1758609882542,
+            "stop": 1758612083542,
+            "type": "1260009003",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "1260009003",
+                "display": "Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure)"
+              }
+            ],
+            "cost": 431.40
+          },
+          {
+            "reasons": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "103697008",
+                "display": "Patient referral for dental care (procedure)"
+              }
+            ],
+            "uuid": "7eec6497-1960-ce55-ba3c-5a07341845a1",
+            "fullUrl": "urn:uuid:7eec6497-1960-ce55-ba3c-5a07341845a1",
+            "name": "Subgingival Cleaning",
+            "start": 1758612083542,
+            "stop": 1758613179542,
+            "type": "1260010008",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "1260010008",
+                "display": "Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure)"
+              }
+            ],
+            "cost": 431.40
+          },
+          {
+            "reasons": [],
+            "uuid": "e472b452-297c-39dc-9b09-dbfd70d62070",
+            "fullUrl": "urn:uuid:e472b452-297c-39dc-9b09-dbfd70d62070",
+            "name": "Dental X-ray",
+            "start": 1758613179542,
+            "stop": 1758614979542,
+            "type": "241046008",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "241046008",
+                "display": "Dental plain X-ray bitewing (procedure)"
+              }
+            ],
+            "cost": 431.40
+          },
+          {
+            "reasons": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "103697008",
+                "display": "Patient referral for dental care (procedure)"
+              }
+            ],
+            "uuid": "6c8e7ac0-40b5-ed18-ae57-d657fe7e65c3",
+            "fullUrl": "urn:uuid:6c8e7ac0-40b5-ed18-ae57-d657fe7e65c3",
+            "name": "Examination of gingivae",
+            "start": 1758613179542,
+            "stop": 1758615986542,
+            "type": "274788003",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "274788003",
+                "display": "Examination of gingivae (procedure)"
+              }
+            ],
+            "cost": 431.40
+          },
+          {
+            "reasons": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "103697008",
+                "display": "Patient referral for dental care (procedure)"
+              }
+            ],
+            "uuid": "a23cf7b1-903d-25fa-c547-3ac9d03dfa6d",
+            "fullUrl": "urn:uuid:a23cf7b1-903d-25fa-c547-3ac9d03dfa6d",
+            "name": "Oral health education",
+            "start": 1758615986542,
+            "stop": 1758616934542,
+            "type": "243085009",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "243085009",
+                "display": "Oral health education (procedure)"
+              }
+            ],
+            "cost": 431.40
+          }
+        ],
+        "immunizations": [],
+        "medications": [],
+        "careplans": [],
+        "imagingStudies": [
+          {
+            "dicomUid": "1.2.840.99999999.37446049.1758613179542",
+            "series": [
+              {
+                "dicomUid": "1.2.840.99999999.1.40402188.1758613179542",
+                "bodySite": {
+                  "system": "http://snomed.info/sct",
+                  "code": "700016008",
+                  "display": "Structure of region of internal part of mouth (body structure)"
+                },
+                "modality": {
+                  "system": "http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_29.html",
+                  "code": "DX",
+                  "display": "Digital Radiography"
+                },
+                "instances": [
+                  {
+                    "dicomUid": "1.2.840.99999999.1.1.89800030.1758613179542",
+                    "title": "Digital Intra-Oral X-Ray Image",
+                    "sopClass": {
+                      "system": "DICOM-SOP",
+                      "code": "1.2.840.10008.5.1.4.1.1.1.3",
+                      "display": "Digital Intra-Oral X-Ray Image Storage - For Presentation"
+                    }
+                  }
+                ],
+                "minNumberInstances": 0,
+                "maxNumberInstances": 0
+              }
+            ],
+            "uuid": "99a518d2-a8ad-a35f-165e-26010a48e638",
+            "start": 1758613179542,
+            "stop": 0,
+            "type": "DX",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "241046008",
+                "display": "Dental plain X-ray bitewing (procedure)"
+              }
+            ]
+          }
+        ],
+        "devices": [
+          {
+            "udi": "(01)37275129978719(11)250902(17)500917(10)381826646(21)59858",
+            "manufactureTime": 1756798779542,
+            "expirationTime": 2547013179542,
+            "deviceIdentifier": "37275129978719",
+            "lotNumber": "381826646",
+            "serialNumber": "59858",
+            "uuid": "a8117d3f-a5e9-7389-7668-5fa572c659d7",
+            "name": "Dental x-ray system",
+            "start": 1758613179542,
+            "stop": 1758613179542,
+            "type": "706298007",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "706298007",
+                "display": "Dental x-ray system (physical object)"
+              }
+            ],
+            "cost": 0.00
+          }
+        ],
+        "supplies": [
+          {
+            "quantity": 1,
+            "uuid": "941f9ab4-9f57-0cbe-40f8-ebdcfb427dec",
+            "start": 1758609882542,
+            "stop": 0,
+            "type": "Dental equipment (physical object)",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "277183007",
+                "display": "Dental equipment (physical object)"
+              }
+            ],
+            "cost": 0.00
+          },
+          {
+            "quantity": 1,
+            "uuid": "2a3c0c45-480c-2a3f-ad7a-c24e761e8770",
+            "start": 1758609882542,
+            "stop": 0,
+            "type": "Conventional release periodontal gel (dose form)",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "1230220004",
+                "display": "Conventional release periodontal gel (dose form)"
+              }
+            ],
+            "cost": 0.00
+          },
+          {
+            "quantity": 1,
+            "uuid": "b298d992-f50d-02f3-3ea2-144aadbf717c",
+            "start": 1758609882542,
+            "stop": 0,
+            "type": "Dental floss (physical object)",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "469020004",
+                "display": "Dental floss (physical object)"
+              }
+            ],
+            "cost": 0.00
+          }
+        ],
+        "claim": {
+          "mainEntry": {
+            "cost": 85.55,
+            "copayPaidByPatient": 0,
+            "deductiblePaidByPatient": 85.55,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 0.00
+          },
+          "items": [
+            {
+              "cost": 431.40,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 431.40,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 431.40,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 236.85,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 155.64,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 38.91
+            },
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 431.40,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 345.12,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 86.28
+            },
+            {
+              "cost": 431.40,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 345.12,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 86.28
+            },
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 431.40,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 345.12,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 86.28
+            },
+            {
+              "cost": 431.40,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 345.12,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 86.28
+            },
+            {
+              "cost": 431.40,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 345.12,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 86.28
+            }
+          ],
+          "totals": {
+            "cost": 3105.35,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 753.80,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 1881.24,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 470.31
+          },
+          "uuid": "afab6d02-8f4d-7d3e-3811-41f039fd8205",
+          "planRecord": {
+            "id": "9ec23a80-a2f6-c906-426e-7d3094c5e0e7",
+            "start": 1727760699542,
+            "stop": 1759210299542,
+            "plan": {
+              "id": 60001,
+              "payer": {
+                "name": "UnitedHealthcare",
+                "uuid": "d31fccc3-1767-390d-966a-22a5156f4219"
+              },
+              "deductible": 1458,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0.8,
+              "monthlyPremium": 503,
+              "maxOutOfPocket": 8700,
+              "priority": 2147483647,
+              "servicesCovered": [
+                "*"
+              ],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "private",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "secondaryPlan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "ownership": "Guardian",
+            "ownerName": "Dina200 Lind531",
+            "coveredExpenses": 1881.24,
+            "remainingDeductible": 0.00,
+            "outOfPocketExpenses": 1928.31,
+            "insuranceExpenses": 1026.12000000000024124702235894801560789346694946289062500
+          }
+        },
+        "reason": {
+          "system": "http://snomed.info/sct",
+          "code": "103697008",
+          "display": "Patient referral for dental care (procedure)"
+        },
+        "provider": {
+          "uuid": "b014aec7-7bd8-351f-8808-3e280cbc5be6",
+          "locationUuid": "57ae39bf-e7fc-3c2d-a9dd-1e9cd23c636f",
+          "id": "1245543032",
+          "npi": "1245543032",
+          "cmsProviderNum": "22S080",
+          "cmsPin": "",
+          "cmsUpin": "",
+          "cmsCategory": "",
+          "cmsProviderType": "00-09",
+          "cmsRegion": "",
+          "cliaNumber": "",
+          "name": "STEWARD HOLY FAMILY HOSPITAL INC",
+          "location": {
+            "totalPopulation": 7069851,
+            "state": "Massachusetts"
+          },
+          "address": "70 EAST ST",
+          "city": "HAVERHILL",
+          "state": "MA",
+          "zip": "018306700",
+          "fipsCountyCode": "",
+          "phone": "9786870151",
+          "type": "HOSPITAL",
+          "institutional": true,
+          "revenue": 0.0,
+          "coordinates": {
+            "x": -71.0767724,
+            "y": 42.7777829
+          },
+          "servicesProvided": [
+            "INPATIENT",
+            "AMBULATORY",
+            "OUTPATIENT"
+          ]
+        },
+        "clinician": {
+          "identifier": 1050,
+          "uuid": "5ba7f13e-0c4f-3d0c-8056-6dcbf79cc588",
+          "npi": "9999989491",
+          "attributes": {
+            "zip": "018306700",
+            "specialty": "GENERAL PRACTICE",
+            "address": "70 EAST ST",
+            "coordinate": {
+              "x": -71.0767724,
+              "y": 42.7777829
+            },
+            "education": "bs_degree",
+            "race": "white",
+            "ethnicity": "nonhispanic",
+            "gender": "F",
+            "city": "HAVERHILL",
+            "last_name": "Volkman526",
+            "name_prefix": "Dr.",
+            "first_language": "english",
+            "identifier_ssn": "999-65-9031",
+            "name": "Rosaria177 Volkman526",
+            "state": "MA",
+            "first_name": "Rosaria177"
+          },
+          "servicesProvided": [],
+          "organization": {
+            "uuid": "b014aec7-7bd8-351f-8808-3e280cbc5be6",
+            "locationUuid": "57ae39bf-e7fc-3c2d-a9dd-1e9cd23c636f",
+            "id": "1245543032",
+            "npi": "1245543032",
+            "cmsProviderNum": "22S080",
+            "cmsPin": "",
+            "cmsUpin": "",
+            "cmsCategory": "",
+            "cmsProviderType": "00-09",
+            "cmsRegion": "",
+            "cliaNumber": "",
+            "name": "STEWARD HOLY FAMILY HOSPITAL INC",
+            "location": {
+              "totalPopulation": 7069851,
+              "state": "Massachusetts"
+            },
+            "address": "70 EAST ST",
+            "city": "HAVERHILL",
+            "state": "MA",
+            "zip": "018306700",
+            "fipsCountyCode": "",
+            "phone": "9786870151",
+            "type": "HOSPITAL",
+            "institutional": true,
+            "revenue": 0.0,
+            "coordinates": {
+              "x": -71.0767724,
+              "y": 42.7777829
+            },
+            "servicesProvided": [
+              "INPATIENT",
+              "AMBULATORY",
+              "OUTPATIENT"
+            ]
+          },
+          "encounters": 5,
+          "procedures": 0,
+          "populationSeed": 0
+        },
+        "ended": true,
+        "endedTime": 1758616934542,
+        "chronicMedsRenewed": false,
+        "uuid": "28017b23-967e-0253-ef93-fec549834786",
+        "name": "Dental Encounter",
+        "start": 1758605499542,
+        "stop": 1758616934542,
+        "type": "ambulatory",
+        "codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "185349003",
+            "display": "Encounter for check up (procedure)"
+          }
+        ],
+        "cost": 85.55
+      }
+    ]
+  }
+}

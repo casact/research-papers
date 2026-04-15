@@ -1,0 +1,181 @@
+{
+  "claim_id": 1564979706,
+  "patient_initials": "BH",
+  "patient_metadata": {
+    "age": "23",
+    "gender": "Male",
+    "name": "Bruno518 Haley279"
+  },
+  "encounters": [
+    {
+      "encounter_id": "876987b4-a7e1-1e17-959f-e0f339c33520",
+      "document_type": "clinical_note",
+      "document_text": "**Clinical Note**\n\n**Patient Name:** [Patient Name]  \n**Date of Encounter:** September 21, 2018  \n**Encounter Type:** Wellness  \n**Encounter Name:** Encounter Module Scheduled Wellness  \n**Encounter Cost:** $136.80  \n\n**Chief Complaint:**  \nThe patient presents for a scheduled wellness visit. The primary focus of this encounter is to assess overall health status, identify any risk factors, and provide preventive care recommendations.\n\n**Assessment:**  \nDuring the evaluation, the patient was found to be involved in risk activities, which may predispose them to future health complications. A thorough history was taken, and the following findings were noted:\n\n- **Vital Signs:** Blood pressure, heart rate, respiratory rate, and temperature were within normal limits.\n- **Physical Examination:** No acute distress noted. Cardiovascular, respiratory, and abdominal examinations were unremarkable. \n- **Risk Activity Involvement:** The patient reported engagement in activities that may pose health risks, including [specific activities, e.g., smoking, excessive alcohol consumption, lack of exercise, etc.]. This involvement is classified as a significant finding that warrants further discussion and intervention.\n- **Preventive Health Screenings:** The patient is up to date on vaccinations and routine screenings, including [list any relevant screenings, e.g., mammogram, colonoscopy, etc.]. \n\nGiven the patient's risk activity involvement, there is a moderate concern for potential future health issues, which may lead to increased healthcare costs. The patient was educated on the implications of their current lifestyle choices and the importance of preventive measures.\n\n**Plan:**  \n1. **Counseling and Education:** \n   - Discussed the risks associated with current activities and provided educational materials on healthier lifestyle choices.\n   - Encouraged the patient to consider cessation programs for any identified risk behaviors (e.g., smoking cessation resources, alcohol moderation strategies).\n\n2. **Follow-Up:** \n   - Schedule a follow-up appointment in 6 months to reassess risk factors and monitor any changes in health status.\n   - Recommend regular check-ins to discuss progress on lifestyle modifications.\n\n3. **Preventive Measures:** \n   - Continue routine health screenings as per age and risk factors.\n   - Discussed the importance of a balanced diet and regular physical activity. Provided a referral to a nutritionist for dietary counseling.\n\n4. **Documentation and Billing:** \n   - Documented all findings and recommendations in the patient's electronic health record.\n   - The encounter will be billed under the wellness visit category, with a focus on the identified risk activity involvement.\n\n**Signature:**  \n[Provider Name, MD/DO]  \n[Provider Contact Information]  \n[Date of Note Completion]  \n\n**Note:** This clinical note is intended for use in the patient's medical record and for billing purposes. All recommendations are made in accordance with current clinical guidelines and best practices for preventive health care.",
+      "encounter_date": "2018-09-21",
+      "source_file": "synthea_native",
+      "encounter_metadata": {
+        "resource_type": "Encounter",
+        "synthea_type": "wellness",
+        "synthea_name": "Encounter Module Scheduled Wellness",
+        "classification": {
+          "is_relevant": true,
+          "confidence": 0.7,
+          "reason": "The encounter involves risk activity involvement, which may indicate potential future health issues or costs, despite being categorized as a wellness check.",
+          "category": "moderate_cost",
+          "cost_indicators": [
+            "risk activity involvement",
+            "potential future health issues",
+            "preventive measures"
+          ]
+        },
+        "processing_timestamp": "2025-10-26T02:21:14.934175",
+        "models_used": {
+          "classification_model": "unknown",
+          "clinical_note_model": "unknown"
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:33:10.395367",
+      "type": "other_text_data",
+      "document_type": "medical_provider_letter",
+      "document_text": "[Your Clinic Name]  \n[Your Clinic Address]  \n[City, State, Zip Code]  \n[Phone Number]  \n[Date: January 15th, 2024]  \n\n[Insurance Adjuster Name]  \n[Insurance Company Name]  \n[Insurance Company Address]  \n[City, State, Zip Code]  \n\nRe: Claimant: BH  \nClaim Number: CLM123456  \nPolicy Number: POL987654  \n\nDear [Insurance Adjuster Name],  \n\nI am writing to provide an update on the medical status of my patient, BH, a 23-year-old student who sustained an injury on September 21, 2018, while playing basketball at the university campus gym. The mechanism of injury involved a fall that resulted in an awkward landing on the right ankle, accompanied by a contusion on the right knee.  \n\nUpon initial evaluation on September 22, 2018, I noted significant swelling and tenderness around the right ankle, with a limited range of motion (ROM). The right knee also exhibited bruising, but no fractures were evident. An MRI was conducted on September 25, 2018, which confirmed a right ankle sprain without associated ligamentous tears.  \n\nThe treatment plan initiated included RICE (Rest, Ice, Compression, Elevation) principles along with NSAIDs for pain management. Physical therapy (PT) was started on October 1, 2018, focusing on restoring ROM and strengthening the affected area. Throughout therapy, the patient was compliant and demonstrated gradual improvement.  \n\nAs of October 15, 2018, BH was able to return to light duties at school, although full activity was restricted until further evaluations could be made. The maximum medical improvement (MMI) was reached on November 15, 2018, at which point the patient was cleared for full activities with no further restrictions.  \n\nIn summary, BH has made a satisfactory recovery with no ongoing symptoms reported. The prognosis is excellent, with no anticipated long-term sequelae from the injury. Please feel free to reach out if you require any additional information or documentation regarding this case.  \n\nThank you for your attention to this matter.  \n\nSincerely,  \n\nDr. Emily Carter, MD  \n[Your Clinic Name]  \n[Your Title]  \n[Your Contact Information]  \n\n\n[Attachment: Medical Records]  \n",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:33:10.395367",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Medical Provider Letter",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 13.402288799989037,
+        "tokens": {
+          "prompt_tokens": 765,
+          "completion_tokens": 579,
+          "total_tokens": 1344
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:33:29.887883",
+      "type": "other_text_data",
+      "document_type": "phone_transcript",
+      "document_text": "[Phone ringing]\n\nRepresentative: *[cheerful tone]* Good afternoon! Thank you for calling [Insurance Company]. This is Sarah, how can I assist you today?\n\nClaimant: Hi, um, yeah, my name is BH. I am calling about a claim I filed... I think it\u2019s, uh, CLM123456?\n\nRepresentative: Okay, let me pull that up for you, BH. Just a moment... [typing sounds]\n\nClaimant: Sure, take your time.\n\nRepresentative: Thanks for your patience. Alright, I see your claim here. So, this is regarding an incident that occurred on, um, September 21st, right?\n\nClaimant: Yes, that\u2019s correct. It happened at the gym on campus while I was playing basketball. I fell and landed awkwardly on my ankle.\n\nRepresentative: Oh no! That sounds painful. Um, can you tell me a little more about how it happened?\n\nClaimant: Yeah, I was driving to the hoop, and I kinda, like, lost my balance. I fell right on my ankle and also bumped my knee... I got a contusion there too.\n\nRepresentative: Got it. So just to clarify, you have a right ankle sprain and a contusion on the right knee, correct?\n\nClaimant: Exactly! I went to the doctor the next day, Dr. Emily Carter. They did RICE treatment and gave me some NSAIDs for the pain.\n\nRepresentative: Understood. And when did you start your physical therapy?\n\nClaimant: I started PT on October 1st and, uh, I returned to light duties by October 15th.\n\nRepresentative: That\u2019s good to hear! So you\u2019re on the mend then. And when was your last assessment?\n\nClaimant: I went for an MRI on September 25th, and um, I was told I reached max medical improvement by November 15th.\n\nRepresentative: Great, that helps me a lot. Just to confirm, were there any witnesses to the incident?\n\nClaimant: Yeah, John Doe and Jane Smith were there. They can, um, back up my story if needed.\n\nRepresentative: Perfect, I\u2019ll note that down. Um, I\u2019ll be sending out a Letter of Instruction (LOI) for you to, you know, finalize the claims process. You should get it in the mail shortly.\n\nClaimant: Okay, sounds good. What should I do if I run into any issues?\n\nRepresentative: Just give us a call back with your claim number and we\u2019ll assist you. Plus, feel free to reach out if you have any questions about the treatment or... um, any expenses related to the claim.\n\nClaimant: Will do! I appreciate your help, Sarah.\n\nRepresentative: No problem at all, BH! I hope you feel better soon and, um, enjoy the rest of your day!\n\nClaimant: Thanks, you too. Bye!\n\nRepresentative: Bye! [call ends]",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:33:29.887883",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Initial Phone Call Transcript",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 19.479983300028834,
+        "tokens": {
+          "prompt_tokens": 790,
+          "completion_tokens": 695,
+          "total_tokens": 1485
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:33:47.730738",
+      "type": "other_text_data",
+      "document_type": "settlement_adjuster_notes",
+      "document_text": "**Settlement Adjuster Notes for Claim CLM123456**  \n**Claimant:** BH  \n**Date of Evaluation:** 01/15/2024  \n\n**Medical Treatment Summary:**  \nClaimant BH, age 23, sustained a right ankle sprain and a contusion on the right knee while playing basketball at the university campus gym on 09/21/2018. Initial treatment commenced on 09/22, involving RICE and NSAIDs. Claimant was evaluated by Dr. Emily Carter and Dr. Sarah Lee during the course of treatment. An MRI was conducted on 09/25 to rule out further injury, confirming the sprain. Physical therapy (PT) started on 10/01, with the claimant returning to light work duties on 10/15. Claimant reached MMI on 11/15.  \n\n**Total Expenses Calculation:**  \n- Initial Medical Costs:  \n   - Office Visits: $300 (2 visits @ $150 each)  \n   - MRI: $1,200  \n   - Physical Therapy: $500 (10 sessions @ $50 each)  \n   - Medications: $150  \n   - Total Medical Expenses: $2,150  \n\n**Wage Loss Analysis:**  \nClaimant was unable to work from 09/21 to 10/14, totaling 24 days.  \n- Approx. Daily Wage: $100  \n- Total Wage Loss: 24 days x $100 = $2,400  \n\n**Settlement Analysis:**  \nBased on the medical expenses and wage loss, the total economic damages amount to approximately $4,550 ($2,150 medical + $2,400 wage loss).  \nConsidering pain and suffering (BI), I estimate an additional 1.5x multiplier to account for the claimant's non-economic damages, resulting in a total settlement range of approx. $6,825.  \n\n**Negotiation Strategy:**  \n- Present a strong case focusing on the clear medical documentation and treatment timeline.  \n- Highlight the impact on claimant's studies and daily life due to the injury to support the pain and suffering claim.  \n- Consider offering a settlement starting at $5,000 to allow room for negotiation.  \n\n**Settlement Authority Recommendation:**  \nBased on the analysis, I recommend authorization for a settlement offer of $6,000. This takes into account medical expenses, wage loss, and an appropriate amount for pain and suffering.  \n\n**Additional Notes:**  \n- Per 2/15 phone call, the claimant expressed willingness to settle quickly given the ongoing impact of the injury on their studies.  \n- Prior notes indicate no significant pre-existing conditions that would complicate this claim.  \n- Ensure to follow up with the claimant regarding the settlement offer by the end of January.",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:33:47.730738",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Settlement Adjuster Notes",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 17.83082050003577,
+        "tokens": {
+          "prompt_tokens": 806,
+          "completion_tokens": 656,
+          "total_tokens": 1462
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:34:08.080321",
+      "type": "other_text_data",
+      "document_type": "claimant_statement",
+      "document_text": "I, BH, am writing this statement regarding my injury that occured on September 21, 2018, while I was playing basketball at the university campus gym. I was excited to play with some friends, John Doe and Jane Smith, but everything changed in an instant. During the game, I went for a layup and landed really awkwardly on my right ankle. I couldn't believe it when I felt a sharp pain shoot up my leg!!! I fell to the ground and could barley move. It was so, so painful! At first, I thought it was just a twist, but the pain was unbearable. My knee also got a contusion when I hit the ground, which made things worse. \n\nAfter the incident, I immediately went to see Dr. Emily Carter the next day, who advised me to follow the RICE protocol and manage the pain with NSAIDs. I remember feeling frustrated and worried about school because I had midterms coming up. On September 25, 2018, I had to get an MRI to see how bad my ankle was hurt and on October 1, I began physical therapy, which was tough. Those sessions were hard, and I was really stressed out about not being able to attend my normal classes or socialize with friends. I had to rely on them so much because I couldn't get around easily and missed hours of work each week too!!! \n\nUltimately, I returned to light duties at work on October 15, 2018, but I still struggled to keep up with my schoolwork. It was hard keeping up; I had to explain my situation to my professors, which was pretty embarrassing. They were understanding, but I still felt like I was behind and I felt disconnected from my friends. I had to lean on them for support more than ever. By November 15, I reached maximum medical improvement, but I still felt nervous about my ankle, like would it ever be the same? It was hard to trust it again. Although the pain went down over time, I can still feel it sometimes when I walk or when it gets cold!!! This injury has really impacted my day-to-day life, and dealing with all these restrictions has been mentally tough, not to mention affecting my studies and job. \n\nThis incident has been life-altering. I just want to make sure everything goes well with my claim, because I truly deserve to have this matter taken care of properly!!!",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:34:08.080321",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Claimant Statement",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 20.34098019998055,
+        "tokens": {
+          "prompt_tokens": 791,
+          "completion_tokens": 532,
+          "total_tokens": 1323
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:34:23.250961",
+      "type": "other_text_data",
+      "document_type": "adjuster_notes_initial",
+      "document_text": "Initial Adjuster Notes - Claim #CLM123456  \nDate of Review: 01/15/2024  \nTime: 10:30am  \n\n**Claimant Info:**  \n- Name: BH  \n- Age: 23  \n- Occupation: Student  \n- Policy #: POL987654  \n\n**Incident Overview:**  \n- Date: 09/21/2018  \n- Location: University Campus Gym  \n- Mechanism: Fell while playing basketball, landed awkwardly on right ankle  \n- Witnesses: John Doe, Jane Smith  \n- Equipment: Basketball, gym floor  \n\n**Injury Assessment:**  \n- Primary Injury: Right ankle sprain  \n- Secondary: Contusion on right knee  \n- Treating Drs: Dr. Emily Carter, Dr. Sarah Lee  \n- Initial Tx: RICE protocol; NSAIDs for pain mgmt.  \n\n**Timeline Recap:**  \n- 09/22/2018: First medical treatment received  \n- 09/25/2018: MRI conducted  \n- 10/01/2018: PT initiated  \n- 10/15/2018: Clmt returned to light duties  \n- 11/15/2018: MMI achieved  \n\n**Liability Evaluation:**  \n- Liability appears to be on clmt due to personal activity (basketball)  \n- Witness statements needed to further evaluate conditions at the gym (w/ regards to safety measures)  \n\n**Initial Actions Taken:**  \n- Reviewed initial report & medical records  \n- Contacted treating physicians for further eval. of injury details  \n- Set up follow-up on PT progress  \n- Per email received 1/10, clmt is still under Tx  \n\n**Next Steps:**  \n- Obtain LOI from witnesses (John Doe, Jane Smith)  \n- Schedule IME for further assessment of clmt's ongoing issues w/ ankle  \n- Review any additional documentation from treating Drs. post-IME  \n- Continue monitoring Tx updates and will eval. once more info is received  \n\nNotes:  \n- Clmt appears to have followed through w/ Tx as prescribed, but need to confirm ongoing symptoms.  \n- Follow-up needed on any complications that may have occured post-Tx.  \n  \nEnd of Notes.",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:34:23.250961",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Initial Adjuster Notes",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 15.161895199969877,
+        "tokens": {
+          "prompt_tokens": 789,
+          "completion_tokens": 580,
+          "total_tokens": 1369
+        }
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_type": "fhir_processor",
+    "bundle_file": "Bruno518_Haley279_8fa74a26-d9f6-21a9-1184-c1cb603b5562.json",
+    "processing_timestamp": "2025-10-26T02:21:14.934175",
+    "total_encounters_evaluated": 1,
+    "relevant_encounters": 1,
+    "processing_stats": {
+      "total_evaluated": 1,
+      "relevant_encounters": 1,
+      "classification_errors": 0,
+      "note_generation_errors": 0,
+      "api_calls": 0,
+      "total_cost": 0.0,
+      "skipped_irrelevant": 0
+    },
+    "cost_summary": {
+      "total_cost": 0.0009476999999999999,
+      "total_calls": 4,
+      "average_cost_per_call": 0.00023692499999999997,
+      "total_tokens": 2250,
+      "total_input_tokens": 894,
+      "total_output_tokens": 1356,
+      "total_time": 25.676392793655396,
+      "average_time_per_call": 6.419098198413849
+    },
+    "processor_version": "enhanced_v1.0",
+    "llm_provider": "openai",
+    "models_used": {
+      "classification": [
+        "unknown"
+      ],
+      "clinical_notes": [
+        "unknown"
+      ]
+    },
+    "synthetic_documents_added": {
+      "timestamp": "2025-10-28T12:34:23.250961",
+      "generator": "synthetic_document_generator",
+      "documents_added": 5,
+      "total_encounters": 6
+    }
+  }
+}

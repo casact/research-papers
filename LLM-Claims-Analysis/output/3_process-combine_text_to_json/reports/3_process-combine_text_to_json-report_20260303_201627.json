@@ -1,0 +1,33 @@
+{
+  "processing_summary": {
+    "timestamp": "2026-03-03T20:16:27.642191",
+    "input_directory": "C:\\Path\\input\\text_data",
+    "output_directory": "./output/3_process-combine_text_to_json",
+    "processing_duration": 0.01599530002567917,
+    "files_found": 5,
+    "files_processed": 5,
+    "files_skipped": 0,
+    "claims_created": 1,
+    "success_rate": 100.0
+  },
+  "metrics": {
+    "total_processing_time": 0.017048100009560585,
+    "average_processing_time_per_file": 1.0,
+    "files_per_minute": 3518.4631257887586,
+    "average_characters_per_file": 0.0,
+    "encounters_per_file": 1.0
+  },
+  "file_statistics": {
+    "files_processed": 1,
+    "files_successful": 1,
+    "files_failed": 0,
+    "files_skipped": 0,
+    "claims_created": 1,
+    "encounters_created": 1,
+    "total_content_characters": 0
+  },
+  "skipped_files": [],
+  "created_files": [
+    "C:\\Path\\output\\3_process-combine_text_to_json\\mr_CLM19740226001.json"
+  ]
+}
