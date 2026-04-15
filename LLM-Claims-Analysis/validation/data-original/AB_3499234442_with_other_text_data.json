@@ -1,0 +1,182 @@
+{
+  "claim_id": 3499234442,
+  "patient_initials": "AB",
+  "patient_metadata": {
+    "age": "23",
+    "gender": "Male",
+    "name": "Adolph80 Randell912 Bartoletti50"
+  },
+  "encounters": [
+    {
+      "encounter_id": "927d8f12-fb68-b443-c426-1e38c8f2011c",
+      "document_type": "clinical_note",
+      "clinical_note": "**Clinical Note**\n\n**Patient Name:** [Patient Name]  \n**Date of Encounter:** March 3, 2019  \n**Encounter Type:** Wellness  \n**Encounter Name:** Encounter Module Scheduled Wellness  \n**Encounter Cost:** $136.80  \n\n**Chief Complaint:**  \nThe patient presents for a scheduled wellness visit with a focus on medication review. The patient reports adherence to prescribed medications but expresses concerns regarding potential side effects and interactions.\n\n**Assessment:**  \nThe patient is a [age]-year-old [gender] with a history of [relevant medical history, e.g., hypertension, diabetes, etc.]. A comprehensive medication review was conducted, which included the following medications:  \n- [Medication 1: dosage, frequency, indication]  \n- [Medication 2: dosage, frequency, indication]  \n- [Medication 3: dosage, frequency, indication]  \n\nThe patient reports no new symptoms but has experienced [specific side effects or concerns, if any]. Vital signs were stable: BP [value], HR [value], RR [value], Temp [value]. Laboratory results from the last visit indicate [relevant lab results, e.g., HbA1c, lipid panel, etc.], which are within [normal/abnormal] limits. \n\nThe patient is currently at moderate risk for medication-related complications due to [reasons such as polypharmacy, chronic conditions, etc.]. The medication management plan will be adjusted to optimize therapeutic outcomes and minimize adverse effects. \n\n**Plan:**  \n1. **Medication Management:**  \n   - Review current medications for efficacy and safety.  \n   - Consider discontinuation or dose adjustment of [specific medication] due to [reason].  \n   - Initiate [new medication or supplement] to address [specific issue].  \n   - Schedule follow-up in [time frame, e.g., 3 months] to reassess medication efficacy and side effects.  \n\n2. **Laboratory Tests:**  \n   - Order [specific lab tests, e.g., CMP, CBC, lipid panel] to monitor [specific conditions or medications].  \n   - Schedule lab work to be completed prior to the next visit.  \n\n3. **Patient Education:**  \n   - Discuss the importance of medication adherence and potential side effects.  \n   - Provide educational materials regarding [specific condition or medication].  \n   - Encourage the patient to report any new symptoms or concerns promptly.  \n\n4. **Follow-Up:**  \n   - Schedule a follow-up appointment in [time frame] to review lab results and reassess medication regimen.  \n   - Advise the patient to contact the office if they experience any adverse effects or have questions regarding their medications before the next scheduled visit.  \n\n**Signature:**  \n[Provider Name, Credentials]  \n[Provider Contact Information]  \n[Date of Note Completion]  \n\n**Note:** This encounter is classified as moderate cost due to the complexity of medication management and the potential for ongoing medical needs, which may lead to future costs associated with follow-up visits and lab tests.",
+      "encounter_date": "2019-03-03",
+      "source_file": "synthea_native",
+      "encounter_metadata": {
+        "resource_type": "Encounter",
+        "synthea_type": "wellness",
+        "synthea_name": "Encounter Module Scheduled Wellness",
+        "classification": {
+          "is_relevant": true,
+          "confidence": 0.8,
+          "reason": "The encounter involves a medication review, which is part of medication management and can indicate ongoing medical needs that may lead to future costs.",
+          "category": "moderate_cost",
+          "cost_indicators": [
+            "medication management",
+            "potential for chronic condition",
+            "follow-up visits",
+            "lab tests"
+          ]
+        },
+        "processing_timestamp": "2025-10-26T02:22:40.991474",
+        "models_used": {
+          "classification_model": "unknown",
+          "clinical_note_model": "unknown"
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:06:17.284076",
+      "type": "other_text_data",
+      "document_type": "medical_provider_letter",
+      "notes": "[Your Clinic Name]  \n[Your Clinic Address]  \n[City, State, Zip Code]  \n[Phone Number]  \n[Date: 01/15/2024]  \n\n[Insurance Adjuster\u2019s Name]  \n[Insurance Company Name]  \n[Insurance Company Address]  \n[City, State, Zip Code]  \n\nRe: Claimant: AB  \nClaim Number: CLM123456  \nPolicy Number: POL987654  \n\nDear [Insurance Adjuster\u2019s Name],  \n\nI am writing to provide a comprehensive summary of the medical evaluation and treatment provided to the claimant, AB, following the incident that occurred on March 3rd, 2019, at the University Campus sports field.  \n\n**Clinical Summary:**  \nAB is a 23-year-old student who presented with a primary complaint of pain and swelling in the right ankle after sustaining a sprain during a soccer match. The mechanism of injury involved a twisting motion while attempting to kick the ball. Initial evaluation on March 4th, 2019, revealed a sprained right ankle with mild bruising observed on the lower leg.  \n\n**Examination Findings:**  \nUpon physical examination, the right ankle demonstrated limited range of motion (ROM) due to pain. There was tenderness to palpation over the lateral malleolus, and DTRs were WNL. No fractures were noted on the initial X-ray. The patient was advised to follow the RICE protocol (Rest, Ice, Compression, Elevation) and prescribed pain medication for discomfort management.  \n\n**Treatment Plan:**  \nAB was scheduled for a follow-up visit on March 10th, 2019, where further assessment indicated persistent swelling and limited mobility. Consequently, a referral for physical therapy (PT) was initiated on March 15th, 2019. The PT regimen included exercises to improve strength, flexibility, and proprioception. The patient was advised to avoid weight-bearing activities until cleared.  \n\n**Prognosis:**  \nAB achieved maximum medical improvement (MMI) on April 10th, 2019. By this date, the patient had regained near full ROM and strength in the right ankle. The prognosis is good, and AB was cleared to return to normal activities, including physical sports, as of April 1st, 2019.  \n\n**Work Restrictions:**  \nDuring the recovery phase, AB was unable to participate in physical activities and was advised to limit strenuous activities to prevent re-injury.  \n\nIn conclusion, AB\u2019s treatment and recovery were consistent with the standards of care for a sprained ankle. Should you require any further information or documentation, please do not hesitate to contact my office.  \n\nThank you for your attention to this matter.  \n\nSincerely,  \nDr. Emily Johnson, MD  \n[Your Clinic Name]  \n[Your License Number]  \n[Contact Information]  \n\n[Enclosures: Medical Records, PT Notes]  \n",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:06:17.284076",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Medical Provider Letter",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 20.57942429999821,
+        "tokens": {
+          "prompt_tokens": 749,
+          "completion_tokens": 706,
+          "total_tokens": 1455
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:06:35.615451",
+      "type": "other_text_data",
+      "document_type": "phone_transcript",
+      "notes": "[Phone ringing]\n\nInsurance Rep: *[background noise]* Thank you for calling XYZ Insurance, this is Sarah speaking. How can I assist you today?\n\nClaimant: Hi Sarah, this is AB. I\u2019m calling about my claim, uh, number CLM123456?\n\nInsurance Rep: Oh, hey AB! Yes, I see your claim here. Can you uh, provide me with a little more detail about the incident?\n\nClaimant: Sure! So, I was playing soccer at the university campus on March 3rd, and, um, I twisted my right ankle while trying to kick the ball. It was, like, super painful right away.\n\nInsurance Rep: Ouch! That sounds rough. So just to clarify, it was your right ankle that got sprained, correct?\n\nClaimant: Yes, exactly. And there's some mild bruising on my lower leg too. [muffled] I was treated by Dr. Emily Johnson the next day.\n\nInsurance Rep: Got it. And just to make sure I have teh right info, you said the incident occurred at the sports field, right? \n\nClaimant: Right, at the sports field. There were some witnesses there; I think John Doe and Jane Smith saw it happen.\n\nInsurance Rep: Perfect, I'll note that down. Now, can you tell me what treatment you've received since the injury?\n\nClaimant: Yeah, I did the RICE protocol right after \u2013 resting and icing the ankle, and I got some medication for the pain. \n\nInsurance Rep: Sounds like a good plan. So you saw Dr. Johnson on March 4th?  And did you have any follow-up appointments?\n\nClaimant: Yup, had a follow-up on March 10th, and then started physical therapy on the 15th.\n\nInsurance Rep: Great! And um, just to confirm, when do you anticipate returning to your normal activities?\n\nClaimant: I should be able to, um, get back to physical activities by April 1st. I think I\u2019ll be fine by then. \n\nInsurance Rep: Awesome, that's good to hear. So we should be able to expedite your claim processing. But, um, just to clarify, did you attain maximum medical improvement by April 10th?\n\nClaimant: Yes, exactly! I felt, like, much better by then. \n\nInsurance Rep: Alright AB, I think I've got all I need for now. I\u2019ll, uh, get this over to the claims department and they should reach out to you soon to discuss the next steps.\n\nClaimant: Thank you so much, Sarah. I really appreciate it!\n\nInsurance Rep: No problem! If you have any more questions, don\u2019t hesitate to call back. Have a great day!\n\nClaimant: You too, bye!\n\n[Call ends]",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:06:35.615451",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Initial Phone Call Transcript",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 18.31545630004257,
+        "tokens": {
+          "prompt_tokens": 774,
+          "completion_tokens": 660,
+          "total_tokens": 1434
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:06:55.704952",
+      "type": "other_text_data",
+      "document_type": "settlement_adjuster_notes",
+      "notes": "**Settlement Adjuster Notes**  \n**Claim Number:** CLM123456  \n**Policy Number:** POL987654  \n**Date:** 01/15/2024  \n**Adjuster Name:** John Smith  \n\n**Claimant Information:**  \n- **Name:** AB  \n- **Age:** 23  \n- **Occupation:** Student  \n\n**Incident Summary:**  \nOn March 3, 2019, the claimant was playing soccer on the university campus sports field when he twisted his right ankle while attempting to kick the ball. Witnesses John Doe and Jane Smith were present during the incident.  \n\n**Medical Treatment Summary:**  \n- **Initial Treatment:**  \n  - Date: 03/04/2019  \n  - Treatment: RICE protocol (Rest, Ice, Compression, Elevation) + pain meds  \n- **Follow-Up:**  \n  - Date: 03/10/2019 w/ Dr. Emily Johnson  \n- **Physical Therapy:**  \n  - Started on 03/15/2019 until 04/01/2019  \n- **Maximum Medical Improvement (MMI):**  \n  - Achieved on 04/10/2019  \n\n**Total Expenses Calculation:**  \n- Medical expenses:  \n  - Initial consult: $150.00  \n  - Follow-up: $100.00  \n  - PT sessions (8 visits @ $75/visit): 8 x $75 = $600  \n  - **Total Medical Expenses:** ~$850.00  \n\n**Wage Loss Analysis:**  \nAB was unable to participate in physical activities from 03/03/2019 to 04/01/2019. Assuming an approx. wage loss of $200/week for 4 weeks, total wage loss is ~$800.  \n\n**Settlement Analysis:**  \n- **Total Expenses:** ~$850.00  \n- **Wage Loss:** ~$800.00  \n- **Grand Total:** ~$1,650.00  \n  \n**Negotiation Strategy:**  \n- Recommend starting negotiations at ~$2,000 to account for potential pain and suffering claims along w/ medical and wage loss.  \n- Emphasize AB's young age and the impact of injury on daily activities.  \n\n**Settlement Authority Recommendation:**  \n- Recommend authority to settle up to $1,800. This offer will allow for a fair resolution while considering the claimant's medical and wage loss expenses along with potential future implications.  \n\n**Conclusion:**  \nThis case presents a clear liability scenario with established medical treatment and expenses. Per file review, all docs are in order, and claimant's treatment has been appropriately documented. Further discussions may be warranted as we progress with negotiations.",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:06:55.704952",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Settlement Adjuster Notes",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 20.079072499996983,
+        "tokens": {
+          "prompt_tokens": 790,
+          "completion_tokens": 664,
+          "total_tokens": 1454
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:07:12.789676",
+      "type": "other_text_data",
+      "document_type": "claimant_statement",
+      "notes": "On March 3rd, 2019, I was playing soccer at my university campus on the sports field, which has always been a place where I go for fun and exercise with my friends. It was a typical afternoon, the weather was nice, and I was feeling really pumped to play. As I was trying to kick the ball toward the goal, I twisted my right ankle pretty badly. I couldn't believe it, at that moment it felt like my whole world stopped. I fell down almost immediately\u2026 it was sooo painful!!! I couldn't even get up, and I remember looking at my friends John and Jane, who rushed over to help me. My ankle swelled up really quick, and I eventually needed to go to Dr. Emily Johnson for a check-up the next day because I knew somthing was wrong. \n\nThe ankle sprain turned out to be pretty serious, and I had some mild bruising on my lower leg too. Dr. Johnson explained that I would need to follow the RICE protocol, which involves rest, ice, compression, and elevation. I had to take pain medication for the discomfort - it really did hurt more than I thought it would. I had to sit out on a lot of activities and missed classes because I couldn\u2019t walk without crutches at first. \n\nBy the time I went for my follow-up visit on March 10th, I was just sooo anxious about how long it was gonna take before I felt normal again. I had no idea how I would cope without being able to play sports or even walk comfortably to my classes. I started physical therapy on March 15th, and that helped but it wasn't easy. Every session was tough, and I was really worried I wouldn\u2019t get back to doing what I love. \n\nThis whole experience has dramatically impacted my life. I had to rely on friends for getting around, and it\u2019s really difficult to keep up with my studies when you can\u2019t move freely. Plus, I was missing out on bonding moments with my classmates and teammates. Honestly, I felt so isolated. I finally got the okay from Dr. Mark Lee that my ankle was getting better, and I could return to physical activities by April 1st, but it was still a long road to recovery. Even after physical therapy ended on April 10th, I was walking with a slight limp and had some lingering pain, which reminded me everyday of that incident...and I just hope nothing like that ever happens again.",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:07:12.789676",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Claimant Statement",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 17.073772000032477,
+        "tokens": {
+          "prompt_tokens": 775,
+          "completion_tokens": 543,
+          "total_tokens": 1318
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:07:31.122665",
+      "type": "other_text_data",
+      "document_type": "adjuster_notes_initial",
+      "notes": "**Adjuster Notes**  \n**Claim Number:** CLM123456  \n**Claimant:** AB  \n**Date of Review:** 01/15/2024  \n**Time:** 10:30am  \n\n**Incident Overview:**  \n- Incident occurred on 3/3/2019 at University Campus - Sports Field  \n- Claimant (23 y/o student) twisted right ankle during soccer match while attempting to kick the ball.  \n- Witnesses present: John Doe, Jane Smith.  \n- Equipment involved: Soccer ball, goal posts.\n\n**Injury Assessment:**  \n- Primary injury: Sprained Right Ankle  \n- Secondary: Mild bruising on lower leg  \n- Initial treatment (3/4/2019): RICE protocol (Rest, Ice, Compression, Elevation) + pain meds prescribed.  \n- Follow-up visit on 3/10/2019; PT started on 3/15/2019.  \n- Return to work status: Unable to participate in physical activities until approx 4/1/2019.  \n- MMI achieved on 4/10/2019.\n\n**Liability Evaluation:**  \n- Initial review suggests liability may be split due to sports activity; however, further investigation needed.  \n- Witness statements required to clarify circumstances surrounding injury.  \n- Potential for comparative negligence to be assessed.\n\n**Initial Actions Taken:**  \n- Reviewed medical records received via email on 1/10/2024.  \n- Contacted treating physicians Dr. Emily Johnson and Dr. Mark Lee for LOI and ROI; awaiting response.  \n- Scheduled IME for claimant on 1/20/2024 to establish current status.\n\n**Next Steps:**  \n- Follow up with witnesses for statements by 1/25/2024.  \n- Review IME report upon receipt.  \n- Continue to monitor claimant\u2019s PT progress and connect w/ clmt for updates on recovery.\n- Set calendar reminder for next review on 2/1/2024.",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:07:31.122665",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Initial Adjuster Notes",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 18.31674690003274,
+        "tokens": {
+          "prompt_tokens": 773,
+          "completion_tokens": 498,
+          "total_tokens": 1271
+        }
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_type": "fhir_processor",
+    "bundle_file": "Adolph80_Bartoletti50_dabfdec7-929a-3269-fd84-ab7e6ecaa245.json",
+    "processing_timestamp": "2025-10-26T02:22:40.991474",
+    "total_encounters_evaluated": 1,
+    "relevant_encounters": 1,
+    "processing_stats": {
+      "total_evaluated": 1,
+      "relevant_encounters": 1,
+      "classification_errors": 0,
+      "note_generation_errors": 0,
+      "api_calls": 0,
+      "total_cost": 0.0,
+      "skipped_irrelevant": 0
+    },
+    "cost_summary": {
+      "total_cost": 0.00048269999999999997,
+      "total_calls": 2,
+      "average_cost_per_call": 0.00024134999999999998,
+      "total_tokens": 1142,
+      "total_input_tokens": 450,
+      "total_output_tokens": 692,
+      "total_time": 11.798617362976074,
+      "average_time_per_call": 5.899308681488037
+    },
+    "processor_version": "enhanced_v1.0",
+    "llm_provider": "openai",
+    "models_used": {
+      "classification": [
+        "unknown"
+      ],
+      "clinical_notes": [
+        "unknown"
+      ]
+    },
+    "synthetic_documents_added": {
+      "timestamp": "2025-10-28T12:07:31.123264",
+      "generator": "synthetic_document_generator",
+      "documents_added": 5,
+      "total_encounters": 6
+    }
+  }
+}

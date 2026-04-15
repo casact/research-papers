@@ -1,0 +1,166 @@
+{
+  "claim_id": 6924817947,
+  "patient_initials": "AS",
+  "patient_metadata": {
+    "age": "56",
+    "gender": "Female",
+    "name": "Amiee221 Dennise990 Streich926"
+  },
+  "encounters": [
+    {
+      "encounter_id": "b4474050-a3d8-cb76-ecb1-2a5b68840d64",
+      "document_type": "clinical_note",
+      "document_text": "**Clinical Note**\n\n**Patient Name:** [Patient Name]  \n**Date of Encounter:** April 8, 1978  \n**Encounter Type:** Ambulatory  \n**Encounter Name:** Chronic Sinusitis Follow-up  \n**Encounter Cost:** $85.55  \n\n**Chief Complaint:**  \nThe patient presents for follow-up regarding chronic sinusitis. The patient reports persistent nasal congestion, facial pressure, and intermittent purulent nasal discharge. Symptoms have been ongoing for several months, with exacerbations noted during seasonal changes. The patient also reports occasional headaches and a decreased sense of smell.\n\n**Assessment:**  \nThe patient has a history of chronic sinusitis, characterized by recurrent episodes of sinus inflammation lasting longer than 12 weeks. Upon examination, the nasal mucosa appears edematous with purulent discharge noted in the middle meatus. Tenderness is elicited upon palpation of the maxillary and frontal sinuses. No nasal polyps are observed. The patient\u00e2\u20ac\u2122s vital signs are stable, and there are no signs of acute infection or systemic illness at this time. \n\nGiven the chronic nature of the condition, the patient is at risk for complications such as sinus infections, potential need for surgical intervention (e.g., functional endoscopic sinus surgery), and the necessity for ongoing management with medications. The patient\u00e2\u20ac\u2122s current treatment regimen includes intranasal corticosteroids and saline nasal irrigation, which have provided partial relief. \n\n**Plan:**  \n1. **Medications:**  \n   - Continue intranasal corticosteroid (e.g., fluticasone propionate) 2 sprays in each nostril once daily. \n   - Initiate a course of oral antibiotics (e.g., amoxicillin-clavulanate) for 10 days to address potential bacterial superinfection.\n   - Recommend over-the-counter analgesics (e.g., ibuprofen) for pain management as needed.\n\n2. **Nasal Hygiene:**  \n   - Reinforce the importance of saline nasal irrigation twice daily to help clear mucus and reduce inflammation.\n\n3. **Follow-Up:**  \n   - Schedule a follow-up appointment in 4-6 weeks to reassess symptoms and response to treatment. If symptoms persist or worsen, consider referral to an otolaryngologist for further evaluation and possible imaging studies (CT scan of the sinuses) to assess for anatomical abnormalities or chronic infection.\n\n4. **Patient Education:**  \n   - Educate the patient on the chronic nature of sinusitis and the importance of adherence to the treatment plan. Discuss potential triggers and lifestyle modifications that may help alleviate symptoms, such as avoiding allergens and irritants.\n\n5. **Documentation:**  \n   - Document the encounter thoroughly in the patient\u00e2\u20ac\u2122s medical record, including the assessment findings, treatment plan, and patient education provided.\n\n**Signature:**  \n[Provider Name, MD]  \n[Provider Contact Information]  \n[Date of Note Completion]  \n\n**End of Note**",
+      "encounter_date": "1978-04-08",
+      "source_file": "synthea_native",
+      "encounter_metadata": {
+        "resource_type": "Encounter",
+        "synthea_type": "ambulatory",
+        "synthea_name": "Chronic_Sinusitis_Followup",
+        "classification": {
+          "is_relevant": true,
+          "confidence": 0.9,
+          "reason": "Chronic sinusitis is a long-term condition that may require ongoing treatment and management, which can lead to higher healthcare costs.",
+          "category": "high_cost",
+          "cost_indicators": [
+            "chronic condition management",
+            "potential for surgeries",
+            "ongoing medication",
+            "specialist visits",
+            "possible complications"
+          ]
+        },
+        "processing_timestamp": "2025-10-25T01:59:49.353572"
+      }
+    },
+    {
+      "date": "2025-10-28T12:23:35.735000",
+      "type": "other_text_data",
+      "document_type": "medical_provider_letter",
+      "document_text": "[Your Medical Practice Letterhead]\nDr. Emily Roberts, MD  \nOrthopedic Specialist  \n123 Medical Lane  \nDowntown City, ST 12345  \nPhone: (555) 123-4567  \nDate: 01/15/2024  \n\nInsurance Adjuster  \n[Insurance Company Name]  \n[Insurance Company Address]  \n[City, State, Zip]  \n\nRe: Claimant: AS  \nClaim Number: CLAIM123456  \nPolicy Number: POL123456  \n\nDear Insurance Adjuster,\n\nI am writing to provide a detailed medical summary for the above-referenced claimant, AS, a 56-year-old administrative assistant, who sustained a fractured right wrist due to a slip and fall incident on April 8, 1978, in an office building. The claimant reported the incident the following day, and two witnesses, John Doe and Jane Smith, were present to attest to the conditions of the floor at the time of the fall.\n\nUpon initial evaluation on April 9, 1978, at the local hospital, it was determined that AS had a right wrist fracture along with bruises on her left arm. The fracture was significant enough to require surgical intervention, which was performed on April 10, 1978. Post-surgery, the claimant was prescribed a regimen of physical therapy (PT) to aid in her recovery, which commenced on April 20, 1978.\n\nDuring the follow-up appointment on May 5, 1978, I noted that the claimant exhibited limited range of motion (ROM) in her right wrist, but strength was gradually improving. The bruising on her left arm was healing well, and there were no signs of complications. DTRs (deep tendon reflexes) were WNL (within normal limits).\n\nThe treatment plan included continued PT sessions, focusing on strengthening exercises and mobility training, with a recommendation for home exercises to be performed bid (twice a day). The claimant was instructed to avoid heavy lifting and repetitive wrist movements until further notice. \n\nAS successfully returned to her job on June 1, 1978, after a thorough recovery and rehabilitation process. On July 1, 1978, she reached maximum medical improvement, at which point her ROM was significantly improved, and she was cleared for all activities without restrictions.\n\nIn summary, AS's prognosis is positive, with no anticipated long-term disability resulting from her injuries. She has been advised to continue with occasional follow-up visits as needed, but no further treatment is required at this time.\n\nShould you require any additional information or documentation, please do not hesitate to contact my office.\n\nSincerely,\n\nDr. Emily Roberts, MD  \nOrthopedic Specialist  \n[Your Practice Name]  \n[Your Practice Address]  \n[City, State, Zip]  \nPhone: (555) 123-4567  \n\nEnclosure: Medical Records",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:23:35.735000",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Medical Provider Letter",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 25.671244500030298,
+        "tokens": {
+          "prompt_tokens": 824,
+          "completion_tokens": 678,
+          "total_tokens": 1502
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:24:17.320835",
+      "type": "other_text_data",
+      "document_type": "phone_transcript",
+      "document_text": "[phone ringing]\n\nRep: Thank you for calling ABC Insurance, this is Sarah speaking. How can I assist you today?\n\nClaimant: Hi, um, this is AS. I\u2019m calling about my claim, uh, CLAIM123456. I reported it yesterday... well, I guess it was April 9th.\n\nRep: Okay, AS, I see your claim here. Can you please, um, just confirm the incident details for me?\n\nClaimant: Sure, so the incident actually happened on April 8th, 1978. I was, like, at work in the office building downtown.\n\nRep: Got it. And, um, what happened?\n\nClaimant: I slipped and fell on a wet floor while walking through the office. It was, um, really slippery and I just... went down. \n\nRep: Oh no! I\u2019m sorry to hear that. Were there any witnesses?\n\nClaimant: Yes, there were two\u2014John Doe and Jane Smith. They saw everything and can, you know, vouch for what happened.\n\nRep: Thank you for that info. Alright, so I see here you suffered, um, an injury? What kind of injuries did you, um, sustain?\n\nClaimant: Yes, I fractured my right wrist. It was pretty bad. I also got some bruises on my left arm from the fall.\n\nRep: Ouch! That sounds painful. Did you receive medical treatment right away?\n\nClaimant: Yes, I went to the hospital on the 9th, um, just the day after the fall. I saw Dr. Emily Roberts. She did surgery on April 10th to fix my wrist.\n\nRep: Surgery on the 10th, got it. And what about after that?\n\nClaimant: Well, I started physical therapy on April 20th with Dr. Michael Johnson. It was, like, a long road to recovery.\n\nRep: I can imagine. And when did you get back to work?\n\nClaimant: I returned to my job as an Administrative Assistant on June 1st, 1978, after... um, after everything.\n\nRep: Okay, and have you achieved maximum medical improvement?\n\nClaimant: Yes, I did. The doctors said I, um, reached that on July 1st, 1978.\n\nRep: Great! Thanks for confirming that. Now, I\u2019ll need to have some paperwork completed and... um, we can talk about next steps. You\u2019ll receive a letter of intent, LOI, detailing the process. Does that sound okay?\n\nClaimant: Yes, that sounds good. How long will it take to, uh, get that letter?\n\nRep: Typically, it should be sent out within 7-10 business days. Also, um, we\u2019ll keep you updated on the progress of your claim.\n\nClaimant: Okay, perfect. Thank you for your help!\n\nRep: No problem, AS! If you have any more questions or need assistance, feel free to call us back. Have a great day!\n\nClaimant: You too, bye!\n\n[call ends]",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:24:17.320835",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Initial Phone Call Transcript",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 41.5463163999957,
+        "tokens": {
+          "prompt_tokens": 849,
+          "completion_tokens": 728,
+          "total_tokens": 1577
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:24:40.768012",
+      "type": "other_text_data",
+      "document_type": "settlement_adjuster_notes",
+      "document_text": "Claim Number: CLAIM123456  \nPolicy Number: POL123456  \nClaimant: AS  \nDate of Report: 01/15/2024  \n\n**Incident Overview:**  \nOn April 8, 1978, the claimant, AS, a 56-year-old Administrative Assistant, suffered a slip and fall injury at her workplace in Downtown City. Witnesses, John Doe and Jane Smith, can confirm the wet floor conditions. The claimant sustained a fractured right wrist and bruises on her left arm.  \n\n**Medical Treatment Summary:**  \n- **Date of Incident:** 04/08/1978  \n- **1st Treatment:** 04/09/1978 at local hospital  \n- **Surgery:** 04/10/1978 to repair wrist fracture  \n- **PT Commencement:** 04/20/1978  \n- **Follow-up:** 05/05/1978  \n- **MMI Achieved:** 07/01/1978  \n\nDr. Emily Roberts performed the surgery, and Dr. Michael Johnson provided physical therapy. The claimant attended approx. 12 PT sessions, estimated cost ~$500/session.  \n\n**Total Expenses Calculation:**  \n- **Surgery Costs:** $15,000  \n- **PT Costs:** ($500 x 12 visits = $6,000)  \n- **Total Medical Expenses:** $21,000  \n\n**Wage Loss Analysis:**  \nAS was unable to work from April 8, 1978, to May 31, 1978.  \n- **Total Time Off Work:** 54 days  \n- **Average Wage:** $200/day  \n- **Total Wage Loss:** ($200 x 54 days = $10,800)  \n\n**Settlement Analysis:**  \nGiven the medical expenses of $21,000 and wage loss of $10,800, the total claim value is approx. $31,800. Considering pain and suffering, a multiplier of 1.5 may be applied for non-economic damages, bringing total settlement value to ~$47,700.  \n\n**Negotiation Strategy:**  \n- Initially offer $35,000 to initiate negotiations.  \n- Emphasize the liability of the office building and testimony of witnesses.  \n- Highlight the long-term impact of the injury on AS's life and work.  \n\n**Settlement Authority Recommendation:**  \nRecommend settlement authority of up to $40,000 to facilitate resolution while leaving room for negotiation.  \n\n**Conclusion:**  \nPer the file review and analysis, the pain and suffering along with medical and wage loss justify a settlement close to $47,700. Recommend pursuing a fair settlement for all parties involved. The claimant has shown a good recovery but still requires consideration for the aggravation caused by the incident.  \n\n**Notes:**  \n- Per 2/15 phone call with Dr. Roberts, AS's mobility has improved significantly, but residual pain may still occur occasionally.  \n- See 1/20 note for additional updates on negotiations.",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:24:40.768012",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Settlement Adjuster Notes",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 23.434311599994544,
+        "tokens": {
+          "prompt_tokens": 865,
+          "completion_tokens": 717,
+          "total_tokens": 1582
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:25:01.145436",
+      "type": "other_text_data",
+      "document_type": "claimant_statement",
+      "document_text": "To whom it may concern,\n\nMy name is AS, and I am writing this statement about the unfortunate incident that took place on April 8, 1978, while I was at my workplace in the office building downtown. I was just walking from one department to another when I suddenly slipped and fell on a wet floor. I can't say for sure if there were any wet floor signs visible, but the floor was really slick, and I had no idea. It all happened so fast, one moment I was walking and the next I was crashing down. I remember feeling my right wrist twist in a way that it shouldn't have... I couldn\u2019t believe it!!! \n\nAfter the fall, I immediately felt a sharp, throbbing pain in my wrist and left arm. I can still picture John Doe and Jane Smith, the witnesses who rushed to help me up. They were so kind - they seemed just as shocked as I was about what had occured. I was taken to the local hospital the very next day, where Dr. Emily Roberts examined me and confirmed that I had fractured my right wrist. I was absolutely heartbroken because as an administrative assistant, I rely heavily on using both hands for typing and managing office tasks.\n\nWhen I had surgery on April 10, 1978, I was so, so nervous. I just wanted to get back to my normal life, ya know? The pain and immobility were really frustrating. After the surgery, I started physical therapy on April 20, which was tough... I needed all the help I could get to regain strength and flexibility in my wrist. My left arm also got some pretty nasty bruises from the fall, which added to my discomfort. With Dr. Michael Johnson guiding my recovery in therapy, I slowly started to regain motion, but it was a long road.\n\nReturning to work on June 1, 1978, was a bit of an emotional rollercoaster. I was relieved but also scared because my wrist wasn\u2019t fully back to normal. The entire experience impacted my daily life incredibly. It was hard to do simple tasks like writing or even carrying things without feeling pain. I felt so helpless at times. Not to mention, my coworkers had to step in to help me out with tasks I couldn\u2019t complete while I was in recovery. My heart really went out to them for having to pick up my slack.\n\nOverall, I am thankful for my recovery, and I manage to get through my workday now, but there's still an ache in my wrist that reminds me of that fateful day. I achieved maximum medical improvement by July 1, 1978, but I can't help but feel the emotional weight of that moment when I slipped. I hope this statement helps convey the impact the incident has had on my life. Thank you for taking the time to review my claim.\n\nSincerely,\n\nAS",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:25:01.145436",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Claimant Statement",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 20.361730099946726,
+        "tokens": {
+          "prompt_tokens": 850,
+          "completion_tokens": 630,
+          "total_tokens": 1480
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:25:17.967026",
+      "type": "other_text_data",
+      "document_type": "adjuster_notes_initial",
+      "document_text": "Adjuster Notes \nClaim Number: CLAIM123456  \nPolicy Number: POL123456  \nClaimant: AS  \nDate: 1/15/24  \n\n- Initial review of claim conducted today.  \n- Claimant age: 56, employed as Administrative Assistant.  \n- Incident occurred on 4/8/78 at office bldg, Downtown City.  \n\n**Incident Details:**  \n- Mechanism of injury: Slip & fall on wet floor.  \n- Witnesses: John Doe & Jane Smith present, can attest to floor conditions.  \n- No equipment involved.  \n\n**Injury Assessment:**  \n- Primary injury: Fractured right wrist (surg. on 4/10/78).  \n- Secondary injuries: Bruises on left arm.  \n- Treated by Dr. Emily Roberts (orthopedic) & Dr. Michael Johnson (PT).  \n\n**Medical Timeline:**  \n- 4/9/78: First medical treatment at local hospital.  \n- 4/20/78: PT commenced to restore mobility.  \n- 5/5/78: Follow-up appt w/ Dr. Roberts.  \n- 6/1/78: Returned to work post-recovery.  \n- 7/1/78: Achieved MMI per treating physicians.  \n\n**Liability Evaluation:**  \n- Preliminary assessment indicates potential liability for wet floor condition.  \n- Awaiting witness statements for further eval.  \n\n**Initial Actions Taken:**  \n- Reviewed medical records and treatment history.  \n- Contacted clmt via phone @ 10:30am today. Discussed incident and injuries.  \n- Requested ROI from treating physicians for detailed Tx records.  \n\n**Next Steps:**  \n- Follow-up on witness statements by 1/20/24.  \n- Review additional medical documentation upon receipt.  \n- Plan for potential IME if needed based on further findings.  \n\nEnd of notes.  \n- Adjuster: [Your Name]  \n- Date: 1/15/24  \n- Time: 2:15pm reviewed file.",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:25:17.967026",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Initial Adjuster Notes",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 16.792315700033214,
+        "tokens": {
+          "prompt_tokens": 848,
+          "completion_tokens": 534,
+          "total_tokens": 1382
+        }
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_type": "fhir_processor",
+    "bundle_file": "Amiee221_Dennise990_Streich926_c07a6f3b-a008-257b-36bf-52faa0580281.json",
+    "processing_timestamp": "2025-10-25T01:59:49.354589",
+    "total_encounters_evaluated": 1,
+    "relevant_encounters": 1,
+    "processing_stats": {
+      "total_evaluated": 1,
+      "relevant_encounters": 1,
+      "classification_errors": 0,
+      "note_generation_errors": 0,
+      "api_calls": 0,
+      "total_cost": 0.0,
+      "skipped_irrelevant": 0
+    },
+    "cost_summary": {
+      "total_cost": 0.00095325,
+      "total_calls": 4,
+      "total_tokens": 2269,
+      "average_cost_per_call": 0.0002383125
+    },
+    "processor_version": "enhanced_v1.0",
+    "synthetic_documents_added": {
+      "timestamp": "2025-10-28T12:25:17.967026",
+      "generator": "synthetic_document_generator",
+      "documents_added": 5,
+      "total_encounters": 6
+    }
+  }
+}

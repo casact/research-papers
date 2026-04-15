@@ -1,0 +1,62 @@
+# ============================================================================
+# LLM Claims Analysis Pipeline - Python Dependencies
+# ============================================================================
+# Generated: 2025-10-23
+# Python Version: 3.12+
+#
+# This file contains all required Python packages for:
+# - Backend: Flask API (app/backend/app.py)
+# - PDF Service (app/backend/pdf_service.py)
+# ============================================================================
+
+# ============================================================================
+# Core OpenAI API Client
+# ============================================================================
+openai>=1.0.0
+
+# ============================================================================
+# Configuration Management
+# ============================================================================
+pyyaml>=6.0
+
+# ============================================================================
+# Web Framework (Backend API)
+# ============================================================================
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# ============================================================================
+# PDF Generation and Processing
+# ============================================================================
+fpdf>=1.7.2
+
+# ============================================================================
+# Data Processing and Validation
+# ============================================================================
+# Used for data manipulation and analysis
+# (Not explicitly seen in imports but commonly needed for claims data)
+
+# ============================================================================
+# Optional: Cloud Integration (if using GCP)
+# ============================================================================
+# Optional - only needed if cloud_storage.enabled=true in config
+# Script will work without this package (cloud storage will be disabled)
+google-cloud-storage>=2.10.0
+# google-cloud-bigquery>=3.11.0
+
+# ============================================================================
+# Development and Testing (Optional)
+# ============================================================================
+# Uncomment for development:
+# pytest>=7.4.0
+# pytest-cov>=4.1.0
+# black>=23.0.0
+# flake8>=6.0.0
+
+# ============================================================================
+# Notes:
+# ============================================================================
+# - Install with: pip install -r requirements.txt
+# - Or with uv: uv pip install -r requirements.txt --python .venv/bin/python
+# - For production, consider pinning exact versions
+# - Some packages may have additional system dependencies

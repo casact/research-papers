@@ -1,0 +1,191 @@
+{
+  "claim_id": 4462291667,
+  "patient_initials": "BH",
+  "patient_metadata": {
+    "age": "54",
+    "gender": "Male",
+    "name": "Bobbie849 Tanner110 Hagenes547"
+  },
+  "encounters": [
+    {
+      "encounter_id": "8211127f-54a5-daeb-6f22-e62481b5f718",
+      "document_type": "clinical_note",
+      "document_text": "**Clinical Note**\n\n**Patient Name:** [Patient Name]  \n**Date of Encounter:** January 8, 1991  \n**Encounter Type:** Outpatient  \n**Encounter Cost:** $85.55  \n**Provider:** [Provider Name]  \n**Facility:** [Facility Name]  \n\n**Chief Complaint:**  \nThe patient presents with concerns related to social isolation. The patient reports feeling increasingly withdrawn from social interactions and expresses feelings of loneliness and disconnection from family and friends. The patient states, \"I feel like I have no one to talk to,\" and describes a lack of motivation to engage in previously enjoyed activities.\n\n**Assessment:**  \nThe patient exhibits signs consistent with social isolation, which is classified as a finding rather than a formal diagnosis. The patient\u00e2\u20ac\u2122s reported symptoms include low mood, decreased social engagement, and feelings of loneliness. There are no acute psychiatric symptoms noted at this time, such as suicidal ideation or severe anxiety. The patient\u00e2\u20ac\u2122s vital signs are stable, and there are no significant physical health concerns reported. \n\nGiven the moderate cost classification associated with social isolation, it is important to address the potential long-term implications of this condition, including the risk of developing chronic mental health issues such as depression or anxiety disorders. The patient\u00e2\u20ac\u2122s current social support system appears limited, which may exacerbate feelings of isolation. \n\n**Plan:**  \n1. **Referral to Mental Health Services:** The patient will be referred to a licensed mental health professional for further evaluation and potential counseling. This may include cognitive-behavioral therapy (CBT) to address feelings of loneliness and develop coping strategies.\n   \n2. **Social Support Resources:** Provide the patient with information on local community resources, including support groups and social activities that may facilitate social engagement. Encourage participation in community events to foster connections.\n\n3. **Follow-Up Appointment:** Schedule a follow-up appointment in 4-6 weeks to assess the patient\u00e2\u20ac\u2122s progress and response to referrals. Monitor for any emerging symptoms of depression or anxiety.\n\n4. **Patient Education:** Discuss the importance of maintaining social connections and the impact of social isolation on overall health. Encourage the patient to reach out to family members or friends, even if it feels challenging.\n\n5. **Documentation and Billing:** Document the encounter thoroughly for billing purposes, ensuring that the social isolation finding is noted as a significant factor in the patient\u00e2\u20ac\u2122s health. The encounter will be billed under moderate-cost classification due to the potential need for ongoing mental health support and social services.\n\n**Signature:**  \n[Provider Name, Credentials]  \n[Date]  \n\n**Note:** This clinical note is a fictional representation based on the provided encounter information and is intended for illustrative purposes only.",
+      "encounter_date": "1991-01-08",
+      "source_file": "synthea_native",
+      "encounter_metadata": {
+        "resource_type": "Encounter",
+        "synthea_type": "outpatient",
+        "synthea_name": "Encounter Module Symptom Driven",
+        "classification": {
+          "is_relevant": true,
+          "confidence": 0.85,
+          "reason": "Social isolation can lead to various health issues and may require ongoing support or intervention, indicating potential for higher costs.",
+          "category": "moderate_cost",
+          "cost_indicators": [
+            "mental health support",
+            "social services",
+            "potential for chronic conditions",
+            "increased healthcare utilization"
+          ]
+        },
+        "processing_timestamp": "2025-10-25T03:16:04.511419"
+      }
+    },
+    {
+      "encounter_id": "b351681f-3ed7-c3a2-ad4e-fd3cd2a74c42",
+      "document_type": "clinical_note",
+      "clinical_note": "**Clinical Note**\n\n**Patient Name:** [Patient Name]  \n**Date of Encounter:** November 2, 1999  \n**Encounter Type:** Wellness  \n**Encounter Name:** Encounter Module Scheduled Wellness  \n**Encounter Cost:** $136.80  \n\n**Chief Complaint:**  \nThe patient presents for a scheduled wellness visit. The primary concerns include management of prediabetes and anemia. The patient reports feeling fatigued and has noted occasional dizziness, particularly with exertion.\n\n**Assessment:**  \nThe patient is a [age]-year-old [gender] with a history of prediabetes and anemia. Recent laboratory results indicate an elevated fasting glucose level of [insert value], consistent with prediabetes. Hemoglobin levels are recorded at [insert value], indicating mild anemia. The patient denies any significant changes in weight, appetite, or bowel habits. \n\nPhysical examination reveals the following:\n- Vital signs: Blood pressure [insert value], heart rate [insert value], respiratory rate [insert value], temperature [insert value].\n- General: The patient appears well-nourished but slightly fatigued.\n- Cardiovascular: Regular rate and rhythm, no murmurs.\n- Respiratory: Clear to auscultation bilaterally.\n- Abdominal: Soft, non-tender, no organomegaly.\n- Extremities: No cyanosis or edema noted.\n\nThe patient\u00e2\u20ac\u2122s prediabetes is classified as a finding, and the anemia is diagnosed as a disorder. Both conditions require ongoing management to prevent progression to diabetes and to address the underlying causes of anemia.\n\n**Plan:**  \n1. **Diabetes Self-Management Plan:**  \n   - Initiate a comprehensive diabetes self-management plan, including dietary modifications focusing on low glycemic index foods, regular physical activity, and weight management strategies.\n   - Schedule a follow-up appointment in 3 months to monitor fasting glucose levels and assess adherence to the management plan.\n\n2. **Anemia Management:**  \n   - Recommend iron supplementation (e.g., ferrous sulfate 325 mg orally once daily) to address iron deficiency anemia, if indicated by further lab results.\n   - Advise dietary changes to include iron-rich foods (e.g., red meat, leafy greens, legumes) and vitamin C sources to enhance iron absorption.\n   - Order a complete blood count (CBC) and iron studies to evaluate the etiology of anemia and monitor response to treatment.\n\n3. **Education and Counseling:**  \n   - Provide education on the importance of regular monitoring of blood glucose levels and recognizing symptoms of hyperglycemia and hypoglycemia.\n   - Discuss the significance of anemia management and the potential impact on overall health and energy levels.\n\n4. **Follow-Up:**  \n   - Schedule a follow-up visit in 3 months to reassess blood glucose levels, hemoglobin, and overall health status.\n   - Encourage the patient to maintain a log of blood glucose readings and dietary intake to discuss at the next visit.\n\n**Signature:**  \n[Provider Name, MD/DO]  \n[Provider Contact Information]  \n[Date]  \n\n**Note:** This clinical note is a comprehensive summary of the patient's wellness visit, focusing on the management of prediabetes and anemia, and includes relevant medical terminology and structured elements for billing and clinical significance.",
+      "encounter_date": "1999-11-02",
+      "source_file": "synthea_native",
+      "encounter_metadata": {
+        "resource_type": "Encounter",
+        "synthea_type": "wellness",
+        "synthea_name": "Encounter Module Scheduled Wellness",
+        "classification": {
+          "is_relevant": true,
+          "confidence": 0.85,
+          "reason": "The encounter involves prediabetes and anemia, both of which are significant health conditions that can lead to higher healthcare costs if not managed properly.",
+          "category": "moderate_cost",
+          "cost_indicators": [
+            "potential progression to diabetes",
+            "management of anemia",
+            "need for ongoing monitoring",
+            "possible medication costs",
+            "risk of complications"
+          ]
+        },
+        "processing_timestamp": "2025-10-25T03:16:17.132376"
+      }
+    },
+    {
+      "date": "2025-10-28T12:37:07.327085",
+      "type": "other_text_data",
+      "document_type": "medical_provider_letter",
+      "document_text": "[Your Clinic/Practice Letterhead]  \nDr. Alice Johnson, MD  \n123 Health St.  \nHealth City, ST 12345  \nPhone: (123) 456-7890  \nFax: (123) 456-7891  \nDate: 01/15/2024  \n\nInsurance Adjuster  \nXYZ Insurance Company  \n456 Insurance Blvd.  \nInsurance City, ST 67890  \n\nRE: Claimant: BH  \nClaim Number: CL123456  \nPolicy Number: POL987654  \n\nDear Insurance Adjuster,  \n\nI am writing to provide a comprehensive update regarding my patient, BH, who sustained a significant injury on January 8, 1991, while working at a downtown construction site. The claimant experienced a compound fracture of the right leg and a sprained wrist due to a fall from scaffolding while lifting equipment. The incident was witnessed by John Doe and Jane Smith.  \n\n**Clinical Summary:**  \nUpon initial evaluation on January 9, 1991, I noted that the claimant had a visible deformity of the right leg, swelling, and limited range of motion (ROM). An X-ray confirmed the compound fracture, necessitating surgical intervention. The patient underwent surgery on January 10, 1991, where the fracture was repaired. The wrist was immobilized with a splint due to a sprain.  \n\n**Examination Findings:**  \nDuring subsequent examinations, the following findings were recorded:  \n- Right leg: swelling and tenderness, with DTRs (deep tendon reflexes) WNL (within normal limits) post-surgery.  \n- Right wrist: mild swelling, pain on palpation, and limited mobility.  \n\nThe claimant began physical therapy (PT) on February 1, 1991, to enhance recovery. By March 15, 1991, during a follow-up appointment, BH demonstrated improved ROM in both the leg and wrist, although some discomfort persisted.  \n\n**Treatment Plan:**  \nThe treatment plan included:  \n- Surgical repair of the right leg fracture  \n- Splinting of the wrist  \n- PT sessions three times a week, focusing on strength and flexibility  \n- Pain management with NSAIDs and, as needed, prescribed medications per os (by mouth)  \n\n**Prognosis:**  \nBH achieved maximum medical improvement (MMI) by October 15, 1991. The claimant was able to return to light duty work on June 1, 1991, with some ongoing restrictions due to the nature of the injuries.  \n\n**Work Restrictions:**  \nI recommend the following work restrictions for BH:  \n- No heavy lifting (>20 lbs)  \n- Avoid prolonged standing or walking  \n- Limit activities requiring extensive use of the right leg and wrist, especially in the first few months post-MMI  \n\nIn conclusion, BH has made significant progress since the incident, but ongoing care may be necessary to monitor any long-term effects. If you require further information or documentation, please do not hesitate to reach out.  \n\nThank you for your attention to this matter.  \n\nSincerely,  \nDr. Alice Johnson, MD  \n[Signature]  \n\nEnclosures: Medical records, PT notes, surgical report  \n",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:37:07.327085",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Medical Provider Letter",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 19.591795499960426,
+        "tokens": {
+          "prompt_tokens": 790,
+          "completion_tokens": 782,
+          "total_tokens": 1572
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:37:30.839367",
+      "type": "other_text_data",
+      "document_type": "phone_transcript",
+      "document_text": "**Transcript of Initial Phone Call: Claim Number CL123456**  \n**Date**: 01/15/1991  \n**Time**: 10:30 AM  \n**Participants**:  \n- **Insurance Representative (IR)**: Lisa Thompson  \n- **Claimant (C)**: BH  \n\n---  \n[Background noise]  \n**IR**: Good morning! This is Lisa from Acme Insurance, how may I assist you today?  \n**C**: Uh, hi Lisa. This is BH. I, um, called to file a claim for an injury that... occurred on January 8th?  \n**IR**: Okay, BH, I see here that you\u2019re uh, a construction worker?  \n**C**: Yes, that\u2019s right. I was working downtown on a construction site when I fell from scaffolding while lifting some equipment.  \n**IR**: Oh wow, that sounds serious. So, you fell from the scaffolding? Was anyone around?  \n**C**: Yeah, there were a couple of guys there, John and Jane. They witnessed everything.  \n**IR**: Got it. And, uh, what kind of injuries did you sustain?  \n**C**: I ended up with a compound fracture on my right leg and, um, a sprained wrist too.  \n**IR**: That sounds painful, I'm sorry to hear that. Uh, what treatment did you receive?  \n**C**: Well, I... um, I had surgery the day after, on January 10th, and they put a splint on my wrist.  \n**IR**: Surgery, okay. And when did you start physical therapy?  \n**C**: I started PT on February 1st. They said it would help me recover faster.  \n**IR**: That\u2019s great. So, I see you have follow-ups too?  \n**C**: Yes, I had a follow-up on March 15th.  \n**IR**: And, uh, when were you able to return to work?  \n**C**: I returned to light duty in June, on June 1st.  \n**IR**: Perfect. And when did you achieve maximum medical improvement?  \n**C**: I, um, reached that by October 15th.  \n**IR**: Okay, so just to recap, the incident occurred on January 8th, and you had treatment starting January 9th, with surgery on the 10th, and, um, you returned to light work on June 1st?  \n**C**: Yes, that\u2019s right.  \n**IR**: Great, BH. I\u2019ll need to gather a few more details for the claim, like your policy number and any, um, physician\u2019s reports you have?  \n**C**: Sure, my policy number is POL987654. Dr. Alice Johnson and Dr. Mark Lee treated me. I can get you the reports.  \n**IR**: Perfect. Also, we'll send a Letter of Intent once everything's processed. Just keep, um, an eye out for it.  \n**C**: Okay, sounds good.  \n**IR**: Alright, BH. Thank you for your patience and for sharing your details. We\u2019ll process this as quickly as possible, and I\u2019ll be here to assist you with any further questions.  \n**C**: Thanks, Lisa. I appreciate it!  \n**IR**: You\u2019re welcome! Have a great day.  \n**C**: You too, bye!  \n[Call Ends]  \n---",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:37:30.839367",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Initial Phone Call Transcript",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 23.500578700040933,
+        "tokens": {
+          "prompt_tokens": 815,
+          "completion_tokens": 860,
+          "total_tokens": 1675
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:37:51.866469",
+      "type": "other_text_data",
+      "document_type": "settlement_adjuster_notes",
+      "document_text": "**Settlement Adjuster Notes**  \n**Claim Number:** CL123456  \n**Claimant:** BH  \n**Date:** 01/15/2024  \n  \n**Medical Treatment Summary:**  \n- Claimant BH suffered a compound fracture of the right leg and a sprained wrist as a result of the fall from scaffolding on 01/08/1991.  \n- Initial treatment occurred on 01/09/1991, with surgery performed on 01/10/1991 to repair the leg fracture.  \n- Post-surgery, BH was immobilized with a splint for the wrist.  \n- Physical Therapy (PT) started on 02/01/1991 and continued until approx. 06/01/1991.  \n- Follow-up with Dr. Alice Johnson on 03/15/1991 confirmed progress; light duty clearance was provided on 06/01/1991.  \n- MMI reached by 10/15/1991.  \n  \n**Total Expenses Calculation:**  \n- Surgical costs: ~$15,000  \n- PT sessions (12 sessions @ $500 each): ($500 x 12 = $6,000)  \n- Follow-up visits: 3 visits @ approx. $200 each = $600  \n- Total est. medical expenses: ~$21,600  \n  \n**Wage Loss Analysis:**  \n- Claimant was unable to work from 01/08/1991 until 06/01/1991 (approx. 5 months).  \n- Average monthly salary: ~$3,000  \n- Total wage loss: ($3,000 x 5 = $15,000)  \n- Light duty status from 06/01/1991 until MMI on 10/15/1991, resulting in a reduced wage of approx. $1,500/month for 4 months = $6,000.  \n  \n**Total Wage Loss:** ~$21,000  \n  \n**Settlement Analysis:**  \n- Combine total est. medical costs and wage loss: $21,600 + $21,000 = $42,600  \n- Additional pain & suffering and permanent impairment should be considered. Recommend a multiplier of 1.5 for a total of approx. $63,900.  \n- Adjust for negotiation position, approx. 10% reduction for settlement = ~$57,510.  \n  \n**Negotiation Strategy:**  \n- Start negotiation at ~$60,000 to account for negotiation tactics and potential counter offers.  \n- Emphasize the severity of the injury and long-term effects on the claimant's ability to work in construction.  \n- Prepare to discuss the claimant's ongoing pain and the impact on quality of life as leverage.  \n  \n**Settlement Authority Recommendation:**  \n- Recommend settlement authority of up to $57,510 based on the analysis above.  \n- Ensure all documentation is in order to support the final offer.  \n- Follow up on any required additional documents from treating physicians as needed.  \n**Prior Notes:** Per 2/15 phone call, claimant has been compliant with all medical advice and therapy sessions.  \n  \n**Conclusion:**  \nBased on the comprehensive evaluation of medical treatment, expenses, and wage loss, a settlement in the range of $57,510 is both reasonable and justified. Recommend moving forward with negotiations promptly to resolve this matter efficiently.",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:37:51.866469",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Settlement Adjuster Notes",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 21.020043200056534,
+        "tokens": {
+          "prompt_tokens": 831,
+          "completion_tokens": 804,
+          "total_tokens": 1635
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:38:10.458473",
+      "type": "other_text_data",
+      "document_type": "claimant_statement",
+      "document_text": "On January 8th, 1991, I was working at a downtown construction site, like I always do since it's what I do for a living. That day was the worst, as I wasn't being careful enough while lifting some equipment up on the scaffolding. I couldn't believe it when I lost my balance and fell, I mean, falling from height is no joke! I remember the details slowly replaying in my head \u2013 the sound of the scaffolding creeking, and then... bam, down I went.  I landed hard and felt this intense pain shooting through my leg. It was so, so painful!!! I could hear my coworkers like John and Jane shouting, trying to figure out what happened, but the pain was indescribable and I couldn't focus on anything else.\n\nWhen the medics arrived, I was in shock, really. I couldn\u2019t even move my leg. Turns out, I had a compound fracture and a sprained wrist. The surgery on January 10th felt like an eternity, and afterwards I was stuck in the hospital with Dr. Alice and Dr. Mark keeping me company while I tried to recover. The immobilization of my wrist was annoying, to say the least, and I had to really focus on physical therapy starting February 1st. Going to PT was hard too, I felt helpless, you know? I was so used to moving around and doing labor-intensive work, and now I was just... stuck.\n\nRecovering was tough emotionally. Being a construction worker means I\u2019m always on my feet and busy, but after the incident, I felt like I lost a part of me, if that makes sense. I couldn\u2019t do things I loved, like running or even picking up my grandchildren without worrying about hurting myself.  After a few months of therapy and those endless checks with the doctors, I was able to return to work, but it was light duty, which felt frustrating. I wanted to feel normal again.\n\nFinally, I achieved maximum medical improvement by October 15th, but I still feel the aches sometimes. That fateful day still haunts me. It changed my life and I really, really miss the ability to work without any pain or hesitation. My life wasn't just impacted physically, but emotionally too. The anxiety of climbing up those scaffolds will always be there now. I guess scars aren't just physical but emotional too...",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:38:10.458473",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Claimant Statement",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 18.58070900000166,
+        "tokens": {
+          "prompt_tokens": 816,
+          "completion_tokens": 526,
+          "total_tokens": 1342
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:38:24.927642",
+      "type": "other_text_data",
+      "document_type": "adjuster_notes_initial",
+      "document_text": "**Initial Adjuster Notes**  \n**Claim Number:** CL123456  \n**Claimant:** BH  \n**Date of Review:** 1/15/2024  \n**Time:** 10:30am  \n\n**Claim Info:**  \n- Claimant is a 54-yr-old construction worker, involved in a workplace accident that occured on 1/8/1991.  \n- Reported date was 1/15/1991.  \n- Policy Number: POL987654.  \n\n**Incident Details:**  \n- Location: Downtown Construction Site  \n- Mechanism of Injury: Fell from scaffolding while lifting equipment.  \n- Witnesses: John Doe, Jane Smith.  \n- Equipment involved includes scaffolding and a lifting crane.  \n\n**Injury Assessment:**  \n- Primary Injury: Compound fracture of right leg  \n- Secondary Injury: Sprained wrist  \n- Treating Physicians: Dr. Alice Johnson (surgery), Dr. Mark Lee (PT)  \n- Initial treatment included surgery on 1/10/1991 and wrist immobilization.  \n- Claimant began PT on 2/1/1991 and had a follow-up on 3/15/1991.  \n\n**Liability Evaluation:**  \n- Witness statements pending review.  \n- Initial eval suggests potential liability w/ employer for unsafe working conditions.  \n- Need further investigation into equipment safety protocols at the site.  \n\n**Initial Actions Taken:**  \n- Spoke w/ clmt at 10:30am, discussed injury details and treatment.  \n- Reviewed medical records received via email on 1/10/2024.  \n- Requested ROI from treating physicians for further insight on long-term prognosis.  \n- IME may be necessary if further complications arise.  \n\n**Next Steps:**  \n- Follow up on witness statements; contact John Doe and Jane Smith by 1/20/2024.  \n- Await further medical documentation, including PT progress notes.  \n- Evaluate if a QME is warranted for further assessment of MMI.  \n- Schedule next review of claim in 30 days or sooner if new info received.  \n\n**Notes:**  \n- Clmt is currently on light duty and is able to perform some work tasks as of 6/1/1991.  \n- Keep track of any future medical appointments and their outcomes for BI assessment.  \n\n**End of Notes**  \n",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:38:24.927642",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Initial Adjuster Notes",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 14.462622899969574,
+        "tokens": {
+          "prompt_tokens": 814,
+          "completion_tokens": 601,
+          "total_tokens": 1415
+        }
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_type": "fhir_processor",
+    "bundle_file": "Bobbie849_Hagenes547_58b16226-b94c-4674-0df9-d480e83b89a1.json",
+    "processing_timestamp": "2025-10-25T03:16:17.132976",
+    "total_encounters_evaluated": 3,
+    "relevant_encounters": 2,
+    "processing_stats": {
+      "total_evaluated": 3,
+      "relevant_encounters": 2,
+      "classification_errors": 0,
+      "note_generation_errors": 0,
+      "api_calls": 0,
+      "total_cost": 0.0,
+      "skipped_irrelevant": 1
+    },
+    "cost_summary": {
+      "total_cost": 0.00416715,
+      "total_calls": 20,
+      "total_tokens": 10453,
+      "average_cost_per_call": 0.00020835749999999998
+    },
+    "processor_version": "enhanced_v1.0",
+    "synthetic_documents_added": {
+      "timestamp": "2025-10-28T12:38:24.928641",
+      "generator": "synthetic_document_generator",
+      "documents_added": 5,
+      "total_encounters": 7
+    }
+  }
+}

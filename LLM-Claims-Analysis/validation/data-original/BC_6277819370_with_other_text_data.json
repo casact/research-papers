@@ -1,0 +1,166 @@
+{
+  "claim_id": 6277819370,
+  "patient_initials": "BC",
+  "patient_metadata": {
+    "age": "21",
+    "gender": "Male",
+    "name": "Bryant814 Barton704 Corwin846"
+  },
+  "encounters": [
+    {
+      "encounter_id": "0dab10ec-556b-e29b-3887-e9e5a6fdcceb",
+      "document_type": "clinical_note",
+      "document_text": "**Clinical Note**\n\n**Patient Name:** [Patient Name]  \n**Date of Encounter:** August 7, 2007  \n**Encounter Type:** Ambulatory  \n**Encounter Name:** Chronic Sinusitis Follow-up  \n**Encounter Cost:** $85.55  \n\n**Chief Complaint:**  \nThe patient presents for a follow-up visit regarding chronic sinusitis. The patient reports persistent nasal congestion, facial pressure, and intermittent purulent nasal discharge. Symptoms have been ongoing for several months, with exacerbations noted during seasonal changes. The patient expresses concern about the frequency of sinus infections and the impact on daily activities.\n\n**Assessment:**  \nThe patient has a history of chronic sinusitis, characterized by recurrent episodes of sinus infection and inflammation lasting longer than 12 weeks. Upon examination, the following findings were noted:\n\n- **Nasal Examination:** Mucosal edema observed in the nasal passages, with purulent discharge noted bilaterally. \n- **Facial Examination:** Tenderness to palpation over the maxillary and frontal sinuses.\n- **Throat Examination:** No erythema or exudate noted in the oropharynx.\n- **Respiratory Examination:** Clear lung fields bilaterally, no wheezing or crackles.\n\nThe patient's symptoms are consistent with chronic rhinosinusitis, likely exacerbated by environmental allergens and possible anatomical variations contributing to sinus drainage obstruction. \n\n**Plan:**  \n1. **Medications:**\n   - Continue with intranasal corticosteroids (e.g., Fluticasone propionate) to reduce inflammation and improve nasal airflow.\n   - Initiate a course of oral antibiotics (e.g., Amoxicillin-Clavulanate) for 10 days to address potential bacterial superinfection.\n   - Recommend saline nasal irrigation to help clear mucus and improve sinus drainage.\n\n2. **Follow-up:**\n   - Schedule a follow-up appointment in 4-6 weeks to reassess symptoms and response to treatment.\n   - If symptoms persist or worsen, consider referral to an otolaryngologist for further evaluation, including possible imaging studies (CT scan of the sinuses) to assess for anatomical abnormalities or polyps.\n\n3. **Patient Education:**\n   - Educate the patient on the importance of adherence to the medication regimen and the use of saline irrigation.\n   - Discuss potential triggers for sinusitis exacerbations, including allergens and irritants, and recommend avoidance strategies.\n   - Advise the patient to monitor symptoms and seek immediate care if experiencing severe headache, vision changes, or high fever.\n\n4. **Documentation:**\n   - Document the encounter in the patient's medical record, including the assessment findings, treatment plan, and patient education provided.\n\n**Signature:**  \n[Provider Name, MD/DO]  \n[Provider Contact Information]  \n[Date of Note Completion]  \n\n**Note:** This clinical note is a comprehensive summary of the patient's visit and is intended for use in ongoing management of chronic sinusitis.",
+      "encounter_date": "2007-08-07",
+      "source_file": "synthea_native",
+      "encounter_metadata": {
+        "resource_type": "Encounter",
+        "synthea_type": "ambulatory",
+        "synthea_name": "Chronic_Sinusitis_Followup",
+        "classification": {
+          "is_relevant": true,
+          "confidence": 0.9,
+          "reason": "Chronic sinusitis is a long-term condition that may require ongoing management and treatment, which can lead to higher healthcare costs.",
+          "category": "high_cost",
+          "cost_indicators": [
+            "chronic condition management",
+            "potential for surgeries",
+            "ongoing medication",
+            "specialist visits",
+            "diagnostic procedures"
+          ]
+        },
+        "processing_timestamp": "2025-10-25T02:02:22.889989"
+      }
+    },
+    {
+      "date": "2025-10-28T12:27:36.644543",
+      "type": "other_text_data",
+      "document_type": "medical_provider_letter",
+      "document_text": "[Your Clinic Name]  \n[Your Clinic Address]  \n[City, State, Zip Code]  \n[Phone Number]  \n[Date: January 15th, 2008]  \n\n[Insurance Adjuster Name]  \n[Insurance Company Name]  \n[Insurance Company Address]  \n[City, State, Zip Code]  \n\nRe: Claimant: BC  \nClaim Number: CLM123456  \nPolicy Number: POL987654  \n\nDear [Insurance Adjuster Name],\n\nI am writing to provide a comprehensive medical summary for my patient, BC, a 21-year-old student, following the slip and fall incident that occurred on August 7th, 2007, at the university cafeteria. The claimant presented to my office for evaluation on August 8th, 2007, with a primary complaint of a sprained ankle and secondary bruising observed on the left knee.\n\n**Clinical Summary:**  \nUpon examination, the claimant exhibited significant tenderness and swelling in the right ankle, with a limited range of motion (ROM). DTRs were intact, and neurological exam was WNL. Bruising on the left knee was also noted, but no fractures were detected via initial imaging. The patient was advised to apply ice and was prescribed pain relief medication to manage discomfort.\n\n**Examination Findings:**  \n- Right ankle: Swelling and tenderness, limited ROM  \n- Left knee: Bruising present, no signs of instability  \n- No neurological deficits noted  \n- Pain level reported as 6/10 on the pain scale  \n\n**Treatment Plan:**  \nThe treatment plan included:  \n1. Ice application to the right ankle for swelling reduction.  \n2. Prescription of analgesics (Ibuprofen 400 mg prn) for pain management.  \n3. Referral to physical therapy (PT) for rehabilitation, which BC completed on September 15th, 2007.  \n4. Follow-up appointment on September 20th, 2007, to assess recovery and progress.  \n\n**Prognosis:**  \nBC has shown significant improvement and achieved maximum medical improvement by September 25th, 2007. The claimant has returned to classes on September 18th, 2007, with no ongoing limitations reported. It is my professional opinion that BC will continue to recover fully without any long-term complications from this incident.\n\n**Work Restrictions:**  \nThere are no current work restrictions as BC has returned to full academic activities. However, it is recommended that the claimant avoids high-impact activities until fully cleared by a healthcare professional.\n\nShould you require any further information or clarification regarding this case, please do not hesitate to contact my office.\n\nThank you for your attention to this matter.\n\nSincerely,  \nDr. Lisa White, M.D.  \n[Your Clinic Name]  \n[Your Clinic License Number]  \n[Your Contact Information]  \n",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:27:36.644543",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Medical Provider Letter",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 15.297650300024543,
+        "tokens": {
+          "prompt_tokens": 765,
+          "completion_tokens": 695,
+          "total_tokens": 1460
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:27:59.173025",
+      "type": "other_text_data",
+      "document_type": "phone_transcript",
+      "document_text": "**Transcript of Initial Call - Claim CLM123456**  \n**Date:** August 9th, 2007  \n**Time:** 10:15 AM  \n**Participants:**  \nRepresentative: Sarah, Insurance Rep  \nClaimant: BC, Student  \n\n**[Phone ringing...]**  \n**Sarah:** [background noise] Good morning! This is Sarah from the Insurance Claims Department. How can I help you today?  \n**BC:** Hi, um, hi there. I\u2019m calling about a claim I filed? It\u2019s, uh, CLM123456?  \n**Sarah:** Oh yes, let me pull that up... um, okay, I see your claim here. It looks like it\u2019s regarding an incident that occurred on August 7th, right?  \n**BC:** Yeah, that\u2019s right. I was, uh, at the cafeteria on campus and I, like, slipped on a wet floor.  \n**Sarah:** [muffled] Oh no! That sounds painful. Can you tell me a bit more about the, um, injuries you sustained?  \n**BC:** Sure. I, um, sprained my ankle pretty bad and I also have some bruising on my left knee.  \n**Sarah:** Okay, got it. And did you see a doctor for this?  \n**BC:** Yeah, I went to see Dr. Lisa White the day after, on August 8th. She, uh, told me to ice it and prescribed me some pain meds.  \n**Sarah:** Perfect. And did you have any follow-up treatments?  \n**BC:** Uh, yeah. I did physical therapy until September 15th, and then I had a follow-up with Dr. Mark Taylor, the ortho guy, on September 20th.  \n**Sarah:** [overlap] That\u2019s great to hear you\u2019re following the treatment plan! Have you, um, went back to classes yet?  \n**BC:** Yeah, I actually started back on September 18th.  \n**Sarah:** Okay, awesome. And when would you say you, um, reached maximum medical improvement?  \n**BC:** I think it was, um, around September 25th?  \n**Sarah:** Alright, thanks for that info. Now, just to recap: you suffered a sprained ankle and some bruising... you had treatment from Dr. White and Dr. Taylor, and you\u2019ve returned to classes. Is that all correct?  \n**BC:** Yup, that's right.  \n**Sarah:** Great! [background noise] So, the next steps for your claim will be to, um, gather all the necessary medical records and, uh, any witness statements, if you have them.  \n**BC:** Witness statements? [pauses] Yeah, there were two people there\u2014John Smith and Emily Brown.  \n**Sarah:** Right, I\u2019ll need those for the file. You know, just as part of the evaluation process.  \n**BC:** Got it! So, uh, what happens next?  \n**Sarah:** Well, once I have all the documentation, we\u2019ll, um, review everything and assess your claim for any potential benefits.  \n**BC:** And how long will that take?  \n**Sarah:** Typically, we aim to finalize claims within, um, 30 days, but it may take longer if we need more info.  \n**BC:** Okay, thanks!  \n**Sarah:** You\u2019re welcome! If you have any questions, feel free to call us back.  \n**BC:** I will, thank you!  \n**Sarah:** Alright, have a great day!  \n**BC:** You too! Bye!  \n**[Call ends]**  \n",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:27:59.173025",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Initial Phone Call Transcript",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 22.513650200038683,
+        "tokens": {
+          "prompt_tokens": 790,
+          "completion_tokens": 874,
+          "total_tokens": 1664
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:28:23.422324",
+      "type": "other_text_data",
+      "document_type": "settlement_adjuster_notes",
+      "document_text": "**Settlement Adjuster Notes**  \n**Claim Number:** CLM123456  \n**Claimant Name:** BC  \n**Date:** 01/15/2024  \n**Adjuster:** [Adjuster Name]  \n\n**Medical Treatment Summary:**  \nBC, a 21-year-old student, suffered a sprained ankle and bruising on the left knee due to a slip and fall incident that occurred on August 7, 2007, at the university cafeteria. Initial treatment was provided by Dr. Lisa White, who applied ice and prescribed pain medications. After the first eval. on 08/08/2007, BC completed 12 sessions of physical therapy (PT) ending on 09/15/2007, followed by a follow-up appointment on 09/20/2007. BC achieved Maximum Medical Improvement (MMI) by 09/25/2007 and returned to classes on 09/18/2007.\n\n**Total Expenses Calculation:**  \n- **Medical Expenses:**  \n  - Dr. Lisa White: $150.00 (initial visit)  \n  - Dr. Mark Taylor: $200.00 (ortho consult)  \n  - PT Sessions: $500 x 12 visits = $6,000.00  \n  - Total Medical Expenses: $6,350.00  \n\n- **Wage Loss Analysis:**  \nBC was unable to work due to the injury but continued attending classes. However, wage loss is estimated at ~$1,200 from missed part-time work (4 weeks @ $300/week).  \n\n**Settlement Analysis:**  \nThe total economic damages, including medical expenses and wage loss, amount to approx. $7,550.00. Non-economic damages (pain and suffering) should also be considered, and a multiplier of 1.5 could apply, leading to an additional ~$11,325 in damages.  \n\n**Negotiation Strategy:**  \n- Initial offer should be based on economic damages plus a reasonable estimate for non-economic damages.  \n- Consider presenting the case as follows:  \n  - Total Economic Damages: $7,550.00  \n  - Non-Economic Damages: $11,325.00  \n  - Total Settlement Demand: ~$18,875.00  \n\n**Settlement Authority Recommendation:**  \nConsidering the evidence and the claimant's age, I recommend settling for a range of $15,000 to $18,000 to avoid litigation. The claimant is likely to accept an initial offer around $16,000 given the circumstances and medical history.",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:28:23.422324",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Settlement Adjuster Notes",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 24.230581799987704,
+        "tokens": {
+          "prompt_tokens": 806,
+          "completion_tokens": 602,
+          "total_tokens": 1408
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:28:38.983500",
+      "type": "other_text_data",
+      "document_type": "claimant_statement",
+      "document_text": "I am writing to provide my statement regarding the slip and fall incident that occurred on August 7th, 2007, at the cafeteria on my university campus. I was there having lunch with my friends when I suddenly slipped on a wet floor, which I didn't see because it was kinda busy that day and the cleaning staff were just finishing up. I fell hard onto the ground, landing awkwardly, and I could feel this excruciating pain in my ankle immediately. It was so so painful!!! I was also bruised on my left knee as I hit it on the floor, and I couldn't believe it when I realized that I couldn't get up without help. My friends John and Emily were there to assist me because I was just crying in pain and couldn't move. I felt really embarrassed, and my pride was hurt too, but mostly, I was just worried about how bad my injuries were.\n\nThe next day, on August 8th, I went to see Dr. Lisa White, my GP, who told me that I sprained my ankle pretty badly. She gave me some pain relief meds and advised me to use ice on it. I also had to see Dr. Mark Taylor, an orthopedic specialist, because it wasn't getting any better. I was prescribed physical therapy as my ankle was giving me lots of trouble, and I had to go through evals and treatments for weeks.\n\nBefore the incident, I was going to classes full-time, studying hard, and socializing with friends. But after this accident, everything changed. I struggled to keep up with my classwork and just getting around campus was a challenge. I couldn\u2019t attend classes regularly and missed out on some important lectures while I was in PT. It was frustrating and really affected my grades, not to mention my mental health. I felt so helpless sitting on the sidelines while everyone else was moving forward. It took me a long time to feel like I was back to normal, and I didn\u2019t even fully heal until around September 25th! I really, really had to push myself to return to campus and get back into the swing of things. The whole experience was not just physically draining but emotionally overwhelming too. I still get a little anxious when I think about slippery floors now because I just don\u2019t want to experience that kinda pain again.",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:28:38.983500",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Claimant Statement",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 15.54779260000214,
+        "tokens": {
+          "prompt_tokens": 791,
+          "completion_tokens": 508,
+          "total_tokens": 1299
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:28:53.527865",
+      "type": "other_text_data",
+      "document_type": "adjuster_notes_initial",
+      "document_text": "**Initial Adjuster Notes**  \n**Claim Number:** CLM123456  \n**Claimant:** BC, Age: 21, Occupation: Student  \n**Incident Date:** 08/07/2007  \n**Reported Date:** 08/08/2007  \n**Location:** University Campus, Cafeteria  \n\n**Injury Assessment:**  \n- **Primary Injury:** Sprained ankle  \n- **Secondary Injuries:** Bruising on left knee  \n- **Initial Tx:** Ice app. and pain relief Rx  \n- **Treating Drs:** Dr. Lisa White (GP), Dr. Mark Taylor (Ortho)  \n- **First Medical Treatment Date:** 08/08/2007  \n- **Physical Therapy:** Completed by 09/15/2007  \n\n**Liability Evaluation:**  \n- Claimant slipped on wet floor; potential liability on university  \n- Witnesses: John Smith, Emily Brown; statements needed  \n- Review CCTV footage to confirm incident circumstances  \n- Per phone call on 01/15/2024, clmt states no prior injuries  \n\n**Initial Actions Taken:**  \n- 10:30am spoke w/ clmt; gathered basic info  \n- 2:15pm reviewed file, confirmed initial treatment details  \n- Requested LOI from clmt for further info on incident  \n- Contacted treating physicians for medical records, est. ROI  \n\n**Next Steps:**  \n- Await response from Drs. White and Taylor  \n- Follow up w/ witnesses for statements by 01/22/2024  \n- Review all gathered documentation by next week  \n- Schedule IME if necessary, based on medical findings  \n- Keep track of any ongoing symptoms reported by claimant  \n\n**Notes:**  \n- Claimant returned to classes on 09/18/2007; MMI achieved by 09/25/2007  \n- Ensure all documentation is organized for future reviews  \n- Monitor case for possible SIU referral based on findings  \n\n**End of Notes**  \n",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:28:53.527865",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Initial Adjuster Notes",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 14.537770900002215,
+        "tokens": {
+          "prompt_tokens": 789,
+          "completion_tokens": 515,
+          "total_tokens": 1304
+        }
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_type": "fhir_processor",
+    "bundle_file": "Bryant814_Corwin846_78a7ab19-bdd0-2238-e4e5-de757ee074d1.json",
+    "processing_timestamp": "2025-10-25T02:02:22.889989",
+    "total_encounters_evaluated": 1,
+    "relevant_encounters": 1,
+    "processing_stats": {
+      "total_evaluated": 1,
+      "relevant_encounters": 1,
+      "classification_errors": 0,
+      "note_generation_errors": 0,
+      "api_calls": 0,
+      "total_cost": 0.0,
+      "skipped_irrelevant": 0
+    },
+    "cost_summary": {
+      "total_cost": 0.00557445,
+      "total_calls": 26,
+      "total_tokens": 13967,
+      "average_cost_per_call": 0.00021440192307692308
+    },
+    "processor_version": "enhanced_v1.0",
+    "synthetic_documents_added": {
+      "timestamp": "2025-10-28T12:28:53.527865",
+      "generator": "synthetic_document_generator",
+      "documents_added": 5,
+      "total_encounters": 6
+    }
+  }
+}

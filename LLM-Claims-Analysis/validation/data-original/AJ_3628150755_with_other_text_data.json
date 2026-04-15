@@ -1,0 +1,165 @@
+{
+  "claim_id": 3628150755,
+  "patient_initials": "AJ",
+  "patient_metadata": {
+    "age": "17",
+    "gender": "Male",
+    "name": "Antoine384 Wes853 Jones311"
+  },
+  "encounters": [
+    {
+      "encounter_id": "693d1a46-7f3a-fdd9-7d23-b7849271ad63",
+      "document_type": "clinical_note",
+      "document_text": "**Clinical Note**\n\n**Patient Name:** [Patient Name]  \n**Date of Encounter:** March 28, 2022  \n**Encounter Type:** Wellness  \n**Encounter Name:** Encounter Module Scheduled Wellness  \n**Encounter Cost:** $136.80  \n**Provider:** [Provider Name]  \n**Facility:** [Facility Name]  \n\n**Chief Complaint:**  \nThe patient presents for a scheduled wellness visit with a focus on medication review. The patient reports adherence to their current medication regimen but expresses concerns regarding potential side effects and the effectiveness of their treatment plan.\n\n**Assessment:**  \nThe patient is a [age]-year-old [gender] with a history of [relevant medical history, e.g., hypertension, diabetes, hyperlipidemia]. A comprehensive medication review was conducted, which included the following medications:  \n- [Medication 1: dosage, frequency, indication]  \n- [Medication 2: dosage, frequency, indication]  \n- [Medication 3: dosage, frequency, indication]  \n\nThe patient reports no new adverse effects but mentions occasional dizziness, which may be attributed to [specific medication or condition]. Vital signs were stable: BP [value], HR [value], RR [value], Temp [value]. Laboratory results from the last visit indicate [relevant lab results, e.g., HbA1c, lipid panel], which are within [normal/abnormal] limits. \n\nThe patient is currently at moderate risk for [specific condition, e.g., cardiovascular disease], necessitating ongoing monitoring and potential adjustments in their medication regimen. The patient\u00e2\u20ac\u2122s adherence to lifestyle modifications, including diet and exercise, was discussed, and the patient expressed a willingness to improve in these areas.\n\n**Plan:**  \n1. **Medication Management:**  \n   - Continue current medications with the following adjustments:  \n     - [Medication 1: adjust dosage/frequency if applicable]  \n     - [Medication 2: consider alternative medication if side effects persist]  \n   - Schedule follow-up in [time frame, e.g., 3 months] to reassess medication efficacy and side effects.  \n   - Educate the patient on potential side effects of medications and the importance of reporting any new symptoms.\n\n2. **Laboratory Monitoring:**  \n   - Order follow-up labs to monitor [specific parameters, e.g., renal function, lipid levels] in [time frame, e.g., 3 months].  \n   - Discuss the importance of regular lab monitoring to assess the impact of medications on overall health.\n\n3. **Lifestyle Modifications:**  \n   - Reinforce the importance of dietary changes and regular physical activity.  \n   - Provide resources for dietary counseling and exercise programs.\n\n4. **Patient Education:**  \n   - Discuss the importance of medication adherence and the role of each medication in managing their health conditions.  \n   - Provide written materials on medication management and lifestyle changes.\n\n5. **Follow-Up:**  \n   - Schedule a follow-up appointment in [time frame, e.g., 3 months] to evaluate progress and make further adjustments as necessary.  \n   - Encourage the patient to contact the office with any concerns or side effects prior to the next scheduled visit.\n\n**Signature:**  \n[Provider Name, Credentials]  \n[Contact Information]  \n[Date]  \n\n**Note:** This clinical note is a comprehensive summary of the patient's wellness visit, focusing on medication management and ongoing health monitoring. The encounter is classified as moderate cost due to the complexity of medication review and potential future healthcare needs.",
+      "encounter_date": "2022-03-28",
+      "source_file": "synthea_native",
+      "encounter_metadata": {
+        "resource_type": "Encounter",
+        "synthea_type": "wellness",
+        "synthea_name": "Encounter Module Scheduled Wellness",
+        "classification": {
+          "is_relevant": true,
+          "confidence": 0.8,
+          "reason": "The encounter involves a medication review, which can indicate ongoing medical needs and potential adjustments in treatment that may impact future costs.",
+          "category": "moderate_cost",
+          "cost_indicators": [
+            "medication management",
+            "potential changes in treatment",
+            "follow-up visits",
+            "chronic condition monitoring"
+          ]
+        },
+        "processing_timestamp": "2025-10-25T02:00:19.893694"
+      }
+    },
+    {
+      "date": "2025-10-28T12:14:32.002315",
+      "type": "other_text_data",
+      "document_type": "medical_provider_letter",
+      "document_text": "[Your Clinic Name]  \n[Your Clinic Address]  \n[City, State, Zip Code]  \n[Phone Number]  \n[Date: 01/15/2024]  \n\n[Insurance Company Name]  \n[Insurance Company Address]  \n[City, State, Zip Code]  \n\nRe: Claimant: AJ  \nClaim Number: CLM-2022-001  \nPolicy Number: POL-2022-005  \n\nDear [Adjuster's Name],  \n\nI am writing to provide a comprehensive medical summary regarding my patient, AJ, a 17-year-old student, who sustained an injury while playing basketball on March 28th, 2022. The incident resulted in a sprained ankle and a secondary bruised knee.  \n\n**Clinical Summary:**  \nAJ presented to my office on March 29th, 2022, with complaints of pain and swelling in the right ankle after it twisted during a fall. Initial assessment revealed a significant amount of edema and tenderness localized around the lateral malleolus. The DTRs were WNL, and neurovascular status was intact. An MRI was not deemed necessary at this time, as the clinical findings were consistent with a grade II ankle sprain.  \n\n**Examination Findings:**  \nUpon examination, AJ exhibited limited range of motion (ROM) in the affected ankle, with pain exacerbated upon inversion and eversion. The knee showed mild bruising but no significant swelling or instability. I advised the RICE method (Rest, Ice, Compression, Elevation) as the initial treatment plan and prescribed analgesics for pain management.  \n\n**Treatment Plan:**  \nAJ was scheduled for a follow-up visit on April 5th, 2022, where we assessed the swelling and noted gradual improvement. Physical therapy (PT) commenced on April 15th, focusing on strengthening and mobility exercises. AJ was compliant with the prescribed PT regimen, attending sessions bid per week.  \n\n**Prognosis:**  \nAJ has made excellent progress and achieved maximum medical improvement by May 15th, 2022. The ankle has fully healed, and he has been cleared to return to regular activities without restrictions. There are no anticipated long-term effects from the injury.  \n\n**Work Restrictions:**  \nAs AJ is a student, he has not required any work restrictions during his recovery. He has been able to participate in school activities without limitations since his clearance.  \n\nIf you require any further information or documentation, please do not hesitate to contact my office. Thank you for your attention to this matter.  \n\nSincerely,  \n\nDr. Emily Johnson, MD  \n[Your Clinic Name]  \n[Your License Number]  \n[Your Contact Information]  \n",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:14:32.002315",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Medical Provider Letter",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 16.890240699984133,
+        "tokens": {
+          "prompt_tokens": 759,
+          "completion_tokens": 653,
+          "total_tokens": 1412
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:14:52.275205",
+      "type": "other_text_data",
+      "document_type": "phone_transcript",
+      "document_text": "[Background noise: faint chatter, basketball bouncing]\n**Insurance Rep:** Hello! Thank you for calling the Claims Department. This is Lisa speaking, how can I help you today?\n\n**AJ:** Hi, um, this is AJ. I\u2019m calling about my claim... uh, I think it\u2019s CLM-2022-001?\n\n**Insurance Rep:** Okay, let me pull that up for you, AJ... Ah, yes! I see here you had an incident on March 28th at the local park, right?\n\n**AJ:** Yeah, that\u2019s right. I was\u2014 I fell while playing basketball. My ankle twisted really badly, um, and I also bruised my knee when I landed.\n\n**Insurance Rep:** Oof, that sounds painful! So, um, was there anyone else there who saw what happened?\n\n**AJ:** Yeah, there were two friends with me. John Doe and Mike Smith. They can, like, back up my story if needed.\n\n**Insurance Rep:** Great, that\u2019s helpful! Now, did you get medical treatment right away?\n\n**AJ:** Yup! I saw Dr. Emily Johnson the next day, on March 29th. She, uh, told me to follow the RICE method... you know, rest, ice, compression, and elevation? And prescribed some pain meds.\n\n**Insurance Rep:** That\u2019s a good approach. And I see you had a follow-up on April 5th. How did that go?\n\n**AJ:** It was okay... the swelling was still pretty bad, but they said it was healing. Then I started physical therapy on April 15th.\n\n**Insurance Rep:** Perfect, so you\u2019ve been in PT. Did they say when you\u2019d be able to return to normal activities?\n\n**AJ:** Yeah, uh, by May 15th, I got cleared. My ankle is fully healed now, so all good!\n\n**Insurance Rep:** That\u2019s awesome to hear! So, just to recap, you\u2019re all better from the sprain and bruising, and all your treatments are documented?\n\n**AJ:** Yes, absolutely. I kept all the paperwork and stuff.\n\n**Insurance Rep:** Great! Now, I\u2019ll need to schedule a time to review your documents. Would you prefer me to send you an email or... uh, call you back?\n\n**AJ:** Um, email works better for me. Just let me know what you need, and I\u2019ll send it over.\n\n**Insurance Rep:** Got it! I\u2019ll be sending you a list of documents we\u2019ll need to proceed with your claim assessment. If you could get those to us by, let\u2019s say, next Friday?\n\n**AJ:** Yeah, that should be fine. I can do that.\n\n**Insurance Rep:** Perfect! If you have any questions in the meantime, don\u2019t hesitate to reach out. Just make sure you keep a copy of everything you send us.\n\n**AJ:** Will do, thanks!\n\n**Insurance Rep:** You're welcome! Uh, take care, AJ, and good luck with your basketball!\n\n**AJ:** Haha, thanks! Bye!\n\n**Insurance Rep:** Bye! [Call ends]",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:14:52.275205",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Initial Phone Call Transcript",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 20.268945599964354,
+        "tokens": {
+          "prompt_tokens": 784,
+          "completion_tokens": 731,
+          "total_tokens": 1515
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:15:10.818883",
+      "type": "other_text_data",
+      "document_type": "settlement_adjuster_notes",
+      "document_text": "**Settlement Adjuster Notes**  \n**Claim Number:** CLM-2022-001  \n**Claimant:** AJ  \n**Date:** 1/15/2024  \n\n**Medical Treatment Summary:**  \n- AJ sustained a sprained ankle and a bruised knee on 03/28/2022 while playing basketball at a local park.  \n- Initial treatment included RICE method; prescribed pain meds by Dr. Emily Johnson on 03/29/2022.  \n- Follow-up visit on 04/05/2022 noted swelling; physical therapy (PT) initiated on 04/15/2022 for ankle rehab.  \n- Achieved Maximum Medical Improvement (MMI) on 05/15/2022; cleared for regular activities post-Tx.  \n\n**Total Expenses Calculation:**  \n- Medical expenses:  \n  - Initial visit: $150.00  \n  - Follow-up: $100.00  \n  - PT sessions (12 x $50): $600.00  \n- Total Medical Costs: $150 + $100 + $600 = **$850.00**  \n\n**Wage Loss Analysis:**  \n- AJ is a student; no wage loss incurred.  \n- Future earning capacity unaffected as claimant is under 18 and engaged in studies.  \n\n**Settlement Analysis:**  \n- Total damages based on medical costs are approx. $850.  \n- Considering pain & suffering for minor injuries, est. value of $1,500 - $2,000 seems reasonable, given the nature of the incident and age of the claimant.  \n- Prior notes indicate a willingness to settle for a reasonable amount to close the case efficiently.  \n\n**Negotiation Strategy:**  \n- Focus on presenting a clear breakdown of medical expenses and soft tissue injury impacts.  \n- Highlight the fact that AJ has made a full recovery and return to normal activities.  \n- Propose initial settlement offer of $1,500 to gauge claimant's response; adjust based on feedback.  \n\n**Settlement Authority Recommendation:**  \n- Recommend authority to settle for up to $2,000, considering both medical expenses and the minor impact on AJ\u2019s daily life.  \n- Suggest follow-up on negotiation by 2/15/2024 to finalize settlement terms.  \n\n**Conclusion:**  \n- This case seems straightforward, and with a proper negotiation strategy, a fair settlement can be achieved promptly.  \n- Per file review, all documentation appears complete, and I would advise moving forward with negotiations soon.  \n\n**End of Notes**",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:15:10.818883",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Settlement Adjuster Notes",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 18.5300256999908,
+        "tokens": {
+          "prompt_tokens": 800,
+          "completion_tokens": 618,
+          "total_tokens": 1418
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:15:28.047933",
+      "type": "other_text_data",
+      "document_type": "claimant_statement",
+      "document_text": "My name is AJ, I am 17 years old and I\u2019m a student. I\u2019m writing this statement to explain the incident that happened on March 28th, 2022, at my local park. I was playing basketball with my friends like we often do. I remember feeling really pumped up, shooting hoops and just having a blast!!! But things took a turn when I jumped to grab a rebound, only to land awkwardly, twisting my ankle in a way that didn\u2019t feel natural at all. I heard a weird popping sound, and I immediately fell to the ground!!! It was so, so painful, I couldn\u2019t believe it. My friend John Doe and Mike Smith were there, and they rushed over to help me. I was just laying there, in shock and in a lot of pain, and I could feel the tears starting to come, it was the worst!!\n\nAfter the incident, I had to go to see Dr. Emily Johnson the very next day on March 29th. She assessed my injuries, diagnosed me with a sprained ankle and a bruised knee, and told me to follow the RICE method. I tried to rest and ice my ankle as much as I could, but honestly, it was super hard to sit still. I was on pain medication but it didn\u2019t seem to do much. My life changed a lot right away. I couldn\u2019t walk properly or even put weight on my foot for a while. It felt like everything was turned upside down!!! \n\nI missed out on a lot of time with my friends, which really bummed me out because I love being active and hanging out. Plus, I couldn\u2019t go to school and join my classmates for physical activities during gym class. I felt so out of place when I finally returned!!! I started physical therapy on April 15th to help me regain strength and mobility in my ankle. That first session was tough, I remember I was frustrated it was so hard to do simple things like walk on my own again. \n\nThe recovery seemed to take forever but I was really dedicated to my rehab!!! Slowly but surely I started to improve, and I was so motivated to get back to normal. Finally, by May 15th, I was at my maximum medical improvement, which felt like a huge victory for me \u2013 I could finally return to all my normal activities without any restrictions!!!  \n\nBut I\u2019ll be honest, the whole experience made me realize how quickly things can change and how much I took my mobility for granted. It\u2019s like a switch flipped, and I\u2019m so grateful to be back on the court, even if I\u2019m a bit more cautious now!!! This incident really impacted my daily life and my studies during that recovery time, and I just wanted you to understand how hard it was for me. Thank you for taking the time to read my statement.",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:15:28.047933",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Claimant Statement",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 17.21684439998353,
+        "tokens": {
+          "prompt_tokens": 785,
+          "completion_tokens": 624,
+          "total_tokens": 1409
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:15:44.514855",
+      "type": "other_text_data",
+      "document_type": "adjuster_notes_initial",
+      "document_text": "Initial Adjuster Notes - Claim #: CLM-2022-001  \nDate: 01/15/2024  \nTime: 10:30am  \n\n- **Claimant Info:** AJ, 17 y/o, student.  \n- **Incident Date:** 3/28/2022 at local park.  \n- **Reported Date:** 3/29/2022.  \n- **Mechanism of Injury:** Claimant fell while playing basketball, resulting in ankle twist.  \n\n**Injury Assessment:**  \n- Primary Injury: Sprained ankle, secondary: bruised knee.  \n- Treating Physician: Dr. Emily Johnson.  \n- Initial Tx: RICE method advised; pain med prescribed.  \n- Follow-up on 4/5/22: swelling assessed.  \n- PT started on 4/15/22; max medical improvement by 5/15/22.  \n\n**Liability Evaluation:**  \n- Witnesses present: John Doe, Mike Smith.  \n- No external factors noted; claimant\u2019s actions during the incident were reasonable.  \n- Equipment involved: basketball; no defects noted.  \n\n**Initial Actions Taken:**  \n- Reviewed incident report and medical records.  \n- Contacted Dr. Johnson's office for detailed Tx notes on 1/12/24.  \n- Followed up w/ claimant via email on 1/14/24 for any additional info/documents.  \n\n**Next Steps:**  \n- Await response from Dr. Johnson's office (ROI).  \n- Schedule IME if needed to clarify long-term impacts.  \n- Continue to monitor for any additional medical Tx or complications.  \n- Set reminder for follow-up w/ claimant in 30 days.  \n\n**Notes:**  \n- Claimant appears to be on the right track w/ recovery; no ongoing issues reported at time of last follow-up.  \n- Ensure all documentation is complete by next review.  \n\n- **End of Notes**",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:15:44.514855",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Initial Adjuster Notes",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 16.45713480003178,
+        "tokens": {
+          "prompt_tokens": 783,
+          "completion_tokens": 495,
+          "total_tokens": 1278
+        }
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_type": "fhir_processor",
+    "bundle_file": "Antoine384_Jones311_36aefbc4-a492-825a-a9fe-999acf78541d.json",
+    "processing_timestamp": "2025-10-25T02:00:19.894758",
+    "total_encounters_evaluated": 1,
+    "relevant_encounters": 1,
+    "processing_stats": {
+      "total_evaluated": 1,
+      "relevant_encounters": 1,
+      "classification_errors": 0,
+      "note_generation_errors": 0,
+      "api_calls": 0,
+      "total_cost": 0.0,
+      "skipped_irrelevant": 0
+    },
+    "cost_summary": {
+      "total_cost": 0.00208755,
+      "total_calls": 10,
+      "total_tokens": 5214,
+      "average_cost_per_call": 0.000208755
+    },
+    "processor_version": "enhanced_v1.0",
+    "synthetic_documents_added": {
+      "timestamp": "2025-10-28T12:15:44.514855",
+      "generator": "synthetic_document_generator",
+      "documents_added": 5,
+      "total_encounters": 6
+    }
+  }
+}

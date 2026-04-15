@@ -1,0 +1,228 @@
+{
+  "name": "extract_clinical_note_features",
+  "description": "Extract structured features from clinical notes (doctor visits, therapy sessions, follow-ups) for treatment progression tracking",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "structured_features": {
+        "type": "object",
+        "description": "Structured features from clinical notes",
+        "properties": {
+          "visit_date": {
+            "type": "string",
+            "description": "Date of clinical visit (YYYY-MM-DD format)"
+          },
+          "visit_type": {
+            "type": "string",
+            "enum": ["initial", "follow_up", "emergency", "specialist_referral", "therapy_session"],
+            "description": "Type of clinical visit"
+          },
+          "provider_type": {
+            "type": "string",
+            "enum": ["primary_care", "orthopedic", "neurologist", "physical_therapist", "pain_management", "other_specialist"],
+            "description": "Type of healthcare provider"
+          },
+          "chief_complaint": {
+            "type": "string",
+            "description": "Chief complaint documented by provider"
+          },
+          "primary_diagnosis": {
+            "type": "string",
+            "description": "Primary medical diagnosis (e.g., 'acute lower back strain', 'rotator cuff tear', 'carpal tunnel syndrome')"
+          },
+          "severity_assessment": {
+            "type": "string",
+            "enum": ["minor", "moderate", "major", "catastrophic"],
+            "description": "Clinical assessment of injury severity: minor (minimal impact), moderate (significant but manageable), major (serious injury), catastrophic (permanent disability)"
+          },
+          "treatment_provided": {
+            "type": "string",
+            "description": "Treatment provided during this visit (e.g., 'conservative management', 'surgical intervention', 'pain management', 'physical therapy')"
+          },
+          "medications_prescribed": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "List of medications prescribed (e.g., ['ibuprofen 800mg', 'muscle relaxers', 'opioid pain medication'])"
+          },
+          "procedures_performed": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Medical procedures performed during visit (e.g., ['physical examination', 'range of motion testing', 'injection', 'surgical procedure'])"
+          },
+          "expected_recovery_time": {
+            "type": "string",
+            "description": "Expected recovery timeline (e.g., '4-6 weeks', '3 months', '6-12 months', 'permanent restrictions')"
+          },
+          "complications_risk": {
+            "type": "string",
+            "enum": ["low", "medium", "high"],
+            "description": "Risk of complications or treatment setbacks"
+          },
+          "functional_limitations": {
+            "type": "string",
+            "description": "Current functional restrictions (e.g., 'lifting restrictions, prolonged sitting limitations', 'no overhead work', 'limited walking distance')"
+          },
+          "work_capacity_assessment": {
+            "type": "string",
+            "description": "Current work capacity assessment (e.g., 'light duty capable', 'sedentary work only', 'unable to work', 'full duty with restrictions')"
+          },
+          "treatment_complexity": {
+            "type": "string",
+            "enum": ["simple", "moderate", "complex"],
+            "description": "Complexity of treatment plan: simple (basic care), moderate (multiple interventions), complex (specialized/long-term treatment)"
+          },
+          "ongoing_care_needs": {
+            "type": "string",
+            "description": "Ongoing medical care requirements (e.g., 'follow-up in 2 weeks', 'weekly physical therapy', 'monthly pain management', 'no further treatment needed')"
+          },
+          "rehabilitation_requirements": {
+            "type": "string",
+            "description": "Physical therapy, occupational therapy, or rehabilitation needs (e.g., 'physical therapy recommended', '12 weeks PT prescribed', 'vocational rehabilitation needed')"
+          },
+          "specialist_consultations_needed": {
+            "type": "string",
+            "description": "Specialist referrals required (e.g., 'orthopedic if no improvement', 'pain management consultation', 'surgical evaluation needed', 'none')"
+          },
+          "subjective_symptoms": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Symptoms reported by patient (subjective)"
+          },
+          "objective_findings": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Objective clinical findings from examination"
+          },
+          "pain_level_documented": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10,
+            "description": "Pain level on 0-10 scale as documented"
+          },
+          "functional_assessment": {
+            "type": "object",
+            "properties": {
+              "range_of_motion": {"type": "string"},
+              "strength": {"type": "string"},
+              "mobility": {"type": "string"},
+              "activities_of_daily_living": {"type": "string"}
+            },
+            "description": "Detailed functional assessment components"
+          },
+          "diagnostic_tests_ordered": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Diagnostic tests ordered (e.g., ['MRI lumbar spine', 'EMG study', 'X-ray'])"
+          },
+          "therapy_prescribed": {
+            "type": "object",
+            "properties": {
+              "therapy_type": {"type": "string"},
+              "frequency": {"type": "string"},
+              "duration": {"type": "string"}
+            },
+            "description": "Therapy prescription details"
+          },
+          "work_status": {
+            "type": "string",
+            "enum": ["full_duty", "light_duty", "modified_duty", "off_work", "not_discussed"],
+            "description": "Work status documented or recommended"
+          },
+          "work_restrictions": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Specific work restrictions noted (e.g., ['no lifting over 10 lbs', 'no prolonged standing'])"
+          },
+          "referrals_made": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Referrals to other specialists"
+          },
+          "next_appointment": {
+            "type": "string",
+            "description": "Date/timeframe of next scheduled appointment"
+          },
+          "treatment_response": {
+            "type": "string",
+            "enum": ["excellent", "good", "fair", "poor", "not_yet_assessed"],
+            "description": "Patient's response to treatment"
+          },
+          "improvement_noted": {
+            "type": "boolean",
+            "description": "Whether clinical improvement was noted since last visit"
+          },
+          "complications": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Any complications noted"
+          },
+          "patient_compliance": {
+            "type": "string",
+            "enum": ["excellent", "good", "fair", "poor", "not_assessed"],
+            "description": "Patient compliance with treatment plan"
+          },
+          "red_flags_medical": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Medical red flags noted by provider (e.g., ['worsening symptoms despite treatment', 'drug-seeking behavior'])"
+          },
+          "prognosis_updated": {
+            "type": "string",
+            "enum": ["excellent", "good", "guarded", "poor"],
+            "description": "Updated prognosis if documented"
+          },
+          "maximum_medical_improvement": {
+            "type": "boolean",
+            "description": "Whether MMI (Maximum Medical Improvement) has been reached"
+          }
+        },
+        "required": [
+          "visit_date",
+          "visit_type",
+          "provider_type",
+          "chief_complaint",
+          "primary_diagnosis",
+          "severity_assessment",
+          "treatment_provided",
+          "medications_prescribed",
+          "procedures_performed",
+          "expected_recovery_time",
+          "complications_risk",
+          "functional_limitations",
+          "work_capacity_assessment",
+          "treatment_complexity",
+          "ongoing_care_needs",
+          "rehabilitation_requirements",
+          "specialist_consultations_needed"
+        ]
+      },
+      "narrative_analysis": {
+        "type": "string",
+        "description": "Rich text analysis (500-1000 characters) covering: (1) Clinical progression and treatment response, (2) Changes from previous visits and improvement trajectory, (3) Provider's assessment, concerns, and prognosis, (4) Impact on recovery timeline and return to work capacity, (5) Actuarial implications for cost projections and reserve adequacy"
+      },
+      "confidence_metadata": {
+        "type": "object",
+        "properties": {
+          "overall_confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Confidence in extracted clinical information"
+          },
+          "data_quality": {
+            "type": "string",
+            "enum": ["excellent", "good", "fair", "poor"],
+            "description": "Quality and completeness of clinical documentation"
+          },
+          "missing_information": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Important clinical information not documented"
+          }
+        },
+        "required": ["overall_confidence", "data_quality", "missing_information"]
+      }
+    },
+    "required": ["structured_features", "narrative_analysis", "confidence_metadata"]
+  }
+}

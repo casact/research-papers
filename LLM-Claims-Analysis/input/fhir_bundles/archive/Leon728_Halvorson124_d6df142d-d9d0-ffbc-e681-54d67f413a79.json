@@ -1,0 +1,5087 @@
+{
+  "seed": 4014050679668805482,
+  "lastUpdated": 1760800465191,
+  "coverage": {
+    "planHistory": [
+      {
+        "start": 1739027665191,
+        "stop": 1770131665191,
+        "plan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "coveredExpenses": 0.00,
+        "remainingDeductible": 0,
+        "outOfPocketExpenses": 1542.56,
+        "insuranceExpenses": 0.00
+      },
+      {
+        "start": 1706973265191,
+        "stop": 1739027665191,
+        "plan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "coveredExpenses": 0.00,
+        "remainingDeductible": 0,
+        "outOfPocketExpenses": 4070.18,
+        "insuranceExpenses": 0.00
+      }
+    ],
+    "nextEnrollmentPeriod": 1770131665191
+  },
+  "symptoms": {},
+  "attributes": {
+    "QOLS": {
+      "2024": 1.0,
+      "2025": 1.0
+    },
+    "employment_model": {
+      "chanceOfUnemployment": 0.055,
+      "nextTimeToCheck": 0,
+      "unemployed": false
+    },
+    "county": "Worcester County",
+    "metabolic_syndrome_review": {
+      "system": "SNOMED-CT",
+      "code": "763288003",
+      "display": "Patient review (procedure)"
+    },
+    "vhd_as_risk": true,
+    "state": "Massachusetts",
+    "name_mother": "Tonette11 Weber641",
+    "food_insecurity": false,
+    "active_wellness_encounter Lung Cancer Module": false,
+    "fips": "25027",
+    "active_wellness_encounter Wellness Encounters Module": false,
+    "vhd_ms_risk": true,
+    "active_wellness_encounter hiv_diagnosis Module": false,
+    "active_wellness_encounter Bone Marrow Transplant Module": false,
+    "active_wellness_encounter Homelessness Module": false,
+    "ethnicity": "nonhispanic",
+    "active_wellness_encounter Asthma Module": false,
+    "active_wellness_encounter Veteran Hyperlipidemia Module": false,
+    "active_wellness_encounter Home Health Treatment Module": false,
+    "target_age": 1,
+    "active_wellness_encounter Veteran Substance Abuse Treatment Module": false,
+    "adherence probability": 0.05,
+    "active_wellness_encounter Dental and Oral Examination Module": false,
+    "disabled": false,
+    "unemployed": false,
+    "address": "1039 Leuschke Harbor",
+    "active_wellness_encounter Medication Reconciliation Module": false,
+    "active_wellness_encounter Metabolic Syndrome Disease Progression Module": false,
+    "first_language": "english",
+    "vhd_tr_risk": true,
+    "active_wellness_encounter Hospice Treatment Module": false,
+    "active_wellness_encounter Stable Ischemic Heart Disease Module": false,
+    "active_wellness_encounter Sexual Activity Module": false,
+    "uninsured": false,
+    "active_wellness_encounter Contraceptive Maintenance Module": false,
+    "active_wellness_encounter Sore Throat Module": false,
+    "birth_country": "US",
+    "active_wellness_encounter Food Allergies Module": false,
+    "active_wellness_encounter vhd_mitral Module": false,
+    "active_wellness_encounter Sleep Apnea Module": false,
+    "active_wellness_encounter Urinary Tract Infections Module": false,
+    "active_wellness_encounter Atopy Module": false,
+    "vhd_pr_risk": true,
+    "coordinate": {
+      "x": -71.95992061538222,
+      "y": 42.59294037741373
+    },
+    "most-recent-qaly": 0.0,
+    "active_wellness_encounter Sinusitis Module": false,
+    "active_wellness_encounter Injuries Module": false,
+    "active_wellness_encounter Female Reproduction Module": false,
+    "active_wellness_encounter Veteran mild TBI  Module": false,
+    "socioeconomic_category": "Middle",
+    "diabetic_eye_damage": 0,
+    "poverty_ratio": 4.817492877492877,
+    "name": "Leon728 Halvorson124",
+    "income": 84547,
+    "low_hdl": true,
+    "active_wellness_encounter COPD Module": false,
+    "cardio_risk": -0.0013302073019139105,
+    "active_wellness_encounter Dermatitis Module": false,
+    "active_wellness_encounter Colorectal Cancer Module": false,
+    "active_wellness_encounter Veteran MDD Module": false,
+    "last_month_paid": 10,
+    "vhd_ps_risk": true,
+    "DALY": {
+      "2024": 0.0,
+      "2025": 0.0
+    },
+    "active_wellness_encounter Veteran Self Harm Module": false,
+    "first_name": "Leon728",
+    "AGE": 1,
+    "race": "white",
+    "preferredProviderwellness": {
+      "uuid": "4633340c-c833-30a3-ab0e-f5cfa5fda28b",
+      "locationUuid": "b11653b6-7871-319f-861d-cea1a4449289",
+      "id": "1366411316",
+      "npi": "1366411316",
+      "cmsProviderNum": "",
+      "cmsPin": "",
+      "cmsUpin": "",
+      "cmsCategory": "",
+      "cmsProviderType": "12-70",
+      "cmsRegion": "",
+      "cliaNumber": "",
+      "name": "CHAIR CITY FAMILY MEDICINE, PC",
+      "location": {
+        "totalPopulation": 7069851,
+        "state": "Massachusetts"
+      },
+      "address": "250 GREEN ST",
+      "city": "GARDNER",
+      "state": "MA",
+      "zip": "014401377",
+      "fipsCountyCode": "",
+      "phone": "9786304455",
+      "type": "PRIMARY",
+      "institutional": false,
+      "revenue": 0.0,
+      "coordinates": {
+        "x": -71.98672640006858,
+        "y": 42.586896550000006
+      },
+      "servicesProvided": [
+        "WELLNESS"
+      ]
+    },
+    "ascvd_risk": -1.0,
+    "location": {
+      "totalPopulation": 7069851,
+      "state": "Massachusetts"
+    },
+    "time": 1752333265191,
+    "ckd": 0,
+    "active_wellness_encounter Hypertension Module": false,
+    "education": "less_than_hs",
+    "birthdate": 1706973265191,
+    "active_wellness_encounter Osteoporosis Module": false,
+    "active_wellness_encounter Gallstones Module": false,
+    "vhd_ar_risk": true,
+    "high_total_chol": false,
+    "active_wellness_encounter Total Joint Replacement Module": false,
+    "current_weight_length_percentile": 87.03765100373049,
+    "id": "d6df142d-d9d0-ffbc-e681-54d67f413a79",
+    "socioeconomic_score": 0.5163704303379093,
+    "active_wellness_encounter trigger_bone_marrow_transplant Module": false,
+    "zip": "01440",
+    "active_wellness_encounter Dialysis Module": false,
+    "active_wellness_encounter vhd_pulmonic Module": false,
+    "active_wellness_encounter Kidney Transplant Module": false,
+    "active_wellness_encounter Anemia - Unknown Etiology Module": false,
+    "active_wellness_encounter Atrial Fibrillation Module": false,
+    "active_wellness_encounter Cerebral Palsy Module": false,
+    "active_wellness_encounter Veteran PTSD Module": false,
+    "atrial_fibrillation_risk": -0.0013302073019139105,
+    "active_wellness_encounter Veteran Lung Cancer Module": false,
+    "active_wellness_encounter Home Hospice SNF Module": false,
+    "bp_baseline_false_SYSTOLIC": 102.58148481753501,
+    "birthplace": "Dartmouth, Massachusetts, US",
+    "mi_risk": -0.005713359451406275,
+    "active_wellness_encounter Bronchitis Module": false,
+    "active_wellness_encounter Dementia Module": false,
+    "active_wellness_encounter vhd_tricuspid Module": false,
+    "birth_city": "Dartmouth",
+    "gender": "M",
+    "city": "Gardner",
+    "active_wellness_encounter Allergies and Treatment Module": false,
+    "income_level": 1.0,
+    "birth_state": "Massachusetts",
+    "active_wellness_encounter Gout Module": false,
+    "ihd_risk": -0.028566797257031373,
+    "stroke_risk": -0.0013302073019139105,
+    "immunizations": {
+      "hib": [
+        1715440465191,
+        1720883665191,
+        1744470865191
+      ],
+      "zoster": [],
+      "var": [
+        1744470865191
+      ],
+      "tdap": [],
+      "rv_mono": [
+        1715440465191,
+        1720883665191
+      ],
+      "ipv": [
+        1715440465191,
+        1720883665191,
+        1728746065191
+      ],
+      "flu": [
+        1728746065191
+      ],
+      "hpv": [],
+      "dtap": [
+        1715440465191,
+        1720883665191,
+        1728746065191,
+        1752333265191
+      ],
+      "td": [],
+      "hepa_adult": [],
+      "mmr": [
+        1744470865191
+      ],
+      "hepb_adult": [],
+      "men": [],
+      "ppsv23": [],
+      "pcv13": [
+        1715440465191,
+        1720883665191,
+        1728746065191,
+        1744470865191
+      ],
+      "hepa": [
+        1744470865191
+      ],
+      "hepb": [
+        1706973265191,
+        1709997265191,
+        1728746065191
+      ]
+    },
+    "no_vehicle_access": false,
+    "vhd_mr_risk": true,
+    "telecom": "555-345-5530",
+    "active_wellness_encounter Myocardial Infarction Module": false,
+    "active_wellness_encounter Veteran Module": false,
+    "last_name": "Halvorson124",
+    "active_weight_management": false,
+    "active_wellness_encounter Fibromyalgia Module": false,
+    "active_wellness_encounter Metabolic Syndrome Standards of Care Module": false,
+    "active_wellness_encounter Contraceptives Module": false,
+    "active_wellness_encounter Lupus Module": false,
+    "insurance_status": "none",
+    "name_father": "Fidel864 Halvorson124",
+    "active_wellness_encounter Hypothyroidism Module": false,
+    "most-recent-daly": 0.0,
+    "wellness_encounter_reason": {
+      "system": "SNOMED-CT",
+      "code": "410424005",
+      "display": "Wellness surveillance (regime/therapy)"
+    },
+    "active_wellness_encounter MEND Program Module": false,
+    "active_wellness_encounter Stroke Module": false,
+    "active_wellness_encounter Ear Infections Module": false,
+    "active_wellness_encounter Cystic Fibrosis Module": false,
+    "growth_trajectory": {
+      "initialSample": {
+        "id": 93155,
+        "sex": 2,
+        "agem": 29,
+        "wt": 15.0,
+        "ht": 91.4,
+        "swt": 6767.18895,
+        "racec": "b",
+        "bmi": 17.955556406781934,
+        "prob": 2.1794861347437518E-4
+      },
+      "trajectory": [
+        {
+          "ageInMonths": 29,
+          "timeInSimulation": 1782141265191,
+          "bmi": 17.955556406781934
+        }
+      ],
+      "seed": 4014050679668805482
+    },
+    "active_wellness_encounter Acute Myeloid Leukemia for PCOR Research Module": false,
+    "active_wellness_encounter Pregnancy Module": false,
+    "active_wellness_encounter Spina Bifida Module": false,
+    "active_wellness_encounter covid19 Module": false,
+    "bp_baseline_false_DIASTOLIC": 71.62279327116593,
+    "identifier_ssn": "999-75-8050",
+    "QALY": {
+      "2024": 0.0,
+      "2025": 0.0
+    },
+    "active_wellness_encounter Attention Deficit Disorder Module": false,
+    "active_wellness_encounter Veteran Prostate Cancer Module": false,
+    "education_level": 0.45020547134495564,
+    "active_wellness_encounter vhd_aortic Module": false,
+    "active_wellness_encounter hiv_care Module": false,
+    "sexually_active": false,
+    "active_wellness_encounter Allergic Rhinitis Module": false,
+    "active_wellness_encounter Sepsis Module": false,
+    "vhd_ts_risk": true,
+    "active_wellness_encounter Veteran Substance Abuse Conditions Module": false,
+    "active_wellness_encounter Opioid Addiction Module": false,
+    "active_wellness_encounter Osteoarthritis Module": false,
+    "active_wellness_encounter Appendicitis Module": false,
+    "active_wellness_encounter Chronic Kidney Disease Module": false,
+    "occupation_level": 0.01226600396440325,
+    "diabetic_nerve_damage": 0,
+    "active_wellness_encounter Epilepsy Module": false,
+    "active_wellness_encounter Dentures Module": false,
+    "active_wellness_encounter Breast_cancer Module": false,
+    "active_wellness_encounter Congestive Heart Failure Module": false,
+    "active_wellness_encounter Prescribing Opioids for Chronic Pain and Treatment of OUD Module": false,
+    "severe_housing_cost_burden": false,
+    "sexual_orientation": "heterosexual",
+    "active_wellness_encounter Rheumatoid Arthritis Module": false,
+    "C19_VACCINE_STATUS": "NOT_ELIGIBLE",
+    "RH_NEG": false,
+    "AGE_MONTHS": 20,
+    "mend_encounter_reason": {
+      "system": "SNOMED-CT",
+      "code": "763288003",
+      "display": "Patient review (procedure)"
+    },
+    "birthdate_as_localdate": "2024-02-03",
+    "active_wellness_encounter Self Harm Module": false
+  },
+  "record": {
+    "encounters": [
+      {
+        "observations": [
+          {
+            "value": 50.6,
+            "category": "vital-signs",
+            "unit": "cm",
+            "observations": [],
+            "uuid": "e8b0de79-5776-937d-2b1e-a88e28785580",
+            "fullUrl": "urn:uuid:e8b0de79-5776-937d-2b1e-a88e28785580",
+            "name": "Record_Height",
+            "start": 1706973265191,
+            "stop": 0,
+            "type": "8302-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8302-2",
+                "display": "Body Height"
+              }
+            ]
+          },
+          {
+            "value": 2.0,
+            "category": "vital-signs",
+            "unit": "{score}",
+            "observations": [],
+            "uuid": "751e6710-46c4-bbf6-88c3-ec81f644c545",
+            "fullUrl": "urn:uuid:751e6710-46c4-bbf6-88c3-ec81f644c545",
+            "name": "Record_Pain",
+            "start": 1706973265191,
+            "stop": 0,
+            "type": "72514-3",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "72514-3",
+                "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+              }
+            ]
+          },
+          {
+            "value": 4.1,
+            "category": "vital-signs",
+            "unit": "kg",
+            "observations": [],
+            "uuid": "9dc36fdb-e788-b311-4ed2-9bbcef9ae127",
+            "fullUrl": "urn:uuid:9dc36fdb-e788-b311-4ed2-9bbcef9ae127",
+            "name": "Record_Weight",
+            "start": 1706973265191,
+            "stop": 0,
+            "type": "29463-7",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body Weight"
+              }
+            ]
+          },
+          {
+            "value": 81.42362965064162,
+            "category": "vital-signs",
+            "unit": "%",
+            "observations": [],
+            "uuid": "e435e5e1-9550-6699-52fd-9531611b5aa1",
+            "fullUrl": "urn:uuid:e435e5e1-9550-6699-52fd-9531611b5aa1",
+            "name": "Record_Weight_For_Length_Percentile",
+            "start": 1706973265191,
+            "stop": 0,
+            "type": "77606-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "77606-2",
+                "display": "Weight-for-length Per age and sex"
+              }
+            ]
+          },
+          {
+            "value": 22.83,
+            "category": "vital-signs",
+            "unit": "%",
+            "observations": [],
+            "uuid": "08f5fed9-6736-04aa-d41f-867099d5c6dd",
+            "fullUrl": "urn:uuid:08f5fed9-6736-04aa-d41f-867099d5c6dd",
+            "name": "Record_Head_Circumference_Percentile",
+            "start": 1706973265191,
+            "stop": 0,
+            "type": "8289-1",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8289-1",
+                "display": "Head Occipital-frontal circumference Percentile"
+              }
+            ]
+          },
+          {
+            "value": 34.32,
+            "category": "vital-signs",
+            "unit": "cm",
+            "observations": [],
+            "uuid": "ab542073-bb32-e4df-3d8e-9b9a34d884aa",
+            "fullUrl": "urn:uuid:ab542073-bb32-e4df-3d8e-9b9a34d884aa",
+            "name": "Record Head Circumference",
+            "start": 1706973265191,
+            "stop": 0,
+            "type": "9843-4",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "9843-4",
+                "display": "Head Occipital-frontal circumference"
+              }
+            ]
+          },
+          {
+            "category": "vital-signs",
+            "observations": [
+              {
+                "value": 64.0,
+                "category": "vital-signs",
+                "unit": "mm[Hg]",
+                "observations": [],
+                "uuid": "4721423b-f32e-cc0b-b01f-75a39c6c10c1",
+                "start": 1706973265191,
+                "stop": 0,
+                "type": "8462-4",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8462-4",
+                    "display": "Diastolic Blood Pressure"
+                  }
+                ]
+              },
+              {
+                "value": 91.0,
+                "category": "vital-signs",
+                "unit": "mm[Hg]",
+                "observations": [],
+                "uuid": "42311cd3-2939-7dac-ebd1-d2ee27ec4a80",
+                "start": 1706973265191,
+                "stop": 0,
+                "type": "8480-6",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8480-6",
+                    "display": "Systolic Blood Pressure"
+                  }
+                ]
+              }
+            ],
+            "uuid": "7584320a-0e20-115a-cb09-c9f9553adc41",
+            "fullUrl": "urn:uuid:7584320a-0e20-115a-cb09-c9f9553adc41",
+            "name": "Record_BP",
+            "start": 1706973265191,
+            "stop": 0,
+            "type": "85354-9",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "85354-9",
+                "display": "Blood pressure panel with all children optional"
+              }
+            ]
+          },
+          {
+            "value": 86.0,
+            "category": "vital-signs",
+            "unit": "/min",
+            "observations": [],
+            "uuid": "1762f232-0be5-0b5d-1e7d-2ee56c541556",
+            "fullUrl": "urn:uuid:1762f232-0be5-0b5d-1e7d-2ee56c541556",
+            "name": "Record_Heart_Rate",
+            "start": 1706973265191,
+            "stop": 0,
+            "type": "8867-4",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ]
+          },
+          {
+            "value": 13.0,
+            "category": "vital-signs",
+            "unit": "/min",
+            "observations": [],
+            "uuid": "d026e8cc-eea3-8d51-074b-715b9ff43ce7",
+            "fullUrl": "urn:uuid:d026e8cc-eea3-8d51-074b-715b9ff43ce7",
+            "name": "Record_Respiratory_Rate",
+            "start": 1706973265191,
+            "stop": 0,
+            "type": "9279-1",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "9279-1",
+                "display": "Respiratory rate"
+              }
+            ]
+          },
+          {
+            "value": 4.807355864999986,
+            "category": "laboratory",
+            "unit": "10*3/uL",
+            "observations": [],
+            "uuid": "77ac7e1d-3ad3-5477-c0d5-0b86e6fe66a4",
+            "fullUrl": "urn:uuid:77ac7e1d-3ad3-5477-c0d5-0b86e6fe66a4",
+            "start": 1706973265191,
+            "stop": 0,
+            "type": "6690-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "6690-2",
+                "display": "Leukocytes [#/volume] in Blood by Automated count"
+              }
+            ]
+          },
+          {
+            "value": 5.167377400646634,
+            "category": "laboratory",
+            "unit": "10*6/uL",
+            "observations": [],
+            "uuid": "a16b6a6e-bf4a-9df4-fb11-7b9e6d366a61",
+            "fullUrl": "urn:uuid:a16b6a6e-bf4a-9df4-fb11-7b9e6d366a61",
+            "start": 1706973265191,
+            "stop": 0,
+            "type": "789-8",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "789-8",
+                "display": "Erythrocytes [#/volume] in Blood by Automated count"
+              }
+            ]
+          },
+          {
+            "value": 15.07347408335824,
+            "category": "laboratory",
+            "unit": "g/dL",
+            "observations": [],
+            "uuid": "eab9f729-4c43-3a5a-1632-61b055d8c44e",
+            "fullUrl": "urn:uuid:eab9f729-4c43-3a5a-1632-61b055d8c44e",
+            "start": 1706973265191,
+            "stop": 0,
+            "type": "718-7",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "718-7",
+                "display": "Hemoglobin [Mass/volume] in Blood"
+              }
+            ]
+          },
+          {
+            "value": 47.60522477901874,
+            "category": "laboratory",
+            "unit": "%",
+            "observations": [],
+            "uuid": "0507aac1-2887-5f43-2c29-95e642cb5191",
+            "fullUrl": "urn:uuid:0507aac1-2887-5f43-2c29-95e642cb5191",
+            "start": 1706973265191,
+            "stop": 0,
+            "type": "4544-3",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "4544-3",
+                "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+              }
+            ]
+          },
+          {
+            "value": 93.76690538500573,
+            "category": "laboratory",
+            "unit": "fL",
+            "observations": [],
+            "uuid": "6d3a7e55-9027-129c-bde0-02ea734b151f",
+            "fullUrl": "urn:uuid:6d3a7e55-9027-129c-bde0-02ea734b151f",
+            "start": 1706973265191,
+            "stop": 0,
+            "type": "787-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "787-2",
+                "display": "MCV [Entitic volume] by Automated count"
+              }
+            ]
+          },
+          {
+            "value": 27.011788532675087,
+            "category": "laboratory",
+            "unit": "pg",
+            "observations": [],
+            "uuid": "c9ce7590-3d3e-9eb4-5edd-d3ec4d4e70fa",
+            "fullUrl": "urn:uuid:c9ce7590-3d3e-9eb4-5edd-d3ec4d4e70fa",
+            "start": 1706973265191,
+            "stop": 0,
+            "type": "785-6",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "785-6",
+                "display": "MCH [Entitic mass] by Automated count"
+              }
+            ]
+          },
+          {
+            "value": 33.39751987115912,
+            "category": "laboratory",
+            "unit": "g/dL",
+            "observations": [],
+            "uuid": "dd1c0e6b-885a-b0ce-a330-2193e39b585e",
+            "fullUrl": "urn:uuid:dd1c0e6b-885a-b0ce-a330-2193e39b585e",
+            "start": 1706973265191,
+            "stop": 0,
+            "type": "786-4",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "786-4",
+                "display": "MCHC [Mass/volume] by Automated count"
+              }
+            ]
+          },
+          {
+            "value": 45.20059817333781,
+            "category": "laboratory",
+            "unit": "fL",
+            "observations": [],
+            "uuid": "ab8a11bf-313a-7629-b580-ae6fb7bb9b8f",
+            "fullUrl": "urn:uuid:ab8a11bf-313a-7629-b580-ae6fb7bb9b8f",
+            "start": 1706973265191,
+            "stop": 0,
+            "type": "21000-5",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "21000-5",
+                "display": "Erythrocyte distribution width [Entitic volume] by Automated count"
+              }
+            ]
+          },
+          {
+            "value": 258.0789526803099,
+            "category": "laboratory",
+            "unit": "10*3/uL",
+            "observations": [],
+            "uuid": "deb0c691-cb80-2bb9-2deb-7ecd7f99283e",
+            "fullUrl": "urn:uuid:deb0c691-cb80-2bb9-2deb-7ecd7f99283e",
+            "start": 1706973265191,
+            "stop": 0,
+            "type": "777-3",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "777-3",
+                "display": "Platelets [#/volume] in Blood by Automated count"
+              }
+            ]
+          },
+          {
+            "value": 440.0732410784195,
+            "category": "laboratory",
+            "unit": "fL",
+            "observations": [],
+            "uuid": "d87c39a5-e699-b311-441d-78f7a8a801c1",
+            "fullUrl": "urn:uuid:d87c39a5-e699-b311-441d-78f7a8a801c1",
+            "start": 1706973265191,
+            "stop": 0,
+            "type": "32207-3",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "32207-3",
+                "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+              }
+            ]
+          },
+          {
+            "value": 11.874941116894625,
+            "category": "laboratory",
+            "unit": "fL",
+            "observations": [],
+            "uuid": "c7677fc5-2234-eb22-fc5d-9251fe6a5a8f",
+            "fullUrl": "urn:uuid:c7677fc5-2234-eb22-fc5d-9251fe6a5a8f",
+            "start": 1706973265191,
+            "stop": 0,
+            "type": "32623-1",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "32623-1",
+                "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+              }
+            ]
+          },
+          {
+            "value": {
+              "system": "http://snomed.info/sct",
+              "code": "266919005",
+              "display": "Never smoked tobacco (finding)"
+            },
+            "category": "social-history",
+            "unit": "",
+            "observations": [],
+            "uuid": "9607aac9-ac26-acc8-e4bb-46e96fc8986f",
+            "fullUrl": "urn:uuid:9607aac9-ac26-acc8-e4bb-46e96fc8986f",
+            "name": "Record_Never_Smoker",
+            "start": 1706973265191,
+            "stop": 0,
+            "type": "72166-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "72166-2",
+                "display": "Tobacco smoking status"
+              }
+            ]
+          }
+        ],
+        "reports": [
+          {
+            "observations": [
+              {
+                "value": 4.807355864999986,
+                "category": "laboratory",
+                "unit": "10*3/uL",
+                "observations": [],
+                "uuid": "77ac7e1d-3ad3-5477-c0d5-0b86e6fe66a4",
+                "fullUrl": "urn:uuid:77ac7e1d-3ad3-5477-c0d5-0b86e6fe66a4",
+                "start": 1706973265191,
+                "stop": 0,
+                "type": "6690-2",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "6690-2",
+                    "display": "Leukocytes [#/volume] in Blood by Automated count"
+                  }
+                ]
+              },
+              {
+                "value": 5.167377400646634,
+                "category": "laboratory",
+                "unit": "10*6/uL",
+                "observations": [],
+                "uuid": "a16b6a6e-bf4a-9df4-fb11-7b9e6d366a61",
+                "fullUrl": "urn:uuid:a16b6a6e-bf4a-9df4-fb11-7b9e6d366a61",
+                "start": 1706973265191,
+                "stop": 0,
+                "type": "789-8",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "789-8",
+                    "display": "Erythrocytes [#/volume] in Blood by Automated count"
+                  }
+                ]
+              },
+              {
+                "value": 15.07347408335824,
+                "category": "laboratory",
+                "unit": "g/dL",
+                "observations": [],
+                "uuid": "eab9f729-4c43-3a5a-1632-61b055d8c44e",
+                "fullUrl": "urn:uuid:eab9f729-4c43-3a5a-1632-61b055d8c44e",
+                "start": 1706973265191,
+                "stop": 0,
+                "type": "718-7",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "718-7",
+                    "display": "Hemoglobin [Mass/volume] in Blood"
+                  }
+                ]
+              },
+              {
+                "value": 47.60522477901874,
+                "category": "laboratory",
+                "unit": "%",
+                "observations": [],
+                "uuid": "0507aac1-2887-5f43-2c29-95e642cb5191",
+                "fullUrl": "urn:uuid:0507aac1-2887-5f43-2c29-95e642cb5191",
+                "start": 1706973265191,
+                "stop": 0,
+                "type": "4544-3",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "4544-3",
+                    "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+                  }
+                ]
+              },
+              {
+                "value": 93.76690538500573,
+                "category": "laboratory",
+                "unit": "fL",
+                "observations": [],
+                "uuid": "6d3a7e55-9027-129c-bde0-02ea734b151f",
+                "fullUrl": "urn:uuid:6d3a7e55-9027-129c-bde0-02ea734b151f",
+                "start": 1706973265191,
+                "stop": 0,
+                "type": "787-2",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "787-2",
+                    "display": "MCV [Entitic volume] by Automated count"
+                  }
+                ]
+              },
+              {
+                "value": 27.011788532675087,
+                "category": "laboratory",
+                "unit": "pg",
+                "observations": [],
+                "uuid": "c9ce7590-3d3e-9eb4-5edd-d3ec4d4e70fa",
+                "fullUrl": "urn:uuid:c9ce7590-3d3e-9eb4-5edd-d3ec4d4e70fa",
+                "start": 1706973265191,
+                "stop": 0,
+                "type": "785-6",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "785-6",
+                    "display": "MCH [Entitic mass] by Automated count"
+                  }
+                ]
+              },
+              {
+                "value": 33.39751987115912,
+                "category": "laboratory",
+                "unit": "g/dL",
+                "observations": [],
+                "uuid": "dd1c0e6b-885a-b0ce-a330-2193e39b585e",
+                "fullUrl": "urn:uuid:dd1c0e6b-885a-b0ce-a330-2193e39b585e",
+                "start": 1706973265191,
+                "stop": 0,
+                "type": "786-4",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "786-4",
+                    "display": "MCHC [Mass/volume] by Automated count"
+                  }
+                ]
+              },
+              {
+                "value": 45.20059817333781,
+                "category": "laboratory",
+                "unit": "fL",
+                "observations": [],
+                "uuid": "ab8a11bf-313a-7629-b580-ae6fb7bb9b8f",
+                "fullUrl": "urn:uuid:ab8a11bf-313a-7629-b580-ae6fb7bb9b8f",
+                "start": 1706973265191,
+                "stop": 0,
+                "type": "21000-5",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "21000-5",
+                    "display": "Erythrocyte distribution width [Entitic volume] by Automated count"
+                  }
+                ]
+              },
+              {
+                "value": 258.0789526803099,
+                "category": "laboratory",
+                "unit": "10*3/uL",
+                "observations": [],
+                "uuid": "deb0c691-cb80-2bb9-2deb-7ecd7f99283e",
+                "fullUrl": "urn:uuid:deb0c691-cb80-2bb9-2deb-7ecd7f99283e",
+                "start": 1706973265191,
+                "stop": 0,
+                "type": "777-3",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "777-3",
+                    "display": "Platelets [#/volume] in Blood by Automated count"
+                  }
+                ]
+              },
+              {
+                "value": 440.0732410784195,
+                "category": "laboratory",
+                "unit": "fL",
+                "observations": [],
+                "uuid": "d87c39a5-e699-b311-441d-78f7a8a801c1",
+                "fullUrl": "urn:uuid:d87c39a5-e699-b311-441d-78f7a8a801c1",
+                "start": 1706973265191,
+                "stop": 0,
+                "type": "32207-3",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "32207-3",
+                    "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+                  }
+                ]
+              },
+              {
+                "value": 11.874941116894625,
+                "category": "laboratory",
+                "unit": "fL",
+                "observations": [],
+                "uuid": "c7677fc5-2234-eb22-fc5d-9251fe6a5a8f",
+                "fullUrl": "urn:uuid:c7677fc5-2234-eb22-fc5d-9251fe6a5a8f",
+                "start": 1706973265191,
+                "stop": 0,
+                "type": "32623-1",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "32623-1",
+                    "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+                  }
+                ]
+              }
+            ],
+            "uuid": "170e6bc6-f39c-962e-ecc7-64a9b59655dd",
+            "name": "Record_CBC_Panel",
+            "start": 1706973265191,
+            "stop": 0,
+            "type": "58410-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "58410-2",
+                "display": "CBC panel - Blood by Automated count"
+              }
+            ],
+            "cost": 74.58
+          }
+        ],
+        "conditions": [
+          {
+            "uuid": "8a34ef94-b12c-515c-7dad-65a81529ea8f",
+            "fullUrl": "urn:uuid:8a34ef94-b12c-515c-7dad-65a81529ea8f",
+            "name": "Medication_Review_Due",
+            "start": 1706973265191,
+            "stop": 1736608465191,
+            "type": "314529007",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "314529007",
+                "display": "Medication review due (situation)"
+              }
+            ],
+            "cost": 0.00
+          }
+        ],
+        "allergies": [],
+        "procedures": [],
+        "immunizations": [
+          {
+            "series": 1,
+            "uuid": "9f41d83f-fb98-d9a7-b227-c1347360c412",
+            "fullUrl": "urn:uuid:9f41d83f-fb98-d9a7-b227-c1347360c412",
+            "start": 1706973265191,
+            "stop": 0,
+            "type": "hepb",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "08",
+                "display": "Hep B, adolescent or pediatric"
+              }
+            ],
+            "cost": 136.00
+          }
+        ],
+        "medications": [],
+        "careplans": [],
+        "imagingStudies": [],
+        "devices": [],
+        "supplies": [],
+        "claim": {
+          "mainEntry": {
+            "cost": 136.80,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 0.00,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 136.80
+          },
+          "items": [
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 136.00
+            },
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 74.58,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 74.58
+            }
+          ],
+          "totals": {
+            "cost": 347.38,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 0.00,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 347.38
+          },
+          "uuid": "e65838b9-58d2-dcd3-10e1-0890fd76ea62",
+          "planRecord": {
+            "start": 1706973265191,
+            "stop": 1739027665191,
+            "plan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "secondaryPlan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "coveredExpenses": 0.00,
+            "remainingDeductible": 0,
+            "outOfPocketExpenses": 4070.18,
+            "insuranceExpenses": 0.00
+          }
+        },
+        "provider": {
+          "uuid": "4633340c-c833-30a3-ab0e-f5cfa5fda28b",
+          "locationUuid": "b11653b6-7871-319f-861d-cea1a4449289",
+          "id": "1366411316",
+          "npi": "1366411316",
+          "cmsProviderNum": "",
+          "cmsPin": "",
+          "cmsUpin": "",
+          "cmsCategory": "",
+          "cmsProviderType": "12-70",
+          "cmsRegion": "",
+          "cliaNumber": "",
+          "name": "CHAIR CITY FAMILY MEDICINE, PC",
+          "location": {
+            "totalPopulation": 7069851,
+            "state": "Massachusetts"
+          },
+          "address": "250 GREEN ST",
+          "city": "GARDNER",
+          "state": "MA",
+          "zip": "014401377",
+          "fipsCountyCode": "",
+          "phone": "9786304455",
+          "type": "PRIMARY",
+          "institutional": false,
+          "revenue": 0.0,
+          "coordinates": {
+            "x": -71.98672640006858,
+            "y": 42.586896550000006
+          },
+          "servicesProvided": [
+            "WELLNESS"
+          ]
+        },
+        "clinician": {
+          "identifier": 3150,
+          "uuid": "05c39fab-dca9-3986-bf72-2b6f443bc877",
+          "npi": "9999968495",
+          "attributes": {
+            "zip": "014401377",
+            "specialty": "GENERAL PRACTICE",
+            "address": "250 GREEN ST",
+            "coordinate": {
+              "x": -71.98672640006858,
+              "y": 42.586896550000006
+            },
+            "education": "bs_degree",
+            "race": "white",
+            "ethnicity": "nonhispanic",
+            "gender": "F",
+            "city": "GARDNER",
+            "last_name": "Trantow673",
+            "name_prefix": "Dr.",
+            "first_language": "english",
+            "identifier_ssn": "999-35-7551",
+            "name": "Kimberly627 Trantow673",
+            "state": "MA",
+            "first_name": "Kimberly627"
+          },
+          "servicesProvided": [],
+          "organization": {
+            "uuid": "4633340c-c833-30a3-ab0e-f5cfa5fda28b",
+            "locationUuid": "b11653b6-7871-319f-861d-cea1a4449289",
+            "id": "1366411316",
+            "npi": "1366411316",
+            "cmsProviderNum": "",
+            "cmsPin": "",
+            "cmsUpin": "",
+            "cmsCategory": "",
+            "cmsProviderType": "12-70",
+            "cmsRegion": "",
+            "cliaNumber": "",
+            "name": "CHAIR CITY FAMILY MEDICINE, PC",
+            "location": {
+              "totalPopulation": 7069851,
+              "state": "Massachusetts"
+            },
+            "address": "250 GREEN ST",
+            "city": "GARDNER",
+            "state": "MA",
+            "zip": "014401377",
+            "fipsCountyCode": "",
+            "phone": "9786304455",
+            "type": "PRIMARY",
+            "institutional": false,
+            "revenue": 0.0,
+            "coordinates": {
+              "x": -71.98672640006858,
+              "y": 42.586896550000006
+            },
+            "servicesProvided": [
+              "WELLNESS"
+            ]
+          },
+          "encounters": 8,
+          "procedures": 0,
+          "populationSeed": 0
+        },
+        "ended": true,
+        "endedTime": 1706973265191,
+        "chronicMedsRenewed": false,
+        "uuid": "7845d42c-572e-b9ba-dd11-552efe945166",
+        "name": "Encounter Module Scheduled Wellness",
+        "start": 1706973265191,
+        "stop": 1706974165191,
+        "type": "wellness",
+        "codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "410620009",
+            "display": "Well child visit (procedure)"
+          }
+        ],
+        "cost": 136.80
+      },
+      {
+        "observations": [
+          {
+            "value": 54.6,
+            "category": "vital-signs",
+            "unit": "cm",
+            "observations": [],
+            "uuid": "0c5c3c1e-e450-ea9d-74fb-0bbf7048eef2",
+            "fullUrl": "urn:uuid:0c5c3c1e-e450-ea9d-74fb-0bbf7048eef2",
+            "name": "Record_Height",
+            "start": 1709997265191,
+            "stop": 0,
+            "type": "8302-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8302-2",
+                "display": "Body Height"
+              }
+            ]
+          },
+          {
+            "value": 3.0,
+            "category": "vital-signs",
+            "unit": "{score}",
+            "observations": [],
+            "uuid": "50598537-908e-f3b3-295c-74df8fd2c9c3",
+            "fullUrl": "urn:uuid:50598537-908e-f3b3-295c-74df8fd2c9c3",
+            "name": "Record_Pain",
+            "start": 1709997265191,
+            "stop": 0,
+            "type": "72514-3",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "72514-3",
+                "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+              }
+            ]
+          },
+          {
+            "value": 5.0,
+            "category": "vital-signs",
+            "unit": "kg",
+            "observations": [],
+            "uuid": "b998e521-bdce-9ccc-90ea-9d7ffc44fd69",
+            "fullUrl": "urn:uuid:b998e521-bdce-9ccc-90ea-9d7ffc44fd69",
+            "name": "Record_Weight",
+            "start": 1709997265191,
+            "stop": 0,
+            "type": "29463-7",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body Weight"
+              }
+            ]
+          },
+          {
+            "value": 72.12445158026722,
+            "category": "vital-signs",
+            "unit": "%",
+            "observations": [],
+            "uuid": "dedbf736-780a-f4cd-2a5f-d64169ce805a",
+            "fullUrl": "urn:uuid:dedbf736-780a-f4cd-2a5f-d64169ce805a",
+            "name": "Record_Weight_For_Length_Percentile",
+            "start": 1709997265191,
+            "stop": 0,
+            "type": "77606-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "77606-2",
+                "display": "Weight-for-length Per age and sex"
+              }
+            ]
+          },
+          {
+            "value": 22.83,
+            "category": "vital-signs",
+            "unit": "%",
+            "observations": [],
+            "uuid": "fbcf0f56-fd9e-f5c7-d52e-e6b651f3f1be",
+            "fullUrl": "urn:uuid:fbcf0f56-fd9e-f5c7-d52e-e6b651f3f1be",
+            "name": "Record_Head_Circumference_Percentile",
+            "start": 1709997265191,
+            "stop": 0,
+            "type": "8289-1",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8289-1",
+                "display": "Head Occipital-frontal circumference Percentile"
+              }
+            ]
+          },
+          {
+            "value": 37.96,
+            "category": "vital-signs",
+            "unit": "cm",
+            "observations": [],
+            "uuid": "06cb39f6-f4e2-fbd7-fb2f-d747a273d650",
+            "fullUrl": "urn:uuid:06cb39f6-f4e2-fbd7-fb2f-d747a273d650",
+            "name": "Record Head Circumference",
+            "start": 1709997265191,
+            "stop": 0,
+            "type": "9843-4",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "9843-4",
+                "display": "Head Occipital-frontal circumference"
+              }
+            ]
+          },
+          {
+            "category": "vital-signs",
+            "observations": [
+              {
+                "value": 69.0,
+                "category": "vital-signs",
+                "unit": "mm[Hg]",
+                "observations": [],
+                "uuid": "76168957-b868-ca48-844e-9e7f37f5e6ca",
+                "start": 1709997265191,
+                "stop": 0,
+                "type": "8462-4",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8462-4",
+                    "display": "Diastolic Blood Pressure"
+                  }
+                ]
+              },
+              {
+                "value": 96.0,
+                "category": "vital-signs",
+                "unit": "mm[Hg]",
+                "observations": [],
+                "uuid": "0c518eb8-931e-4d02-34ef-3e7e25259655",
+                "start": 1709997265191,
+                "stop": 0,
+                "type": "8480-6",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8480-6",
+                    "display": "Systolic Blood Pressure"
+                  }
+                ]
+              }
+            ],
+            "uuid": "3bef8cc6-45ce-1df3-2a8e-96d3f0a411dc",
+            "fullUrl": "urn:uuid:3bef8cc6-45ce-1df3-2a8e-96d3f0a411dc",
+            "name": "Record_BP",
+            "start": 1709997265191,
+            "stop": 0,
+            "type": "85354-9",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "85354-9",
+                "display": "Blood pressure panel with all children optional"
+              }
+            ]
+          },
+          {
+            "value": 98.0,
+            "category": "vital-signs",
+            "unit": "/min",
+            "observations": [],
+            "uuid": "f53d589f-e122-42df-e344-b9f4e4d6b7f4",
+            "fullUrl": "urn:uuid:f53d589f-e122-42df-e344-b9f4e4d6b7f4",
+            "name": "Record_Heart_Rate",
+            "start": 1709997265191,
+            "stop": 0,
+            "type": "8867-4",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ]
+          },
+          {
+            "value": 12.0,
+            "category": "vital-signs",
+            "unit": "/min",
+            "observations": [],
+            "uuid": "40d4e6da-aed9-21ad-912b-222fc1e742d4",
+            "fullUrl": "urn:uuid:40d4e6da-aed9-21ad-912b-222fc1e742d4",
+            "name": "Record_Respiratory_Rate",
+            "start": 1709997265191,
+            "stop": 0,
+            "type": "9279-1",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "9279-1",
+                "display": "Respiratory rate"
+              }
+            ]
+          },
+          {
+            "value": {
+              "system": "http://snomed.info/sct",
+              "code": "266919005",
+              "display": "Never smoked tobacco (finding)"
+            },
+            "category": "social-history",
+            "unit": "",
+            "observations": [],
+            "uuid": "b44df78c-9c56-7b63-49df-8ee6459733af",
+            "fullUrl": "urn:uuid:b44df78c-9c56-7b63-49df-8ee6459733af",
+            "name": "Record_Never_Smoker",
+            "start": 1709997265191,
+            "stop": 0,
+            "type": "72166-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "72166-2",
+                "display": "Tobacco smoking status"
+              }
+            ]
+          }
+        ],
+        "reports": [],
+        "conditions": [],
+        "allergies": [],
+        "procedures": [],
+        "immunizations": [
+          {
+            "series": 2,
+            "uuid": "beea13d2-9444-d494-1334-5391956910f4",
+            "fullUrl": "urn:uuid:beea13d2-9444-d494-1334-5391956910f4",
+            "start": 1709997265191,
+            "stop": 0,
+            "type": "hepb",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "08",
+                "display": "Hep B, adolescent or pediatric"
+              }
+            ],
+            "cost": 136.00
+          }
+        ],
+        "medications": [],
+        "careplans": [],
+        "imagingStudies": [],
+        "devices": [],
+        "supplies": [],
+        "claim": {
+          "mainEntry": {
+            "cost": 136.80,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 0.00,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 136.80
+          },
+          "items": [
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 136.00
+            }
+          ],
+          "totals": {
+            "cost": 272.80,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 0.00,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 272.80
+          },
+          "uuid": "66e625b9-37d1-c406-edf9-8475b4aa4b50",
+          "planRecord": {
+            "start": 1706973265191,
+            "stop": 1739027665191,
+            "plan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "secondaryPlan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "coveredExpenses": 0.00,
+            "remainingDeductible": 0,
+            "outOfPocketExpenses": 4070.18,
+            "insuranceExpenses": 0.00
+          }
+        },
+        "provider": {
+          "uuid": "4633340c-c833-30a3-ab0e-f5cfa5fda28b",
+          "locationUuid": "b11653b6-7871-319f-861d-cea1a4449289",
+          "id": "1366411316",
+          "npi": "1366411316",
+          "cmsProviderNum": "",
+          "cmsPin": "",
+          "cmsUpin": "",
+          "cmsCategory": "",
+          "cmsProviderType": "12-70",
+          "cmsRegion": "",
+          "cliaNumber": "",
+          "name": "CHAIR CITY FAMILY MEDICINE, PC",
+          "location": {
+            "totalPopulation": 7069851,
+            "state": "Massachusetts"
+          },
+          "address": "250 GREEN ST",
+          "city": "GARDNER",
+          "state": "MA",
+          "zip": "014401377",
+          "fipsCountyCode": "",
+          "phone": "9786304455",
+          "type": "PRIMARY",
+          "institutional": false,
+          "revenue": 0.0,
+          "coordinates": {
+            "x": -71.98672640006858,
+            "y": 42.586896550000006
+          },
+          "servicesProvided": [
+            "WELLNESS"
+          ]
+        },
+        "clinician": {
+          "identifier": 3150,
+          "uuid": "05c39fab-dca9-3986-bf72-2b6f443bc877",
+          "npi": "9999968495",
+          "attributes": {
+            "zip": "014401377",
+            "specialty": "GENERAL PRACTICE",
+            "address": "250 GREEN ST",
+            "coordinate": {
+              "x": -71.98672640006858,
+              "y": 42.586896550000006
+            },
+            "education": "bs_degree",
+            "race": "white",
+            "ethnicity": "nonhispanic",
+            "gender": "F",
+            "city": "GARDNER",
+            "last_name": "Trantow673",
+            "name_prefix": "Dr.",
+            "first_language": "english",
+            "identifier_ssn": "999-35-7551",
+            "name": "Kimberly627 Trantow673",
+            "state": "MA",
+            "first_name": "Kimberly627"
+          },
+          "servicesProvided": [],
+          "organization": {
+            "uuid": "4633340c-c833-30a3-ab0e-f5cfa5fda28b",
+            "locationUuid": "b11653b6-7871-319f-861d-cea1a4449289",
+            "id": "1366411316",
+            "npi": "1366411316",
+            "cmsProviderNum": "",
+            "cmsPin": "",
+            "cmsUpin": "",
+            "cmsCategory": "",
+            "cmsProviderType": "12-70",
+            "cmsRegion": "",
+            "cliaNumber": "",
+            "name": "CHAIR CITY FAMILY MEDICINE, PC",
+            "location": {
+              "totalPopulation": 7069851,
+              "state": "Massachusetts"
+            },
+            "address": "250 GREEN ST",
+            "city": "GARDNER",
+            "state": "MA",
+            "zip": "014401377",
+            "fipsCountyCode": "",
+            "phone": "9786304455",
+            "type": "PRIMARY",
+            "institutional": false,
+            "revenue": 0.0,
+            "coordinates": {
+              "x": -71.98672640006858,
+              "y": 42.586896550000006
+            },
+            "servicesProvided": [
+              "WELLNESS"
+            ]
+          },
+          "encounters": 8,
+          "procedures": 0,
+          "populationSeed": 0
+        },
+        "ended": true,
+        "endedTime": 1709997265191,
+        "chronicMedsRenewed": false,
+        "uuid": "3aaaf6fc-3234-7b9b-7bb0-74b56a59b959",
+        "name": "Encounter Module Scheduled Wellness",
+        "start": 1709997265191,
+        "stop": 1709998165191,
+        "type": "wellness",
+        "codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "410620009",
+            "display": "Well child visit (procedure)"
+          }
+        ],
+        "cost": 136.80
+      },
+      {
+        "observations": [
+          {
+            "value": 60.0,
+            "category": "vital-signs",
+            "unit": "cm",
+            "observations": [],
+            "uuid": "ac32728d-8dbb-1a93-7c1b-f25d71956f15",
+            "fullUrl": "urn:uuid:ac32728d-8dbb-1a93-7c1b-f25d71956f15",
+            "name": "Record_Height",
+            "start": 1715440465191,
+            "stop": 0,
+            "type": "8302-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8302-2",
+                "display": "Body Height"
+              }
+            ]
+          },
+          {
+            "value": 2.0,
+            "category": "vital-signs",
+            "unit": "{score}",
+            "observations": [],
+            "uuid": "ce88e29d-221a-5cca-8968-fe49ce2c296d",
+            "fullUrl": "urn:uuid:ce88e29d-221a-5cca-8968-fe49ce2c296d",
+            "name": "Record_Pain",
+            "start": 1715440465191,
+            "stop": 0,
+            "type": "72514-3",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "72514-3",
+                "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+              }
+            ]
+          },
+          {
+            "value": 6.6,
+            "category": "vital-signs",
+            "unit": "kg",
+            "observations": [],
+            "uuid": "47043729-768a-5591-b890-b6fefa88cb5f",
+            "fullUrl": "urn:uuid:47043729-768a-5591-b890-b6fefa88cb5f",
+            "name": "Record_Weight",
+            "start": 1715440465191,
+            "stop": 0,
+            "type": "29463-7",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body Weight"
+              }
+            ]
+          },
+          {
+            "value": 84.1499153924845,
+            "category": "vital-signs",
+            "unit": "%",
+            "observations": [],
+            "uuid": "f069896d-0a46-8007-9ca0-6d04c9d5f48a",
+            "fullUrl": "urn:uuid:f069896d-0a46-8007-9ca0-6d04c9d5f48a",
+            "name": "Record_Weight_For_Length_Percentile",
+            "start": 1715440465191,
+            "stop": 0,
+            "type": "77606-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "77606-2",
+                "display": "Weight-for-length Per age and sex"
+              }
+            ]
+          },
+          {
+            "value": 22.83,
+            "category": "vital-signs",
+            "unit": "%",
+            "observations": [],
+            "uuid": "01636832-a1dd-7621-1ac4-0281ba31e84b",
+            "fullUrl": "urn:uuid:01636832-a1dd-7621-1ac4-0281ba31e84b",
+            "name": "Record_Head_Circumference_Percentile",
+            "start": 1715440465191,
+            "stop": 0,
+            "type": "8289-1",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8289-1",
+                "display": "Head Occipital-frontal circumference Percentile"
+              }
+            ]
+          },
+          {
+            "value": 40.67,
+            "category": "vital-signs",
+            "unit": "cm",
+            "observations": [],
+            "uuid": "bcd68a10-22f3-f894-0847-c61d05ac3c88",
+            "fullUrl": "urn:uuid:bcd68a10-22f3-f894-0847-c61d05ac3c88",
+            "name": "Record Head Circumference",
+            "start": 1715440465191,
+            "stop": 0,
+            "type": "9843-4",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "9843-4",
+                "display": "Head Occipital-frontal circumference"
+              }
+            ]
+          },
+          {
+            "category": "vital-signs",
+            "observations": [
+              {
+                "value": 69.0,
+                "category": "vital-signs",
+                "unit": "mm[Hg]",
+                "observations": [],
+                "uuid": "b6aec1f5-4e8d-bf25-692a-430277520c88",
+                "start": 1715440465191,
+                "stop": 0,
+                "type": "8462-4",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8462-4",
+                    "display": "Diastolic Blood Pressure"
+                  }
+                ]
+              },
+              {
+                "value": 95.0,
+                "category": "vital-signs",
+                "unit": "mm[Hg]",
+                "observations": [],
+                "uuid": "b8a9331f-b67a-f477-afda-31d0342691f1",
+                "start": 1715440465191,
+                "stop": 0,
+                "type": "8480-6",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8480-6",
+                    "display": "Systolic Blood Pressure"
+                  }
+                ]
+              }
+            ],
+            "uuid": "1b8a97cc-499d-ac68-dc8a-bfd3e8ed5062",
+            "fullUrl": "urn:uuid:1b8a97cc-499d-ac68-dc8a-bfd3e8ed5062",
+            "name": "Record_BP",
+            "start": 1715440465191,
+            "stop": 0,
+            "type": "85354-9",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "85354-9",
+                "display": "Blood pressure panel with all children optional"
+              }
+            ]
+          },
+          {
+            "value": 94.0,
+            "category": "vital-signs",
+            "unit": "/min",
+            "observations": [],
+            "uuid": "baba4f0d-05be-f198-402d-ef5fad51c0a5",
+            "fullUrl": "urn:uuid:baba4f0d-05be-f198-402d-ef5fad51c0a5",
+            "name": "Record_Heart_Rate",
+            "start": 1715440465191,
+            "stop": 0,
+            "type": "8867-4",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ]
+          },
+          {
+            "value": 16.0,
+            "category": "vital-signs",
+            "unit": "/min",
+            "observations": [],
+            "uuid": "f1ca07cc-1afb-a429-7553-7750c95160c8",
+            "fullUrl": "urn:uuid:f1ca07cc-1afb-a429-7553-7750c95160c8",
+            "name": "Record_Respiratory_Rate",
+            "start": 1715440465191,
+            "stop": 0,
+            "type": "9279-1",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "9279-1",
+                "display": "Respiratory rate"
+              }
+            ]
+          },
+          {
+            "value": {
+              "system": "http://snomed.info/sct",
+              "code": "266919005",
+              "display": "Never smoked tobacco (finding)"
+            },
+            "category": "social-history",
+            "unit": "",
+            "observations": [],
+            "uuid": "5aafe064-d6ea-70d6-784b-3ea0e3c13018",
+            "fullUrl": "urn:uuid:5aafe064-d6ea-70d6-784b-3ea0e3c13018",
+            "name": "Record_Never_Smoker",
+            "start": 1715440465191,
+            "stop": 0,
+            "type": "72166-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "72166-2",
+                "display": "Tobacco smoking status"
+              }
+            ]
+          }
+        ],
+        "reports": [],
+        "conditions": [],
+        "allergies": [],
+        "procedures": [],
+        "immunizations": [
+          {
+            "series": 1,
+            "uuid": "e7c7fb65-2e96-f272-7de3-7e5af6fb75bf",
+            "fullUrl": "urn:uuid:e7c7fb65-2e96-f272-7de3-7e5af6fb75bf",
+            "start": 1715440465191,
+            "stop": 0,
+            "type": "hib",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "49",
+                "display": "Hib (PRP-OMP)"
+              }
+            ],
+            "cost": 136.00
+          },
+          {
+            "series": 1,
+            "uuid": "39de997d-cfa5-bcd2-a68b-7789410c5028",
+            "fullUrl": "urn:uuid:39de997d-cfa5-bcd2-a68b-7789410c5028",
+            "start": 1715440465191,
+            "stop": 0,
+            "type": "rv_mono",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "119",
+                "display": "rotavirus, monovalent"
+              }
+            ],
+            "cost": 136.00
+          },
+          {
+            "series": 1,
+            "uuid": "7845245c-6322-7e96-81a9-f2ee3c55e7b6",
+            "fullUrl": "urn:uuid:7845245c-6322-7e96-81a9-f2ee3c55e7b6",
+            "start": 1715440465191,
+            "stop": 0,
+            "type": "ipv",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "10",
+                "display": "IPV"
+              }
+            ],
+            "cost": 136.00
+          },
+          {
+            "series": 1,
+            "uuid": "20f6b870-7f70-6be0-a78d-8c352b7f6e9f",
+            "fullUrl": "urn:uuid:20f6b870-7f70-6be0-a78d-8c352b7f6e9f",
+            "start": 1715440465191,
+            "stop": 0,
+            "type": "dtap",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "20",
+                "display": "DTaP"
+              }
+            ],
+            "cost": 136.00
+          },
+          {
+            "series": 1,
+            "uuid": "bb655b13-1682-a6c9-271b-6e61dfdc4f98",
+            "fullUrl": "urn:uuid:bb655b13-1682-a6c9-271b-6e61dfdc4f98",
+            "start": 1715440465191,
+            "stop": 0,
+            "type": "pcv13",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "133",
+                "display": "Pneumococcal conjugate PCV 13"
+              }
+            ],
+            "cost": 136.00
+          }
+        ],
+        "medications": [],
+        "careplans": [],
+        "imagingStudies": [],
+        "devices": [],
+        "supplies": [],
+        "claim": {
+          "mainEntry": {
+            "cost": 136.80,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 0.00,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 136.80
+          },
+          "items": [
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 136.00
+            },
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 136.00
+            },
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 136.00
+            },
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 136.00
+            },
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 136.00
+            }
+          ],
+          "totals": {
+            "cost": 816.80,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 0.00,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 816.80
+          },
+          "uuid": "9cd1b539-a3a2-8292-d534-a267e60bc3ff",
+          "planRecord": {
+            "start": 1706973265191,
+            "stop": 1739027665191,
+            "plan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "secondaryPlan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "coveredExpenses": 0.00,
+            "remainingDeductible": 0,
+            "outOfPocketExpenses": 4070.18,
+            "insuranceExpenses": 0.00
+          }
+        },
+        "provider": {
+          "uuid": "4633340c-c833-30a3-ab0e-f5cfa5fda28b",
+          "locationUuid": "b11653b6-7871-319f-861d-cea1a4449289",
+          "id": "1366411316",
+          "npi": "1366411316",
+          "cmsProviderNum": "",
+          "cmsPin": "",
+          "cmsUpin": "",
+          "cmsCategory": "",
+          "cmsProviderType": "12-70",
+          "cmsRegion": "",
+          "cliaNumber": "",
+          "name": "CHAIR CITY FAMILY MEDICINE, PC",
+          "location": {
+            "totalPopulation": 7069851,
+            "state": "Massachusetts"
+          },
+          "address": "250 GREEN ST",
+          "city": "GARDNER",
+          "state": "MA",
+          "zip": "014401377",
+          "fipsCountyCode": "",
+          "phone": "9786304455",
+          "type": "PRIMARY",
+          "institutional": false,
+          "revenue": 0.0,
+          "coordinates": {
+            "x": -71.98672640006858,
+            "y": 42.586896550000006
+          },
+          "servicesProvided": [
+            "WELLNESS"
+          ]
+        },
+        "clinician": {
+          "identifier": 3150,
+          "uuid": "05c39fab-dca9-3986-bf72-2b6f443bc877",
+          "npi": "9999968495",
+          "attributes": {
+            "zip": "014401377",
+            "specialty": "GENERAL PRACTICE",
+            "address": "250 GREEN ST",
+            "coordinate": {
+              "x": -71.98672640006858,
+              "y": 42.586896550000006
+            },
+            "education": "bs_degree",
+            "race": "white",
+            "ethnicity": "nonhispanic",
+            "gender": "F",
+            "city": "GARDNER",
+            "last_name": "Trantow673",
+            "name_prefix": "Dr.",
+            "first_language": "english",
+            "identifier_ssn": "999-35-7551",
+            "name": "Kimberly627 Trantow673",
+            "state": "MA",
+            "first_name": "Kimberly627"
+          },
+          "servicesProvided": [],
+          "organization": {
+            "uuid": "4633340c-c833-30a3-ab0e-f5cfa5fda28b",
+            "locationUuid": "b11653b6-7871-319f-861d-cea1a4449289",
+            "id": "1366411316",
+            "npi": "1366411316",
+            "cmsProviderNum": "",
+            "cmsPin": "",
+            "cmsUpin": "",
+            "cmsCategory": "",
+            "cmsProviderType": "12-70",
+            "cmsRegion": "",
+            "cliaNumber": "",
+            "name": "CHAIR CITY FAMILY MEDICINE, PC",
+            "location": {
+              "totalPopulation": 7069851,
+              "state": "Massachusetts"
+            },
+            "address": "250 GREEN ST",
+            "city": "GARDNER",
+            "state": "MA",
+            "zip": "014401377",
+            "fipsCountyCode": "",
+            "phone": "9786304455",
+            "type": "PRIMARY",
+            "institutional": false,
+            "revenue": 0.0,
+            "coordinates": {
+              "x": -71.98672640006858,
+              "y": 42.586896550000006
+            },
+            "servicesProvided": [
+              "WELLNESS"
+            ]
+          },
+          "encounters": 8,
+          "procedures": 0,
+          "populationSeed": 0
+        },
+        "ended": true,
+        "endedTime": 1715440465191,
+        "chronicMedsRenewed": false,
+        "uuid": "f57dead0-d8c7-bfc5-8f52-b610be24af81",
+        "name": "Encounter Module Scheduled Wellness",
+        "start": 1715440465191,
+        "stop": 1715441365191,
+        "type": "wellness",
+        "codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "410620009",
+            "display": "Well child visit (procedure)"
+          }
+        ],
+        "cost": 136.80
+      },
+      {
+        "observations": [
+          {
+            "value": 64.0,
+            "category": "vital-signs",
+            "unit": "cm",
+            "observations": [],
+            "uuid": "33fe95b9-6ba4-19d9-192a-dafafd9ea44b",
+            "fullUrl": "urn:uuid:33fe95b9-6ba4-19d9-192a-dafafd9ea44b",
+            "name": "Record_Height",
+            "start": 1720883665191,
+            "stop": 0,
+            "type": "8302-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8302-2",
+                "display": "Body Height"
+              }
+            ]
+          },
+          {
+            "value": 1.0,
+            "category": "vital-signs",
+            "unit": "{score}",
+            "observations": [],
+            "uuid": "bb80e342-b655-52e0-e3c1-0fcfce68a467",
+            "fullUrl": "urn:uuid:bb80e342-b655-52e0-e3c1-0fcfce68a467",
+            "name": "Record_Pain",
+            "start": 1720883665191,
+            "stop": 0,
+            "type": "72514-3",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "72514-3",
+                "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+              }
+            ]
+          },
+          {
+            "value": 7.8,
+            "category": "vital-signs",
+            "unit": "kg",
+            "observations": [],
+            "uuid": "0ddd8b8b-1b38-3fe1-b2b1-a5f834154bf5",
+            "fullUrl": "urn:uuid:0ddd8b8b-1b38-3fe1-b2b1-a5f834154bf5",
+            "name": "Record_Weight",
+            "start": 1720883665191,
+            "stop": 0,
+            "type": "29463-7",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body Weight"
+              }
+            ]
+          },
+          {
+            "value": 87.14787092573684,
+            "category": "vital-signs",
+            "unit": "%",
+            "observations": [],
+            "uuid": "52031309-6a4f-534b-3958-798b300880b1",
+            "fullUrl": "urn:uuid:52031309-6a4f-534b-3958-798b300880b1",
+            "name": "Record_Weight_For_Length_Percentile",
+            "start": 1720883665191,
+            "stop": 0,
+            "type": "77606-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "77606-2",
+                "display": "Weight-for-length Per age and sex"
+              }
+            ]
+          },
+          {
+            "value": 22.83,
+            "category": "vital-signs",
+            "unit": "%",
+            "observations": [],
+            "uuid": "c2a6500a-6687-93ed-5451-fcb11031aad4",
+            "fullUrl": "urn:uuid:c2a6500a-6687-93ed-5451-fcb11031aad4",
+            "name": "Record_Head_Circumference_Percentile",
+            "start": 1720883665191,
+            "stop": 0,
+            "type": "8289-1",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8289-1",
+                "display": "Head Occipital-frontal circumference Percentile"
+              }
+            ]
+          },
+          {
+            "value": 42.39,
+            "category": "vital-signs",
+            "unit": "cm",
+            "observations": [],
+            "uuid": "26952138-eb84-795e-506a-a9e6c9743cd0",
+            "fullUrl": "urn:uuid:26952138-eb84-795e-506a-a9e6c9743cd0",
+            "name": "Record Head Circumference",
+            "start": 1720883665191,
+            "stop": 0,
+            "type": "9843-4",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "9843-4",
+                "display": "Head Occipital-frontal circumference"
+              }
+            ]
+          },
+          {
+            "category": "vital-signs",
+            "observations": [
+              {
+                "value": 68.0,
+                "category": "vital-signs",
+                "unit": "mm[Hg]",
+                "observations": [],
+                "uuid": "a588c1ee-ef50-5366-642f-8f43ce043472",
+                "start": 1720883665191,
+                "stop": 0,
+                "type": "8462-4",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8462-4",
+                    "display": "Diastolic Blood Pressure"
+                  }
+                ]
+              },
+              {
+                "value": 95.0,
+                "category": "vital-signs",
+                "unit": "mm[Hg]",
+                "observations": [],
+                "uuid": "edfc2f1f-eddf-e931-074a-8b26154a95a4",
+                "start": 1720883665191,
+                "stop": 0,
+                "type": "8480-6",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8480-6",
+                    "display": "Systolic Blood Pressure"
+                  }
+                ]
+              }
+            ],
+            "uuid": "03abaf7b-a9af-a223-832d-5198cd7b114e",
+            "fullUrl": "urn:uuid:03abaf7b-a9af-a223-832d-5198cd7b114e",
+            "name": "Record_BP",
+            "start": 1720883665191,
+            "stop": 0,
+            "type": "85354-9",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "85354-9",
+                "display": "Blood pressure panel with all children optional"
+              }
+            ]
+          },
+          {
+            "value": 86.0,
+            "category": "vital-signs",
+            "unit": "/min",
+            "observations": [],
+            "uuid": "f69d544e-17de-3d6d-3b64-0a706024bc0c",
+            "fullUrl": "urn:uuid:f69d544e-17de-3d6d-3b64-0a706024bc0c",
+            "name": "Record_Heart_Rate",
+            "start": 1720883665191,
+            "stop": 0,
+            "type": "8867-4",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ]
+          },
+          {
+            "value": 13.0,
+            "category": "vital-signs",
+            "unit": "/min",
+            "observations": [],
+            "uuid": "91983d2d-eca6-8bc9-df88-6a727aca4fd8",
+            "fullUrl": "urn:uuid:91983d2d-eca6-8bc9-df88-6a727aca4fd8",
+            "name": "Record_Respiratory_Rate",
+            "start": 1720883665191,
+            "stop": 0,
+            "type": "9279-1",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "9279-1",
+                "display": "Respiratory rate"
+              }
+            ]
+          },
+          {
+            "value": {
+              "system": "http://snomed.info/sct",
+              "code": "266919005",
+              "display": "Never smoked tobacco (finding)"
+            },
+            "category": "social-history",
+            "unit": "",
+            "observations": [],
+            "uuid": "f93f29cb-82f8-286f-19f7-cab5692223ee",
+            "fullUrl": "urn:uuid:f93f29cb-82f8-286f-19f7-cab5692223ee",
+            "name": "Record_Never_Smoker",
+            "start": 1720883665191,
+            "stop": 0,
+            "type": "72166-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "72166-2",
+                "display": "Tobacco smoking status"
+              }
+            ]
+          }
+        ],
+        "reports": [],
+        "conditions": [],
+        "allergies": [],
+        "procedures": [],
+        "immunizations": [
+          {
+            "series": 2,
+            "uuid": "599a2c21-4f0c-c4a8-36b0-0cd36ef949ab",
+            "fullUrl": "urn:uuid:599a2c21-4f0c-c4a8-36b0-0cd36ef949ab",
+            "start": 1720883665191,
+            "stop": 0,
+            "type": "hib",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "49",
+                "display": "Hib (PRP-OMP)"
+              }
+            ],
+            "cost": 136.00
+          },
+          {
+            "series": 2,
+            "uuid": "7286d09b-f723-5482-5fdc-cccc79258c87",
+            "fullUrl": "urn:uuid:7286d09b-f723-5482-5fdc-cccc79258c87",
+            "start": 1720883665191,
+            "stop": 0,
+            "type": "rv_mono",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "119",
+                "display": "rotavirus, monovalent"
+              }
+            ],
+            "cost": 136.00
+          },
+          {
+            "series": 2,
+            "uuid": "6b821df1-dbb3-42d4-fbc3-72f9b72a722f",
+            "fullUrl": "urn:uuid:6b821df1-dbb3-42d4-fbc3-72f9b72a722f",
+            "start": 1720883665191,
+            "stop": 0,
+            "type": "ipv",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "10",
+                "display": "IPV"
+              }
+            ],
+            "cost": 136.00
+          },
+          {
+            "series": 2,
+            "uuid": "7902c310-4c20-e5bb-1eb0-83577f57f874",
+            "fullUrl": "urn:uuid:7902c310-4c20-e5bb-1eb0-83577f57f874",
+            "start": 1720883665191,
+            "stop": 0,
+            "type": "dtap",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "20",
+                "display": "DTaP"
+              }
+            ],
+            "cost": 136.00
+          },
+          {
+            "series": 2,
+            "uuid": "e93819f4-7f9d-02c1-3375-4e04686a00a5",
+            "fullUrl": "urn:uuid:e93819f4-7f9d-02c1-3375-4e04686a00a5",
+            "start": 1720883665191,
+            "stop": 0,
+            "type": "pcv13",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "133",
+                "display": "Pneumococcal conjugate PCV 13"
+              }
+            ],
+            "cost": 136.00
+          }
+        ],
+        "medications": [],
+        "careplans": [],
+        "imagingStudies": [],
+        "devices": [],
+        "supplies": [],
+        "claim": {
+          "mainEntry": {
+            "cost": 136.80,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 0.00,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 136.80
+          },
+          "items": [
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 136.00
+            },
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 136.00
+            },
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 136.00
+            },
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 136.00
+            },
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 136.00
+            }
+          ],
+          "totals": {
+            "cost": 816.80,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 0.00,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 816.80
+          },
+          "uuid": "99912bcb-de21-b81f-909b-785e4afc891d",
+          "planRecord": {
+            "start": 1706973265191,
+            "stop": 1739027665191,
+            "plan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "secondaryPlan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "coveredExpenses": 0.00,
+            "remainingDeductible": 0,
+            "outOfPocketExpenses": 4070.18,
+            "insuranceExpenses": 0.00
+          }
+        },
+        "provider": {
+          "uuid": "4633340c-c833-30a3-ab0e-f5cfa5fda28b",
+          "locationUuid": "b11653b6-7871-319f-861d-cea1a4449289",
+          "id": "1366411316",
+          "npi": "1366411316",
+          "cmsProviderNum": "",
+          "cmsPin": "",
+          "cmsUpin": "",
+          "cmsCategory": "",
+          "cmsProviderType": "12-70",
+          "cmsRegion": "",
+          "cliaNumber": "",
+          "name": "CHAIR CITY FAMILY MEDICINE, PC",
+          "location": {
+            "totalPopulation": 7069851,
+            "state": "Massachusetts"
+          },
+          "address": "250 GREEN ST",
+          "city": "GARDNER",
+          "state": "MA",
+          "zip": "014401377",
+          "fipsCountyCode": "",
+          "phone": "9786304455",
+          "type": "PRIMARY",
+          "institutional": false,
+          "revenue": 0.0,
+          "coordinates": {
+            "x": -71.98672640006858,
+            "y": 42.586896550000006
+          },
+          "servicesProvided": [
+            "WELLNESS"
+          ]
+        },
+        "clinician": {
+          "identifier": 3150,
+          "uuid": "05c39fab-dca9-3986-bf72-2b6f443bc877",
+          "npi": "9999968495",
+          "attributes": {
+            "zip": "014401377",
+            "specialty": "GENERAL PRACTICE",
+            "address": "250 GREEN ST",
+            "coordinate": {
+              "x": -71.98672640006858,
+              "y": 42.586896550000006
+            },
+            "education": "bs_degree",
+            "race": "white",
+            "ethnicity": "nonhispanic",
+            "gender": "F",
+            "city": "GARDNER",
+            "last_name": "Trantow673",
+            "name_prefix": "Dr.",
+            "first_language": "english",
+            "identifier_ssn": "999-35-7551",
+            "name": "Kimberly627 Trantow673",
+            "state": "MA",
+            "first_name": "Kimberly627"
+          },
+          "servicesProvided": [],
+          "organization": {
+            "uuid": "4633340c-c833-30a3-ab0e-f5cfa5fda28b",
+            "locationUuid": "b11653b6-7871-319f-861d-cea1a4449289",
+            "id": "1366411316",
+            "npi": "1366411316",
+            "cmsProviderNum": "",
+            "cmsPin": "",
+            "cmsUpin": "",
+            "cmsCategory": "",
+            "cmsProviderType": "12-70",
+            "cmsRegion": "",
+            "cliaNumber": "",
+            "name": "CHAIR CITY FAMILY MEDICINE, PC",
+            "location": {
+              "totalPopulation": 7069851,
+              "state": "Massachusetts"
+            },
+            "address": "250 GREEN ST",
+            "city": "GARDNER",
+            "state": "MA",
+            "zip": "014401377",
+            "fipsCountyCode": "",
+            "phone": "9786304455",
+            "type": "PRIMARY",
+            "institutional": false,
+            "revenue": 0.0,
+            "coordinates": {
+              "x": -71.98672640006858,
+              "y": 42.586896550000006
+            },
+            "servicesProvided": [
+              "WELLNESS"
+            ]
+          },
+          "encounters": 8,
+          "procedures": 0,
+          "populationSeed": 0
+        },
+        "ended": true,
+        "endedTime": 1720883665191,
+        "chronicMedsRenewed": false,
+        "uuid": "0b93d8e4-d357-3e7f-6a03-77024e3f99d8",
+        "name": "Encounter Module Scheduled Wellness",
+        "start": 1720883665191,
+        "stop": 1720884565191,
+        "type": "wellness",
+        "codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "410620009",
+            "display": "Well child visit (procedure)"
+          }
+        ],
+        "cost": 136.80
+      },
+      {
+        "observations": [
+          {
+            "value": 68.7,
+            "category": "vital-signs",
+            "unit": "cm",
+            "observations": [],
+            "uuid": "54dcdc48-bbd5-d020-887b-7a2c4238aa12",
+            "fullUrl": "urn:uuid:54dcdc48-bbd5-d020-887b-7a2c4238aa12",
+            "name": "Record_Height",
+            "start": 1728746065191,
+            "stop": 0,
+            "type": "8302-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8302-2",
+                "display": "Body Height"
+              }
+            ]
+          },
+          {
+            "value": 0.0,
+            "category": "vital-signs",
+            "unit": "{score}",
+            "observations": [],
+            "uuid": "b1f207ef-0796-5dcb-3148-7ec1f647e527",
+            "fullUrl": "urn:uuid:b1f207ef-0796-5dcb-3148-7ec1f647e527",
+            "name": "Record_Pain",
+            "start": 1728746065191,
+            "stop": 0,
+            "type": "72514-3",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "72514-3",
+                "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+              }
+            ]
+          },
+          {
+            "value": 9.3,
+            "category": "vital-signs",
+            "unit": "kg",
+            "observations": [],
+            "uuid": "b52dd5d5-79df-bb8b-2ddc-b1b9db6e1743",
+            "fullUrl": "urn:uuid:b52dd5d5-79df-bb8b-2ddc-b1b9db6e1743",
+            "name": "Record_Weight",
+            "start": 1728746065191,
+            "stop": 0,
+            "type": "29463-7",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body Weight"
+              }
+            ]
+          },
+          {
+            "value": 90.51713841453686,
+            "category": "vital-signs",
+            "unit": "%",
+            "observations": [],
+            "uuid": "8550963b-216c-9b55-2c4c-185e567f5826",
+            "fullUrl": "urn:uuid:8550963b-216c-9b55-2c4c-185e567f5826",
+            "name": "Record_Weight_For_Length_Percentile",
+            "start": 1728746065191,
+            "stop": 0,
+            "type": "77606-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "77606-2",
+                "display": "Weight-for-length Per age and sex"
+              }
+            ]
+          },
+          {
+            "value": 22.83,
+            "category": "vital-signs",
+            "unit": "%",
+            "observations": [],
+            "uuid": "5dc3bf62-ae20-686d-004a-3a406b00d55f",
+            "fullUrl": "urn:uuid:5dc3bf62-ae20-686d-004a-3a406b00d55f",
+            "name": "Record_Head_Circumference_Percentile",
+            "start": 1728746065191,
+            "stop": 0,
+            "type": "8289-1",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8289-1",
+                "display": "Head Occipital-frontal circumference Percentile"
+              }
+            ]
+          },
+          {
+            "value": 44.1,
+            "category": "vital-signs",
+            "unit": "cm",
+            "observations": [],
+            "uuid": "f6351e64-16eb-eb3e-0aae-a5bc99ee6fae",
+            "fullUrl": "urn:uuid:f6351e64-16eb-eb3e-0aae-a5bc99ee6fae",
+            "name": "Record Head Circumference",
+            "start": 1728746065191,
+            "stop": 0,
+            "type": "9843-4",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "9843-4",
+                "display": "Head Occipital-frontal circumference"
+              }
+            ]
+          },
+          {
+            "category": "vital-signs",
+            "observations": [
+              {
+                "value": 69.0,
+                "category": "vital-signs",
+                "unit": "mm[Hg]",
+                "observations": [],
+                "uuid": "5c6f68fc-e585-bc8f-a6bb-3a147bfe0755",
+                "start": 1728746065191,
+                "stop": 0,
+                "type": "8462-4",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8462-4",
+                    "display": "Diastolic Blood Pressure"
+                  }
+                ]
+              },
+              {
+                "value": 92.0,
+                "category": "vital-signs",
+                "unit": "mm[Hg]",
+                "observations": [],
+                "uuid": "5ed52560-8a87-4d7e-e191-0b4abfafd5c7",
+                "start": 1728746065191,
+                "stop": 0,
+                "type": "8480-6",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8480-6",
+                    "display": "Systolic Blood Pressure"
+                  }
+                ]
+              }
+            ],
+            "uuid": "1889010d-3816-4e28-4765-d1c7a46f8441",
+            "fullUrl": "urn:uuid:1889010d-3816-4e28-4765-d1c7a46f8441",
+            "name": "Record_BP",
+            "start": 1728746065191,
+            "stop": 0,
+            "type": "85354-9",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "85354-9",
+                "display": "Blood pressure panel with all children optional"
+              }
+            ]
+          },
+          {
+            "value": 99.0,
+            "category": "vital-signs",
+            "unit": "/min",
+            "observations": [],
+            "uuid": "102078da-f481-44fa-687d-ccfd525a1258",
+            "fullUrl": "urn:uuid:102078da-f481-44fa-687d-ccfd525a1258",
+            "name": "Record_Heart_Rate",
+            "start": 1728746065191,
+            "stop": 0,
+            "type": "8867-4",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ]
+          },
+          {
+            "value": 15.0,
+            "category": "vital-signs",
+            "unit": "/min",
+            "observations": [],
+            "uuid": "d839bc17-8d48-987d-b888-fc691be2c966",
+            "fullUrl": "urn:uuid:d839bc17-8d48-987d-b888-fc691be2c966",
+            "name": "Record_Respiratory_Rate",
+            "start": 1728746065191,
+            "stop": 0,
+            "type": "9279-1",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "9279-1",
+                "display": "Respiratory rate"
+              }
+            ]
+          },
+          {
+            "value": {
+              "system": "http://snomed.info/sct",
+              "code": "266919005",
+              "display": "Never smoked tobacco (finding)"
+            },
+            "category": "social-history",
+            "unit": "",
+            "observations": [],
+            "uuid": "a9d3d2f1-4520-4425-09a7-44fefc90ebdc",
+            "fullUrl": "urn:uuid:a9d3d2f1-4520-4425-09a7-44fefc90ebdc",
+            "name": "Record_Never_Smoker",
+            "start": 1728746065191,
+            "stop": 0,
+            "type": "72166-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "72166-2",
+                "display": "Tobacco smoking status"
+              }
+            ]
+          }
+        ],
+        "reports": [],
+        "conditions": [],
+        "allergies": [],
+        "procedures": [],
+        "immunizations": [
+          {
+            "series": 3,
+            "uuid": "1a26d86d-06da-6fdd-648c-1c3d93a075eb",
+            "fullUrl": "urn:uuid:1a26d86d-06da-6fdd-648c-1c3d93a075eb",
+            "start": 1728746065191,
+            "stop": 0,
+            "type": "ipv",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "10",
+                "display": "IPV"
+              }
+            ],
+            "cost": 136.00
+          },
+          {
+            "series": 1,
+            "uuid": "f0b8102c-8214-bf97-42d4-d09c37fffea3",
+            "fullUrl": "urn:uuid:f0b8102c-8214-bf97-42d4-d09c37fffea3",
+            "start": 1728746065191,
+            "stop": 0,
+            "type": "flu",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "140",
+                "display": "Influenza, seasonal, injectable, preservative free"
+              }
+            ],
+            "cost": 136.00
+          },
+          {
+            "series": 3,
+            "uuid": "9dfdfb59-6a0b-0d05-d6ef-0804425eeaba",
+            "fullUrl": "urn:uuid:9dfdfb59-6a0b-0d05-d6ef-0804425eeaba",
+            "start": 1728746065191,
+            "stop": 0,
+            "type": "dtap",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "20",
+                "display": "DTaP"
+              }
+            ],
+            "cost": 136.00
+          },
+          {
+            "series": 3,
+            "uuid": "cd657cca-ee29-e9c5-afc3-d3fd1952b646",
+            "fullUrl": "urn:uuid:cd657cca-ee29-e9c5-afc3-d3fd1952b646",
+            "start": 1728746065191,
+            "stop": 0,
+            "type": "pcv13",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "133",
+                "display": "Pneumococcal conjugate PCV 13"
+              }
+            ],
+            "cost": 136.00
+          },
+          {
+            "series": 3,
+            "uuid": "71058e4c-02f3-9ed7-cf9d-06afdadac188",
+            "fullUrl": "urn:uuid:71058e4c-02f3-9ed7-cf9d-06afdadac188",
+            "start": 1728746065191,
+            "stop": 0,
+            "type": "hepb",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "08",
+                "display": "Hep B, adolescent or pediatric"
+              }
+            ],
+            "cost": 136.00
+          }
+        ],
+        "medications": [],
+        "careplans": [],
+        "imagingStudies": [],
+        "devices": [],
+        "supplies": [],
+        "claim": {
+          "mainEntry": {
+            "cost": 136.80,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 0.00,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 136.80
+          },
+          "items": [
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 136.00
+            },
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 136.00
+            },
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 136.00
+            },
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 136.00
+            },
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 136.00
+            }
+          ],
+          "totals": {
+            "cost": 816.80,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 0.00,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 816.80
+          },
+          "uuid": "7e9ea72e-6319-a3b9-870a-c62fcb0d5e6f",
+          "planRecord": {
+            "start": 1706973265191,
+            "stop": 1739027665191,
+            "plan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "secondaryPlan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "coveredExpenses": 0.00,
+            "remainingDeductible": 0,
+            "outOfPocketExpenses": 4070.18,
+            "insuranceExpenses": 0.00
+          }
+        },
+        "provider": {
+          "uuid": "4633340c-c833-30a3-ab0e-f5cfa5fda28b",
+          "locationUuid": "b11653b6-7871-319f-861d-cea1a4449289",
+          "id": "1366411316",
+          "npi": "1366411316",
+          "cmsProviderNum": "",
+          "cmsPin": "",
+          "cmsUpin": "",
+          "cmsCategory": "",
+          "cmsProviderType": "12-70",
+          "cmsRegion": "",
+          "cliaNumber": "",
+          "name": "CHAIR CITY FAMILY MEDICINE, PC",
+          "location": {
+            "totalPopulation": 7069851,
+            "state": "Massachusetts"
+          },
+          "address": "250 GREEN ST",
+          "city": "GARDNER",
+          "state": "MA",
+          "zip": "014401377",
+          "fipsCountyCode": "",
+          "phone": "9786304455",
+          "type": "PRIMARY",
+          "institutional": false,
+          "revenue": 0.0,
+          "coordinates": {
+            "x": -71.98672640006858,
+            "y": 42.586896550000006
+          },
+          "servicesProvided": [
+            "WELLNESS"
+          ]
+        },
+        "clinician": {
+          "identifier": 3150,
+          "uuid": "05c39fab-dca9-3986-bf72-2b6f443bc877",
+          "npi": "9999968495",
+          "attributes": {
+            "zip": "014401377",
+            "specialty": "GENERAL PRACTICE",
+            "address": "250 GREEN ST",
+            "coordinate": {
+              "x": -71.98672640006858,
+              "y": 42.586896550000006
+            },
+            "education": "bs_degree",
+            "race": "white",
+            "ethnicity": "nonhispanic",
+            "gender": "F",
+            "city": "GARDNER",
+            "last_name": "Trantow673",
+            "name_prefix": "Dr.",
+            "first_language": "english",
+            "identifier_ssn": "999-35-7551",
+            "name": "Kimberly627 Trantow673",
+            "state": "MA",
+            "first_name": "Kimberly627"
+          },
+          "servicesProvided": [],
+          "organization": {
+            "uuid": "4633340c-c833-30a3-ab0e-f5cfa5fda28b",
+            "locationUuid": "b11653b6-7871-319f-861d-cea1a4449289",
+            "id": "1366411316",
+            "npi": "1366411316",
+            "cmsProviderNum": "",
+            "cmsPin": "",
+            "cmsUpin": "",
+            "cmsCategory": "",
+            "cmsProviderType": "12-70",
+            "cmsRegion": "",
+            "cliaNumber": "",
+            "name": "CHAIR CITY FAMILY MEDICINE, PC",
+            "location": {
+              "totalPopulation": 7069851,
+              "state": "Massachusetts"
+            },
+            "address": "250 GREEN ST",
+            "city": "GARDNER",
+            "state": "MA",
+            "zip": "014401377",
+            "fipsCountyCode": "",
+            "phone": "9786304455",
+            "type": "PRIMARY",
+            "institutional": false,
+            "revenue": 0.0,
+            "coordinates": {
+              "x": -71.98672640006858,
+              "y": 42.586896550000006
+            },
+            "servicesProvided": [
+              "WELLNESS"
+            ]
+          },
+          "encounters": 8,
+          "procedures": 0,
+          "populationSeed": 0
+        },
+        "ended": true,
+        "endedTime": 1728746065191,
+        "chronicMedsRenewed": false,
+        "uuid": "982dccdf-f780-aefb-a2b6-75bf8acf256e",
+        "name": "Encounter Module Scheduled Wellness",
+        "start": 1728746065191,
+        "stop": 1728746965191,
+        "type": "wellness",
+        "codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "410620009",
+            "display": "Well child visit (procedure)"
+          }
+        ],
+        "cost": 136.80
+      },
+      {
+        "observations": [
+          {
+            "value": 72.6,
+            "category": "vital-signs",
+            "unit": "cm",
+            "observations": [],
+            "uuid": "047cd816-a77f-e498-9807-0e6e80c45b2d",
+            "fullUrl": "urn:uuid:047cd816-a77f-e498-9807-0e6e80c45b2d",
+            "name": "Record_Height",
+            "start": 1736608465191,
+            "stop": 0,
+            "type": "8302-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8302-2",
+                "display": "Body Height"
+              }
+            ]
+          },
+          {
+            "value": 1.0,
+            "category": "vital-signs",
+            "unit": "{score}",
+            "observations": [],
+            "uuid": "74e6a9bc-94b5-3fd9-49c9-3a974d3e0155",
+            "fullUrl": "urn:uuid:74e6a9bc-94b5-3fd9-49c9-3a974d3e0155",
+            "name": "Record_Pain",
+            "start": 1736608465191,
+            "stop": 0,
+            "type": "72514-3",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "72514-3",
+                "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+              }
+            ]
+          },
+          {
+            "value": 10.4,
+            "category": "vital-signs",
+            "unit": "kg",
+            "observations": [],
+            "uuid": "f41e421a-5afe-5ec0-27d6-2d3610f1e5b2",
+            "fullUrl": "urn:uuid:f41e421a-5afe-5ec0-27d6-2d3610f1e5b2",
+            "name": "Record_Weight",
+            "start": 1736608465191,
+            "stop": 0,
+            "type": "29463-7",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body Weight"
+              }
+            ]
+          },
+          {
+            "value": 91.46727915201357,
+            "category": "vital-signs",
+            "unit": "%",
+            "observations": [],
+            "uuid": "522fe8e1-ebb3-cad6-db5e-cf8faa44ff55",
+            "fullUrl": "urn:uuid:522fe8e1-ebb3-cad6-db5e-cf8faa44ff55",
+            "name": "Record_Weight_For_Length_Percentile",
+            "start": 1736608465191,
+            "stop": 0,
+            "type": "77606-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "77606-2",
+                "display": "Weight-for-length Per age and sex"
+              }
+            ]
+          },
+          {
+            "value": 22.83,
+            "category": "vital-signs",
+            "unit": "%",
+            "observations": [],
+            "uuid": "ac7b5360-f78d-3dda-c2da-f0c95a1775b1",
+            "fullUrl": "urn:uuid:ac7b5360-f78d-3dda-c2da-f0c95a1775b1",
+            "name": "Record_Head_Circumference_Percentile",
+            "start": 1736608465191,
+            "stop": 0,
+            "type": "8289-1",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8289-1",
+                "display": "Head Occipital-frontal circumference Percentile"
+              }
+            ]
+          },
+          {
+            "value": 45.25,
+            "category": "vital-signs",
+            "unit": "cm",
+            "observations": [],
+            "uuid": "e9f94194-f2b4-f1ca-a78a-ce6c94fa82ac",
+            "fullUrl": "urn:uuid:e9f94194-f2b4-f1ca-a78a-ce6c94fa82ac",
+            "name": "Record Head Circumference",
+            "start": 1736608465191,
+            "stop": 0,
+            "type": "9843-4",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "9843-4",
+                "display": "Head Occipital-frontal circumference"
+              }
+            ]
+          },
+          {
+            "category": "vital-signs",
+            "observations": [
+              {
+                "value": 69.0,
+                "category": "vital-signs",
+                "unit": "mm[Hg]",
+                "observations": [],
+                "uuid": "7013a4fe-502a-091f-0997-a778f6e24085",
+                "start": 1736608465191,
+                "stop": 0,
+                "type": "8462-4",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8462-4",
+                    "display": "Diastolic Blood Pressure"
+                  }
+                ]
+              },
+              {
+                "value": 99.0,
+                "category": "vital-signs",
+                "unit": "mm[Hg]",
+                "observations": [],
+                "uuid": "80800d38-fb26-1d99-c5ab-e51f8450a071",
+                "start": 1736608465191,
+                "stop": 0,
+                "type": "8480-6",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8480-6",
+                    "display": "Systolic Blood Pressure"
+                  }
+                ]
+              }
+            ],
+            "uuid": "6d23781a-85fd-ec50-efdc-3f294e1e6018",
+            "fullUrl": "urn:uuid:6d23781a-85fd-ec50-efdc-3f294e1e6018",
+            "name": "Record_BP",
+            "start": 1736608465191,
+            "stop": 0,
+            "type": "85354-9",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "85354-9",
+                "display": "Blood pressure panel with all children optional"
+              }
+            ]
+          },
+          {
+            "value": 88.0,
+            "category": "vital-signs",
+            "unit": "/min",
+            "observations": [],
+            "uuid": "f0e28685-623d-d406-ed90-5777a903339c",
+            "fullUrl": "urn:uuid:f0e28685-623d-d406-ed90-5777a903339c",
+            "name": "Record_Heart_Rate",
+            "start": 1736608465191,
+            "stop": 0,
+            "type": "8867-4",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ]
+          },
+          {
+            "value": 13.0,
+            "category": "vital-signs",
+            "unit": "/min",
+            "observations": [],
+            "uuid": "b769d178-60a3-7cf5-1178-fabfe9d7654a",
+            "fullUrl": "urn:uuid:b769d178-60a3-7cf5-1178-fabfe9d7654a",
+            "name": "Record_Respiratory_Rate",
+            "start": 1736608465191,
+            "stop": 0,
+            "type": "9279-1",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "9279-1",
+                "display": "Respiratory rate"
+              }
+            ]
+          },
+          {
+            "value": {
+              "system": "http://snomed.info/sct",
+              "code": "266919005",
+              "display": "Never smoked tobacco (finding)"
+            },
+            "category": "social-history",
+            "unit": "",
+            "observations": [],
+            "uuid": "d40a507b-8171-8b40-6c09-1a890d90cd66",
+            "fullUrl": "urn:uuid:d40a507b-8171-8b40-6c09-1a890d90cd66",
+            "name": "Record_Never_Smoker",
+            "start": 1736608465191,
+            "stop": 0,
+            "type": "72166-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "72166-2",
+                "display": "Tobacco smoking status"
+              }
+            ]
+          }
+        ],
+        "reports": [],
+        "conditions": [],
+        "allergies": [],
+        "procedures": [
+          {
+            "reasons": [],
+            "uuid": "636923d7-d81b-ce92-2202-c0433b345a60",
+            "fullUrl": "urn:uuid:636923d7-d81b-ce92-2202-c0433b345a60",
+            "name": "Med_Rec",
+            "start": 1736608465191,
+            "stop": 1736609365191,
+            "type": "430193006",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "430193006",
+                "display": "Medication reconciliation (procedure)"
+              }
+            ],
+            "cost": 862.80
+          }
+        ],
+        "immunizations": [],
+        "medications": [],
+        "careplans": [],
+        "imagingStudies": [],
+        "devices": [],
+        "supplies": [],
+        "claim": {
+          "mainEntry": {
+            "cost": 136.80,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 0.00,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 136.80
+          },
+          "items": [
+            {
+              "cost": 862.80,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 862.80
+            }
+          ],
+          "totals": {
+            "cost": 999.60,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 0.00,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 999.60
+          },
+          "uuid": "9e0d4085-e586-41fe-bf3d-45a4a1deae39",
+          "planRecord": {
+            "start": 1706973265191,
+            "stop": 1739027665191,
+            "plan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "secondaryPlan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "coveredExpenses": 0.00,
+            "remainingDeductible": 0,
+            "outOfPocketExpenses": 4070.18,
+            "insuranceExpenses": 0.00
+          }
+        },
+        "provider": {
+          "uuid": "4633340c-c833-30a3-ab0e-f5cfa5fda28b",
+          "locationUuid": "b11653b6-7871-319f-861d-cea1a4449289",
+          "id": "1366411316",
+          "npi": "1366411316",
+          "cmsProviderNum": "",
+          "cmsPin": "",
+          "cmsUpin": "",
+          "cmsCategory": "",
+          "cmsProviderType": "12-70",
+          "cmsRegion": "",
+          "cliaNumber": "",
+          "name": "CHAIR CITY FAMILY MEDICINE, PC",
+          "location": {
+            "totalPopulation": 7069851,
+            "state": "Massachusetts"
+          },
+          "address": "250 GREEN ST",
+          "city": "GARDNER",
+          "state": "MA",
+          "zip": "014401377",
+          "fipsCountyCode": "",
+          "phone": "9786304455",
+          "type": "PRIMARY",
+          "institutional": false,
+          "revenue": 0.0,
+          "coordinates": {
+            "x": -71.98672640006858,
+            "y": 42.586896550000006
+          },
+          "servicesProvided": [
+            "WELLNESS"
+          ]
+        },
+        "clinician": {
+          "identifier": 3150,
+          "uuid": "05c39fab-dca9-3986-bf72-2b6f443bc877",
+          "npi": "9999968495",
+          "attributes": {
+            "zip": "014401377",
+            "specialty": "GENERAL PRACTICE",
+            "address": "250 GREEN ST",
+            "coordinate": {
+              "x": -71.98672640006858,
+              "y": 42.586896550000006
+            },
+            "education": "bs_degree",
+            "race": "white",
+            "ethnicity": "nonhispanic",
+            "gender": "F",
+            "city": "GARDNER",
+            "last_name": "Trantow673",
+            "name_prefix": "Dr.",
+            "first_language": "english",
+            "identifier_ssn": "999-35-7551",
+            "name": "Kimberly627 Trantow673",
+            "state": "MA",
+            "first_name": "Kimberly627"
+          },
+          "servicesProvided": [],
+          "organization": {
+            "uuid": "4633340c-c833-30a3-ab0e-f5cfa5fda28b",
+            "locationUuid": "b11653b6-7871-319f-861d-cea1a4449289",
+            "id": "1366411316",
+            "npi": "1366411316",
+            "cmsProviderNum": "",
+            "cmsPin": "",
+            "cmsUpin": "",
+            "cmsCategory": "",
+            "cmsProviderType": "12-70",
+            "cmsRegion": "",
+            "cliaNumber": "",
+            "name": "CHAIR CITY FAMILY MEDICINE, PC",
+            "location": {
+              "totalPopulation": 7069851,
+              "state": "Massachusetts"
+            },
+            "address": "250 GREEN ST",
+            "city": "GARDNER",
+            "state": "MA",
+            "zip": "014401377",
+            "fipsCountyCode": "",
+            "phone": "9786304455",
+            "type": "PRIMARY",
+            "institutional": false,
+            "revenue": 0.0,
+            "coordinates": {
+              "x": -71.98672640006858,
+              "y": 42.586896550000006
+            },
+            "servicesProvided": [
+              "WELLNESS"
+            ]
+          },
+          "encounters": 8,
+          "procedures": 0,
+          "populationSeed": 0
+        },
+        "ended": true,
+        "endedTime": 1736608465191,
+        "chronicMedsRenewed": false,
+        "uuid": "3c8caf45-85c4-f1df-12f3-7efca51530b5",
+        "name": "Encounter Module Scheduled Wellness",
+        "start": 1736608465191,
+        "stop": 1736609365191,
+        "type": "wellness",
+        "codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "410620009",
+            "display": "Well child visit (procedure)"
+          }
+        ],
+        "cost": 136.80
+      },
+      {
+        "observations": [
+          {
+            "value": 75.9,
+            "category": "vital-signs",
+            "unit": "cm",
+            "observations": [],
+            "uuid": "e511033b-7556-e59a-95a4-93ee96f8ad90",
+            "fullUrl": "urn:uuid:e511033b-7556-e59a-95a4-93ee96f8ad90",
+            "name": "Record_Height",
+            "start": 1744470865191,
+            "stop": 0,
+            "type": "8302-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8302-2",
+                "display": "Body Height"
+              }
+            ]
+          },
+          {
+            "value": 4.0,
+            "category": "vital-signs",
+            "unit": "{score}",
+            "observations": [],
+            "uuid": "dc325adf-586b-83bf-52cc-3d3a6f66140e",
+            "fullUrl": "urn:uuid:dc325adf-586b-83bf-52cc-3d3a6f66140e",
+            "name": "Record_Pain",
+            "start": 1744470865191,
+            "stop": 0,
+            "type": "72514-3",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "72514-3",
+                "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+              }
+            ]
+          },
+          {
+            "value": 11.3,
+            "category": "vital-signs",
+            "unit": "kg",
+            "observations": [],
+            "uuid": "4b7976db-ce38-6f5f-207c-2fb5ca6d7cf7",
+            "fullUrl": "urn:uuid:4b7976db-ce38-6f5f-207c-2fb5ca6d7cf7",
+            "name": "Record_Weight",
+            "start": 1744470865191,
+            "stop": 0,
+            "type": "29463-7",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body Weight"
+              }
+            ]
+          },
+          {
+            "value": 93.44056885481963,
+            "category": "vital-signs",
+            "unit": "%",
+            "observations": [],
+            "uuid": "fefae4ca-58d5-b121-8d5d-1caccabc1e30",
+            "fullUrl": "urn:uuid:fefae4ca-58d5-b121-8d5d-1caccabc1e30",
+            "name": "Record_Weight_For_Length_Percentile",
+            "start": 1744470865191,
+            "stop": 0,
+            "type": "77606-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "77606-2",
+                "display": "Weight-for-length Per age and sex"
+              }
+            ]
+          },
+          {
+            "value": 22.83,
+            "category": "vital-signs",
+            "unit": "%",
+            "observations": [],
+            "uuid": "5e6a9afd-0070-7e6b-3605-e50238c46f8a",
+            "fullUrl": "urn:uuid:5e6a9afd-0070-7e6b-3605-e50238c46f8a",
+            "name": "Record_Head_Circumference_Percentile",
+            "start": 1744470865191,
+            "stop": 0,
+            "type": "8289-1",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8289-1",
+                "display": "Head Occipital-frontal circumference Percentile"
+              }
+            ]
+          },
+          {
+            "value": 46.07,
+            "category": "vital-signs",
+            "unit": "cm",
+            "observations": [],
+            "uuid": "0fa72712-4a97-aca4-4b66-297d75db61cd",
+            "fullUrl": "urn:uuid:0fa72712-4a97-aca4-4b66-297d75db61cd",
+            "name": "Record Head Circumference",
+            "start": 1744470865191,
+            "stop": 0,
+            "type": "9843-4",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "9843-4",
+                "display": "Head Occipital-frontal circumference"
+              }
+            ]
+          },
+          {
+            "category": "vital-signs",
+            "observations": [
+              {
+                "value": 66.0,
+                "category": "vital-signs",
+                "unit": "mm[Hg]",
+                "observations": [],
+                "uuid": "d4abb35c-afc3-fab4-2a43-84057e345e14",
+                "start": 1744470865191,
+                "stop": 0,
+                "type": "8462-4",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8462-4",
+                    "display": "Diastolic Blood Pressure"
+                  }
+                ]
+              },
+              {
+                "value": 99.0,
+                "category": "vital-signs",
+                "unit": "mm[Hg]",
+                "observations": [],
+                "uuid": "982cd4fb-cbcf-4cae-0208-1a0217564fdb",
+                "start": 1744470865191,
+                "stop": 0,
+                "type": "8480-6",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8480-6",
+                    "display": "Systolic Blood Pressure"
+                  }
+                ]
+              }
+            ],
+            "uuid": "60090915-a0fc-e625-a5ee-d43ca4f3ebfc",
+            "fullUrl": "urn:uuid:60090915-a0fc-e625-a5ee-d43ca4f3ebfc",
+            "name": "Record_BP",
+            "start": 1744470865191,
+            "stop": 0,
+            "type": "85354-9",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "85354-9",
+                "display": "Blood pressure panel with all children optional"
+              }
+            ]
+          },
+          {
+            "value": 92.0,
+            "category": "vital-signs",
+            "unit": "/min",
+            "observations": [],
+            "uuid": "5c22ff2a-3f9a-33f9-be4f-0cf77fec6759",
+            "fullUrl": "urn:uuid:5c22ff2a-3f9a-33f9-be4f-0cf77fec6759",
+            "name": "Record_Heart_Rate",
+            "start": 1744470865191,
+            "stop": 0,
+            "type": "8867-4",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ]
+          },
+          {
+            "value": 16.0,
+            "category": "vital-signs",
+            "unit": "/min",
+            "observations": [],
+            "uuid": "db9b1417-b0a6-d959-a13b-74ddb7e7762a",
+            "fullUrl": "urn:uuid:db9b1417-b0a6-d959-a13b-74ddb7e7762a",
+            "name": "Record_Respiratory_Rate",
+            "start": 1744470865191,
+            "stop": 0,
+            "type": "9279-1",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "9279-1",
+                "display": "Respiratory rate"
+              }
+            ]
+          },
+          {
+            "value": {
+              "system": "http://snomed.info/sct",
+              "code": "266919005",
+              "display": "Never smoked tobacco (finding)"
+            },
+            "category": "social-history",
+            "unit": "",
+            "observations": [],
+            "uuid": "1c82c69c-2658-da5c-2051-0d9c256ca515",
+            "fullUrl": "urn:uuid:1c82c69c-2658-da5c-2051-0d9c256ca515",
+            "name": "Record_Never_Smoker",
+            "start": 1744470865191,
+            "stop": 0,
+            "type": "72166-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "72166-2",
+                "display": "Tobacco smoking status"
+              }
+            ]
+          }
+        ],
+        "reports": [],
+        "conditions": [
+          {
+            "uuid": "663d7abb-2994-6607-586a-34bb30f39dee",
+            "fullUrl": "urn:uuid:663d7abb-2994-6607-586a-34bb30f39dee",
+            "name": "Medication_Review_Due",
+            "start": 1744470865191,
+            "stop": 1744470865191,
+            "type": "314529007",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "314529007",
+                "display": "Medication review due (situation)"
+              }
+            ],
+            "cost": 0.00
+          }
+        ],
+        "allergies": [],
+        "procedures": [
+          {
+            "reasons": [],
+            "uuid": "c14e9624-2d39-0a78-d66b-f603b4cc61d7",
+            "fullUrl": "urn:uuid:c14e9624-2d39-0a78-d66b-f603b4cc61d7",
+            "name": "Med_Rec",
+            "start": 1744470865191,
+            "stop": 1744471765191,
+            "type": "430193006",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "430193006",
+                "display": "Medication reconciliation (procedure)"
+              }
+            ],
+            "cost": 452.96
+          }
+        ],
+        "immunizations": [
+          {
+            "series": 3,
+            "uuid": "3706f276-8347-e9f5-86c1-f4727bf2b18b",
+            "fullUrl": "urn:uuid:3706f276-8347-e9f5-86c1-f4727bf2b18b",
+            "start": 1744470865191,
+            "stop": 0,
+            "type": "hib",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "49",
+                "display": "Hib (PRP-OMP)"
+              }
+            ],
+            "cost": 136.00
+          },
+          {
+            "series": 1,
+            "uuid": "fcdbf811-1463-d1ba-2766-78fc08f0171a",
+            "fullUrl": "urn:uuid:fcdbf811-1463-d1ba-2766-78fc08f0171a",
+            "start": 1744470865191,
+            "stop": 0,
+            "type": "var",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "21",
+                "display": "varicella"
+              }
+            ],
+            "cost": 136.00
+          },
+          {
+            "series": 1,
+            "uuid": "e11a742a-5320-4c1d-f259-8c010b4c5dc8",
+            "fullUrl": "urn:uuid:e11a742a-5320-4c1d-f259-8c010b4c5dc8",
+            "start": 1744470865191,
+            "stop": 0,
+            "type": "mmr",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "03",
+                "display": "MMR"
+              }
+            ],
+            "cost": 136.00
+          },
+          {
+            "series": 4,
+            "uuid": "771af118-4ac8-ac18-a41a-b7fb331bdcb2",
+            "fullUrl": "urn:uuid:771af118-4ac8-ac18-a41a-b7fb331bdcb2",
+            "start": 1744470865191,
+            "stop": 0,
+            "type": "pcv13",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "133",
+                "display": "Pneumococcal conjugate PCV 13"
+              }
+            ],
+            "cost": 136.00
+          },
+          {
+            "series": 1,
+            "uuid": "56697163-4d29-4ad3-39ef-e9b893342d9b",
+            "fullUrl": "urn:uuid:56697163-4d29-4ad3-39ef-e9b893342d9b",
+            "start": 1744470865191,
+            "stop": 0,
+            "type": "hepa",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "83",
+                "display": "Hep A, ped/adol, 2 dose"
+              }
+            ],
+            "cost": 136.00
+          }
+        ],
+        "medications": [],
+        "careplans": [],
+        "imagingStudies": [],
+        "devices": [],
+        "supplies": [],
+        "claim": {
+          "mainEntry": {
+            "cost": 136.80,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 0.00,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 136.80
+          },
+          "items": [
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 136.00
+            },
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 136.00
+            },
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 136.00
+            },
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 136.00
+            },
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 136.00
+            },
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 452.96,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 452.96
+            }
+          ],
+          "totals": {
+            "cost": 1269.76,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 0.00,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 1269.76
+          },
+          "uuid": "10654580-55db-846a-77a2-99baafb48b50",
+          "planRecord": {
+            "start": 1739027665191,
+            "stop": 1770131665191,
+            "plan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "secondaryPlan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "coveredExpenses": 0.00,
+            "remainingDeductible": 0,
+            "outOfPocketExpenses": 1542.56,
+            "insuranceExpenses": 0.00
+          }
+        },
+        "provider": {
+          "uuid": "4633340c-c833-30a3-ab0e-f5cfa5fda28b",
+          "locationUuid": "b11653b6-7871-319f-861d-cea1a4449289",
+          "id": "1366411316",
+          "npi": "1366411316",
+          "cmsProviderNum": "",
+          "cmsPin": "",
+          "cmsUpin": "",
+          "cmsCategory": "",
+          "cmsProviderType": "12-70",
+          "cmsRegion": "",
+          "cliaNumber": "",
+          "name": "CHAIR CITY FAMILY MEDICINE, PC",
+          "location": {
+            "totalPopulation": 7069851,
+            "state": "Massachusetts"
+          },
+          "address": "250 GREEN ST",
+          "city": "GARDNER",
+          "state": "MA",
+          "zip": "014401377",
+          "fipsCountyCode": "",
+          "phone": "9786304455",
+          "type": "PRIMARY",
+          "institutional": false,
+          "revenue": 0.0,
+          "coordinates": {
+            "x": -71.98672640006858,
+            "y": 42.586896550000006
+          },
+          "servicesProvided": [
+            "WELLNESS"
+          ]
+        },
+        "clinician": {
+          "identifier": 3150,
+          "uuid": "05c39fab-dca9-3986-bf72-2b6f443bc877",
+          "npi": "9999968495",
+          "attributes": {
+            "zip": "014401377",
+            "specialty": "GENERAL PRACTICE",
+            "address": "250 GREEN ST",
+            "coordinate": {
+              "x": -71.98672640006858,
+              "y": 42.586896550000006
+            },
+            "education": "bs_degree",
+            "race": "white",
+            "ethnicity": "nonhispanic",
+            "gender": "F",
+            "city": "GARDNER",
+            "last_name": "Trantow673",
+            "name_prefix": "Dr.",
+            "first_language": "english",
+            "identifier_ssn": "999-35-7551",
+            "name": "Kimberly627 Trantow673",
+            "state": "MA",
+            "first_name": "Kimberly627"
+          },
+          "servicesProvided": [],
+          "organization": {
+            "uuid": "4633340c-c833-30a3-ab0e-f5cfa5fda28b",
+            "locationUuid": "b11653b6-7871-319f-861d-cea1a4449289",
+            "id": "1366411316",
+            "npi": "1366411316",
+            "cmsProviderNum": "",
+            "cmsPin": "",
+            "cmsUpin": "",
+            "cmsCategory": "",
+            "cmsProviderType": "12-70",
+            "cmsRegion": "",
+            "cliaNumber": "",
+            "name": "CHAIR CITY FAMILY MEDICINE, PC",
+            "location": {
+              "totalPopulation": 7069851,
+              "state": "Massachusetts"
+            },
+            "address": "250 GREEN ST",
+            "city": "GARDNER",
+            "state": "MA",
+            "zip": "014401377",
+            "fipsCountyCode": "",
+            "phone": "9786304455",
+            "type": "PRIMARY",
+            "institutional": false,
+            "revenue": 0.0,
+            "coordinates": {
+              "x": -71.98672640006858,
+              "y": 42.586896550000006
+            },
+            "servicesProvided": [
+              "WELLNESS"
+            ]
+          },
+          "encounters": 8,
+          "procedures": 0,
+          "populationSeed": 0
+        },
+        "ended": true,
+        "endedTime": 1744470865191,
+        "chronicMedsRenewed": false,
+        "uuid": "8490b845-11be-12c3-365c-2bdbbb049e2d",
+        "name": "Encounter Module Scheduled Wellness",
+        "start": 1744470865191,
+        "stop": 1744471765191,
+        "type": "wellness",
+        "codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "410620009",
+            "display": "Well child visit (procedure)"
+          }
+        ],
+        "cost": 136.80
+      },
+      {
+        "observations": [
+          {
+            "value": 78.8,
+            "category": "vital-signs",
+            "unit": "cm",
+            "observations": [],
+            "uuid": "9722b100-ba77-705a-f2e6-92e214deb46b",
+            "fullUrl": "urn:uuid:9722b100-ba77-705a-f2e6-92e214deb46b",
+            "name": "Record_Height",
+            "start": 1752333265191,
+            "stop": 0,
+            "type": "8302-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8302-2",
+                "display": "Body Height"
+              }
+            ]
+          },
+          {
+            "value": 3.0,
+            "category": "vital-signs",
+            "unit": "{score}",
+            "observations": [],
+            "uuid": "f0ead2af-8f66-ec55-b10e-7ea9dea57774",
+            "fullUrl": "urn:uuid:f0ead2af-8f66-ec55-b10e-7ea9dea57774",
+            "name": "Record_Pain",
+            "start": 1752333265191,
+            "stop": 0,
+            "type": "72514-3",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "72514-3",
+                "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+              }
+            ]
+          },
+          {
+            "value": 11.9,
+            "category": "vital-signs",
+            "unit": "kg",
+            "observations": [],
+            "uuid": "9e57e7b3-164c-59ab-5bf5-98bf6505164c",
+            "fullUrl": "urn:uuid:9e57e7b3-164c-59ab-5bf5-98bf6505164c",
+            "name": "Record_Weight",
+            "start": 1752333265191,
+            "stop": 0,
+            "type": "29463-7",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body Weight"
+              }
+            ]
+          },
+          {
+            "value": 91.30387755496582,
+            "category": "vital-signs",
+            "unit": "%",
+            "observations": [],
+            "uuid": "114f7f5c-5fee-6be2-75f6-91f259a413bd",
+            "fullUrl": "urn:uuid:114f7f5c-5fee-6be2-75f6-91f259a413bd",
+            "name": "Record_Weight_For_Length_Percentile",
+            "start": 1752333265191,
+            "stop": 0,
+            "type": "77606-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "77606-2",
+                "display": "Weight-for-length Per age and sex"
+              }
+            ]
+          },
+          {
+            "value": 22.83,
+            "category": "vital-signs",
+            "unit": "%",
+            "observations": [],
+            "uuid": "0aaa5cde-8e73-f556-73bf-0bdd179ddabc",
+            "fullUrl": "urn:uuid:0aaa5cde-8e73-f556-73bf-0bdd179ddabc",
+            "name": "Record_Head_Circumference_Percentile",
+            "start": 1752333265191,
+            "stop": 0,
+            "type": "8289-1",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8289-1",
+                "display": "Head Occipital-frontal circumference Percentile"
+              }
+            ]
+          },
+          {
+            "value": 46.69,
+            "category": "vital-signs",
+            "unit": "cm",
+            "observations": [],
+            "uuid": "3851475a-16cc-e8a3-d28d-69abf1c673dc",
+            "fullUrl": "urn:uuid:3851475a-16cc-e8a3-d28d-69abf1c673dc",
+            "name": "Record Head Circumference",
+            "start": 1752333265191,
+            "stop": 0,
+            "type": "9843-4",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "9843-4",
+                "display": "Head Occipital-frontal circumference"
+              }
+            ]
+          },
+          {
+            "category": "vital-signs",
+            "observations": [
+              {
+                "value": 67.0,
+                "category": "vital-signs",
+                "unit": "mm[Hg]",
+                "observations": [],
+                "uuid": "765d5fe3-e9a9-c518-9bfe-1feedee8fa69",
+                "start": 1752333265191,
+                "stop": 0,
+                "type": "8462-4",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8462-4",
+                    "display": "Diastolic Blood Pressure"
+                  }
+                ]
+              },
+              {
+                "value": 89.0,
+                "category": "vital-signs",
+                "unit": "mm[Hg]",
+                "observations": [],
+                "uuid": "47b4363c-5382-1734-484d-ed270ed17807",
+                "start": 1752333265191,
+                "stop": 0,
+                "type": "8480-6",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8480-6",
+                    "display": "Systolic Blood Pressure"
+                  }
+                ]
+              }
+            ],
+            "uuid": "7e540e88-3471-261c-9c07-0d068d749daf",
+            "fullUrl": "urn:uuid:7e540e88-3471-261c-9c07-0d068d749daf",
+            "name": "Record_BP",
+            "start": 1752333265191,
+            "stop": 0,
+            "type": "85354-9",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "85354-9",
+                "display": "Blood pressure panel with all children optional"
+              }
+            ]
+          },
+          {
+            "value": 79.0,
+            "category": "vital-signs",
+            "unit": "/min",
+            "observations": [],
+            "uuid": "6a674fe2-6d3d-ae7d-856c-33e9c9352ceb",
+            "fullUrl": "urn:uuid:6a674fe2-6d3d-ae7d-856c-33e9c9352ceb",
+            "name": "Record_Heart_Rate",
+            "start": 1752333265191,
+            "stop": 0,
+            "type": "8867-4",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ]
+          },
+          {
+            "value": 13.0,
+            "category": "vital-signs",
+            "unit": "/min",
+            "observations": [],
+            "uuid": "a04cbdb7-b431-6340-cffc-83c0294f17f3",
+            "fullUrl": "urn:uuid:a04cbdb7-b431-6340-cffc-83c0294f17f3",
+            "name": "Record_Respiratory_Rate",
+            "start": 1752333265191,
+            "stop": 0,
+            "type": "9279-1",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "9279-1",
+                "display": "Respiratory rate"
+              }
+            ]
+          },
+          {
+            "value": {
+              "system": "http://snomed.info/sct",
+              "code": "266919005",
+              "display": "Never smoked tobacco (finding)"
+            },
+            "category": "social-history",
+            "unit": "",
+            "observations": [],
+            "uuid": "12e73c4e-f6e6-00d8-4559-9ec226a33b26",
+            "fullUrl": "urn:uuid:12e73c4e-f6e6-00d8-4559-9ec226a33b26",
+            "name": "Record_Never_Smoker",
+            "start": 1752333265191,
+            "stop": 0,
+            "type": "72166-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "72166-2",
+                "display": "Tobacco smoking status"
+              }
+            ]
+          }
+        ],
+        "reports": [],
+        "conditions": [
+          {
+            "uuid": "cbb688f7-0589-4e66-c585-187a2189f378",
+            "fullUrl": "urn:uuid:cbb688f7-0589-4e66-c585-187a2189f378",
+            "name": "Medication_Review_Due",
+            "start": 1752333265191,
+            "stop": 0,
+            "type": "314529007",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "314529007",
+                "display": "Medication review due (situation)"
+              }
+            ],
+            "cost": 0.00
+          }
+        ],
+        "allergies": [],
+        "procedures": [],
+        "immunizations": [
+          {
+            "series": 4,
+            "uuid": "657d3dee-022a-77b5-d41a-5038e930ad1c",
+            "fullUrl": "urn:uuid:657d3dee-022a-77b5-d41a-5038e930ad1c",
+            "start": 1752333265191,
+            "stop": 0,
+            "type": "dtap",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "20",
+                "display": "DTaP"
+              }
+            ],
+            "cost": 136.00
+          }
+        ],
+        "medications": [],
+        "careplans": [],
+        "imagingStudies": [],
+        "devices": [],
+        "supplies": [],
+        "claim": {
+          "mainEntry": {
+            "cost": 136.80,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 0.00,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 136.80
+          },
+          "items": [
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 136.00
+            },
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            }
+          ],
+          "totals": {
+            "cost": 272.80,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 0.00,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 272.80
+          },
+          "uuid": "8b8d11c0-bd3d-219a-643d-70bc2137ef12",
+          "planRecord": {
+            "start": 1739027665191,
+            "stop": 1770131665191,
+            "plan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "secondaryPlan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "coveredExpenses": 0.00,
+            "remainingDeductible": 0,
+            "outOfPocketExpenses": 1542.56,
+            "insuranceExpenses": 0.00
+          }
+        },
+        "provider": {
+          "uuid": "4633340c-c833-30a3-ab0e-f5cfa5fda28b",
+          "locationUuid": "b11653b6-7871-319f-861d-cea1a4449289",
+          "id": "1366411316",
+          "npi": "1366411316",
+          "cmsProviderNum": "",
+          "cmsPin": "",
+          "cmsUpin": "",
+          "cmsCategory": "",
+          "cmsProviderType": "12-70",
+          "cmsRegion": "",
+          "cliaNumber": "",
+          "name": "CHAIR CITY FAMILY MEDICINE, PC",
+          "location": {
+            "totalPopulation": 7069851,
+            "state": "Massachusetts"
+          },
+          "address": "250 GREEN ST",
+          "city": "GARDNER",
+          "state": "MA",
+          "zip": "014401377",
+          "fipsCountyCode": "",
+          "phone": "9786304455",
+          "type": "PRIMARY",
+          "institutional": false,
+          "revenue": 0.0,
+          "coordinates": {
+            "x": -71.98672640006858,
+            "y": 42.586896550000006
+          },
+          "servicesProvided": [
+            "WELLNESS"
+          ]
+        },
+        "clinician": {
+          "identifier": 3150,
+          "uuid": "05c39fab-dca9-3986-bf72-2b6f443bc877",
+          "npi": "9999968495",
+          "attributes": {
+            "zip": "014401377",
+            "specialty": "GENERAL PRACTICE",
+            "address": "250 GREEN ST",
+            "coordinate": {
+              "x": -71.98672640006858,
+              "y": 42.586896550000006
+            },
+            "education": "bs_degree",
+            "race": "white",
+            "ethnicity": "nonhispanic",
+            "gender": "F",
+            "city": "GARDNER",
+            "last_name": "Trantow673",
+            "name_prefix": "Dr.",
+            "first_language": "english",
+            "identifier_ssn": "999-35-7551",
+            "name": "Kimberly627 Trantow673",
+            "state": "MA",
+            "first_name": "Kimberly627"
+          },
+          "servicesProvided": [],
+          "organization": {
+            "uuid": "4633340c-c833-30a3-ab0e-f5cfa5fda28b",
+            "locationUuid": "b11653b6-7871-319f-861d-cea1a4449289",
+            "id": "1366411316",
+            "npi": "1366411316",
+            "cmsProviderNum": "",
+            "cmsPin": "",
+            "cmsUpin": "",
+            "cmsCategory": "",
+            "cmsProviderType": "12-70",
+            "cmsRegion": "",
+            "cliaNumber": "",
+            "name": "CHAIR CITY FAMILY MEDICINE, PC",
+            "location": {
+              "totalPopulation": 7069851,
+              "state": "Massachusetts"
+            },
+            "address": "250 GREEN ST",
+            "city": "GARDNER",
+            "state": "MA",
+            "zip": "014401377",
+            "fipsCountyCode": "",
+            "phone": "9786304455",
+            "type": "PRIMARY",
+            "institutional": false,
+            "revenue": 0.0,
+            "coordinates": {
+              "x": -71.98672640006858,
+              "y": 42.586896550000006
+            },
+            "servicesProvided": [
+              "WELLNESS"
+            ]
+          },
+          "encounters": 8,
+          "procedures": 0,
+          "populationSeed": 0
+        },
+        "ended": true,
+        "endedTime": 1752333265191,
+        "chronicMedsRenewed": false,
+        "uuid": "93ff0176-f17a-409c-7ace-173245d914b4",
+        "name": "Encounter Module Scheduled Wellness",
+        "start": 1752333265191,
+        "stop": 1752334165191,
+        "type": "wellness",
+        "codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "410620009",
+            "display": "Well child visit (procedure)"
+          }
+        ],
+        "cost": 136.80
+      }
+    ]
+  }
+}

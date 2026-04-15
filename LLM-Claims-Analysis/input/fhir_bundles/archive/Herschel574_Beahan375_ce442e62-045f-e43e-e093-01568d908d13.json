@@ -1,0 +1,5864 @@
+{
+  "seed": -9048258330105186985,
+  "lastUpdated": 1760487620151,
+  "coverage": {
+    "planHistory": [
+      {
+        "id": "29aad54c-8bd5-ef9c-4178-89f278ca02ae",
+        "start": 1682468420151,
+        "stop": 1713918020151,
+        "plan": {
+          "id": 90002,
+          "payer": {
+            "name": "Anthem",
+            "uuid": "734afbd6-4794-363b-9bc0-6a3981533ed5"
+          },
+          "deductible": 1458,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.8,
+          "monthlyPremium": 0.04,
+          "maxOutOfPocket": 8700,
+          "priority": 4,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": true,
+          "incomeBasedPremium": true,
+          "insuranceStatus": "private",
+          "planEligibility": {
+            "eligibilityLogic": {},
+            "eligibilityCriteria": [
+              null,
+              null
+            ]
+          },
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Self",
+        "ownerName": "Herschel574 Beahan375",
+        "coveredExpenses": 0.00,
+        "remainingDeductible": 1372.45,
+        "outOfPocketExpenses": 85.55,
+        "insuranceExpenses": 1166.28000000000000000000000000000000000000000000000000000
+      },
+      {
+        "id": "177fa3dd-2842-a0fb-f6d2-2d404fee35ad",
+        "start": 1461716420151,
+        "stop": 1493166020151,
+        "plan": {
+          "id": 80002,
+          "payer": {
+            "name": "Cigna Health",
+            "uuid": "8fa6c185-e44e-3e34-8bd8-39be8694f4ce"
+          },
+          "deductible": 4500,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.7,
+          "monthlyPremium": 0.03,
+          "maxOutOfPocket": 8700,
+          "priority": 4,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": true,
+          "incomeBasedPremium": true,
+          "insuranceStatus": "private",
+          "planEligibility": {
+            "eligibilityLogic": {},
+            "eligibilityCriteria": [
+              null,
+              null
+            ]
+          },
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Guardian",
+        "ownerName": "Catheryn300 Greenholt190",
+        "coveredExpenses": 0.00,
+        "remainingDeductible": 474.75,
+        "outOfPocketExpenses": 4025.25,
+        "insuranceExpenses": 874.68000000000000000000000000000000000000000000000000000
+      },
+      {
+        "id": "94f9d53d-d601-e71e-9420-4fafc6fa0d24",
+        "start": 1493166020151,
+        "stop": 1524615620151,
+        "plan": {
+          "id": 90002,
+          "payer": {
+            "name": "Anthem",
+            "uuid": "734afbd6-4794-363b-9bc0-6a3981533ed5"
+          },
+          "deductible": 1458,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.8,
+          "monthlyPremium": 0.04,
+          "maxOutOfPocket": 8700,
+          "priority": 4,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": true,
+          "incomeBasedPremium": true,
+          "insuranceStatus": "private",
+          "planEligibility": {
+            "eligibilityLogic": {},
+            "eligibilityCriteria": [
+              null,
+              null
+            ]
+          },
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Self",
+        "ownerName": "Herschel574 Beahan375",
+        "coveredExpenses": 2555.18,
+        "remainingDeductible": 0.00,
+        "outOfPocketExpenses": 2096.79,
+        "insuranceExpenses": 1166.28000000000000000000000000000000000000000000000000000
+      },
+      {
+        "id": "5c3e691c-ff58-be09-7bd0-33951458c33c",
+        "start": 1082506820151,
+        "stop": 1114561220151,
+        "plan": {
+          "id": 80002,
+          "payer": {
+            "name": "Cigna Health",
+            "uuid": "8fa6c185-e44e-3e34-8bd8-39be8694f4ce"
+          },
+          "deductible": 4500,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.7,
+          "monthlyPremium": 0.03,
+          "maxOutOfPocket": 8700,
+          "priority": 4,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": true,
+          "incomeBasedPremium": true,
+          "insuranceStatus": "private",
+          "planEligibility": {
+            "eligibilityLogic": {},
+            "eligibilityCriteria": [
+              null,
+              null
+            ]
+          },
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Guardian",
+        "ownerName": "Giovanni385 Beahan375",
+        "coveredExpenses": 0.00,
+        "remainingDeductible": 3289.82,
+        "outOfPocketExpenses": 1210.18,
+        "insuranceExpenses": 874.68000000000000000000000000000000000000000000000000000
+      },
+      {
+        "id": "177fa3dd-2842-a0fb-f6d2-2d404fee35ad",
+        "start": 1335313220151,
+        "stop": 1366762820151,
+        "plan": {
+          "id": 80002,
+          "payer": {
+            "name": "Cigna Health",
+            "uuid": "8fa6c185-e44e-3e34-8bd8-39be8694f4ce"
+          },
+          "deductible": 4500,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.7,
+          "monthlyPremium": 0.03,
+          "maxOutOfPocket": 8700,
+          "priority": 4,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": true,
+          "incomeBasedPremium": true,
+          "insuranceStatus": "private",
+          "planEligibility": {
+            "eligibilityLogic": {},
+            "eligibilityCriteria": [
+              null,
+              null
+            ]
+          },
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Guardian",
+        "ownerName": "Catheryn300 Greenholt190",
+        "coveredExpenses": 4.82,
+        "remainingDeductible": 0.00,
+        "outOfPocketExpenses": 4502.07,
+        "insuranceExpenses": 874.68000000000000000000000000000000000000000000000000000
+      },
+      {
+        "id": "7456acd7-300b-865c-17c2-04388fe0677d",
+        "start": 1177460420151,
+        "stop": 1208910020151,
+        "plan": {
+          "id": 70002,
+          "payer": {
+            "name": "Aetna",
+            "uuid": "0133f751-9229-3cfd-815f-b6d4979bdd6a"
+          },
+          "deductible": 6094,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.6,
+          "monthlyPremium": 0.02,
+          "maxOutOfPocket": 8700,
+          "priority": 4,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": true,
+          "incomeBasedPremium": true,
+          "insuranceStatus": "private",
+          "planEligibility": {
+            "eligibilityLogic": {},
+            "eligibilityCriteria": [
+              null,
+              null
+            ]
+          },
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Guardian",
+        "ownerName": "Catheryn300 Greenholt190",
+        "coveredExpenses": 0.00,
+        "remainingDeductible": 2427.31,
+        "outOfPocketExpenses": 3666.69,
+        "insuranceExpenses": 583.20000000000000000000000000000000000000000000000000000
+      },
+      {
+        "id": "177fa3dd-2842-a0fb-f6d2-2d404fee35ad",
+        "start": 1271809220151,
+        "stop": 1303863620151,
+        "plan": {
+          "id": 80002,
+          "payer": {
+            "name": "Cigna Health",
+            "uuid": "8fa6c185-e44e-3e34-8bd8-39be8694f4ce"
+          },
+          "deductible": 4500,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.7,
+          "monthlyPremium": 0.03,
+          "maxOutOfPocket": 8700,
+          "priority": 4,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": true,
+          "incomeBasedPremium": true,
+          "insuranceStatus": "private",
+          "planEligibility": {
+            "eligibilityLogic": {},
+            "eligibilityCriteria": [
+              null,
+              null
+            ]
+          },
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Guardian",
+        "ownerName": "Catheryn300 Greenholt190",
+        "coveredExpenses": 338.05,
+        "remainingDeductible": 0.00,
+        "outOfPocketExpenses": 4644.88,
+        "insuranceExpenses": 874.68000000000000000000000000000000000000000000000000000
+      },
+      {
+        "id": "177fa3dd-2842-a0fb-f6d2-2d404fee35ad",
+        "start": 1303863620151,
+        "stop": 1335313220151,
+        "plan": {
+          "id": 80002,
+          "payer": {
+            "name": "Cigna Health",
+            "uuid": "8fa6c185-e44e-3e34-8bd8-39be8694f4ce"
+          },
+          "deductible": 4500,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.7,
+          "monthlyPremium": 0.03,
+          "maxOutOfPocket": 8700,
+          "priority": 4,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": true,
+          "incomeBasedPremium": true,
+          "insuranceStatus": "private",
+          "planEligibility": {
+            "eligibilityLogic": {},
+            "eligibilityCriteria": [
+              null,
+              null
+            ]
+          },
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Guardian",
+        "ownerName": "Catheryn300 Greenholt190",
+        "coveredExpenses": 1676.93,
+        "remainingDeductible": 0.00,
+        "outOfPocketExpenses": 5218.69,
+        "insuranceExpenses": 874.68000000000000000000000000000000000000000000000000000
+      },
+      {
+        "id": "177fa3dd-2842-a0fb-f6d2-2d404fee35ad",
+        "start": 1429662020151,
+        "stop": 1461716420151,
+        "plan": {
+          "id": 80002,
+          "payer": {
+            "name": "Cigna Health",
+            "uuid": "8fa6c185-e44e-3e34-8bd8-39be8694f4ce"
+          },
+          "deductible": 4500,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.7,
+          "monthlyPremium": 0.03,
+          "maxOutOfPocket": 8700,
+          "priority": 4,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": true,
+          "incomeBasedPremium": true,
+          "insuranceStatus": "private",
+          "planEligibility": {
+            "eligibilityLogic": {},
+            "eligibilityCriteria": [
+              null,
+              null
+            ]
+          },
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Guardian",
+        "ownerName": "Catheryn300 Greenholt190",
+        "coveredExpenses": 1415.94,
+        "remainingDeductible": 0.00,
+        "outOfPocketExpenses": 5106.83,
+        "insuranceExpenses": 874.68000000000000000000000000000000000000000000000000000
+      },
+      {
+        "id": "eeff8368-8941-00fe-e09e-3324aeb29125",
+        "start": 924654020151,
+        "stop": 956708420151,
+        "plan": {
+          "id": 20001,
+          "payer": {
+            "name": "Medicaid",
+            "uuid": "df166300-5a78-3502-a46a-832842197811"
+          },
+          "deductible": 100,
+          "defaultCopay": 50,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 10,
+          "maxOutOfPocket": 8700,
+          "priority": 2,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "medicaid",
+          "planEligibility": {
+            "eligibilityLogic": {},
+            "eligibilityCriteria": [
+              {},
+              {
+                "qualifyingAttributes": [
+                  {
+                    "logic": {
+                      "arg$1": "blindness",
+                      "arg$2": "true",
+                      "arg$3": "\u003d\u003d"
+                    }
+                  }
+                ]
+              },
+              {}
+            ]
+          },
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Self",
+        "ownerName": "Herschel574 Beahan375",
+        "coveredExpenses": 3876.76,
+        "remainingDeductible": 0.00,
+        "outOfPocketExpenses": 550.00,
+        "insuranceExpenses": 130.00000000000000000000000000000000000000000000000000000
+      },
+      {
+        "id": "c1de03e1-c70c-c97a-8877-2d2d11f05d96",
+        "start": 988158020151,
+        "stop": 1019607620151,
+        "plan": {
+          "id": 70002,
+          "payer": {
+            "name": "Aetna",
+            "uuid": "0133f751-9229-3cfd-815f-b6d4979bdd6a"
+          },
+          "deductible": 6094,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.6,
+          "monthlyPremium": 0.02,
+          "maxOutOfPocket": 8700,
+          "priority": 4,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": true,
+          "incomeBasedPremium": true,
+          "insuranceStatus": "private",
+          "planEligibility": {
+            "eligibilityLogic": {},
+            "eligibilityCriteria": [
+              null,
+              null
+            ]
+          },
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Guardian",
+        "ownerName": "Catheryn300 Greenholt190",
+        "coveredExpenses": 0.00,
+        "remainingDeductible": 4490.95,
+        "outOfPocketExpenses": 1603.05,
+        "insuranceExpenses": 583.20000000000000000000000000000000000000000000000000000
+      },
+      {
+        "id": "19e1a57e-1c1d-20af-1856-48d30a77b3c5",
+        "start": 1745367620151,
+        "stop": 1776730820151,
+        "plan": {
+          "id": 90002,
+          "payer": {
+            "name": "Anthem",
+            "uuid": "734afbd6-4794-363b-9bc0-6a3981533ed5"
+          },
+          "deductible": 1458,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.8,
+          "monthlyPremium": 0.04,
+          "maxOutOfPocket": 8700,
+          "priority": 4,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": true,
+          "incomeBasedPremium": true,
+          "insuranceStatus": "private",
+          "planEligibility": {
+            "eligibilityLogic": {},
+            "eligibilityCriteria": [
+              null,
+              null
+            ]
+          },
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Self",
+        "ownerName": "Herschel574 Beahan375",
+        "coveredExpenses": 0.00,
+        "remainingDeductible": 1458,
+        "outOfPocketExpenses": 0.00,
+        "insuranceExpenses": 583.14000000000000000000000000000000000000000000000000000
+      },
+      {
+        "id": "7456acd7-300b-865c-17c2-04388fe0677d",
+        "start": 1240359620151,
+        "stop": 1271809220151,
+        "plan": {
+          "id": 70002,
+          "payer": {
+            "name": "Aetna",
+            "uuid": "0133f751-9229-3cfd-815f-b6d4979bdd6a"
+          },
+          "deductible": 6094,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.6,
+          "monthlyPremium": 0.02,
+          "maxOutOfPocket": 8700,
+          "priority": 4,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": true,
+          "incomeBasedPremium": true,
+          "insuranceStatus": "private",
+          "planEligibility": {
+            "eligibilityLogic": {},
+            "eligibilityCriteria": [
+              null,
+              null
+            ]
+          },
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Guardian",
+        "ownerName": "Catheryn300 Greenholt190",
+        "coveredExpenses": 0.00,
+        "remainingDeductible": 1170.43,
+        "outOfPocketExpenses": 4923.57,
+        "insuranceExpenses": 583.20000000000000000000000000000000000000000000000000000
+      },
+      {
+        "id": "177fa3dd-2842-a0fb-f6d2-2d404fee35ad",
+        "start": 1398212420151,
+        "stop": 1429662020151,
+        "plan": {
+          "id": 80002,
+          "payer": {
+            "name": "Cigna Health",
+            "uuid": "8fa6c185-e44e-3e34-8bd8-39be8694f4ce"
+          },
+          "deductible": 4500,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.7,
+          "monthlyPremium": 0.03,
+          "maxOutOfPocket": 8700,
+          "priority": 4,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": true,
+          "incomeBasedPremium": true,
+          "insuranceStatus": "private",
+          "planEligibility": {
+            "eligibilityLogic": {},
+            "eligibilityCriteria": [
+              null,
+              null
+            ]
+          },
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Guardian",
+        "ownerName": "Catheryn300 Greenholt190",
+        "coveredExpenses": 0.00,
+        "remainingDeductible": 2847.45,
+        "outOfPocketExpenses": 1652.55,
+        "insuranceExpenses": 874.68000000000000000000000000000000000000000000000000000
+      },
+      {
+        "id": "21148ca9-ad2b-4294-947f-5de25f9087e4",
+        "start": 1587514820151,
+        "stop": 1618964420151,
+        "plan": {
+          "id": 90002,
+          "payer": {
+            "name": "Anthem",
+            "uuid": "734afbd6-4794-363b-9bc0-6a3981533ed5"
+          },
+          "deductible": 1458,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.8,
+          "monthlyPremium": 0.04,
+          "maxOutOfPocket": 8700,
+          "priority": 4,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": true,
+          "incomeBasedPremium": true,
+          "insuranceStatus": "private",
+          "planEligibility": {
+            "eligibilityLogic": {},
+            "eligibilityCriteria": [
+              null,
+              null
+            ]
+          },
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Self",
+        "ownerName": "Herschel574 Beahan375",
+        "coveredExpenses": 0.00,
+        "remainingDeductible": 1458,
+        "outOfPocketExpenses": 0.00,
+        "insuranceExpenses": 1166.28000000000000000000000000000000000000000000000000000
+      },
+      {
+        "id": "57d487f9-c9c7-d097-2623-3f292a8e8af4",
+        "start": 1556065220151,
+        "stop": 1587514820151,
+        "plan": {
+          "id": 90002,
+          "payer": {
+            "name": "Anthem",
+            "uuid": "734afbd6-4794-363b-9bc0-6a3981533ed5"
+          },
+          "deductible": 1458,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.8,
+          "monthlyPremium": 0.04,
+          "maxOutOfPocket": 8700,
+          "priority": 4,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": true,
+          "incomeBasedPremium": true,
+          "insuranceStatus": "private",
+          "planEligibility": {
+            "eligibilityLogic": {},
+            "eligibilityCriteria": [
+              null,
+              null
+            ]
+          },
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Self",
+        "ownerName": "Herschel574 Beahan375",
+        "coveredExpenses": 0.00,
+        "remainingDeductible": 1458,
+        "outOfPocketExpenses": 0.00,
+        "insuranceExpenses": 1166.28000000000000000000000000000000000000000000000000000
+      },
+      {
+        "id": "96875c30-6540-ea01-ad22-9bb45c18b59d",
+        "start": 956708420151,
+        "stop": 988158020151,
+        "plan": {
+          "id": 20001,
+          "payer": {
+            "name": "Medicaid",
+            "uuid": "df166300-5a78-3502-a46a-832842197811"
+          },
+          "deductible": 100,
+          "defaultCopay": 50,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 10,
+          "maxOutOfPocket": 8700,
+          "priority": 2,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "medicaid",
+          "planEligibility": {
+            "eligibilityLogic": {},
+            "eligibilityCriteria": [
+              {},
+              {
+                "qualifyingAttributes": [
+                  {
+                    "logic": {
+                      "arg$1": "blindness",
+                      "arg$2": "true",
+                      "arg$3": "\u003d\u003d"
+                    }
+                  }
+                ]
+              },
+              {}
+            ]
+          },
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Self",
+        "ownerName": "Herschel574 Beahan375",
+        "coveredExpenses": 1675.03,
+        "remainingDeductible": 0.00,
+        "outOfPocketExpenses": 250.00,
+        "insuranceExpenses": 120.00000000000000000000000000000000000000000000000000000
+      },
+      {
+        "id": "7456acd7-300b-865c-17c2-04388fe0677d",
+        "start": 1114561220151,
+        "stop": 1146010820151,
+        "plan": {
+          "id": 70002,
+          "payer": {
+            "name": "Aetna",
+            "uuid": "0133f751-9229-3cfd-815f-b6d4979bdd6a"
+          },
+          "deductible": 6094,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.6,
+          "monthlyPremium": 0.02,
+          "maxOutOfPocket": 8700,
+          "priority": 4,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": true,
+          "incomeBasedPremium": true,
+          "insuranceStatus": "private",
+          "planEligibility": {
+            "eligibilityLogic": {},
+            "eligibilityCriteria": [
+              null,
+              null
+            ]
+          },
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Guardian",
+        "ownerName": "Catheryn300 Greenholt190",
+        "coveredExpenses": 130.91,
+        "remainingDeductible": 0.00,
+        "outOfPocketExpenses": 6181.28,
+        "insuranceExpenses": 583.20000000000000000000000000000000000000000000000000000
+      },
+      {
+        "id": "c1de03e1-c70c-c97a-8877-2d2d11f05d96",
+        "start": 1019607620151,
+        "stop": 1051057220151,
+        "plan": {
+          "id": 70002,
+          "payer": {
+            "name": "Aetna",
+            "uuid": "0133f751-9229-3cfd-815f-b6d4979bdd6a"
+          },
+          "deductible": 6094,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.6,
+          "monthlyPremium": 0.02,
+          "maxOutOfPocket": 8700,
+          "priority": 4,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": true,
+          "incomeBasedPremium": true,
+          "insuranceStatus": "private",
+          "planEligibility": {
+            "eligibilityLogic": {},
+            "eligibilityCriteria": [
+              null,
+              null
+            ]
+          },
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Guardian",
+        "ownerName": "Catheryn300 Greenholt190",
+        "coveredExpenses": 0.00,
+        "remainingDeductible": 5239.29,
+        "outOfPocketExpenses": 854.71,
+        "insuranceExpenses": 583.20000000000000000000000000000000000000000000000000000
+      },
+      {
+        "id": "177fa3dd-2842-a0fb-f6d2-2d404fee35ad",
+        "start": 1366762820151,
+        "stop": 1398212420151,
+        "plan": {
+          "id": 80002,
+          "payer": {
+            "name": "Cigna Health",
+            "uuid": "8fa6c185-e44e-3e34-8bd8-39be8694f4ce"
+          },
+          "deductible": 4500,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.7,
+          "monthlyPremium": 0.03,
+          "maxOutOfPocket": 8700,
+          "priority": 4,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": true,
+          "incomeBasedPremium": true,
+          "insuranceStatus": "private",
+          "planEligibility": {
+            "eligibilityLogic": {},
+            "eligibilityCriteria": [
+              null,
+              null
+            ]
+          },
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Guardian",
+        "ownerName": "Catheryn300 Greenholt190",
+        "coveredExpenses": 0.00,
+        "remainingDeductible": 259.05,
+        "outOfPocketExpenses": 4240.95,
+        "insuranceExpenses": 874.68000000000000000000000000000000000000000000000000000
+      },
+      {
+        "id": "c1de03e1-c70c-c97a-8877-2d2d11f05d96",
+        "start": 1051057220151,
+        "stop": 1082506820151,
+        "plan": {
+          "id": 70002,
+          "payer": {
+            "name": "Aetna",
+            "uuid": "0133f751-9229-3cfd-815f-b6d4979bdd6a"
+          },
+          "deductible": 6094,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.6,
+          "monthlyPremium": 0.02,
+          "maxOutOfPocket": 8700,
+          "priority": 4,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": true,
+          "incomeBasedPremium": true,
+          "insuranceStatus": "private",
+          "planEligibility": {
+            "eligibilityLogic": {},
+            "eligibilityCriteria": [
+              null,
+              null
+            ]
+          },
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Guardian",
+        "ownerName": "Catheryn300 Greenholt190",
+        "coveredExpenses": 0.00,
+        "remainingDeductible": 5174.69,
+        "outOfPocketExpenses": 919.31,
+        "insuranceExpenses": 583.20000000000000000000000000000000000000000000000000000
+      },
+      {
+        "id": "8eab8046-204f-7d18-e95b-a47eed9d8650",
+        "start": 1651018820151,
+        "stop": 1682468420151,
+        "plan": {
+          "id": 90002,
+          "payer": {
+            "name": "Anthem",
+            "uuid": "734afbd6-4794-363b-9bc0-6a3981533ed5"
+          },
+          "deductible": 1458,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.8,
+          "monthlyPremium": 0.04,
+          "maxOutOfPocket": 8700,
+          "priority": 4,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": true,
+          "incomeBasedPremium": true,
+          "insuranceStatus": "private",
+          "planEligibility": {
+            "eligibilityLogic": {},
+            "eligibilityCriteria": [
+              null,
+              null
+            ]
+          },
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Self",
+        "ownerName": "Herschel574 Beahan375",
+        "coveredExpenses": 0.00,
+        "remainingDeductible": 1458,
+        "outOfPocketExpenses": 0.00,
+        "insuranceExpenses": 1166.28000000000000000000000000000000000000000000000000000
+      },
+      {
+        "id": "4b41338c-0742-d52c-8a82-7ab9a240f1b1",
+        "start": 1618964420151,
+        "stop": 1651018820151,
+        "plan": {
+          "id": 90002,
+          "payer": {
+            "name": "Anthem",
+            "uuid": "734afbd6-4794-363b-9bc0-6a3981533ed5"
+          },
+          "deductible": 1458,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.8,
+          "monthlyPremium": 0.04,
+          "maxOutOfPocket": 8700,
+          "priority": 4,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": true,
+          "incomeBasedPremium": true,
+          "insuranceStatus": "private",
+          "planEligibility": {
+            "eligibilityLogic": {},
+            "eligibilityCriteria": [
+              null,
+              null
+            ]
+          },
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Self",
+        "ownerName": "Herschel574 Beahan375",
+        "coveredExpenses": 789.21,
+        "remainingDeductible": 0.00,
+        "outOfPocketExpenses": 1655.30,
+        "insuranceExpenses": 1166.28000000000000000000000000000000000000000000000000000
+      },
+      {
+        "id": "e2cc7a49-1f1f-1885-293f-c6657e7801a9",
+        "start": 1713918020151,
+        "stop": 1745367620151,
+        "plan": {
+          "id": 90002,
+          "payer": {
+            "name": "Anthem",
+            "uuid": "734afbd6-4794-363b-9bc0-6a3981533ed5"
+          },
+          "deductible": 1458,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.8,
+          "monthlyPremium": 0.04,
+          "maxOutOfPocket": 8700,
+          "priority": 4,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": true,
+          "incomeBasedPremium": true,
+          "insuranceStatus": "private",
+          "planEligibility": {
+            "eligibilityLogic": {},
+            "eligibilityCriteria": [
+              null,
+              null
+            ]
+          },
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Self",
+        "ownerName": "Herschel574 Beahan375",
+        "coveredExpenses": 0.00,
+        "remainingDeductible": 753.80,
+        "outOfPocketExpenses": 704.20,
+        "insuranceExpenses": 1166.28000000000000000000000000000000000000000000000000000
+      },
+      {
+        "id": "b5e1d285-43fe-5286-64db-e47c4a29fcd2",
+        "start": 1524615620151,
+        "stop": 1556065220151,
+        "plan": {
+          "id": 90002,
+          "payer": {
+            "name": "Anthem",
+            "uuid": "734afbd6-4794-363b-9bc0-6a3981533ed5"
+          },
+          "deductible": 1458,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.8,
+          "monthlyPremium": 0.04,
+          "maxOutOfPocket": 8700,
+          "priority": 4,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": true,
+          "incomeBasedPremium": true,
+          "insuranceStatus": "private",
+          "planEligibility": {
+            "eligibilityLogic": {},
+            "eligibilityCriteria": [
+              null,
+              null
+            ]
+          },
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Self",
+        "ownerName": "Herschel574 Beahan375",
+        "coveredExpenses": 2157.75,
+        "remainingDeductible": 0.00,
+        "outOfPocketExpenses": 1997.44,
+        "insuranceExpenses": 1166.28000000000000000000000000000000000000000000000000000
+      },
+      {
+        "id": "7456acd7-300b-865c-17c2-04388fe0677d",
+        "start": 1146010820151,
+        "stop": 1177460420151,
+        "plan": {
+          "id": 70002,
+          "payer": {
+            "name": "Aetna",
+            "uuid": "0133f751-9229-3cfd-815f-b6d4979bdd6a"
+          },
+          "deductible": 6094,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.6,
+          "monthlyPremium": 0.02,
+          "maxOutOfPocket": 8700,
+          "priority": 4,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": true,
+          "incomeBasedPremium": true,
+          "insuranceStatus": "private",
+          "planEligibility": {
+            "eligibilityLogic": {},
+            "eligibilityCriteria": [
+              null,
+              null
+            ]
+          },
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Guardian",
+        "ownerName": "Catheryn300 Greenholt190",
+        "coveredExpenses": 0.00,
+        "remainingDeductible": 4225.75,
+        "outOfPocketExpenses": 1868.25,
+        "insuranceExpenses": 583.20000000000000000000000000000000000000000000000000000
+      },
+      {
+        "id": "7456acd7-300b-865c-17c2-04388fe0677d",
+        "start": 1208910020151,
+        "stop": 1240359620151,
+        "plan": {
+          "id": 70002,
+          "payer": {
+            "name": "Aetna",
+            "uuid": "0133f751-9229-3cfd-815f-b6d4979bdd6a"
+          },
+          "deductible": 6094,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0.6,
+          "monthlyPremium": 0.02,
+          "maxOutOfPocket": 8700,
+          "priority": 4,
+          "servicesCovered": [
+            "*"
+          ],
+          "medicareSupplement": false,
+          "isACA": true,
+          "incomeBasedPremium": true,
+          "insuranceStatus": "private",
+          "planEligibility": {
+            "eligibilityLogic": {},
+            "eligibilityCriteria": [
+              null,
+              null
+            ]
+          },
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "secondaryPlan": {
+          "id": -1,
+          "payer": {
+            "name": "NO_INSURANCE",
+            "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+          },
+          "deductible": 0,
+          "defaultCopay": 0,
+          "defaultCoinsurance": 0,
+          "monthlyPremium": 0,
+          "maxOutOfPocket": 2147483647,
+          "priority": 0,
+          "servicesCovered": [],
+          "medicareSupplement": false,
+          "isACA": false,
+          "incomeBasedPremium": false,
+          "insuranceStatus": "none",
+          "planEligibility": {},
+          "activeTimeRange": {
+            "comparator": {},
+            "maximum": 9223372036854775807,
+            "minimum": -62167392000000
+          }
+        },
+        "ownership": "Guardian",
+        "ownerName": "Catheryn300 Greenholt190",
+        "coveredExpenses": 0.00,
+        "remainingDeductible": 2500.15,
+        "outOfPocketExpenses": 3593.85,
+        "insuranceExpenses": 583.20000000000000000000000000000000000000000000000000000
+      }
+    ],
+    "nextEnrollmentPeriod": 1776730820151
+  },
+  "symptoms": {
+    "Sinus Pain": {
+      "sources": {
+        "Sinusitis Module": {
+          "source": "Sinusitis Module",
+          "resolved": false,
+          "lastUpdateTime": 1709814020151,
+          "timeInfos": {
+            "1709814020151": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1709814020151
+            },
+            "1413872420151": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1413872420151
+            },
+            "1652404820151": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1652404820151
+            },
+            "1411950020151": {
+              "cause": "Sinusitis Module",
+              "value": 61,
+              "time": 1411950020151
+            },
+            "1649744420151": {
+              "cause": "Sinusitis Module",
+              "value": 64,
+              "time": 1649744420151
+            },
+            "1706836820151": {
+              "cause": "Sinusitis Module",
+              "value": 60,
+              "time": 1706836820151
+            }
+          }
+        }
+      },
+      "name": "Sinus Pain"
+    },
+    "Headache": {
+      "sources": {
+        "Sinusitis Module": {
+          "source": "Sinusitis Module",
+          "resolved": false,
+          "lastUpdateTime": 1709814020151,
+          "timeInfos": {
+            "1709814020151": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1709814020151
+            },
+            "1413872420151": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1413872420151
+            },
+            "1652404820151": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1652404820151
+            },
+            "1411950020151": {
+              "cause": "Sinusitis Module",
+              "value": 27,
+              "time": 1411950020151
+            },
+            "1649744420151": {
+              "cause": "Sinusitis Module",
+              "value": 27,
+              "time": 1649744420151
+            },
+            "1706836820151": {
+              "cause": "Sinusitis Module",
+              "value": 6,
+              "time": 1706836820151
+            }
+          }
+        }
+      },
+      "name": "Headache"
+    },
+    "Pain with Bright Lights": {
+      "sources": {
+        "Sinusitis Module": {
+          "source": "Sinusitis Module",
+          "resolved": false,
+          "lastUpdateTime": 1709814020151,
+          "timeInfos": {
+            "1709814020151": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1709814020151
+            },
+            "1413872420151": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1413872420151
+            },
+            "1652404820151": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1652404820151
+            },
+            "1411950020151": {
+              "cause": "Sinusitis Module",
+              "value": 35,
+              "time": 1411950020151
+            },
+            "1649744420151": {
+              "cause": "Sinusitis Module",
+              "value": 33,
+              "time": 1649744420151
+            },
+            "1706836820151": {
+              "cause": "Sinusitis Module",
+              "value": 44,
+              "time": 1706836820151
+            }
+          }
+        }
+      },
+      "name": "Pain with Bright Lights"
+    },
+    "Runny/Stuffy Nose": {
+      "sources": {
+        "Sore Throat Module": {
+          "source": "Sore Throat Module",
+          "resolved": false,
+          "lastUpdateTime": 1148754020151,
+          "timeInfos": {
+            "1147566020151": {
+              "cause": "Sore Throat Module",
+              "value": 40,
+              "time": 1147566020151
+            },
+            "1148754020151": {
+              "cause": "Sore Throat Module",
+              "value": 0,
+              "time": 1148754020151
+            }
+          }
+        }
+      },
+      "name": "Runny/Stuffy Nose"
+    },
+    "Nasal Discharge": {
+      "sources": {
+        "Sinusitis Module": {
+          "source": "Sinusitis Module",
+          "resolved": false,
+          "lastUpdateTime": 1709814020151,
+          "timeInfos": {
+            "1709814020151": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1709814020151
+            },
+            "1413872420151": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1413872420151
+            },
+            "1652404820151": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1652404820151
+            },
+            "1411950020151": {
+              "cause": "Sinusitis Module",
+              "value": 14,
+              "time": 1411950020151
+            },
+            "1649744420151": {
+              "cause": "Sinusitis Module",
+              "value": 27,
+              "time": 1649744420151
+            },
+            "1706836820151": {
+              "cause": "Sinusitis Module",
+              "value": 10,
+              "time": 1706836820151
+            }
+          }
+        }
+      },
+      "name": "Nasal Discharge"
+    },
+    "Fatigue": {
+      "sources": {
+        "Sore Throat Module": {
+          "source": "Sore Throat Module",
+          "resolved": false,
+          "lastUpdateTime": 1148754020151,
+          "timeInfos": {
+            "1147566020151": {
+              "cause": "Sore Throat Module",
+              "value": 21,
+              "time": 1147566020151
+            },
+            "1148754020151": {
+              "cause": "Sore Throat Module",
+              "value": 0,
+              "time": 1148754020151
+            }
+          }
+        }
+      },
+      "name": "Fatigue"
+    },
+    "Swollen Lymph Nodes": {
+      "sources": {
+        "Sore Throat Module": {
+          "source": "Sore Throat Module",
+          "resolved": false,
+          "lastUpdateTime": 1148754020151,
+          "timeInfos": {
+            "1147566020151": {
+              "cause": "Sore Throat Module",
+              "value": 28,
+              "time": 1147566020151
+            },
+            "1148754020151": {
+              "cause": "Sore Throat Module",
+              "value": 0,
+              "time": 1148754020151
+            }
+          }
+        }
+      },
+      "name": "Swollen Lymph Nodes"
+    },
+    "Nasal Congestion": {
+      "sources": {
+        "Sinusitis Module": {
+          "source": "Sinusitis Module",
+          "resolved": false,
+          "lastUpdateTime": 1709814020151,
+          "timeInfos": {
+            "1709814020151": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1709814020151
+            },
+            "1413872420151": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1413872420151
+            },
+            "1652404820151": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1652404820151
+            },
+            "1411950020151": {
+              "cause": "Sinusitis Module",
+              "value": 5,
+              "time": 1411950020151
+            },
+            "1649744420151": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1649744420151
+            },
+            "1706836820151": {
+              "cause": "Sinusitis Module",
+              "value": 5,
+              "time": 1706836820151
+            }
+          }
+        }
+      },
+      "name": "Nasal Congestion"
+    },
+    "Cough": {
+      "sources": {
+        "Sinusitis Module": {
+          "source": "Sinusitis Module",
+          "resolved": false,
+          "lastUpdateTime": 1709814020151,
+          "timeInfos": {
+            "1709814020151": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1709814020151
+            },
+            "1413872420151": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1413872420151
+            },
+            "1652404820151": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1652404820151
+            },
+            "1411950020151": {
+              "cause": "Sinusitis Module",
+              "value": 41,
+              "time": 1411950020151
+            },
+            "1649744420151": {
+              "cause": "Sinusitis Module",
+              "value": 31,
+              "time": 1649744420151
+            },
+            "1706836820151": {
+              "cause": "Sinusitis Module",
+              "value": 24,
+              "time": 1706836820151
+            }
+          }
+        },
+        "Sore Throat Module": {
+          "source": "Sore Throat Module",
+          "resolved": false,
+          "lastUpdateTime": 1148754020151,
+          "timeInfos": {
+            "1147566020151": {
+              "cause": "Sore Throat Module",
+              "value": 17,
+              "time": 1147566020151
+            },
+            "1148754020151": {
+              "cause": "Sore Throat Module",
+              "value": 0,
+              "time": 1148754020151
+            }
+          }
+        }
+      },
+      "name": "Cough"
+    },
+    "Sore Throat": {
+      "sources": {
+        "Sinusitis Module": {
+          "source": "Sinusitis Module",
+          "resolved": false,
+          "lastUpdateTime": 1709814020151,
+          "timeInfos": {
+            "1709814020151": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1709814020151
+            },
+            "1413872420151": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1413872420151
+            },
+            "1652404820151": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1652404820151
+            },
+            "1411950020151": {
+              "cause": "Sinusitis Module",
+              "value": 25,
+              "time": 1411950020151
+            },
+            "1649744420151": {
+              "cause": "Sinusitis Module",
+              "value": 9,
+              "time": 1649744420151
+            },
+            "1706836820151": {
+              "cause": "Sinusitis Module",
+              "value": 18,
+              "time": 1706836820151
+            }
+          }
+        },
+        "Sore Throat Module": {
+          "source": "Sore Throat Module",
+          "resolved": false,
+          "lastUpdateTime": 1148754020151,
+          "timeInfos": {
+            "1147566020151": {
+              "cause": "Sore Throat Module",
+              "value": 30,
+              "time": 1147566020151
+            },
+            "1148754020151": {
+              "cause": "Sore Throat Module",
+              "value": 0,
+              "time": 1148754020151
+            }
+          }
+        }
+      },
+      "name": "Sore Throat"
+    },
+    "Fever": {
+      "sources": {
+        "Sinusitis Module": {
+          "source": "Sinusitis Module",
+          "resolved": false,
+          "lastUpdateTime": 1709814020151,
+          "timeInfos": {
+            "1709814020151": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1709814020151
+            },
+            "1413872420151": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1413872420151
+            },
+            "1652404820151": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1652404820151
+            },
+            "1411950020151": {
+              "cause": "Sinusitis Module",
+              "value": 24,
+              "time": 1411950020151
+            },
+            "1649744420151": {
+              "cause": "Sinusitis Module",
+              "value": 3,
+              "time": 1649744420151
+            },
+            "1706836820151": {
+              "cause": "Sinusitis Module",
+              "value": 21,
+              "time": 1706836820151
+            }
+          }
+        },
+        "Sore Throat Module": {
+          "source": "Sore Throat Module",
+          "resolved": false,
+          "lastUpdateTime": 1148754020151,
+          "timeInfos": {
+            "1147566020151": {
+              "cause": "Sore Throat Module",
+              "value": 35,
+              "time": 1147566020151
+            },
+            "1148754020151": {
+              "cause": "Sore Throat Module",
+              "value": 0,
+              "time": 1148754020151
+            }
+          }
+        }
+      },
+      "name": "Fever"
+    },
+    "Difficulty Swallowing": {
+      "sources": {
+        "Sore Throat Module": {
+          "source": "Sore Throat Module",
+          "resolved": false,
+          "lastUpdateTime": 1148754020151,
+          "timeInfos": {
+            "1147566020151": {
+              "cause": "Sore Throat Module",
+              "value": 32,
+              "time": 1147566020151
+            },
+            "1148754020151": {
+              "cause": "Sore Throat Module",
+              "value": 0,
+              "time": 1148754020151
+            }
+          }
+        }
+      },
+      "name": "Difficulty Swallowing"
+    },
+    "Facial Swelling": {
+      "sources": {
+        "Sinusitis Module": {
+          "source": "Sinusitis Module",
+          "resolved": false,
+          "lastUpdateTime": 1709814020151,
+          "timeInfos": {
+            "1709814020151": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1709814020151
+            },
+            "1413872420151": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1413872420151
+            },
+            "1652404820151": {
+              "cause": "Sinusitis Module",
+              "value": 0,
+              "time": 1652404820151
+            },
+            "1411950020151": {
+              "cause": "Sinusitis Module",
+              "value": 20,
+              "time": 1411950020151
+            },
+            "1649744420151": {
+              "cause": "Sinusitis Module",
+              "value": 28,
+              "time": 1649744420151
+            },
+            "1706836820151": {
+              "cause": "Sinusitis Module",
+              "value": 27,
+              "time": 1706836820151
+            }
+          }
+        }
+      },
+      "name": "Facial Swelling"
+    },
+    "Body Aches": {
+      "sources": {
+        "Sore Throat Module": {
+          "source": "Sore Throat Module",
+          "resolved": false,
+          "lastUpdateTime": 1148754020151,
+          "timeInfos": {
+            "1147566020151": {
+              "cause": "Sore Throat Module",
+              "value": 12,
+              "time": 1147566020151
+            },
+            "1148754020151": {
+              "cause": "Sore Throat Module",
+              "value": 0,
+              "time": 1148754020151
+            }
+          }
+        }
+      },
+      "name": "Body Aches"
+    },
+    "Swollen Tonsils": {
+      "sources": {
+        "Sore Throat Module": {
+          "source": "Sore Throat Module",
+          "resolved": false,
+          "lastUpdateTime": 1148754020151,
+          "timeInfos": {
+            "1147566020151": {
+              "cause": "Sore Throat Module",
+              "value": 10,
+              "time": 1147566020151
+            },
+            "1148754020151": {
+              "cause": "Sore Throat Module",
+              "value": 0,
+              "time": 1148754020151
+            }
+          }
+        }
+      },
+      "name": "Swollen Tonsils"
+    },
+    "Decreased Appetite": {
+      "sources": {
+        "Sore Throat Module": {
+          "source": "Sore Throat Module",
+          "resolved": false,
+          "lastUpdateTime": 1148754020151,
+          "timeInfos": {
+            "1147566020151": {
+              "cause": "Sore Throat Module",
+              "value": 16,
+              "time": 1147566020151
+            },
+            "1148754020151": {
+              "cause": "Sore Throat Module",
+              "value": 0,
+              "time": 1148754020151
+            }
+          }
+        }
+      },
+      "name": "Decreased Appetite"
+    }
+  },
+  "attributes": {
+    "QOLS": {
+      "1999": 1.0,
+      "2000": 1.0,
+      "2001": 1.0,
+      "2002": 1.0,
+      "2003": 1.0,
+      "2004": 1.0,
+      "2005": 1.0,
+      "2006": 1.0,
+      "2007": 1.0,
+      "2008": 1.0,
+      "2009": 1.0,
+      "2010": 1.0,
+      "2011": 1.0,
+      "2012": 1.0,
+      "2013": 1.0,
+      "2014": 1.0,
+      "2015": 1.0,
+      "2016": 1.0,
+      "2017": 1.0,
+      "2018": 1.0,
+      "2019": 1.0,
+      "2020": 1.0,
+      "2021": 1.0,
+      "2022": 1.0,
+      "2023": 1.0,
+      "2024": 1.0,
+      "2025": 1.0
+    },
+    "employment_model": {
+      "chanceOfUnemployment": 0.054,
+      "nextTimeToCheck": 1776039620151,
+      "unemployed": false
+    },
+    "risk_of_hypertension": 0.021,
+    "county": "Essex County",
+    "metabolic_syndrome_review": {
+      "system": "SNOMED-CT",
+      "code": "763288003",
+      "display": "Patient review (procedure)"
+    },
+    "broken_bone": {
+      "uuid": "78875a52-64ee-0e6d-7f2a-794c8066a603",
+      "name": "Broken_Arm",
+      "start": 1289694020151,
+      "stop": 1294880496151,
+      "type": "65966004",
+      "codes": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "65966004",
+          "display": "Fracture of forearm (disorder)"
+        }
+      ],
+      "cost": 0.00
+    },
+    "household_size": 8.0,
+    "vhd_as_risk": true,
+    "state": "Massachusetts",
+    "name_mother": "Catheryn300 Greenholt190",
+    "food_insecurity": false,
+    "active_wellness_encounter Lung Cancer Module": false,
+    "fips": "25009",
+    "preferredProvideroutpatient": {
+      "uuid": "6170552c-4d27-3e64-8068-64a380f1837d",
+      "locationUuid": "2b33c37f-a97d-37be-bf95-0862b1be4a97",
+      "id": "1023580479",
+      "npi": "1023580479",
+      "cmsProviderNum": "224039",
+      "cmsPin": "",
+      "cmsUpin": "",
+      "cmsCategory": "",
+      "cmsProviderType": "00-09",
+      "cmsRegion": "",
+      "cliaNumber": "",
+      "name": "WP ACQUISITION SUB LLC",
+      "location": {
+        "totalPopulation": 7069851,
+        "state": "Massachusetts"
+      },
+      "address": "76 SUMMER ST",
+      "city": "HAVERHILL",
+      "state": "MA",
+      "zip": "018305814",
+      "fipsCountyCode": "",
+      "phone": "6158616000",
+      "type": "HOSPITAL",
+      "institutional": true,
+      "revenue": 0.0,
+      "coordinates": {
+        "x": -71.07306505177553,
+        "y": 42.7786873
+      },
+      "servicesProvided": [
+        "INPATIENT",
+        "AMBULATORY",
+        "OUTPATIENT"
+      ]
+    },
+    "active_wellness_encounter Wellness Encounters Module": false,
+    "vhd_ms_risk": true,
+    "active_wellness_encounter hiv_diagnosis Module": false,
+    "auditc_score": 0.0,
+    "active_wellness_encounter Bone Marrow Transplant Module": false,
+    "active_wellness_encounter Homelessness Module": false,
+    "ethnicity": "nonhispanic",
+    "active_wellness_encounter Asthma Module": false,
+    "active_wellness_encounter Veteran Hyperlipidemia Module": false,
+    "active_wellness_encounter Home Health Treatment Module": false,
+    "target_age": 26,
+    "active_wellness_encounter Veteran Substance Abuse Treatment Module": false,
+    "adherence probability": 0.05,
+    "active_wellness_encounter Dental and Oral Examination Module": false,
+    "disabled": false,
+    "unemployed": false,
+    "address": "324 Spinka Light",
+    "C19_LATE_ADOPTER_MODEL": {
+      "chanceOfGettingShot": 0.0125,
+      "lastUpdated": 1638922820151
+    },
+    "active_wellness_encounter Medication Reconciliation Module": false,
+    "active_wellness_encounter Metabolic Syndrome Disease Progression Module": false,
+    "first_language": "english",
+    "vhd_tr_risk": true,
+    "C19_SCHEDULED_SECOND_SHOT": 1643156420151,
+    "active_wellness_encounter Hospice Treatment Module": false,
+    "active_wellness_encounter Stable Ischemic Heart Disease Module": false,
+    "quit smoking probability": 0.01,
+    "active_wellness_encounter Sexual Activity Module": false,
+    "Sinusitis Condition": {
+      "uuid": "db630238-5793-73d4-425f-7bbe9eba4f79",
+      "fullUrl": "urn:uuid:db630238-5793-73d4-425f-7bbe9eba4f79",
+      "name": "Viral_Infection_Starts",
+      "start": 1707567620151,
+      "stop": 1709814020151,
+      "type": "444814009",
+      "codes": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "444814009",
+          "display": "Viral sinusitis (disorder)"
+        }
+      ],
+      "cost": 0.00
+    },
+    "uninsured": false,
+    "active_wellness_encounter Contraceptive Maintenance Module": false,
+    "active_wellness_encounter Sore Throat Module": false,
+    "birth_country": "US",
+    "preferredProvideremergency": {
+      "uuid": "552ede7f-2ba4-39ef-9217-29d27b89b8a7",
+      "locationUuid": "e61d97b5-f92e-38b7-b4eb-bd63a32e5fc0",
+      "id": "1215921747",
+      "npi": "1215921747",
+      "cmsProviderNum": "225401",
+      "cmsPin": "",
+      "cmsUpin": "",
+      "cmsCategory": "02-03",
+      "cmsProviderType": "00-18",
+      "cmsRegion": "01",
+      "cliaNumber": "",
+      "bedCount": 91,
+      "name": "LAKEVIEW HOUSE SKLD NRSG  AND RESIDENTIAL CARE FAC",
+      "location": {
+        "totalPopulation": 7069851,
+        "state": "Massachusetts"
+      },
+      "address": "87 SHATTUCK STREET",
+      "city": "HAVERHILL",
+      "state": "MA",
+      "zip": "018302319",
+      "fipsCountyCode": "009",
+      "phone": "9783721081",
+      "type": "NURSING",
+      "institutional": true,
+      "revenue": 0.0,
+      "coordinates": {
+        "x": -71.05216081525802,
+        "y": 42.796917699999995
+      },
+      "servicesProvided": [
+        "SNF",
+        "EMERGENCY"
+      ]
+    },
+    "smoker": false,
+    "active_wellness_encounter Food Allergies Module": false,
+    "quit alcoholism probability": 0.001,
+    "active_wellness_encounter vhd_mitral Module": false,
+    "active_wellness_encounter Sleep Apnea Module": false,
+    "active_wellness_encounter Urinary Tract Infections Module": false,
+    "active_wellness_encounter Atopy Module": false,
+    "vhd_pr_risk": true,
+    "coordinate": {
+      "x": -71.07013045030592,
+      "y": 42.81885058350285
+    },
+    "most-recent-qaly": 25.0,
+    "active_wellness_encounter Sinusitis Module": false,
+    "active_wellness_encounter Injuries Module": false,
+    "active_wellness_encounter Female Reproduction Module": false,
+    "active_wellness_encounter Veteran mild TBI  Module": false,
+    "socioeconomic_category": "Middle",
+    "diabetic_eye_damage": 0,
+    "concussion_injury": {
+      "uuid": "97524936-2b9a-cf93-8b81-d06a9d6e43de",
+      "name": "Severe_Concussion",
+      "start": 1329786096151,
+      "stop": 1333328496151,
+      "type": "110030002",
+      "codes": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "110030002",
+          "display": "Concussion injury of brain (disorder)"
+        },
+        {
+          "system": "SNOMED-CT",
+          "code": "110030002",
+          "display": "Concussion injury of brain (disorder)"
+        }
+      ],
+      "cost": 0.00
+    },
+    "poverty_ratio": 1.6613675213675214,
+    "name": "Herschel574 Beahan375",
+    "income": 29157,
+    "low_hdl": false,
+    "active_wellness_encounter COPD Module": false,
+    "cardio_risk": -0.0013302073019139105,
+    "active_wellness_encounter Dermatitis Module": false,
+    "active_wellness_encounter Colorectal Cancer Module": false,
+    "active_wellness_encounter Veteran MDD Module": false,
+    "C19_VACCINE": "PFIZER",
+    "Sore Throat Condition": {
+      "uuid": "40073c46-4f7f-6c6d-d56e-fe628ced655f",
+      "name": "Acquire_Viral_Infection",
+      "start": 1147666820151,
+      "stop": 1148754020151,
+      "type": "195662009",
+      "codes": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "195662009",
+          "display": "Acute viral pharyngitis (disorder)"
+        }
+      ],
+      "cost": 0.00
+    },
+    "last_month_paid": 10,
+    "vhd_ps_risk": true,
+    "name_prefix": "Mr.",
+    "DALY": {
+      "1999": 0.0,
+      "2000": 0.0,
+      "2001": 0.0,
+      "2002": 0.0,
+      "2003": 0.0,
+      "2004": 0.0,
+      "2005": 0.0,
+      "2006": 0.0,
+      "2007": 0.0,
+      "2008": 0.0,
+      "2009": 0.0,
+      "2010": 0.0,
+      "2011": 0.0,
+      "2012": 0.0,
+      "2013": 0.0,
+      "2014": 0.0,
+      "2015": 0.0,
+      "2016": 0.0,
+      "2017": 0.0,
+      "2018": 0.0,
+      "2019": 0.0,
+      "2020": 0.0,
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0,
+      "2025": 0.0
+    },
+    "active_wellness_encounter Veteran Self Harm Module": false,
+    "first_name": "Herschel574",
+    "AGE": 26,
+    "race": "white",
+    "bmi_percentile": 3.643920571867386,
+    "preferredProviderwellness": {
+      "uuid": "83a08dcf-7ed6-3d2e-afc0-a72c05d2563c",
+      "locationUuid": "043397eb-162b-33df-91f6-2591d1ad60b1",
+      "id": "1003437344",
+      "npi": "1003437344",
+      "cmsProviderNum": "221955",
+      "cmsPin": "",
+      "cmsUpin": "",
+      "cmsCategory": "",
+      "cmsProviderType": "00-04",
+      "cmsRegion": "",
+      "cliaNumber": "",
+      "name": "GREATER LAWRENCE FAMILY HEALTH CENTER INC",
+      "location": {
+        "totalPopulation": 7069851,
+        "state": "Massachusetts"
+      },
+      "address": "755 MAIN ST",
+      "city": "HAVERHILL",
+      "state": "MA",
+      "zip": "018302166",
+      "fipsCountyCode": "",
+      "phone": "9786860090",
+      "type": "PRIMARY",
+      "institutional": false,
+      "revenue": 0.0,
+      "coordinates": {
+        "x": -71.0878121,
+        "y": 42.797835
+      },
+      "servicesProvided": [
+        "WELLNESS"
+      ]
+    },
+    "time_until_diabetes_onset": 12.670302497547276,
+    "dental_filling_reason": {
+      "uuid": "4fdac73f-03f4-9760-97ec-cfa5db8fb031",
+      "name": "New Cavity",
+      "start": 1370400006151,
+      "stop": 1370402302151,
+      "type": "109570002",
+      "codes": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "109570002",
+          "display": "Primary dental caries (disorder)"
+        }
+      ],
+      "cost": 0.00
+    },
+    "missing_teeth": 1.0,
+    "ascvd_risk": -1.0,
+    "location": {
+      "totalPopulation": 7069851,
+      "state": "Massachusetts"
+    },
+    "time": 1719361220151,
+    "ckd": 0,
+    "active_wellness_encounter Hypertension Module": false,
+    "education": "some_college",
+    "birthdate": 924654020151,
+    "dast_score": 1.0,
+    "identifier_passport": "X17817052X",
+    "hypertension_screening_reason": {
+      "system": "SNOMED-CT",
+      "code": "171222001",
+      "display": "Hypertension screening (procedure)"
+    },
+    "active_wellness_encounter Osteoporosis Module": false,
+    "prapare_a3": {
+      "system": "http://loinc.org",
+      "code": "LA32-8",
+      "display": "No"
+    },
+    "prapare_a4": {
+      "system": "http://loinc.org",
+      "code": "LA32-8",
+      "display": "No"
+    },
+    "active_wellness_encounter Gallstones Module": false,
+    "prapare_a1": {
+      "system": "http://loinc.org",
+      "code": "LA32-8",
+      "display": "No"
+    },
+    "prapare_a2": {
+      "system": "http://loinc.org",
+      "code": "LA4457-3",
+      "display": "White"
+    },
+    "vhd_ar_risk": true,
+    "prapare_a7": {
+      "system": "http://loinc.org",
+      "code": "LA30189-7",
+      "display": "I have housing"
+    },
+    "prapare_a8": {
+      "system": "http://loinc.org",
+      "code": "LA32-8",
+      "display": "No"
+    },
+    "high_total_chol": false,
+    "prapare_a5": {
+      "system": "http://loinc.org",
+      "code": "LA43-5",
+      "display": "English"
+    },
+    "active_wellness_encounter Total Joint Replacement Module": false,
+    "current_weight_length_percentile": 51.495043641165616,
+    "id": "ce442e62-045f-e43e-e093-01568d908d13",
+    "socioeconomic_score": 0.6314441097049832,
+    "active_wellness_encounter trigger_bone_marrow_transplant Module": false,
+    "zip": "01835",
+    "active_wellness_encounter Dialysis Module": false,
+    "active_wellness_encounter vhd_pulmonic Module": false,
+    "active_wellness_encounter Kidney Transplant Module": false,
+    "active_wellness_encounter Anemia - Unknown Etiology Module": false,
+    "active_wellness_encounter Atrial Fibrillation Module": false,
+    "active_wellness_encounter Cerebral Palsy Module": false,
+    "active_wellness_encounter Veteran PTSD Module": false,
+    "atrial_fibrillation_risk": -0.0013302073019139105,
+    "active_wellness_encounter Veteran Lung Cancer Module": false,
+    "active_wellness_encounter Home Hospice SNF Module": false,
+    "bp_baseline_false_SYSTOLIC": 124.5946625681324,
+    "birthplace": "Stoneham, Massachusetts, US",
+    "preferredProviderambulatory": {
+      "uuid": "6170552c-4d27-3e64-8068-64a380f1837d",
+      "locationUuid": "2b33c37f-a97d-37be-bf95-0862b1be4a97",
+      "id": "1023580479",
+      "npi": "1023580479",
+      "cmsProviderNum": "224039",
+      "cmsPin": "",
+      "cmsUpin": "",
+      "cmsCategory": "",
+      "cmsProviderType": "00-09",
+      "cmsRegion": "",
+      "cliaNumber": "",
+      "name": "WP ACQUISITION SUB LLC",
+      "location": {
+        "totalPopulation": 7069851,
+        "state": "Massachusetts"
+      },
+      "address": "76 SUMMER ST",
+      "city": "HAVERHILL",
+      "state": "MA",
+      "zip": "018305814",
+      "fipsCountyCode": "",
+      "phone": "6158616000",
+      "type": "HOSPITAL",
+      "institutional": true,
+      "revenue": 0.0,
+      "coordinates": {
+        "x": -71.07306505177553,
+        "y": 42.7786873
+      },
+      "servicesProvided": [
+        "INPATIENT",
+        "AMBULATORY",
+        "OUTPATIENT"
+      ]
+    },
+    "mi_risk": -0.005713359451406275,
+    "active_wellness_encounter Bronchitis Module": false,
+    "active_wellness_encounter Dementia Module": false,
+    "active_wellness_encounter vhd_tricuspid Module": false,
+    "birth_city": "Stoneham",
+    "gender": "M",
+    "city": "Haverhill",
+    "phq2_score": 0.0,
+    "active_wellness_encounter Allergies and Treatment Module": false,
+    "income_level": 0.20203655352480418,
+    "birth_state": "Massachusetts",
+    "active_wellness_encounter Gout Module": false,
+    "ihd_risk": -0.028566797257031373,
+    "stroke_risk": 3.839449805975725E-6,
+    "immunizations": {
+      "hib": [
+        933121220151,
+        938564420151,
+        962151620151
+      ],
+      "zoster": [],
+      "var": [
+        962151620151,
+        1080692420151
+      ],
+      "tdap": [
+        1273018820151
+      ],
+      "rv_mono": [],
+      "ipv": [
+        933121220151,
+        938564420151,
+        946426820151,
+        1080692420151
+      ],
+      "flu": [
+        946426820151,
+        985738820151,
+        1017188420151,
+        1048638020151,
+        1080692420151,
+        1112746820151,
+        1144801220151,
+        1176855620151,
+        1208910020151,
+        1240964420151,
+        1273018820151,
+        1305073220151,
+        1337127620151,
+        1369182020151,
+        1401236420151,
+        1433290820151,
+        1465345220151,
+        1497399620151,
+        1529454020151,
+        1624407620151,
+        1719361220151
+      ],
+      "hpv": [
+        1273018820151,
+        1305073220151,
+        1337127620151
+      ],
+      "covid19": [
+        1641342020151,
+        1643156420151
+      ],
+      "dtap": [
+        933121220151,
+        938564420151,
+        946426820151,
+        970014020151,
+        1080692420151
+      ],
+      "td": [
+        1624407620151
+      ],
+      "hepa_adult": [],
+      "mmr": [
+        962151620151,
+        1080692420151
+      ],
+      "hepb_adult": [
+        1624407620151
+      ],
+      "men": [
+        1273018820151,
+        1433290820151,
+        1624407620151
+      ],
+      "ppsv23": [],
+      "pcv13": [],
+      "hepa": [
+        962151620151,
+        1001463620151
+      ],
+      "hepb": [
+        924654020151,
+        927678020151,
+        946426820151
+      ]
+    },
+    "no_vehicle_access": true,
+    "vhd_mr_risk": true,
+    "telecom": "555-386-3171",
+    "C19_FULLY_VACCINATED": true,
+    "employment_condition": {
+      "uuid": "9ceaed33-dc4c-5f9f-0419-e5c89f534bec",
+      "fullUrl": "urn:uuid:9ceaed33-dc4c-5f9f-0419-e5c89f534bec",
+      "name": "Employed Full Time",
+      "start": 1624410478151,
+      "stop": 0,
+      "type": "160903007",
+      "codes": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "160903007",
+          "display": "Full-time employment (finding)"
+        }
+      ]
+    },
+    "anxiety_screening_score": 2.0,
+    "active_wellness_encounter Myocardial Infarction Module": false,
+    "active_wellness_encounter Veteran Module": false,
+    "last_name": "Beahan375",
+    "active_weight_management": false,
+    "active_wellness_encounter Fibromyalgia Module": false,
+    "active_wellness_encounter Metabolic Syndrome Standards of Care Module": false,
+    "C19_SCHEDULED_FIRST_SHOT": 1641342020151,
+    "active_wellness_encounter Contraceptives Module": false,
+    "active_wellness_encounter Lupus Module": false,
+    "insurance_status": "private",
+    "name_father": "Giovanni385 Beahan375",
+    "active_wellness_encounter Hypothyroidism Module": false,
+    "prapare_a21": {
+      "system": "http://loinc.org",
+      "code": "LA32-8",
+      "display": "No"
+    },
+    "most-recent-daly": 0.0,
+    "wellness_encounter_reason": {
+      "system": "SNOMED-CT",
+      "code": "410424005",
+      "display": "Wellness surveillance (regime/therapy)"
+    },
+    "education_condition": {
+      "uuid": "8d71199a-91e4-21b2-32bb-357bcc2ccd83",
+      "fullUrl": "urn:uuid:8d71199a-91e4-21b2-32bb-357bcc2ccd83",
+      "name": "Education_Onset_2",
+      "start": 1497402553151,
+      "stop": 0,
+      "type": "224299000",
+      "codes": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "224299000",
+          "display": "Received higher education (finding)"
+        }
+      ]
+    },
+    "active_wellness_encounter MEND Program Module": false,
+    "prapare_a20": {
+      "system": "http://loinc.org",
+      "code": "LA33-6",
+      "display": "Yes"
+    },
+    "active_wellness_encounter Stroke Module": false,
+    "active_wellness_encounter Ear Infections Module": false,
+    "active_wellness_encounter Cystic Fibrosis Module": false,
+    "growth_trajectory": {
+      "initialSample": {
+        "id": 45773,
+        "sex": 2,
+        "agem": 31,
+        "wt": 15.7,
+        "ht": 97.2,
+        "swt": 12518.024001,
+        "racec": "b",
+        "bmi": 16.617554912022218,
+        "prob": 4.031638535018149E-4
+      },
+      "trajectory": [
+        {
+          "ageInMonths": 31,
+          "timeInSimulation": 1005006020151,
+          "bmi": 16.617554912022218
+        },
+        {
+          "ageInMonths": 43,
+          "timeInSimulation": 1036542020151,
+          "bmi": 15.83852562233442
+        },
+        {
+          "ageInMonths": 55,
+          "timeInSimulation": 1068078020151,
+          "bmi": 15.307995024042341
+        },
+        {
+          "ageInMonths": 67,
+          "timeInSimulation": 1099614020151,
+          "bmi": 14.712436683769742
+        },
+        {
+          "ageInMonths": 79,
+          "timeInSimulation": 1131150020151,
+          "bmi": 14.316488389004581
+        },
+        {
+          "ageInMonths": 91,
+          "timeInSimulation": 1162686020151,
+          "bmi": 14.945512245844169
+        },
+        {
+          "ageInMonths": 103,
+          "timeInSimulation": 1194222020151,
+          "bmi": 15.64397097233289
+        },
+        {
+          "ageInMonths": 115,
+          "timeInSimulation": 1225758020151,
+          "bmi": 16.544373643173127
+        },
+        {
+          "ageInMonths": 127,
+          "timeInSimulation": 1257294020151,
+          "bmi": 16.15124488652311
+        },
+        {
+          "ageInMonths": 139,
+          "timeInSimulation": 1288830020151,
+          "bmi": 16.720146532153734
+        },
+        {
+          "ageInMonths": 151,
+          "timeInSimulation": 1320366020151,
+          "bmi": 18.286397551748685
+        },
+        {
+          "ageInMonths": 163,
+          "timeInSimulation": 1351902020151,
+          "bmi": 18.267054042335452
+        },
+        {
+          "ageInMonths": 175,
+          "timeInSimulation": 1383438020151,
+          "bmi": 18.792104890577065
+        },
+        {
+          "ageInMonths": 187,
+          "timeInSimulation": 1414974020151,
+          "bmi": 18.651920095558097
+        },
+        {
+          "ageInMonths": 199,
+          "timeInSimulation": 1446510020151,
+          "bmi": 18.267442694579913
+        },
+        {
+          "ageInMonths": 211,
+          "timeInSimulation": 1478046020151,
+          "bmi": 18.60708667084319
+        },
+        {
+          "ageInMonths": 223,
+          "timeInSimulation": 1509582020151,
+          "bmi": 19.173419284891594
+        },
+        {
+          "ageInMonths": 235,
+          "timeInSimulation": 1541118020151,
+          "bmi": 18.839412160241615
+        }
+      ],
+      "seed": -9048258330105186985
+    },
+    "active_wellness_encounter Acute Myeloid Leukemia for PCOR Research Module": false,
+    "active_wellness_encounter Pregnancy Module": false,
+    "active_wellness_encounter Spina Bifida Module": false,
+    "active_wellness_encounter covid19 Module": false,
+    "prapare_a11": {
+      "system": "http://loinc.org",
+      "code": "LA30136-8",
+      "display": "Full-time work"
+    },
+    "prapare_a10": {
+      "system": "http://loinc.org",
+      "code": "LA30193-9",
+      "display": "More than high school"
+    },
+    "prapare_a12": {
+      "system": "http://loinc.org",
+      "code": "LA6350-8",
+      "display": "Private insurance"
+    },
+    "bp_baseline_false_DIASTOLIC": 75.95773498666868,
+    "phqa_score": 2.0,
+    "identifier_ssn": "999-76-3203",
+    "QALY": {
+      "1999": 0.0,
+      "2000": 0.0,
+      "2001": 1.0,
+      "2002": 2.0,
+      "2003": 3.0,
+      "2004": 4.0,
+      "2005": 5.0,
+      "2006": 6.0,
+      "2007": 7.0,
+      "2008": 8.0,
+      "2009": 9.0,
+      "2010": 10.0,
+      "2011": 11.0,
+      "2012": 12.0,
+      "2013": 13.0,
+      "2014": 14.0,
+      "2015": 15.0,
+      "2016": 16.0,
+      "2017": 17.0,
+      "2018": 18.0,
+      "2019": 19.0,
+      "2020": 20.0,
+      "2021": 21.0,
+      "2022": 22.0,
+      "2023": 23.0,
+      "2024": 24.0,
+      "2025": 25.0
+    },
+    "active_wellness_encounter Attention Deficit Disorder Module": false,
+    "prapare_a19": {
+      "system": "http://loinc.org",
+      "code": "LA32-8",
+      "display": "No"
+    },
+    "active_wellness_encounter Veteran Prostate Cancer Module": false,
+    "prapare_a18": {
+      "system": "http://loinc.org",
+      "code": "LA32-8",
+      "display": "No"
+    },
+    "education_level": 0.7824837186059774,
+    "active_wellness_encounter vhd_aortic Module": false,
+    "tooth_infection": false,
+    "prapare_a15": {
+      "system": "http://loinc.org",
+      "code": "LA30134-3",
+      "display": "Yes, it has kept me from non-medical meetings, appointments, work, or from getting things that I need"
+    },
+    "prapare_a14": {
+      "system": "http://loinc.org",
+      "code": "LA30122-8",
+      "display": "I choose not to answer this question"
+    },
+    "prapare_a17": {
+      "system": "http://loinc.org",
+      "code": "LA13902-4",
+      "display": "Quite a bit"
+    },
+    "prapare_a16": {
+      "system": "http://loinc.org",
+      "code": "LA30132-7",
+      "display": "5 or more times a week"
+    },
+    "active_wellness_encounter hiv_care Module": false,
+    "sexually_active": false,
+    "active_wellness_encounter Allergic Rhinitis Module": false,
+    "active_wellness_encounter Sepsis Module": false,
+    "vhd_ts_risk": true,
+    "active_wellness_encounter Veteran Substance Abuse Conditions Module": false,
+    "injury_careplan": {
+      "activities": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "183051005",
+          "display": "Recommendation to rest (procedure)"
+        },
+        {
+          "system": "http://snomed.info/sct",
+          "code": "226138001",
+          "display": "Alcohol-free diet (finding)"
+        }
+      ],
+      "stopReason": {
+        "system": "SNOMED-CT",
+        "code": "385658003",
+        "display": "Done"
+      },
+      "reasons": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "110030002",
+          "display": "Concussion injury of brain (disorder)"
+        },
+        {
+          "system": "SNOMED-CT",
+          "code": "110030002",
+          "display": "Concussion injury of brain (disorder)"
+        }
+      ],
+      "uuid": "893b0523-5bad-1009-3434-1f199c76dfca",
+      "name": "Concussion_CarePlan",
+      "start": 1329786096151,
+      "stop": 1333328496151,
+      "type": "47387005",
+      "codes": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "47387005",
+          "display": "Head injury rehabilitation (regime/therapy)"
+        }
+      ]
+    },
+    "active_wellness_encounter Opioid Addiction Module": false,
+    "active_wellness_encounter Osteoarthritis Module": false,
+    "active_wellness_encounter Appendicitis Module": false,
+    "active_wellness_encounter Chronic Kidney Disease Module": false,
+    "occupation_level": 0.4329819597583813,
+    "diabetic_nerve_damage": 0,
+    "active_wellness_encounter Epilepsy Module": false,
+    "active_wellness_encounter Dentures Module": false,
+    "active_wellness_encounter Breast_cancer Module": false,
+    "identifier_drivers": "S99962448",
+    "alcoholic": false,
+    "active_wellness_encounter Congestive Heart Failure Module": false,
+    "middle_name": "Anderson154",
+    "active_wellness_encounter Prescribing Opioids for Chronic Pain and Treatment of OUD Module": false,
+    "severe_housing_cost_burden": false,
+    "sexual_orientation": "heterosexual",
+    "active_wellness_encounter Rheumatoid Arthritis Module": false,
+    "C19_VACCINE_STATUS": "FULLY_VACCINATED",
+    "RH_NEG": true,
+    "AGE_MONTHS": 317,
+    "mend_encounter_reason": {
+      "system": "SNOMED-CT",
+      "code": "763288003",
+      "display": "Patient review (procedure)"
+    },
+    "birthdate_as_localdate": "1999-04-21",
+    "active_wellness_encounter Self Harm Module": false
+  },
+  "record": {
+    "encounters": [
+      {
+        "observations": [],
+        "reports": [],
+        "conditions": [
+          {
+            "uuid": "0f01d364-49f3-8cfa-a2aa-25dcac8000c2",
+            "fullUrl": "urn:uuid:0f01d364-49f3-8cfa-a2aa-25dcac8000c2",
+            "name": "Risky Activity",
+            "start": 1433294850151,
+            "stop": 0,
+            "type": "160968000",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "160968000",
+                "display": "Risk activity involvement (finding)"
+              }
+            ]
+          }
+        ],
+        "allergies": [],
+        "procedures": [],
+        "immunizations": [],
+        "medications": [],
+        "careplans": [],
+        "imagingStudies": [],
+        "devices": [],
+        "supplies": [],
+        "claim": {
+          "mainEntry": {
+            "cost": 136.80,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 136.80,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 0.00
+          },
+          "items": [
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            }
+          ],
+          "totals": {
+            "cost": 1130.48,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 1130.48,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 0.00
+          },
+          "uuid": "248ecca9-3034-043e-4b87-ac6bc156f4fd",
+          "planRecord": {
+            "id": "177fa3dd-2842-a0fb-f6d2-2d404fee35ad",
+            "start": 1429662020151,
+            "stop": 1461716420151,
+            "plan": {
+              "id": 80002,
+              "payer": {
+                "name": "Cigna Health",
+                "uuid": "8fa6c185-e44e-3e34-8bd8-39be8694f4ce"
+              },
+              "deductible": 4500,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0.7,
+              "monthlyPremium": 0.03,
+              "maxOutOfPocket": 8700,
+              "priority": 4,
+              "servicesCovered": [
+                "*"
+              ],
+              "medicareSupplement": false,
+              "isACA": true,
+              "incomeBasedPremium": true,
+              "insuranceStatus": "private",
+              "planEligibility": {
+                "eligibilityLogic": {},
+                "eligibilityCriteria": [
+                  null,
+                  null
+                ]
+              },
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "secondaryPlan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "ownership": "Guardian",
+            "ownerName": "Catheryn300 Greenholt190",
+            "coveredExpenses": 1415.94,
+            "remainingDeductible": 0.00,
+            "outOfPocketExpenses": 5106.83,
+            "insuranceExpenses": 874.68000000000000000000000000000000000000000000000000000
+          }
+        },
+        "provider": {
+          "uuid": "83a08dcf-7ed6-3d2e-afc0-a72c05d2563c",
+          "locationUuid": "043397eb-162b-33df-91f6-2591d1ad60b1",
+          "id": "1003437344",
+          "npi": "1003437344",
+          "cmsProviderNum": "221955",
+          "cmsPin": "",
+          "cmsUpin": "",
+          "cmsCategory": "",
+          "cmsProviderType": "00-04",
+          "cmsRegion": "",
+          "cliaNumber": "",
+          "name": "GREATER LAWRENCE FAMILY HEALTH CENTER INC",
+          "location": {
+            "totalPopulation": 7069851,
+            "state": "Massachusetts"
+          },
+          "address": "755 MAIN ST",
+          "city": "HAVERHILL",
+          "state": "MA",
+          "zip": "018302166",
+          "fipsCountyCode": "",
+          "phone": "9786860090",
+          "type": "PRIMARY",
+          "institutional": false,
+          "revenue": 0.0,
+          "coordinates": {
+            "x": -71.0878121,
+            "y": 42.797835
+          },
+          "servicesProvided": [
+            "WELLNESS"
+          ]
+        },
+        "clinician": {
+          "identifier": 2720,
+          "uuid": "0702fd4c-9443-373b-ba5c-66c4f76ebf00",
+          "npi": "9999972794",
+          "attributes": {
+            "zip": "018302166",
+            "specialty": "GENERAL PRACTICE",
+            "address": "755 MAIN ST",
+            "coordinate": {
+              "x": -71.0878121,
+              "y": 42.797835
+            },
+            "education": "bs_degree",
+            "race": "white",
+            "ethnicity": "hispanic",
+            "gender": "M",
+            "city": "HAVERHILL",
+            "last_name": "Stiedemann542",
+            "name_prefix": "Dr.",
+            "first_language": "english",
+            "identifier_ssn": "999-64-3892",
+            "name": "Thaddeus38 Stiedemann542",
+            "state": "MA",
+            "first_name": "Thaddeus38"
+          },
+          "servicesProvided": [],
+          "organization": {
+            "uuid": "83a08dcf-7ed6-3d2e-afc0-a72c05d2563c",
+            "locationUuid": "043397eb-162b-33df-91f6-2591d1ad60b1",
+            "id": "1003437344",
+            "npi": "1003437344",
+            "cmsProviderNum": "221955",
+            "cmsPin": "",
+            "cmsUpin": "",
+            "cmsCategory": "",
+            "cmsProviderType": "00-04",
+            "cmsRegion": "",
+            "cliaNumber": "",
+            "name": "GREATER LAWRENCE FAMILY HEALTH CENTER INC",
+            "location": {
+              "totalPopulation": 7069851,
+              "state": "Massachusetts"
+            },
+            "address": "755 MAIN ST",
+            "city": "HAVERHILL",
+            "state": "MA",
+            "zip": "018302166",
+            "fipsCountyCode": "",
+            "phone": "9786860090",
+            "type": "PRIMARY",
+            "institutional": false,
+            "revenue": 0.0,
+            "coordinates": {
+              "x": -71.0878121,
+              "y": 42.797835
+            },
+            "servicesProvided": [
+              "WELLNESS"
+            ]
+          },
+          "encounters": 30,
+          "procedures": 0,
+          "populationSeed": 0
+        },
+        "ended": true,
+        "endedTime": 1433290820151,
+        "chronicMedsRenewed": false,
+        "uuid": "f14d4ebf-e846-09aa-aec1-0e94f938a7fe",
+        "name": "Encounter Module Scheduled Wellness",
+        "start": 1433290820151,
+        "stop": 1433291720151,
+        "type": "wellness",
+        "codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "410620009",
+            "display": "Well child visit (procedure)"
+          }
+        ],
+        "cost": 136.80
+      },
+      {
+        "observations": [],
+        "reports": [],
+        "conditions": [
+          {
+            "uuid": "8d71199a-91e4-21b2-32bb-357bcc2ccd83",
+            "fullUrl": "urn:uuid:8d71199a-91e4-21b2-32bb-357bcc2ccd83",
+            "name": "Education_Onset_2",
+            "start": 1497402553151,
+            "stop": 0,
+            "type": "224299000",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "224299000",
+                "display": "Received higher education (finding)"
+              }
+            ]
+          },
+          {
+            "uuid": "98c02fca-c1e9-d5bb-1b74-4c07587bdef4",
+            "fullUrl": "urn:uuid:98c02fca-c1e9-d5bb-1b74-4c07587bdef4",
+            "name": "No Transport Access",
+            "start": 1497402553151,
+            "stop": 0,
+            "type": "713458007",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "713458007",
+                "display": "Lack of access to transportation (finding)"
+              }
+            ]
+          },
+          {
+            "uuid": "5890bbec-f289-9148-5cc5-7b99e90bbb3c",
+            "fullUrl": "urn:uuid:5890bbec-f289-9148-5cc5-7b99e90bbb3c",
+            "name": "Stress",
+            "start": 1497402553151,
+            "stop": 0,
+            "type": "73595000",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "73595000",
+                "display": "Stress (finding)"
+              }
+            ]
+          }
+        ],
+        "allergies": [],
+        "procedures": [],
+        "immunizations": [],
+        "medications": [],
+        "careplans": [],
+        "imagingStudies": [],
+        "devices": [],
+        "supplies": [],
+        "claim": {
+          "mainEntry": {
+            "cost": 136.80,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 136.80,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 0.00
+          },
+          "items": [
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            }
+          ],
+          "totals": {
+            "cost": 985.28,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 985.28,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 0.00
+          },
+          "uuid": "c2c44cd8-1f40-cdc1-558a-27057d51a666",
+          "planRecord": {
+            "id": "94f9d53d-d601-e71e-9420-4fafc6fa0d24",
+            "start": 1493166020151,
+            "stop": 1524615620151,
+            "plan": {
+              "id": 90002,
+              "payer": {
+                "name": "Anthem",
+                "uuid": "734afbd6-4794-363b-9bc0-6a3981533ed5"
+              },
+              "deductible": 1458,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0.8,
+              "monthlyPremium": 0.04,
+              "maxOutOfPocket": 8700,
+              "priority": 4,
+              "servicesCovered": [
+                "*"
+              ],
+              "medicareSupplement": false,
+              "isACA": true,
+              "incomeBasedPremium": true,
+              "insuranceStatus": "private",
+              "planEligibility": {
+                "eligibilityLogic": {},
+                "eligibilityCriteria": [
+                  null,
+                  null
+                ]
+              },
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "secondaryPlan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "ownership": "Self",
+            "ownerName": "Herschel574 Beahan375",
+            "coveredExpenses": 2555.18,
+            "remainingDeductible": 0.00,
+            "outOfPocketExpenses": 2096.79,
+            "insuranceExpenses": 1166.28000000000000000000000000000000000000000000000000000
+          }
+        },
+        "provider": {
+          "uuid": "83a08dcf-7ed6-3d2e-afc0-a72c05d2563c",
+          "locationUuid": "043397eb-162b-33df-91f6-2591d1ad60b1",
+          "id": "1003437344",
+          "npi": "1003437344",
+          "cmsProviderNum": "221955",
+          "cmsPin": "",
+          "cmsUpin": "",
+          "cmsCategory": "",
+          "cmsProviderType": "00-04",
+          "cmsRegion": "",
+          "cliaNumber": "",
+          "name": "GREATER LAWRENCE FAMILY HEALTH CENTER INC",
+          "location": {
+            "totalPopulation": 7069851,
+            "state": "Massachusetts"
+          },
+          "address": "755 MAIN ST",
+          "city": "HAVERHILL",
+          "state": "MA",
+          "zip": "018302166",
+          "fipsCountyCode": "",
+          "phone": "9786860090",
+          "type": "PRIMARY",
+          "institutional": false,
+          "revenue": 0.0,
+          "coordinates": {
+            "x": -71.0878121,
+            "y": 42.797835
+          },
+          "servicesProvided": [
+            "WELLNESS"
+          ]
+        },
+        "clinician": {
+          "identifier": 2720,
+          "uuid": "0702fd4c-9443-373b-ba5c-66c4f76ebf00",
+          "npi": "9999972794",
+          "attributes": {
+            "zip": "018302166",
+            "specialty": "GENERAL PRACTICE",
+            "address": "755 MAIN ST",
+            "coordinate": {
+              "x": -71.0878121,
+              "y": 42.797835
+            },
+            "education": "bs_degree",
+            "race": "white",
+            "ethnicity": "hispanic",
+            "gender": "M",
+            "city": "HAVERHILL",
+            "last_name": "Stiedemann542",
+            "name_prefix": "Dr.",
+            "first_language": "english",
+            "identifier_ssn": "999-64-3892",
+            "name": "Thaddeus38 Stiedemann542",
+            "state": "MA",
+            "first_name": "Thaddeus38"
+          },
+          "servicesProvided": [],
+          "organization": {
+            "uuid": "83a08dcf-7ed6-3d2e-afc0-a72c05d2563c",
+            "locationUuid": "043397eb-162b-33df-91f6-2591d1ad60b1",
+            "id": "1003437344",
+            "npi": "1003437344",
+            "cmsProviderNum": "221955",
+            "cmsPin": "",
+            "cmsUpin": "",
+            "cmsCategory": "",
+            "cmsProviderType": "00-04",
+            "cmsRegion": "",
+            "cliaNumber": "",
+            "name": "GREATER LAWRENCE FAMILY HEALTH CENTER INC",
+            "location": {
+              "totalPopulation": 7069851,
+              "state": "Massachusetts"
+            },
+            "address": "755 MAIN ST",
+            "city": "HAVERHILL",
+            "state": "MA",
+            "zip": "018302166",
+            "fipsCountyCode": "",
+            "phone": "9786860090",
+            "type": "PRIMARY",
+            "institutional": false,
+            "revenue": 0.0,
+            "coordinates": {
+              "x": -71.0878121,
+              "y": 42.797835
+            },
+            "servicesProvided": [
+              "WELLNESS"
+            ]
+          },
+          "encounters": 30,
+          "procedures": 0,
+          "populationSeed": 0
+        },
+        "ended": true,
+        "endedTime": 1497399620151,
+        "chronicMedsRenewed": false,
+        "uuid": "2094678c-0197-4e33-9ead-f3949328b3c2",
+        "name": "Encounter Module Scheduled Wellness",
+        "start": 1497399620151,
+        "stop": 1497402553151,
+        "type": "wellness",
+        "codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "162673000",
+            "display": "General examination of patient (procedure)"
+          }
+        ],
+        "cost": 136.80
+      },
+      {
+        "observations": [],
+        "reports": [],
+        "conditions": [
+          {
+            "uuid": "e84236f3-056f-f59b-08e2-38feb243d89a",
+            "fullUrl": "urn:uuid:e84236f3-056f-f59b-08e2-38feb243d89a",
+            "name": "Transport Problem",
+            "start": 1529457155151,
+            "stop": 0,
+            "type": "266934004",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "266934004",
+                "display": "Transport problem (finding)"
+              }
+            ]
+          }
+        ],
+        "allergies": [],
+        "procedures": [],
+        "immunizations": [],
+        "medications": [],
+        "careplans": [],
+        "imagingStudies": [],
+        "devices": [],
+        "supplies": [],
+        "claim": {
+          "mainEntry": {
+            "cost": 136.80,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 136.80,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 0.00
+          },
+          "items": [
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            }
+          ],
+          "totals": {
+            "cost": 919.90,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 919.90,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 0.00
+          },
+          "uuid": "c7fb1728-ec9d-7fe2-822b-e97dcd56c48b",
+          "planRecord": {
+            "id": "b5e1d285-43fe-5286-64db-e47c4a29fcd2",
+            "start": 1524615620151,
+            "stop": 1556065220151,
+            "plan": {
+              "id": 90002,
+              "payer": {
+                "name": "Anthem",
+                "uuid": "734afbd6-4794-363b-9bc0-6a3981533ed5"
+              },
+              "deductible": 1458,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0.8,
+              "monthlyPremium": 0.04,
+              "maxOutOfPocket": 8700,
+              "priority": 4,
+              "servicesCovered": [
+                "*"
+              ],
+              "medicareSupplement": false,
+              "isACA": true,
+              "incomeBasedPremium": true,
+              "insuranceStatus": "private",
+              "planEligibility": {
+                "eligibilityLogic": {},
+                "eligibilityCriteria": [
+                  null,
+                  null
+                ]
+              },
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "secondaryPlan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "ownership": "Self",
+            "ownerName": "Herschel574 Beahan375",
+            "coveredExpenses": 2157.75,
+            "remainingDeductible": 0.00,
+            "outOfPocketExpenses": 1997.44,
+            "insuranceExpenses": 1166.28000000000000000000000000000000000000000000000000000
+          }
+        },
+        "provider": {
+          "uuid": "83a08dcf-7ed6-3d2e-afc0-a72c05d2563c",
+          "locationUuid": "043397eb-162b-33df-91f6-2591d1ad60b1",
+          "id": "1003437344",
+          "npi": "1003437344",
+          "cmsProviderNum": "221955",
+          "cmsPin": "",
+          "cmsUpin": "",
+          "cmsCategory": "",
+          "cmsProviderType": "00-04",
+          "cmsRegion": "",
+          "cliaNumber": "",
+          "name": "GREATER LAWRENCE FAMILY HEALTH CENTER INC",
+          "location": {
+            "totalPopulation": 7069851,
+            "state": "Massachusetts"
+          },
+          "address": "755 MAIN ST",
+          "city": "HAVERHILL",
+          "state": "MA",
+          "zip": "018302166",
+          "fipsCountyCode": "",
+          "phone": "9786860090",
+          "type": "PRIMARY",
+          "institutional": false,
+          "revenue": 0.0,
+          "coordinates": {
+            "x": -71.0878121,
+            "y": 42.797835
+          },
+          "servicesProvided": [
+            "WELLNESS"
+          ]
+        },
+        "clinician": {
+          "identifier": 2720,
+          "uuid": "0702fd4c-9443-373b-ba5c-66c4f76ebf00",
+          "npi": "9999972794",
+          "attributes": {
+            "zip": "018302166",
+            "specialty": "GENERAL PRACTICE",
+            "address": "755 MAIN ST",
+            "coordinate": {
+              "x": -71.0878121,
+              "y": 42.797835
+            },
+            "education": "bs_degree",
+            "race": "white",
+            "ethnicity": "hispanic",
+            "gender": "M",
+            "city": "HAVERHILL",
+            "last_name": "Stiedemann542",
+            "name_prefix": "Dr.",
+            "first_language": "english",
+            "identifier_ssn": "999-64-3892",
+            "name": "Thaddeus38 Stiedemann542",
+            "state": "MA",
+            "first_name": "Thaddeus38"
+          },
+          "servicesProvided": [],
+          "organization": {
+            "uuid": "83a08dcf-7ed6-3d2e-afc0-a72c05d2563c",
+            "locationUuid": "043397eb-162b-33df-91f6-2591d1ad60b1",
+            "id": "1003437344",
+            "npi": "1003437344",
+            "cmsProviderNum": "221955",
+            "cmsPin": "",
+            "cmsUpin": "",
+            "cmsCategory": "",
+            "cmsProviderType": "00-04",
+            "cmsRegion": "",
+            "cliaNumber": "",
+            "name": "GREATER LAWRENCE FAMILY HEALTH CENTER INC",
+            "location": {
+              "totalPopulation": 7069851,
+              "state": "Massachusetts"
+            },
+            "address": "755 MAIN ST",
+            "city": "HAVERHILL",
+            "state": "MA",
+            "zip": "018302166",
+            "fipsCountyCode": "",
+            "phone": "9786860090",
+            "type": "PRIMARY",
+            "institutional": false,
+            "revenue": 0.0,
+            "coordinates": {
+              "x": -71.0878121,
+              "y": 42.797835
+            },
+            "servicesProvided": [
+              "WELLNESS"
+            ]
+          },
+          "encounters": 30,
+          "procedures": 0,
+          "populationSeed": 0
+        },
+        "ended": true,
+        "endedTime": 1529454020151,
+        "chronicMedsRenewed": false,
+        "uuid": "2996025b-cee7-2d30-3175-1b64560e9279",
+        "name": "Encounter Module Scheduled Wellness",
+        "start": 1529454020151,
+        "stop": 1529457155151,
+        "type": "wellness",
+        "codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "162673000",
+            "display": "General examination of patient (procedure)"
+          }
+        ],
+        "cost": 136.80
+      },
+      {
+        "observations": [],
+        "reports": [],
+        "conditions": [
+          {
+            "uuid": "9ceaed33-dc4c-5f9f-0419-e5c89f534bec",
+            "fullUrl": "urn:uuid:9ceaed33-dc4c-5f9f-0419-e5c89f534bec",
+            "name": "Employed Full Time",
+            "start": 1624410478151,
+            "stop": 0,
+            "type": "160903007",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "160903007",
+                "display": "Full-time employment (finding)"
+              }
+            ]
+          }
+        ],
+        "allergies": [],
+        "procedures": [],
+        "immunizations": [],
+        "medications": [],
+        "careplans": [],
+        "imagingStudies": [],
+        "devices": [],
+        "supplies": [],
+        "claim": {
+          "mainEntry": {
+            "cost": 136.80,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 136.80,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 0.00
+          },
+          "items": [
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            }
+          ],
+          "totals": {
+            "cost": 1402.48,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 1402.48,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 0.00
+          },
+          "uuid": "f26546c9-33e0-0649-4c52-192db5d4ead3",
+          "planRecord": {
+            "id": "4b41338c-0742-d52c-8a82-7ab9a240f1b1",
+            "start": 1618964420151,
+            "stop": 1651018820151,
+            "plan": {
+              "id": 90002,
+              "payer": {
+                "name": "Anthem",
+                "uuid": "734afbd6-4794-363b-9bc0-6a3981533ed5"
+              },
+              "deductible": 1458,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0.8,
+              "monthlyPremium": 0.04,
+              "maxOutOfPocket": 8700,
+              "priority": 4,
+              "servicesCovered": [
+                "*"
+              ],
+              "medicareSupplement": false,
+              "isACA": true,
+              "incomeBasedPremium": true,
+              "insuranceStatus": "private",
+              "planEligibility": {
+                "eligibilityLogic": {},
+                "eligibilityCriteria": [
+                  null,
+                  null
+                ]
+              },
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "secondaryPlan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "ownership": "Self",
+            "ownerName": "Herschel574 Beahan375",
+            "coveredExpenses": 789.21,
+            "remainingDeductible": 0.00,
+            "outOfPocketExpenses": 1655.30,
+            "insuranceExpenses": 1166.28000000000000000000000000000000000000000000000000000
+          }
+        },
+        "provider": {
+          "uuid": "83a08dcf-7ed6-3d2e-afc0-a72c05d2563c",
+          "locationUuid": "043397eb-162b-33df-91f6-2591d1ad60b1",
+          "id": "1003437344",
+          "npi": "1003437344",
+          "cmsProviderNum": "221955",
+          "cmsPin": "",
+          "cmsUpin": "",
+          "cmsCategory": "",
+          "cmsProviderType": "00-04",
+          "cmsRegion": "",
+          "cliaNumber": "",
+          "name": "GREATER LAWRENCE FAMILY HEALTH CENTER INC",
+          "location": {
+            "totalPopulation": 7069851,
+            "state": "Massachusetts"
+          },
+          "address": "755 MAIN ST",
+          "city": "HAVERHILL",
+          "state": "MA",
+          "zip": "018302166",
+          "fipsCountyCode": "",
+          "phone": "9786860090",
+          "type": "PRIMARY",
+          "institutional": false,
+          "revenue": 0.0,
+          "coordinates": {
+            "x": -71.0878121,
+            "y": 42.797835
+          },
+          "servicesProvided": [
+            "WELLNESS"
+          ]
+        },
+        "clinician": {
+          "identifier": 2720,
+          "uuid": "0702fd4c-9443-373b-ba5c-66c4f76ebf00",
+          "npi": "9999972794",
+          "attributes": {
+            "zip": "018302166",
+            "specialty": "GENERAL PRACTICE",
+            "address": "755 MAIN ST",
+            "coordinate": {
+              "x": -71.0878121,
+              "y": 42.797835
+            },
+            "education": "bs_degree",
+            "race": "white",
+            "ethnicity": "hispanic",
+            "gender": "M",
+            "city": "HAVERHILL",
+            "last_name": "Stiedemann542",
+            "name_prefix": "Dr.",
+            "first_language": "english",
+            "identifier_ssn": "999-64-3892",
+            "name": "Thaddeus38 Stiedemann542",
+            "state": "MA",
+            "first_name": "Thaddeus38"
+          },
+          "servicesProvided": [],
+          "organization": {
+            "uuid": "83a08dcf-7ed6-3d2e-afc0-a72c05d2563c",
+            "locationUuid": "043397eb-162b-33df-91f6-2591d1ad60b1",
+            "id": "1003437344",
+            "npi": "1003437344",
+            "cmsProviderNum": "221955",
+            "cmsPin": "",
+            "cmsUpin": "",
+            "cmsCategory": "",
+            "cmsProviderType": "00-04",
+            "cmsRegion": "",
+            "cliaNumber": "",
+            "name": "GREATER LAWRENCE FAMILY HEALTH CENTER INC",
+            "location": {
+              "totalPopulation": 7069851,
+              "state": "Massachusetts"
+            },
+            "address": "755 MAIN ST",
+            "city": "HAVERHILL",
+            "state": "MA",
+            "zip": "018302166",
+            "fipsCountyCode": "",
+            "phone": "9786860090",
+            "type": "PRIMARY",
+            "institutional": false,
+            "revenue": 0.0,
+            "coordinates": {
+              "x": -71.0878121,
+              "y": 42.797835
+            },
+            "servicesProvided": [
+              "WELLNESS"
+            ]
+          },
+          "encounters": 30,
+          "procedures": 0,
+          "populationSeed": 0
+        },
+        "ended": true,
+        "endedTime": 1624407620151,
+        "chronicMedsRenewed": false,
+        "uuid": "4f57b16e-91a0-39ff-0aac-bcd3528be059",
+        "name": "Encounter Module Scheduled Wellness",
+        "start": 1624407620151,
+        "stop": 1624410478151,
+        "type": "wellness",
+        "codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "162673000",
+            "display": "General examination of patient (procedure)"
+          }
+        ],
+        "cost": 136.80
+      },
+      {
+        "observations": [],
+        "reports": [],
+        "conditions": [
+          {
+            "uuid": "db630238-5793-73d4-425f-7bbe9eba4f79",
+            "fullUrl": "urn:uuid:db630238-5793-73d4-425f-7bbe9eba4f79",
+            "name": "Viral_Infection_Starts",
+            "start": 1707567620151,
+            "stop": 1709814020151,
+            "type": "444814009",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "444814009",
+                "display": "Viral sinusitis (disorder)"
+              }
+            ],
+            "cost": 0.00
+          }
+        ],
+        "allergies": [],
+        "procedures": [],
+        "immunizations": [],
+        "medications": [],
+        "careplans": [],
+        "imagingStudies": [],
+        "devices": [],
+        "supplies": [],
+        "claim": {
+          "mainEntry": {
+            "cost": 85.55,
+            "copayPaidByPatient": 0,
+            "deductiblePaidByPatient": 85.55,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 0.00
+          },
+          "items": [
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            }
+          ],
+          "totals": {
+            "cost": 85.55,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 85.55,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 0.00
+          },
+          "uuid": "8b42a8f4-6394-4429-977b-06527dee0e7e",
+          "planRecord": {
+            "id": "29aad54c-8bd5-ef9c-4178-89f278ca02ae",
+            "start": 1682468420151,
+            "stop": 1713918020151,
+            "plan": {
+              "id": 90002,
+              "payer": {
+                "name": "Anthem",
+                "uuid": "734afbd6-4794-363b-9bc0-6a3981533ed5"
+              },
+              "deductible": 1458,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0.8,
+              "monthlyPremium": 0.04,
+              "maxOutOfPocket": 8700,
+              "priority": 4,
+              "servicesCovered": [
+                "*"
+              ],
+              "medicareSupplement": false,
+              "isACA": true,
+              "incomeBasedPremium": true,
+              "insuranceStatus": "private",
+              "planEligibility": {
+                "eligibilityLogic": {},
+                "eligibilityCriteria": [
+                  null,
+                  null
+                ]
+              },
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "secondaryPlan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "ownership": "Self",
+            "ownerName": "Herschel574 Beahan375",
+            "coveredExpenses": 0.00,
+            "remainingDeductible": 1372.45,
+            "outOfPocketExpenses": 85.55,
+            "insuranceExpenses": 1166.28000000000000000000000000000000000000000000000000000
+          }
+        },
+        "reason": {
+          "system": "http://snomed.info/sct",
+          "code": "444814009",
+          "display": "Viral sinusitis (disorder)"
+        },
+        "provider": {
+          "uuid": "6170552c-4d27-3e64-8068-64a380f1837d",
+          "locationUuid": "2b33c37f-a97d-37be-bf95-0862b1be4a97",
+          "id": "1023580479",
+          "npi": "1023580479",
+          "cmsProviderNum": "224039",
+          "cmsPin": "",
+          "cmsUpin": "",
+          "cmsCategory": "",
+          "cmsProviderType": "00-09",
+          "cmsRegion": "",
+          "cliaNumber": "",
+          "name": "WP ACQUISITION SUB LLC",
+          "location": {
+            "totalPopulation": 7069851,
+            "state": "Massachusetts"
+          },
+          "address": "76 SUMMER ST",
+          "city": "HAVERHILL",
+          "state": "MA",
+          "zip": "018305814",
+          "fipsCountyCode": "",
+          "phone": "6158616000",
+          "type": "HOSPITAL",
+          "institutional": true,
+          "revenue": 0.0,
+          "coordinates": {
+            "x": -71.07306505177553,
+            "y": 42.7786873
+          },
+          "servicesProvided": [
+            "INPATIENT",
+            "AMBULATORY",
+            "OUTPATIENT"
+          ]
+        },
+        "clinician": {
+          "identifier": 1190,
+          "uuid": "21b519ba-c361-33b6-a9bd-12f4e793ac37",
+          "npi": "9999988097",
+          "attributes": {
+            "zip": "018305814",
+            "specialty": "GENERAL PRACTICE",
+            "address": "76 SUMMER ST",
+            "coordinate": {
+              "x": -71.07306505177553,
+              "y": 42.7786873
+            },
+            "education": "bs_degree",
+            "race": "white",
+            "ethnicity": "nonhispanic",
+            "gender": "M",
+            "city": "HAVERHILL",
+            "last_name": "Pacocha935",
+            "name_prefix": "Dr.",
+            "first_language": "english",
+            "identifier_ssn": "999-90-6195",
+            "name": "Leo278 Pacocha935",
+            "state": "MA",
+            "first_name": "Leo278"
+          },
+          "servicesProvided": [],
+          "organization": {
+            "uuid": "6170552c-4d27-3e64-8068-64a380f1837d",
+            "locationUuid": "2b33c37f-a97d-37be-bf95-0862b1be4a97",
+            "id": "1023580479",
+            "npi": "1023580479",
+            "cmsProviderNum": "224039",
+            "cmsPin": "",
+            "cmsUpin": "",
+            "cmsCategory": "",
+            "cmsProviderType": "00-09",
+            "cmsRegion": "",
+            "cliaNumber": "",
+            "name": "WP ACQUISITION SUB LLC",
+            "location": {
+              "totalPopulation": 7069851,
+              "state": "Massachusetts"
+            },
+            "address": "76 SUMMER ST",
+            "city": "HAVERHILL",
+            "state": "MA",
+            "zip": "018305814",
+            "fipsCountyCode": "",
+            "phone": "6158616000",
+            "type": "HOSPITAL",
+            "institutional": true,
+            "revenue": 0.0,
+            "coordinates": {
+              "x": -71.07306505177553,
+              "y": 42.7786873
+            },
+            "servicesProvided": [
+              "INPATIENT",
+              "AMBULATORY",
+              "OUTPATIENT"
+            ]
+          },
+          "encounters": 74,
+          "procedures": 0,
+          "populationSeed": 0
+        },
+        "ended": true,
+        "endedTime": 1707567620151,
+        "chronicMedsRenewed": false,
+        "uuid": "7958e0b4-642c-c096-a80a-3bf1945bb082",
+        "name": "Doctor_Visit",
+        "start": 1707567620151,
+        "stop": 1707568520151,
+        "type": "ambulatory",
+        "codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "185345009",
+            "display": "Encounter for symptom (procedure)"
+          }
+        ],
+        "cost": 85.55
+      },
+      {
+        "observations": [
+          {
+            "value": 171.6,
+            "category": "vital-signs",
+            "unit": "cm",
+            "observations": [],
+            "uuid": "1817de3d-6d8a-bcd9-baf1-c04203893d07",
+            "fullUrl": "urn:uuid:1817de3d-6d8a-bcd9-baf1-c04203893d07",
+            "name": "Record_Height",
+            "start": 1719361220151,
+            "stop": 0,
+            "type": "8302-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8302-2",
+                "display": "Body Height"
+              }
+            ]
+          },
+          {
+            "value": 4.0,
+            "category": "vital-signs",
+            "unit": "{score}",
+            "observations": [],
+            "uuid": "0d8b5373-ecc1-d495-7d77-0cbc7c8db92b",
+            "fullUrl": "urn:uuid:0d8b5373-ecc1-d495-7d77-0cbc7c8db92b",
+            "name": "Record_Pain",
+            "start": 1719361220151,
+            "stop": 0,
+            "type": "72514-3",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "72514-3",
+                "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+              }
+            ]
+          },
+          {
+            "value": 64.5,
+            "category": "vital-signs",
+            "unit": "kg",
+            "observations": [],
+            "uuid": "71fc91ce-4dbf-ab4c-eb22-4fc211ca7bd2",
+            "fullUrl": "urn:uuid:71fc91ce-4dbf-ab4c-eb22-4fc211ca7bd2",
+            "name": "Record_Weight",
+            "start": 1719361220151,
+            "stop": 0,
+            "type": "29463-7",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body Weight"
+              }
+            ]
+          },
+          {
+            "value": 21.91,
+            "category": "vital-signs",
+            "unit": "kg/m2",
+            "observations": [],
+            "uuid": "1a0f1f46-4fcf-cd4d-f0c5-64af01cbd12f",
+            "fullUrl": "urn:uuid:1a0f1f46-4fcf-cd4d-f0c5-64af01cbd12f",
+            "name": "Record_BMI",
+            "start": 1719361220151,
+            "stop": 0,
+            "type": "39156-5",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "39156-5",
+                "display": "Body mass index (BMI) [Ratio]"
+              }
+            ]
+          },
+          {
+            "category": "vital-signs",
+            "observations": [
+              {
+                "value": 80.0,
+                "category": "vital-signs",
+                "unit": "mm[Hg]",
+                "observations": [],
+                "uuid": "914e8e32-6e93-b3d1-436b-90962a6bc6fc",
+                "start": 1719361220151,
+                "stop": 0,
+                "type": "8462-4",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8462-4",
+                    "display": "Diastolic Blood Pressure"
+                  }
+                ]
+              },
+              {
+                "value": 130.0,
+                "category": "vital-signs",
+                "unit": "mm[Hg]",
+                "observations": [],
+                "uuid": "0d4fcd6e-e3a5-c704-a08d-8df11d081807",
+                "start": 1719361220151,
+                "stop": 0,
+                "type": "8480-6",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8480-6",
+                    "display": "Systolic Blood Pressure"
+                  }
+                ]
+              }
+            ],
+            "uuid": "33de5dbd-d8e2-12e9-57ee-316b5d30a611",
+            "fullUrl": "urn:uuid:33de5dbd-d8e2-12e9-57ee-316b5d30a611",
+            "name": "Record_BP",
+            "start": 1719361220151,
+            "stop": 0,
+            "type": "85354-9",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "85354-9",
+                "display": "Blood pressure panel with all children optional"
+              }
+            ]
+          },
+          {
+            "value": 93.0,
+            "category": "vital-signs",
+            "unit": "/min",
+            "observations": [],
+            "uuid": "d31557bb-acd5-867e-5e9e-ef4545309c6d",
+            "fullUrl": "urn:uuid:d31557bb-acd5-867e-5e9e-ef4545309c6d",
+            "name": "Record_Heart_Rate",
+            "start": 1719361220151,
+            "stop": 0,
+            "type": "8867-4",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ]
+          },
+          {
+            "value": 14.0,
+            "category": "vital-signs",
+            "unit": "/min",
+            "observations": [],
+            "uuid": "7eb5398b-4717-5ba4-d98f-be0b4a8dcddf",
+            "fullUrl": "urn:uuid:7eb5398b-4717-5ba4-d98f-be0b4a8dcddf",
+            "name": "Record_Respiratory_Rate",
+            "start": 1719361220151,
+            "stop": 0,
+            "type": "9279-1",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "9279-1",
+                "display": "Respiratory rate"
+              }
+            ]
+          },
+          {
+            "value": {
+              "system": "http://snomed.info/sct",
+              "code": "266919005",
+              "display": "Never smoked tobacco (finding)"
+            },
+            "category": "social-history",
+            "unit": "",
+            "observations": [],
+            "uuid": "9a0bd3b8-23fa-6284-3412-dceb027c777b",
+            "fullUrl": "urn:uuid:9a0bd3b8-23fa-6284-3412-dceb027c777b",
+            "name": "Record_Never_Smoker",
+            "start": 1719361220151,
+            "stop": 0,
+            "type": "72166-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "72166-2",
+                "display": "Tobacco smoking status"
+              }
+            ]
+          },
+          {
+            "category": "survey",
+            "observations": [
+              {
+                "value": {
+                  "system": "http://loinc.org",
+                  "code": "LA32-8",
+                  "display": "No"
+                },
+                "category": "survey",
+                "unit": "",
+                "observations": [],
+                "uuid": "510a16e5-8e47-19bf-df96-e1349fb24f66",
+                "start": 1719363414151,
+                "stop": 0,
+                "type": "76501-6",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "76501-6",
+                    "display": "Within the last year, have you been afraid of your partner or ex-partner?"
+                  }
+                ]
+              },
+              {
+                "value": {
+                  "system": "http://loinc.org",
+                  "code": "LA33-6",
+                  "display": "Yes"
+                },
+                "category": "survey",
+                "unit": "",
+                "observations": [],
+                "uuid": "40bba43e-ca9d-23cf-fb00-8c33b112d0a0",
+                "start": 1719363414151,
+                "stop": 0,
+                "type": "93026-3",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93026-3",
+                    "display": "Do you feel physically and emotionally safe where you currently live?"
+                  }
+                ]
+              },
+              {
+                "value": {
+                  "system": "http://loinc.org",
+                  "code": "LA32-8",
+                  "display": "No"
+                },
+                "category": "survey",
+                "unit": "",
+                "observations": [],
+                "uuid": "0ee0b662-4f2a-9037-34d8-cfb5e282f82b",
+                "start": 1719363414151,
+                "stop": 0,
+                "type": "93027-1",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93027-1",
+                    "display": "Are you a refugee?"
+                  }
+                ]
+              },
+              {
+                "value": {
+                  "system": "http://loinc.org",
+                  "code": "LA32-8",
+                  "display": "No"
+                },
+                "category": "survey",
+                "unit": "",
+                "observations": [],
+                "uuid": "e6f79fa8-e465-2c7d-d843-74884e7db7b6",
+                "start": 1719363414151,
+                "stop": 0,
+                "type": "93028-9",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93028-9",
+                    "display": "In the past year, have you spent more than 2 nights in a row in a jail, prison, detention center, or juvenile correctional facility?"
+                  }
+                ]
+              },
+              {
+                "value": {
+                  "system": "http://loinc.org",
+                  "code": "LA13902-4",
+                  "display": "Quite a bit"
+                },
+                "category": "survey",
+                "unit": "",
+                "observations": [],
+                "uuid": "3088b9aa-31a6-15dd-9401-8b4536aefad0",
+                "start": 1719363414151,
+                "stop": 0,
+                "type": "93038-8",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93038-8",
+                    "display": "Stress level"
+                  }
+                ]
+              },
+              {
+                "value": {
+                  "system": "http://loinc.org",
+                  "code": "LA30132-7",
+                  "display": "5 or more times a week"
+                },
+                "category": "survey",
+                "unit": "",
+                "observations": [],
+                "uuid": "bceb5400-349e-ae2c-ee0b-55ff16fcad2c",
+                "start": 1719363414151,
+                "stop": 0,
+                "type": "93029-7",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93029-7",
+                    "display": "How often do you see or talk to people that you care about and feel close to (For example: talking to friends on the phone, visiting friends or family, going to church or club meetings)?"
+                  }
+                ]
+              },
+              {
+                "value": {
+                  "system": "http://loinc.org",
+                  "code": "LA30134-3",
+                  "display": "Yes, it has kept me from non-medical meetings, appointments, work, or from getting things that I need"
+                },
+                "category": "survey",
+                "unit": "",
+                "observations": [],
+                "uuid": "62428e5b-d5f8-3af1-ea4a-2f2e31b61518",
+                "start": 1719363414151,
+                "stop": 0,
+                "type": "93030-5",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93030-5",
+                    "display": "Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living"
+                  }
+                ]
+              },
+              {
+                "value": {
+                  "system": "http://loinc.org",
+                  "code": "LA30122-8",
+                  "display": "I choose not to answer this question"
+                },
+                "category": "survey",
+                "unit": "",
+                "observations": [],
+                "uuid": "03f5e9cb-b144-0ac0-2639-19dda508be3b",
+                "start": 1719363414151,
+                "stop": 0,
+                "type": "93031-3",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93031-3",
+                    "display": "In the past year, have you or any family members you live with been unable to get any of the following when it was really needed?"
+                  }
+                ]
+              },
+              {
+                "value": 29157,
+                "category": "survey",
+                "unit": "/a",
+                "observations": [],
+                "uuid": "65849d4a-0ffc-3cd9-b75f-e712f09e708e",
+                "start": 1719363414151,
+                "stop": 0,
+                "type": "63586-2",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "63586-2",
+                    "display": "What was your best estimate of the total income of all family members from all sources, before taxes, in last year?"
+                  }
+                ]
+              },
+              {
+                "value": {
+                  "system": "http://loinc.org",
+                  "code": "LA6350-8",
+                  "display": "Private insurance"
+                },
+                "category": "survey",
+                "unit": "",
+                "observations": [],
+                "uuid": "d9f9f987-17cb-8701-8a76-1c7ea147ef9c",
+                "start": 1719363414151,
+                "stop": 0,
+                "type": "76437-3",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "76437-3",
+                    "display": "Primary insurance"
+                  }
+                ]
+              },
+              {
+                "value": {
+                  "system": "http://loinc.org",
+                  "code": "LA30136-8",
+                  "display": "Full-time work"
+                },
+                "category": "survey",
+                "unit": "",
+                "observations": [],
+                "uuid": "3bbc67f7-cde4-95a0-31c0-0867d4147dfd",
+                "start": 1719363414151,
+                "stop": 0,
+                "type": "67875-5",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "67875-5",
+                    "display": "Employment status - current"
+                  }
+                ]
+              },
+              {
+                "value": {
+                  "system": "http://loinc.org",
+                  "code": "LA30193-9",
+                  "display": "More than high school"
+                },
+                "category": "survey",
+                "unit": "",
+                "observations": [],
+                "uuid": "ad2fd121-3a1f-e21c-0c29-aed1da6e610f",
+                "start": 1719363414151,
+                "stop": 0,
+                "type": "82589-3",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "82589-3",
+                    "display": "Highest level of education"
+                  }
+                ]
+              },
+              {
+                "value": "324 Spinka Light",
+                "category": "survey",
+                "unit": "",
+                "observations": [],
+                "uuid": "95ef7620-2721-1b74-6900-7bf46a08e0f6",
+                "start": 1719363414151,
+                "stop": 0,
+                "type": "56799-0",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "56799-0",
+                    "display": "Address"
+                  }
+                ]
+              },
+              {
+                "value": {
+                  "system": "http://loinc.org",
+                  "code": "LA32-8",
+                  "display": "No"
+                },
+                "category": "survey",
+                "unit": "",
+                "observations": [],
+                "uuid": "917a897c-972b-7d1f-e735-e7d915dc80d6",
+                "start": 1719363414151,
+                "stop": 0,
+                "type": "93033-9",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93033-9",
+                    "display": "Are you worried about losing your housing?"
+                  }
+                ]
+              },
+              {
+                "value": {
+                  "system": "http://loinc.org",
+                  "code": "LA30189-7",
+                  "display": "I have housing"
+                },
+                "category": "survey",
+                "unit": "",
+                "observations": [],
+                "uuid": "8e52132f-81ce-b025-580a-7753f55a6b4f",
+                "start": 1719363414151,
+                "stop": 0,
+                "type": "71802-3",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "71802-3",
+                    "display": "Housing status"
+                  }
+                ]
+              },
+              {
+                "value": 8.0,
+                "category": "survey",
+                "unit": "{#}",
+                "observations": [],
+                "uuid": "f6f5ebf3-2374-127e-1d21-c6293ca84f39",
+                "start": 1719363414151,
+                "stop": 0,
+                "type": "63512-8",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "63512-8",
+                    "display": "How many people are living or staying at this address?"
+                  }
+                ]
+              },
+              {
+                "value": {
+                  "system": "http://loinc.org",
+                  "code": "LA43-5",
+                  "display": "English"
+                },
+                "category": "survey",
+                "unit": "",
+                "observations": [],
+                "uuid": "3c29dbc8-874e-80ab-768d-8679785a28a0",
+                "start": 1719363414151,
+                "stop": 0,
+                "type": "54899-0",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "54899-0",
+                    "display": "Preferred language"
+                  }
+                ]
+              },
+              {
+                "value": {
+                  "system": "http://loinc.org",
+                  "code": "LA32-8",
+                  "display": "No"
+                },
+                "category": "survey",
+                "unit": "",
+                "observations": [],
+                "uuid": "98b327cd-cc84-fd93-cf96-a16e38ffb201",
+                "start": 1719363414151,
+                "stop": 0,
+                "type": "93034-7",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93034-7",
+                    "display": "Have you been discharged from the armed forces of the United States?"
+                  }
+                ]
+              },
+              {
+                "value": {
+                  "system": "http://loinc.org",
+                  "code": "LA32-8",
+                  "display": "No"
+                },
+                "category": "survey",
+                "unit": "",
+                "observations": [],
+                "uuid": "15921b40-62e2-d49f-8e30-e527533779c6",
+                "start": 1719363414151,
+                "stop": 0,
+                "type": "93035-4",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93035-4",
+                    "display": "At any point in the past 2 years, has season or migrant farm work been your or your family\u0027s main source of income?"
+                  }
+                ]
+              },
+              {
+                "value": {
+                  "system": "http://loinc.org",
+                  "code": "LA4457-3",
+                  "display": "White"
+                },
+                "category": "survey",
+                "unit": "",
+                "observations": [],
+                "uuid": "29da57cd-6026-1217-a256-ebe5c011d7ff",
+                "start": 1719363414151,
+                "stop": 0,
+                "type": "32624-9",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "32624-9",
+                    "display": "Race"
+                  }
+                ]
+              },
+              {
+                "value": {
+                  "system": "http://loinc.org",
+                  "code": "LA32-8",
+                  "display": "No"
+                },
+                "category": "survey",
+                "unit": "",
+                "observations": [],
+                "uuid": "4df7f91e-7f6f-6dbe-6549-28776ba24062",
+                "start": 1719363414151,
+                "stop": 0,
+                "type": "56051-6",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "56051-6",
+                    "display": "Do you consider yourself Hispanic/Latino?"
+                  }
+                ]
+              }
+            ],
+            "uuid": "529633ae-0124-0da2-1295-f54f27ddceb8",
+            "fullUrl": "urn:uuid:529633ae-0124-0da2-1295-f54f27ddceb8",
+            "name": "PRAPARE",
+            "start": 1719363414151,
+            "stop": 0,
+            "type": "93025-5",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "93025-5",
+                "display": "Protocol for Responding to and Assessing Patients\u0027 Assets, Risks, and Experiences [PRAPARE]",
+                "valueSet": ""
+              }
+            ]
+          },
+          {
+            "value": 2.0,
+            "category": "survey",
+            "unit": "{score}",
+            "observations": [],
+            "uuid": "6d090e0e-1b93-aac2-03dc-6beed53044bb",
+            "fullUrl": "urn:uuid:6d090e0e-1b93-aac2-03dc-6beed53044bb",
+            "start": 1719364437151,
+            "stop": 0,
+            "type": "70274-6",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "70274-6",
+                "display": "Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]"
+              }
+            ]
+          },
+          {
+            "value": 0.0,
+            "category": "survey",
+            "unit": "{score}",
+            "observations": [],
+            "uuid": "709b7303-ac19-0f76-403d-daf8508c7a74",
+            "fullUrl": "urn:uuid:709b7303-ac19-0f76-403d-daf8508c7a74",
+            "start": 1719366985151,
+            "stop": 0,
+            "type": "55758-7",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "55758-7",
+                "display": "Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]"
+              }
+            ]
+          },
+          {
+            "value": 0.0,
+            "category": "survey",
+            "unit": "{score}",
+            "observations": [],
+            "uuid": "68ae449c-7b4f-041e-a8e7-9104db7b6f9d",
+            "fullUrl": "urn:uuid:68ae449c-7b4f-041e-a8e7-9104db7b6f9d",
+            "start": 1719368994151,
+            "stop": 0,
+            "type": "75626-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "75626-2",
+                "display": "Total score [AUDIT-C]"
+              }
+            ]
+          }
+        ],
+        "reports": [
+          {
+            "observations": [
+              {
+                "value": 2.0,
+                "category": "survey",
+                "unit": "{score}",
+                "observations": [],
+                "uuid": "6d090e0e-1b93-aac2-03dc-6beed53044bb",
+                "fullUrl": "urn:uuid:6d090e0e-1b93-aac2-03dc-6beed53044bb",
+                "start": 1719364437151,
+                "stop": 0,
+                "type": "70274-6",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "70274-6",
+                    "display": "Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]"
+                  }
+                ]
+              }
+            ],
+            "uuid": "53df53a5-1067-8e6c-297e-707af7bc159a",
+            "name": "GAD-7",
+            "start": 1719364437151,
+            "stop": 0,
+            "type": "69737-5",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "69737-5",
+                "display": "Generalized anxiety disorder 7 item (GAD-7)"
+              }
+            ],
+            "cost": 74.58
+          },
+          {
+            "observations": [
+              {
+                "value": 0.0,
+                "category": "survey",
+                "unit": "{score}",
+                "observations": [],
+                "uuid": "709b7303-ac19-0f76-403d-daf8508c7a74",
+                "fullUrl": "urn:uuid:709b7303-ac19-0f76-403d-daf8508c7a74",
+                "start": 1719366985151,
+                "stop": 0,
+                "type": "55758-7",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "55758-7",
+                    "display": "Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]"
+                  }
+                ]
+              }
+            ],
+            "uuid": "08b657f0-3902-74e8-c3ce-40eb65e3fe46",
+            "name": "PHQ2 Results",
+            "start": 1719366985151,
+            "stop": 0,
+            "type": "55757-9",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "55757-9",
+                "display": "Patient Health Questionnaire 2 item (PHQ-2) [Reported]"
+              }
+            ],
+            "cost": 74.58
+          },
+          {
+            "observations": [
+              {
+                "value": 0.0,
+                "category": "survey",
+                "unit": "{score}",
+                "observations": [],
+                "uuid": "68ae449c-7b4f-041e-a8e7-9104db7b6f9d",
+                "fullUrl": "urn:uuid:68ae449c-7b4f-041e-a8e7-9104db7b6f9d",
+                "start": 1719368994151,
+                "stop": 0,
+                "type": "75626-2",
+                "codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "75626-2",
+                    "display": "Total score [AUDIT-C]"
+                  }
+                ]
+              }
+            ],
+            "uuid": "f4e86841-cd30-2ed2-e2bc-390ea1f61d1b",
+            "name": "AUDIT-C Results",
+            "start": 1719368994151,
+            "stop": 0,
+            "type": "72109-2",
+            "codes": [
+              {
+                "system": "http://loinc.org",
+                "code": "72109-2",
+                "display": "Alcohol Use Disorder Identification Test - Consumption [AUDIT-C]"
+              }
+            ],
+            "cost": 74.58
+          }
+        ],
+        "conditions": [
+          {
+            "uuid": "81b27a4b-2792-27d6-2006-555a9ecbfb32",
+            "fullUrl": "urn:uuid:81b27a4b-2792-27d6-2006-555a9ecbfb32",
+            "name": "Medication_Review_Due",
+            "start": 1719361220151,
+            "stop": 0,
+            "type": "314529007",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "314529007",
+                "display": "Medication review due (situation)"
+              }
+            ],
+            "cost": 0.00
+          }
+        ],
+        "allergies": [],
+        "procedures": [
+          {
+            "reasons": [],
+            "uuid": "6931cc7e-ea1d-1ce6-3704-8ac87c43328a",
+            "fullUrl": "urn:uuid:6931cc7e-ea1d-1ce6-3704-8ac87c43328a",
+            "name": "Assessment",
+            "start": 1719361220151,
+            "stop": 1719363414151,
+            "type": "710824005",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "710824005",
+                "display": "Assessment of health and social care needs (procedure)"
+              }
+            ],
+            "cost": 431.40
+          },
+          {
+            "reasons": [],
+            "uuid": "2640eb4b-1d53-e2fe-e3b5-74d68f61c75b",
+            "fullUrl": "urn:uuid:2640eb4b-1d53-e2fe-e3b5-74d68f61c75b",
+            "name": "Conduct Anxiety Screening",
+            "start": 1719363414151,
+            "stop": 1719364437151,
+            "type": "710841007",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "710841007",
+                "display": "Assessment of anxiety (procedure)"
+              }
+            ],
+            "cost": 431.40
+          },
+          {
+            "reasons": [],
+            "uuid": "0fcfef47-ec7c-5370-7136-0e40443346ad",
+            "fullUrl": "urn:uuid:0fcfef47-ec7c-5370-7136-0e40443346ad",
+            "name": "Depression Screening",
+            "start": 1719364437151,
+            "stop": 1719365298151,
+            "type": "171207006",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "171207006",
+                "display": "Depression screening (procedure)"
+              }
+            ],
+            "cost": 431.40
+          },
+          {
+            "reasons": [],
+            "uuid": "9401a12d-7e85-cadc-584a-0b1276b2e448",
+            "fullUrl": "urn:uuid:9401a12d-7e85-cadc-584a-0b1276b2e448",
+            "name": "PHQ-2",
+            "start": 1719365298151,
+            "stop": 1719366985151,
+            "type": "171207006",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "171207006",
+                "display": "Depression screening (procedure)"
+              }
+            ],
+            "cost": 431.40
+          },
+          {
+            "reasons": [],
+            "uuid": "3da8574b-2f8f-05a5-855e-ed26a89fe803",
+            "fullUrl": "urn:uuid:3da8574b-2f8f-05a5-855e-ed26a89fe803",
+            "name": "Substance Use Screening",
+            "start": 1719366985151,
+            "stop": 1719367592151,
+            "type": "428211000124100",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "428211000124100",
+                "display": "Assessment of substance use (procedure)"
+              }
+            ],
+            "cost": 431.40
+          },
+          {
+            "reasons": [],
+            "uuid": "aebc322c-4775-4568-4a3d-bb0a1b6b8344",
+            "fullUrl": "urn:uuid:aebc322c-4775-4568-4a3d-bb0a1b6b8344",
+            "name": "AUDIT-C",
+            "start": 1719367592151,
+            "stop": 1719368994151,
+            "type": "763302001",
+            "codes": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "763302001",
+                "display": "Assessment using Alcohol Use Disorders Identification Test - Consumption (procedure)"
+              }
+            ],
+            "cost": 431.40
+          }
+        ],
+        "immunizations": [
+          {
+            "series": 21,
+            "uuid": "38e3072e-cfbe-78dc-67f4-6b0c9ec6cb18",
+            "fullUrl": "urn:uuid:38e3072e-cfbe-78dc-67f4-6b0c9ec6cb18",
+            "start": 1719361220151,
+            "stop": 0,
+            "type": "flu",
+            "codes": [
+              {
+                "system": "http://hl7.org/fhir/sid/cvx",
+                "code": "140",
+                "display": "Influenza, seasonal, injectable, preservative free"
+              }
+            ],
+            "cost": 136.00
+          }
+        ],
+        "medications": [],
+        "careplans": [],
+        "imagingStudies": [],
+        "devices": [],
+        "supplies": [],
+        "claim": {
+          "mainEntry": {
+            "cost": 136.80,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 136.80,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 0.00
+          },
+          "items": [
+            {
+              "cost": 136.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 136.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 431.40,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 431.40,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            },
+            {
+              "cost": 0.00,
+              "copayPaidByPatient": 0.00,
+              "deductiblePaidByPatient": 0.00,
+              "adjustment": 0.00,
+              "coinsurancePaidByPayer": 0.00,
+              "paidByPayer": 0.00,
+              "paidBySecondaryPayer": 0.00,
+              "patientOutOfPocket": 0.00
+            }
+          ],
+          "totals": {
+            "cost": 704.20,
+            "copayPaidByPatient": 0.00,
+            "deductiblePaidByPatient": 704.20,
+            "adjustment": 0.00,
+            "coinsurancePaidByPayer": 0.00,
+            "paidByPayer": 0.00,
+            "paidBySecondaryPayer": 0.00,
+            "patientOutOfPocket": 0.00
+          },
+          "uuid": "acde2fc9-129e-0c7d-fb72-0d430ff5a5b3",
+          "planRecord": {
+            "id": "e2cc7a49-1f1f-1885-293f-c6657e7801a9",
+            "start": 1713918020151,
+            "stop": 1745367620151,
+            "plan": {
+              "id": 90002,
+              "payer": {
+                "name": "Anthem",
+                "uuid": "734afbd6-4794-363b-9bc0-6a3981533ed5"
+              },
+              "deductible": 1458,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0.8,
+              "monthlyPremium": 0.04,
+              "maxOutOfPocket": 8700,
+              "priority": 4,
+              "servicesCovered": [
+                "*"
+              ],
+              "medicareSupplement": false,
+              "isACA": true,
+              "incomeBasedPremium": true,
+              "insuranceStatus": "private",
+              "planEligibility": {
+                "eligibilityLogic": {},
+                "eligibilityCriteria": [
+                  null,
+                  null
+                ]
+              },
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "secondaryPlan": {
+              "id": -1,
+              "payer": {
+                "name": "NO_INSURANCE",
+                "uuid": "e03e23c9-4df1-3eb6-a62d-f70f02301496"
+              },
+              "deductible": 0,
+              "defaultCopay": 0,
+              "defaultCoinsurance": 0,
+              "monthlyPremium": 0,
+              "maxOutOfPocket": 2147483647,
+              "priority": 0,
+              "servicesCovered": [],
+              "medicareSupplement": false,
+              "isACA": false,
+              "incomeBasedPremium": false,
+              "insuranceStatus": "none",
+              "planEligibility": {},
+              "activeTimeRange": {
+                "comparator": {},
+                "maximum": 9223372036854775807,
+                "minimum": -62167392000000
+              }
+            },
+            "ownership": "Self",
+            "ownerName": "Herschel574 Beahan375",
+            "coveredExpenses": 0.00,
+            "remainingDeductible": 753.80,
+            "outOfPocketExpenses": 704.20,
+            "insuranceExpenses": 1166.28000000000000000000000000000000000000000000000000000
+          }
+        },
+        "provider": {
+          "uuid": "83a08dcf-7ed6-3d2e-afc0-a72c05d2563c",
+          "locationUuid": "043397eb-162b-33df-91f6-2591d1ad60b1",
+          "id": "1003437344",
+          "npi": "1003437344",
+          "cmsProviderNum": "221955",
+          "cmsPin": "",
+          "cmsUpin": "",
+          "cmsCategory": "",
+          "cmsProviderType": "00-04",
+          "cmsRegion": "",
+          "cliaNumber": "",
+          "name": "GREATER LAWRENCE FAMILY HEALTH CENTER INC",
+          "location": {
+            "totalPopulation": 7069851,
+            "state": "Massachusetts"
+          },
+          "address": "755 MAIN ST",
+          "city": "HAVERHILL",
+          "state": "MA",
+          "zip": "018302166",
+          "fipsCountyCode": "",
+          "phone": "9786860090",
+          "type": "PRIMARY",
+          "institutional": false,
+          "revenue": 0.0,
+          "coordinates": {
+            "x": -71.0878121,
+            "y": 42.797835
+          },
+          "servicesProvided": [
+            "WELLNESS"
+          ]
+        },
+        "clinician": {
+          "identifier": 2720,
+          "uuid": "0702fd4c-9443-373b-ba5c-66c4f76ebf00",
+          "npi": "9999972794",
+          "attributes": {
+            "zip": "018302166",
+            "specialty": "GENERAL PRACTICE",
+            "address": "755 MAIN ST",
+            "coordinate": {
+              "x": -71.0878121,
+              "y": 42.797835
+            },
+            "education": "bs_degree",
+            "race": "white",
+            "ethnicity": "hispanic",
+            "gender": "M",
+            "city": "HAVERHILL",
+            "last_name": "Stiedemann542",
+            "name_prefix": "Dr.",
+            "first_language": "english",
+            "identifier_ssn": "999-64-3892",
+            "name": "Thaddeus38 Stiedemann542",
+            "state": "MA",
+            "first_name": "Thaddeus38"
+          },
+          "servicesProvided": [],
+          "organization": {
+            "uuid": "83a08dcf-7ed6-3d2e-afc0-a72c05d2563c",
+            "locationUuid": "043397eb-162b-33df-91f6-2591d1ad60b1",
+            "id": "1003437344",
+            "npi": "1003437344",
+            "cmsProviderNum": "221955",
+            "cmsPin": "",
+            "cmsUpin": "",
+            "cmsCategory": "",
+            "cmsProviderType": "00-04",
+            "cmsRegion": "",
+            "cliaNumber": "",
+            "name": "GREATER LAWRENCE FAMILY HEALTH CENTER INC",
+            "location": {
+              "totalPopulation": 7069851,
+              "state": "Massachusetts"
+            },
+            "address": "755 MAIN ST",
+            "city": "HAVERHILL",
+            "state": "MA",
+            "zip": "018302166",
+            "fipsCountyCode": "",
+            "phone": "9786860090",
+            "type": "PRIMARY",
+            "institutional": false,
+            "revenue": 0.0,
+            "coordinates": {
+              "x": -71.0878121,
+              "y": 42.797835
+            },
+            "servicesProvided": [
+              "WELLNESS"
+            ]
+          },
+          "encounters": 30,
+          "procedures": 0,
+          "populationSeed": 0
+        },
+        "ended": true,
+        "endedTime": 1719361220151,
+        "chronicMedsRenewed": false,
+        "uuid": "09157b76-15ea-888b-2b07-1750604541d8",
+        "name": "Encounter Module Scheduled Wellness",
+        "start": 1719361220151,
+        "stop": 1719363414151,
+        "type": "wellness",
+        "codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "162673000",
+            "display": "General examination of patient (procedure)"
+          }
+        ],
+        "cost": 136.80
+      }
+    ]
+  }
+}

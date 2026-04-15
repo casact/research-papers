@@ -1,0 +1,191 @@
+{
+  "claim_id": 6744942349,
+  "patient_initials": "AN",
+  "patient_metadata": {
+    "age": "28",
+    "gender": "Female",
+    "name": "Angelic427 Erna640 Nienow652"
+  },
+  "encounters": [
+    {
+      "encounter_id": "30ca1a06-1ad1-8bcf-d500-11cdeadc2089",
+      "document_type": "clinical_note",
+      "document_text": "**Clinical Note**\n\n**Patient Name:** [Patient Name]  \n**Date of Encounter:** January 10, 2016  \n**Encounter Type:** Outpatient  \n**Encounter Name:** Encounter Module Symptom Driven  \n**Encounter Cost:** $85.55  \n\n**Chief Complaint:**  \nThe patient presents with concerns related to feelings of social isolation. The patient reports a significant decrease in social interactions over the past several months, leading to feelings of loneliness and sadness. The patient expresses a desire to improve their social connections and overall mental well-being.\n\n**Assessment:**  \nThe patient is a [age]-year-old [gender] who appears well-nourished but exhibits signs of emotional distress. During the interview, the patient described a lack of engagement in social activities, which has contributed to feelings of depression and anxiety. The patient reports limited contact with family and friends, and expresses concern about the impact of this isolation on their mental health. \n\nUpon evaluation, the patient demonstrates a moderate level of distress, with a reported PHQ-9 score of [insert score] indicating mild to moderate depressive symptoms. The patient denies any suicidal ideation or intent but acknowledges feelings of worthlessness and hopelessness. There are no reported substance use issues. \n\nThe patient\u00e2\u20ac\u2122s medical history is unremarkable for chronic illnesses, and there are no current medications. Vital signs are stable, and a brief physical examination reveals no acute medical issues. \n\nGiven the findings, the primary diagnosis is social isolation, which is classified as a significant psychosocial factor that may lead to further mental health complications if not addressed. The patient is at increased risk for developing chronic conditions due to the psychological stress associated with social isolation.\n\n**Plan:**  \n1. **Mental Health Referral:** Refer the patient to a licensed mental health professional for further evaluation and potential therapy. Cognitive Behavioral Therapy (CBT) may be beneficial in addressing negative thought patterns and improving social engagement.\n   \n2. **Social Support Resources:** Provide the patient with information on local community resources, including support groups and social clubs that align with their interests. Encourage participation in activities that promote social interaction.\n\n3. **Follow-Up Appointment:** Schedule a follow-up appointment in 4-6 weeks to assess the patient\u00e2\u20ac\u2122s progress and response to referrals. Monitor for any changes in mood or social engagement.\n\n4. **Patient Education:** Discuss the importance of maintaining social connections for mental health and overall well-being. Encourage the patient to reach out to family and friends, and consider utilizing technology (e.g., video calls) to enhance social interactions.\n\n5. **Medication Management:** If the patient\u00e2\u20ac\u2122s depressive symptoms do not improve with therapy and social engagement, consider a trial of an SSRI (Selective Serotonin Reuptake Inhibitor) for management of depressive symptoms.\n\n6. **Documentation:** Document the encounter thoroughly in the patient\u00e2\u20ac\u2122s medical record, including the assessment findings, plan of care, and any referrals made.\n\n**Signature:**  \n[Provider Name, MD/DO/NP]  \n[Provider Contact Information]  \n[Date]  \n\n**Note:** This clinical note is intended for use in the patient\u00e2\u20ac\u2122s medical record and may be subject to review for billing and insurance purposes.",
+      "encounter_date": "2016-01-10",
+      "source_file": "synthea_native",
+      "encounter_metadata": {
+        "resource_type": "Encounter",
+        "synthea_type": "outpatient",
+        "synthea_name": "Encounter Module Symptom Driven",
+        "classification": {
+          "is_relevant": true,
+          "confidence": 0.85,
+          "reason": "Social isolation can lead to various health issues and may require ongoing support or intervention, impacting overall healthcare costs.",
+          "category": "moderate_cost",
+          "cost_indicators": [
+            "potential need for mental health services",
+            "increased risk of chronic conditions",
+            "possible social services involvement",
+            "medication management",
+            "specialist visits"
+          ]
+        },
+        "processing_timestamp": "2025-10-25T03:14:22.408260"
+      }
+    },
+    {
+      "encounter_id": "9b04f837-b71f-a06a-4243-5fb661453567",
+      "document_type": "clinical_note",
+      "document_text": "**Clinical Note**\n\n**Patient Name:** [Patient Name]  \n**Date of Encounter:** August 11, 2019  \n**Encounter Type:** Wellness  \n**Encounter Name:** Encounter Module Scheduled Wellness  \n**Encounter Cost:** $136.80  \n\n**Chief Complaint:**  \nThe patient presents for a scheduled wellness visit. During the encounter, the patient reports experiencing increased levels of stress over the past few months, which they describe as affecting their daily functioning and overall well-being. The patient expresses concerns about managing stress effectively and its impact on their mental health.\n\n**Assessment:**  \nThe patient exhibits signs consistent with stress, which is classified as a finding in this encounter. The patient reports symptoms including difficulty sleeping, irritability, and occasional feelings of overwhelm. There are no reported physical symptoms directly related to stress at this time, and the patient denies any history of significant mental health disorders. Vital signs are within normal limits, and no acute distress is noted during the examination. \n\nGiven the patient's report and the potential implications of unmanaged stress, it is important to consider the broader impact on mental health, productivity, and overall quality of life. The patient is at moderate risk for developing more severe mental health issues if stress is not addressed. \n\n**Plan:**  \n1. **Education and Counseling:** The patient will receive education on stress management techniques, including mindfulness practices, deep breathing exercises, and the importance of regular physical activity. A referral to a mental health professional for cognitive-behavioral therapy (CBT) will be provided to assist in developing coping strategies.\n\n2. **Follow-Up:** Schedule a follow-up appointment in 4-6 weeks to reassess the patient's stress levels and the effectiveness of the implemented strategies. The patient is encouraged to keep a stress diary to track triggers and coping mechanisms.\n\n3. **Medication Consideration:** If the patient\u00e2\u20ac\u2122s stress levels do not improve with lifestyle modifications and therapy, consider discussing the potential for pharmacological intervention, such as SSRIs or anxiolytics, during the next visit.\n\n4. **Referral:** Provide a referral to a licensed therapist specializing in stress management and cognitive-behavioral therapy. The patient is encouraged to reach out to the therapist prior to the next visit.\n\n5. **Resources:** Provide the patient with printed materials on stress management techniques and local support groups.\n\n**Follow-Up Appointment:** [Insert Date]  \n**Provider Signature:** [Provider Name, Credentials]  \n**Date of Note:** August 11, 2019  \n\n**Note:** This encounter is classified as moderate cost due to the potential need for ongoing management and treatment related to the finding of stress, which may include therapy sessions, medication, and referrals to specialists.",
+      "encounter_date": "2019-08-11",
+      "source_file": "synthea_native",
+      "encounter_metadata": {
+        "resource_type": "Encounter",
+        "synthea_type": "wellness",
+        "synthea_name": "Encounter Module Scheduled Wellness",
+        "classification": {
+          "is_relevant": true,
+          "confidence": 0.8,
+          "reason": "The encounter involves a finding of stress, which can be linked to mental health issues that may require ongoing management and treatment, thus impacting costs.",
+          "category": "moderate_cost",
+          "cost_indicators": [
+            "potential therapy sessions",
+            "medication for stress management",
+            "possible referrals to specialists",
+            "impact on productivity and absenteeism"
+          ]
+        },
+        "processing_timestamp": "2025-10-25T03:14:36.517136"
+      }
+    },
+    {
+      "date": "2025-10-28T12:20:56.676494",
+      "type": "other_text_data",
+      "document_type": "medical_provider_letter",
+      "document_text": "[Your Clinic Name]  \n[Your Clinic Address]  \n[City, State, ZIP Code]  \n[Phone Number]  \n[Date: January 15, 2016]  \n\n[Insurance Company Name]  \n[Insurance Company Address]  \n[City, State, ZIP Code]  \n[Attn: Claims Adjuster]  \n\nRe: Claimant: AN  \nClaim Number: CLM123456  \nPolicy Number: POL987654  \n\nDear Claims Adjuster,  \n\nI am writing to provide a detailed medical summary regarding the above-referenced claimant, AN, a 28-year-old marketing specialist, who sustained injuries as a result of a slip and fall incident that occured on January 10, 2016, at Downtown Park, City Center.  \n\n**Clinical Summary:**  \nUpon evaluation on January 11, 2016, the claimant presented with a primary injury of a sprained ankle, and secondary contusions on the left knee. Initial assessment revealed tenderness and swelling of the ankle with limited range of motion (ROM). The knee exhibited mild bruising but was otherwise WNL (within normal limits). Strength testing (DTRs) indicated no neurological deficits. The claimant reported pain at a level of 6/10 on the pain scale, which was managed with over-the-counter analgesics.  \n\n**Examination Findings:**  \nPhysical examination demonstrated significant swelling of the right ankle, with a ROM limited to 50% of normal. Palpation revealed tenderness over the lateral malleolus. An MRI was not deemed necessary at this time as the findings were consistent with a sprain. The claimant was advised to follow the RICE protocol (Rest, Ice, Compression, Elevation) to facilitate recovery.  \n\n**Treatment Plan:**  \nThe treatment plan initiated on January 11, 2016, included the RICE protocol and the prescription of NSAIDs as needed (prn). Physical therapy (PT) commenced on January 15, 2016, focusing on strengthening and restoring ROM. The claimant was scheduled for a follow-up appointment on February 1, 2016, where we noted an improvement in the condition. By March 1, 2016, the claimant was cleared for light duty work, and by April 15, 2016, he returned to full duty. The final follow-up on June 1, 2016, indicated that AN had achieved maximum medical improvement (MMI) with full functional capacity restored.  \n\n**Prognosis:**  \nThe prognosis for the claimant is excellent, with no expected long-term complications from the injuries sustained. The claimant has been advised to continue with regular exercises to maintain strength and flexibility in the ankle.  \n\n**Work Restrictions:**  \nAt this time, there are no work restrictions as the claimant has returned to full-time duty without limitations.  \n\nPlease feel free to contact me should you require any further information or clarification regarding this case. Thank you for your attention to this matter.  \n\nSincerely,  \nDr. Emily Johnson, MD  \n[Your Clinic Name]  \n[Your Clinic Contact Information]  \n\n*Note: This letter may contain confidential information intended solely for the individual or entity to whom it is addressed. If you have received this in error, please notify us immediately.*",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:20:56.676494",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Medical Provider Letter",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 36.20031570002902,
+        "tokens": {
+          "prompt_tokens": 706,
+          "completion_tokens": 769,
+          "total_tokens": 1475
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:21:24.937605",
+      "type": "other_text_data",
+      "document_type": "phone_transcript",
+      "document_text": "[Phone ringing]  \nInsurance Representative: Hello, this is Sarah from ABC Insurance, how can I help you today?  \nClaimant: Hi, um, this is AN. I\u2019m calling about, like, a claim I filed, uh, I think the number is CLM123456.  \nInsurance Representative: Okay, let me pull that up. Just a moment... [typing]  \nClaimant: Sure, take your time.  \nInsurance Representative: Alright, I've got it. So, this claim is in relation to an incident that occurred on January 10th, 2016, is that correct?  \nClaimant: Yeah, that's right.  \nInsurance Representative: Can you tell me a bit more about what happened?  \nClaimant: Um, yeah, I was jogging at Downtown Park, you know, like City Center, and I slipped on an uneven surface. It was kinda dangerous.  \nInsurance Representative: Oh no, I\u2019m sorry to hear that. Did you, um, sustain any injuries?  \nClaimant: Yeah, I sprained my ankle pretty bad, and I also got some bruises on my knee from the fall.  \nInsurance Representative: That sounds painful! Who treated you?  \nClaimant: I saw Dr. Emily Johnson, and then, uh, Dr. Mark Lee helped me too.  \nInsurance Representative: Okay, and when did you first receive treatment?  \nClaimant: I went to the doctor on January 11th, the day after the fall.  \nInsurance Representative: Got it. So, following that, you started the RICE protocol?  \nClaimant: Yeah, I did! Rest, ice, compression, elevation \u2013 you know, all of that.  \nInsurance Representative: Right. And how\u2019s the recovery been since then?  \nClaimant: I started physical therapy on January 15th, and it was intense but helpful. I had a follow-up on February 1st, and I returned to light duty work by March 1st.  \nInsurance Representative: That\u2019s good to hear! And when did you return to full duty?  \nClaimant: Oh, I was back to full duty by April 15th, I think... Yeah, that's it.  \nInsurance Representative: And your maximum medical improvement was, um, marked on June 1st?  \nClaimant: Exactly.  \nInsurance Representative: Awesome, thanks for the details. I see you had some witnesses at the scene too, like John Doe and Jane Smith?  \nClaimant: Yeah, um, they were both there when I fell.  \nInsurance Representative: Thank you for that info. Alright, so the next steps would be for us to process this claim, and I\u2019ll need to send out a letter of inquiry, or LOI, to gather some more details from your healthcare providers.  \nClaimant: Sounds good. How long will that take?  \nInsurance Representative: It should take about 7-10 business days for us to receive everything back, and then we can move forward.  \nClaimant: Okay, cool.  \nInsurance Representative: Great! If you have any other questions, feel free to call back.  \nClaimant: I will. Thanks a lot for your help!  \nInsurance Representative: You\u2019re welcome, AN! Have a good day!  \nClaimant: You too, bye!  \n[Call ends]",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:21:24.937605",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Initial Phone Call Transcript",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 28.224744500010274,
+        "tokens": {
+          "prompt_tokens": 731,
+          "completion_tokens": 801,
+          "total_tokens": 1532
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:21:45.439151",
+      "type": "other_text_data",
+      "document_type": "settlement_adjuster_notes",
+      "document_text": "Adjuster Notes for Claim #: CLM123456\nDate: 01/25/2024\n\nClaimant: AN, Age: 28, Occupation: Marketing Specialist\nPolicy #: POL987654\nIncident Date: January 10th, 2016\nReported Date: January 12th, 2016\n\nIncident Summary:\nThe claimant, AN, slipped and fell at Downtown Park, City Center while jogging due to an uneven surface. Witnesses John Doe and Jane Smith were present at the scene. No equipment was involved in the incident.\n\nMedical Treatment Summary:\n- Initial treatment was received on 01/11/2016 from Dr. Emily Johnson. The primary injury was a sprained ankle, w/ contusions on the knee.\n- Treatment included RICE protocol (Rest, Ice, Compression, Elevation) and OTC pain meds.\n- Physical therapy (PT) commenced on 01/15/2016 and continued until 03/01/2016.\n- Follow-up appointment w/ Dr. Mark Lee on 02/01/2016. \n- Claimant returned to light duty on 03/01 and full duty 04/15/2016. Achieved MMI on 06/01/2016.\n\nTotal Expenses Calculation:\n- Medical expenses:\n  - Dr. Emily Johnson: $500\n  - Dr. Mark Lee: $400\n  - Physical Therapy: $150/session x 8 visits = $1,200\n- Total medical costs approx. = $500 + $400 + $1,200 = $2,100\n\nWage Loss Analysis:\n- Claimant was off work from 01/10/2016 to 03/01/2016 (approx. 7 weeks).\n- Weekly wage: $1,200\n- Total wage loss = $1,200 x 7 = $8,400\n\nSettlement Analysis:\n- Total incurred costs = Medical expenses ($2,100) + Wage loss ($8,400) = $10,500.\n- Considering pain and suffering, est. multiplier of 1.5 applied to total costs.\n- Proposed settlement amount = $10,500 x 1.5 = ~$15,750.\n\nNegotiation Strategy:\n- Present a comprehensive breakdown of medical costs and wage loss to the opposing party.\n- Highlight the claimant's pain and suffering, esp. during recovery and impact on daily activities.\n- Be open to negotiations but start at ~$15,750 to allow room for adjustments.\n\nSettlement Authority Recommendation:\n- Recommend settlement authority up to $15,000, w/ flexibility for negotiation down to $14,000 if necessary. \n- Emphasize the strength of the claim based on clear liability and documented injuries.\n\nConclusion:\nPer file review and prior notes, this claim is solid based on medical documentation and wage loss. Recommend proceeding w/ negotiations based on outlined strategy.",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:21:45.439151",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Settlement Adjuster Notes",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 20.478061500005424,
+        "tokens": {
+          "prompt_tokens": 747,
+          "completion_tokens": 659,
+          "total_tokens": 1406
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:22:05.605901",
+      "type": "other_text_data",
+      "document_type": "claimant_statement",
+      "document_text": "My name is AN, and I'm 28 years old. I work as a Marketing Specialist. On January 10th, 2016, I was out jogging at Downtown Park, you know, just trying to stay fit and clear my mind after a long week. Everything was going fine until I suddenly slipped on an uneven surface!!! I couldn't believe it, I just lost my balance and fell hard. I remember landing on my knee and rolling over, feeling a sharp pain shoot through my ankle. It was so so painful, and honestly, I felt embarrassed too, since there were witnesses like John Doe and Jane Smith who had to see me fall. It's frustrating to think I was just trying to do something good for my health and ended up hurt.\n\nI was in so much pain that I couldn't get up immediately, and it seemed to be taking forever for the paramedics to arrive. When I finally got medical attention the next day, Dr. Emily Johnson and Dr. Mark Lee were super nice, but hearing them say it was a sprained ankle along with contusions on my knee felt like a punch in the gut. I was told to follow the RICE protocol, which I totally tried to stick to - resting as much as possible, icing, keeping it elevated... the whole deal. I took over-the-counter pain medication, but it didn't seem to help too much; it just made me feel a little fuzzy and out of it!!!\n\nStarting physical therapy on January 15th was tough. I just kept thinking about how I couldn't run or move like I used to, and I felt really, really frustrated. I also missed some important meetings at work and had to explain my absence, which wasn't fun. It felt humbling to go back to light duty by March 1st after all the effort I\u2019d put into my recovery. I was always thinking about how I wanted to be 100% back to my full responsibilities, and when I returned to full work on April 15th, it felt like a huge relief, but I was still dealing with lingering discomfort, especially if I was on my feet for too long.\n\nBy June 1st, I finally reached max medical improvement but the incident left me seriously shaken. Getting back into the routine was hard because I was paranoid about falling again; every uneven sidewalk now felt like a trap. This experience not only physically impacted me but emotionally too, as I felt a loss of freedom during that recovery period. I always thought I was invincible, but falling just hit me hard!!! I'm now more cautious while jogging, and I've got to admit, I still feel some residual anxiety about running. It made me realize how quickly things can take a turn for the worse, and I wouldn't wish that pain of being immobile on anyone!",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:22:05.605901",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Claimant Statement",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 20.152199899952393,
+        "tokens": {
+          "prompt_tokens": 732,
+          "completion_tokens": 606,
+          "total_tokens": 1338
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:22:25.986914",
+      "type": "other_text_data",
+      "document_type": "adjuster_notes_initial",
+      "document_text": "Initial Adjuster Notes  \nClaimant: AN  \nAge: 28  \nOccupation: Marketing Specialist  \nClaim No: CLM123456  \nPolicy No: POL987654  \nIncident Date: 01/10/2016  \nReported Date: 01/12/2016  \n\nIncident Details:  \n- Occurred at Downtown Park, City Center  \n- Claimant slipped & fell on uneven surface while jogging  \n- Witnesses: John Doe, Jane Smith  \n- No equipment involved  \n\nInjury Assessment:  \n- Primary injury: sprained ankle  \n- Secondary injuries: contusions on knee  \n- Treated by Dr. Emily Johnson & Dr. Mark Lee  \n- Initial Tx included RICE protocol, OTC pain meds  \n\nTimeline:  \n- 01/10/2016: incident occurred  \n- 01/11/2016: 1st medical tx received  \n- 01/15/2016: started PT  \n- 02/01/2016: follow-up appt  \n- 03/01/2016: returned to light duty work  \n- 04/15/2016: returned to full duty work  \n- 06/01/2016: achieved MMI  \n\nLiability Evaluation:  \n- Preliminary eval suggests liability w/ park due to maintenance issues (uneven surface)  \n- Witness statements pending; contact witnesses for detailed accounts  \n- Need to verify park's maintenance records for further insight  \n\nInitial Actions Taken:  \n- Reviewed initial claim notes  \n- Contacted claimant on 01/15/16 @ 10:30am  \n- Follow-up email sent to Dr. Johnson for med records on 01/16/16  \n- Requested LOI from the claimant regarding the incident  \n\nNext Steps:  \n- Await medical records from Dr. Johnson and Dr. Lee  \n- Follow-up w/ SIU for any red flags  \n- Continue to gather witness statements  \n- Schedule IME if necessary based on medical findings  \n- Review policy coverage for potential BI claims  \n\nNotes:  \n- Keep detailed log of comms w/ clmt and medical providers.  \n- Ensure all documentation is filed correctly and timely for further review.  \n- Ensure to review for any possible fraud indicators.  \n\nEnd of notes.",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:22:25.986914",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Initial Adjuster Notes",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 20.36822200001916,
+        "tokens": {
+          "prompt_tokens": 730,
+          "completion_tokens": 588,
+          "total_tokens": 1318
+        }
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_type": "fhir_processor",
+    "bundle_file": "Angelic427_Erna640_Nienow652_b79be9b1-f26c-62d1-e7af-b824df2a382a.json",
+    "processing_timestamp": "2025-10-25T03:14:36.518135",
+    "total_encounters_evaluated": 3,
+    "relevant_encounters": 2,
+    "processing_stats": {
+      "total_evaluated": 3,
+      "relevant_encounters": 2,
+      "classification_errors": 0,
+      "note_generation_errors": 0,
+      "api_calls": 0,
+      "total_cost": 0.0,
+      "skipped_irrelevant": 1
+    },
+    "cost_summary": {
+      "total_cost": 0.0010305,
+      "total_calls": 5,
+      "total_tokens": 2574,
+      "average_cost_per_call": 0.0002061
+    },
+    "processor_version": "enhanced_v1.0",
+    "synthetic_documents_added": {
+      "timestamp": "2025-10-28T12:22:25.988928",
+      "generator": "synthetic_document_generator",
+      "documents_added": 5,
+      "total_encounters": 7
+    }
+  }
+}

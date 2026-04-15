@@ -1,0 +1,77 @@
+{
+  "claim_id": 4596967859,
+  "patient_initials": "AB",
+  "patient_metadata": {
+    "age": "23",
+    "gender": "Male",
+    "name": "Adolph80 Randell912 Bartoletti50"
+  },
+  "encounters": [
+    {
+      "encounter_id": "927d8f12-fb68-b443-c426-1e38c8f2011c",
+      "document_type": "document_text",
+      "document_text": "**Clinical Note**\n\n**Patient Name:** [Patient Name]  \n**Date of Encounter:** March 3, 2019  \n**Encounter Type:** Wellness  \n**Encounter Name:** Encounter Module Scheduled Wellness  \n**Encounter Cost:** $136.80  \n\n**Chief Complaint:**  \nThe patient presents for a scheduled wellness visit with a focus on medication review. The patient reports adherence to current medications but expresses concerns regarding potential side effects and interactions.\n\n**Assessment:**  \nThe patient is a [age]-year-old [gender] with a history of [relevant medical history, e.g., hypertension, diabetes, hyperlipidemia]. Current medications include [list medications, dosages, and frequency]. The patient denies any new symptoms or significant changes in health status since the last visit. Vital signs are stable: BP [value], HR [value], RR [value], Temp [value]. \n\nA comprehensive medication review was conducted, focusing on the following:\n\n1. **Antihypertensives:** [Medication name, dosage, and any noted side effects or efficacy].\n2. **Antidiabetics:** [Medication name, dosage, and any noted side effects or efficacy].\n3. **Lipid-lowering agents:** [Medication name, dosage, and any noted side effects or efficacy].\n4. **Other medications:** [List any additional medications, their purposes, and any concerns raised by the patient].\n\nThe patient expressed concerns regarding [specific side effects or interactions], which were addressed during the visit. No new medications were initiated, but adjustments to dosages were discussed based on the patient's current health status and lab results. \n\n**Plan:**  \n1. **Medication Management:** Continue current medication regimen with the following adjustments:\n   - [Specify any changes in medication dosages or discontinuation of medications].\n   - Schedule follow-up lab tests to monitor [specific parameters, e.g., renal function, lipid levels, HbA1c] in [time frame].\n   \n2. **Patient Education:** Provided education on the importance of medication adherence, potential side effects, and the significance of regular follow-up visits. Discussed lifestyle modifications, including diet and exercise, to support overall health and medication efficacy.\n\n3. **Follow-Up:** Schedule a follow-up appointment in [time frame, e.g., 3 months] to reassess medication efficacy and side effects. Encourage the patient to reach out sooner if any adverse effects occur or if there are changes in health status.\n\n4. **Documentation:** Ensure all medication changes and patient education are documented in the electronic health record for continuity of care.\n\n**Signature:**  \n[Provider Name, Credentials]  \n[Provider Contact Information]  \n[Date of Note Completion]  \n\n**Note:** This encounter is classified as moderate cost due to the complexity of medication management and the potential for ongoing medical needs, which may lead to future costs associated with chronic condition management.",
+      "encounter_date": "2019-03-03",
+      "source_file": "synthea",
+      "encounter_metadata": {
+        "resource_type": "Encounter",
+        "synthea_type": "wellness",
+        "synthea_name": "Encounter Module Scheduled Wellness",
+        "classification": {
+          "is_relevant": true,
+          "confidence": 0.8,
+          "reason": "The encounter involves a medication review, which is part of medication management and can indicate ongoing medical needs that may lead to future costs.",
+          "category": "moderate_cost",
+          "cost_indicators": [
+            "medication management",
+            "potential for chronic conditions",
+            "follow-up visits",
+            "lab tests"
+          ]
+        },
+        "processing_timestamp": "2026-03-03T20:13:21.133233",
+        "models_used": {
+          "classification_model": "unknown",
+          "clinical_note_model": "unknown"
+        }
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_type": "fhir_processor",
+    "bundle_format": "synthea",
+    "bundle_file": "Adolph80_Bartoletti50_dabfdec7-929a-3269-fd84-ab7e6ecaa245.json",
+    "processing_timestamp": "2026-03-03T20:13:21.133233",
+    "total_encounters_evaluated": 1,
+    "relevant_encounters": 1,
+    "processing_stats": {
+      "total_evaluated": 1,
+      "relevant_encounters": 1,
+      "classification_errors": 0,
+      "note_generation_errors": 0,
+      "api_calls": 0,
+      "total_cost": 0.0,
+      "skipped_irrelevant": 0
+    },
+    "cost_summary": {
+      "total_cost": 0.00046469999999999997,
+      "total_calls": 2,
+      "average_cost_per_call": 0.00023234999999999998,
+      "total_tokens": 1112,
+      "total_input_tokens": 450,
+      "total_output_tokens": 662,
+      "total_time": 13.436769962310791,
+      "average_time_per_call": 6.7183849811553955
+    },
+    "processor_version": "1.0",
+    "llm_provider": "openai",
+    "models_used": {
+      "classification": [
+        "unknown"
+      ],
+      "clinical_notes": [
+        "unknown"
+      ]
+    }
+  }
+}

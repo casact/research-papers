@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    /* Prevent overscroll bounce on mobile and desktop */
+    overscroll-behavior: none;
+  }
+
+  body {
+    @apply font-sans antialiased bg-gradient-to-br from-slate-100 via-gray-50 to-blue-50 text-cas-navy-900
+    dark:from-cas-navy-950 dark:via-cas-gray-900 dark:to-cas-navy-900 dark:text-gray-100;
+  }
+}
+
+@layer components {
+  /* Primary button - Teal accent */
+  .btn-primary {
+    @apply px-6 py-3 bg-gradient-to-r from-cas-teal-600 to-cas-teal-700 text-white font-semibold rounded-lg
+    hover:from-cas-teal-700 hover:to-cas-teal-800
+    active:scale-95
+    shadow-md hover:shadow-lg
+    transition-all duration-200
+    focus:outline-none focus:ring-2 focus:ring-cas-teal-500 focus:ring-offset-2
+    dark:from-cas-teal-500 dark:to-cas-teal-600
+    dark:hover:from-cas-teal-600 dark:hover:to-cas-teal-700
+    dark:focus:ring-offset-cas-gray-900;
+  }
+
+  /* Secondary button - Outlined */
+  .btn-secondary {
+    @apply px-6 py-3 bg-white text-cas-navy-700 font-semibold rounded-lg
+    border-2 border-cas-navy-200
+    hover:border-cas-teal-500 hover:text-cas-teal-700 hover:bg-cas-teal-50
+    active:scale-95
+    transition-all duration-200
+    focus:outline-none focus:ring-2 focus:ring-cas-teal-500 focus:ring-offset-2
+    dark:bg-cas-gray-800 dark:text-gray-300 dark:border-cas-gray-600
+    dark:hover:bg-cas-teal-900/30 dark:hover:border-cas-teal-500 dark:hover:text-cas-teal-400
+    dark:focus:ring-offset-cas-gray-900;
+  }
+
+  /* Tertiary button - Ghost */
+  .btn-tertiary {
+    @apply px-6 py-3 text-cas-navy-700 font-medium rounded-lg
+    hover:bg-cas-navy-100 hover:text-cas-navy-900
+    transition-colors duration-200
+    focus:outline-none focus:ring-2 focus:ring-cas-teal-500 focus:ring-offset-2
+    dark:text-gray-300 dark:hover:bg-cas-gray-800 dark:hover:text-gray-100
+    dark:focus:ring-offset-cas-gray-900;
+  }
+
+  /* Standard card */
+  .card {
+    @apply bg-white rounded-xl shadow-card border border-cas-gray-200 p-6
+    transition-all duration-300
+    dark:bg-cas-gray-800 dark:border-cas-gray-700;
+  }
+
+  /* Hover card effect */
+  .card-hover {
+    @apply card hover:shadow-card-hover hover:-translate-y-1;
+  }
+
+  /* Feature card with gradient border */
+  .card-feature {
+    @apply bg-white rounded-2xl shadow-card border-2 border-transparent p-8
+    bg-clip-padding
+    hover:border-cas-teal-200 hover:shadow-card-hover hover:-translate-y-1
+    transition-all duration-300
+    dark:bg-cas-gray-800 dark:hover:border-cas-teal-700;
+  }
+
+  /* Badge styles */
+  .badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold;
+  }
+
+  .badge-primary {
+    @apply badge bg-cas-teal-100 text-cas-teal-800 ring-1 ring-inset ring-cas-teal-600/20
+    dark:bg-cas-teal-900/30 dark:text-cas-teal-300 dark:ring-cas-teal-500/30;
+  }
+
+  .badge-secondary {
+    @apply badge bg-cas-navy-100 text-cas-navy-800 ring-1 ring-inset ring-cas-navy-600/20
+    dark:bg-cas-navy-800 dark:text-cas-navy-300 dark:ring-cas-navy-500/30;
+  }
+
+  .badge-success {
+    @apply badge bg-green-100 text-green-800 ring-1 ring-inset ring-green-600/20
+    dark:bg-green-900/30 dark:text-green-300 dark:ring-green-500/30;
+  }
+
+  /* Gradient text */
+  .text-gradient {
+    @apply bg-gradient-to-r from-cas-navy-900 via-cas-teal-700 to-cas-navy-900 bg-clip-text text-transparent
+    dark:from-gray-100 dark:via-cas-teal-400 dark:to-gray-100;
+  }
+
+  /* Icon container */
+  .icon-container {
+    @apply w-12 h-12 rounded-xl flex items-center justify-center
+    bg-gradient-to-br from-cas-teal-500 to-cas-teal-600
+    shadow-md;
+  }
+
+  .icon-container-lg {
+    @apply w-16 h-16 rounded-2xl flex items-center justify-center
+    bg-gradient-to-br from-cas-teal-500 to-cas-teal-600
+    shadow-lg;
+  }
+}
+
+@layer utilities {
+  /* Subtle pulse animation for file selection prompt */
+  @keyframes pulse-subtle {
+    0%, 100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.95;
+      transform: scale(1.002);
+    }
+  }
+
+  .animate-pulse-subtle {
+    animation: pulse-subtle 3s ease-in-out infinite;
+  }
+
+  /* Toast slide-up animation */
+  @keyframes slide-up {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .animate-slide-up {
+    animation: slide-up 0.3s ease-out;
+  }
+}

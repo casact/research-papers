@@ -1,0 +1,190 @@
+{
+  "claim_id": 7114747163,
+  "patient_initials": "AK",
+  "patient_metadata": {
+    "age": "26",
+    "gender": "Male",
+    "name": "Aubrey96 Buddy254 Kunde533"
+  },
+  "encounters": [
+    {
+      "encounter_id": "14ad58cf-e873-4529-fe22-f15d02eefede",
+      "document_type": "clinical_note",
+      "document_text": "**Clinical Note**\n\n**Patient Name:** [Patient Name]  \n**Date of Encounter:** 2018-05-13  \n**Encounter Type:** Outpatient  \n**Encounter Cost:** $85.55  \n**Provider:** [Provider Name]  \n**Facility:** [Facility Name]  \n\n**Chief Complaint:**  \nThe patient presents for evaluation of ongoing symptoms that have been affecting their daily activities. The patient reports experiencing fatigue, intermittent headaches, and difficulty concentrating, which have been persistent over the past several weeks. The patient is currently employed full-time and expresses concern about how these symptoms may impact their work performance.\n\n**Assessment:**  \nUpon examination, the patient appears well-nourished and in no acute distress. Vital signs are within normal limits: BP 120/80 mmHg, HR 72 bpm, RR 16 breaths/min, and temperature 98.6\u00c2\u00b0F. Neurological examination reveals no focal deficits, and cranial nerves II-XII are intact. The patient\u00e2\u20ac\u2122s cognitive function appears appropriate for age, but they report subjective cognitive impairment, particularly with attention and memory.\n\nLaboratory tests were not performed during this visit; however, given the patient's symptoms, a complete blood count (CBC) and thyroid function tests (TFTs) are recommended to rule out anemia and thyroid dysfunction, respectively. The patient\u00e2\u20ac\u2122s employment status and lifestyle factors, including sleep patterns and stress levels, were discussed, as these may contribute to their symptoms.\n\nThe patient\u00e2\u20ac\u2122s symptoms are suggestive of a possible underlying condition that may require further investigation. Differential diagnoses include chronic fatigue syndrome, tension-type headaches, and potential mood disorders such as anxiety or depression. The moderate cost classification of this encounter indicates the potential for chronic conditions that may necessitate ongoing management.\n\n**Plan:**  \n1. **Laboratory Tests:** Order CBC and TFTs to evaluate for anemia and thyroid dysfunction.\n2. **Symptom Management:** Recommend over-the-counter analgesics (e.g., ibuprofen 400 mg as needed for headache) and advise the patient to maintain hydration and a balanced diet.\n3. **Lifestyle Modifications:** Discuss the importance of sleep hygiene and stress management techniques, including mindfulness and relaxation exercises.\n4. **Follow-Up:** Schedule a follow-up appointment in 4-6 weeks to review lab results and reassess symptoms. If symptoms persist or worsen, consider referral to a specialist (e.g., neurologist or psychiatrist) for further evaluation.\n5. **Patient Education:** Provide educational materials on chronic fatigue and stress management strategies. Encourage the patient to keep a symptom diary to track patterns and triggers.\n\n**Signature:**  \n[Provider Name, MD/DO]  \n[Provider Contact Information]  \n[Date]  \n\n**Note:** This clinical note is a summary of the encounter and is intended for use in the patient's medical record. Further documentation may be required based on the results of laboratory tests and follow-up evaluations.",
+      "encounter_date": "2018-05-13",
+      "source_file": "synthea_native",
+      "encounter_metadata": {
+        "resource_type": "Encounter",
+        "synthea_type": "outpatient",
+        "synthea_name": "Encounter Module Symptom Driven",
+        "classification": {
+          "is_relevant": true,
+          "confidence": 0.8,
+          "reason": "The encounter indicates a symptom-driven approach, which may suggest underlying health issues that could lead to chronic conditions or require ongoing medical attention.",
+          "category": "moderate_cost",
+          "cost_indicators": [
+            "potential chronic conditions",
+            "ongoing medical needs",
+            "specialist visits",
+            "diagnostic procedures"
+          ]
+        },
+        "processing_timestamp": "2025-10-25T03:15:30.164632"
+      }
+    },
+    {
+      "encounter_id": "66c3a8d5-d0f5-b4db-ccfe-d36a548ee7df",
+      "document_type": "clinical_note",
+      "document_text": "**Clinical Note**\n\n**Patient Name:** [Patient Name]  \n**Date of Encounter:** November 28, 2021  \n**Encounter Type:** Wellness  \n**Encounter Name:** Encounter Module Scheduled Wellness  \n**Encounter Cost:** $136.80  \n\n**Chief Complaint:**  \nThe patient presents for a scheduled wellness visit. During the encounter, the patient expresses concerns regarding limited social contact, increased stress levels, and reports of violence in their environment. \n\n**Assessment:**  \nThe patient demonstrates signs of limited social interaction, which may contribute to feelings of isolation and exacerbate underlying mental health issues. The patient reports experiencing significant stress, which they attribute to both personal circumstances and environmental factors, including exposure to violence. These findings are consistent with the following diagnoses:\n\n1. **Limited Social Contact (Finding)** - The patient reports minimal engagement with friends and family, leading to feelings of loneliness and potential depressive symptoms.\n2. **Stress (Finding)** - The patient describes ongoing stressors related to work and personal life, which have been affecting their overall well-being and daily functioning.\n3. **Reports of Violence in the Environment (Finding)** - The patient has expressed concerns about safety in their neighborhood, which contributes to heightened anxiety and stress levels.\n\nGiven the patient's reported symptoms and environmental factors, there is a moderate risk for the development of more severe mental health issues if these concerns are not addressed. \n\n**Plan:**  \n1. **Mental Health Referral:** Refer the patient to a licensed mental health professional for further evaluation and potential therapy. Emphasize the importance of addressing stress management techniques and coping strategies.\n   \n2. **Support Resources:** Provide the patient with information on local support groups and community resources that can help mitigate feelings of isolation and provide social support.\n\n3. **Follow-Up:** Schedule a follow-up appointment in 4-6 weeks to reassess the patient's mental health status and the effectiveness of any interventions initiated. Encourage the patient to keep a journal of their stressors and coping mechanisms to discuss during the next visit.\n\n4. **Education:** Educate the patient on stress reduction techniques, including mindfulness practices, physical activity, and the importance of maintaining social connections, even if virtually.\n\n5. **Safety Assessment:** Conduct a thorough safety assessment to evaluate the impact of the reported violence in the environment. Discuss potential safety measures and resources available to the patient.\n\n6. **Medication Management:** If the patient\u00e2\u20ac\u2122s symptoms persist or worsen, consider the initiation of pharmacotherapy for anxiety or depression, contingent upon further evaluation by a mental health specialist.\n\n**Signature:**  \n[Provider Name, MD/DO]  \n[Provider Contact Information]  \n[Date of Note Completion]  \n\n**Note:** This clinical note is intended for documentation purposes and may be used for billing and coding related to the encounter. The findings and recommendations are based on the patient's self-reported symptoms and should be followed up with appropriate referrals and interventions.",
+      "encounter_date": "2021-11-28",
+      "source_file": "synthea_native",
+      "encounter_metadata": {
+        "resource_type": "Encounter",
+        "synthea_type": "wellness",
+        "synthea_name": "Encounter Module Scheduled Wellness",
+        "classification": {
+          "is_relevant": true,
+          "confidence": 0.85,
+          "reason": "The encounter includes findings related to stress and reports of violence, which may indicate underlying mental health issues that could lead to higher costs if not addressed. Limited social contact can also contribute to mental health challenges.",
+          "category": "moderate_cost",
+          "cost_indicators": [
+            "mental health treatment",
+            "potential therapy sessions",
+            "medication management",
+            "increased healthcare utilization due to stress-related conditions"
+          ]
+        },
+        "processing_timestamp": "2025-10-25T03:15:49.587523"
+      }
+    },
+    {
+      "date": "2025-10-28T12:18:35.145651",
+      "type": "other_text_data",
+      "document_type": "medical_provider_letter",
+      "document_text": "[Physician's Letterhead]  \nDr. Emily Johnson  \n123 Health St.  \nCityville, ST 12345  \nPhone: (555) 123-4567  \nFax: (555) 765-4321  \nDate: 01/15/2024  \n\nInsurance Adjuster  \nXYZ Insurance Company  \n456 Insurance Ave.  \nCityville, ST 54321  \n\nRE: Claimant AK - Claim Number: CLM123456  \nPolicy Number: POL987654  \n\nDear Insurance Adjuster,  \n\nI am writing to provide a detailed summary of the medical treatment and progress for my patient, AK, a 26-year-old warehouse worker who sustained injuries as a result of a fall from a height of approximately 5 feet on November 28, 2021, while unloading boxes at the Downtown Warehouse located at 123 Main St, Cityville. The incident was witnessed by John Doe and Jane Smith and involved a forklift and pallet jack.  \n\n**Clinical Summary:**  \nAK presented to my office on November 29, 2021, with a primary injury of a fractured left wrist and a secondary sprained right ankle. Initial treatment included immobilization of the wrist with a splint and a prescription for pain medication.  \n\n**Examination Findings:**  \nUpon examination, the left wrist exhibited significant swelling and tenderness. X-rays confirmed a distal radius fracture. The right ankle showed mild swelling but was stable with no signs of fracture. Neurological examination revealed DTRs WNL and no signs of neurovascular compromise.  \n\n**Treatment Plan:**  \nAK underwent surgical intervention on December 12, 2021, to repair the wrist fracture. Post-operative care included regular follow-ups and physical therapy (PT) sessions initiated on January 15, 2022. AK was compliant with the PT regimen, and by April 10, 2022, he achieved full range of motion (ROM) in the wrist.  \n\n**Prognosis:**  \nAK reached maximum medical improvement (MMI) on July 15, 2022. He was cleared to return to modified duties on June 1, 2022. Given the nature of his injuries and the successful rehabilitation, I anticipate a favorable long-term outcome. However, I recommend continued monitoring for any potential late-onset complications.  \n\n**Work Restrictions:**  \nAt this time, AK is capable of performing light-duty work with restrictions on heavy lifting and repetitive wrist movements for the next 6 months. A follow-up evaluation is scheduled for July 2024 to reassess his condition and work capabilities.  \n\nPlease feel free to contact my office if you require any additional information or clarification regarding this case. Thank you for your attention to this matter.  \n\nSincerely,  \n\nDr. Emily Johnson  \n[Signature]  \n\n[Physician's License Number]  \n[Additional Contact Information if necessary]  \n\n**Note:** This letter may contain medical abbreviations and terminology that are standard in healthcare communication.",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:18:35.145651",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Medical Provider Letter",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 17.53320900001563,
+        "tokens": {
+          "prompt_tokens": 809,
+          "completion_tokens": 714,
+          "total_tokens": 1523
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:18:52.353083",
+      "type": "other_text_data",
+      "document_type": "phone_transcript",
+      "document_text": "[Background noise]\n\n**Insurance Rep:** Thank you for calling, this is Sarah from Cityville Insurance. How can I help you today?\n\n**Claimant AK:** Hi, uh, this is AK. I\u2019m calling about my claim, CLM123456?\n\n**Insurance Rep:** Sure, AK! I see your claim here. It looks, um, like it was from an incident on November 28th, 2021, right?\n\n**Claimant AK:** Yeah, that\u2019s correct. I was unloading some boxes at the, um, downtown warehouse, and I fell from about five feet.\n\n**Insurance Rep:** Oh no! That sounds rough. Was anyone with you at the time?\n\n**Claimant AK:** Yeah, there were a couple of guys there, John Doe and Jane Smith. They, um, saw the whole thing...\n\n**Insurance Rep:** Got it, thank you for that. And uh, can you tell me about your injuries?\n\n**Claimant AK:** Yeah, so I fractured my left wrist, and I also sprained my right ankle. They put me in a splint and, um, gave me some pain meds right after.\n\n**Insurance Rep:** Right, I see that here. You had surgery on the wrist on December 12th, is that correct?\n\n**Claimant AK:** Yes, that\u2019s what Dr. Emily Johnson told me... uh, I had to get a plate put in.\n\n**Insurance Rep:** Okay, thanks for clarifying that. And after surgery, you started physical therapy in January?\n\n**Claimant AK:** Right! I began PT on January 15th, and I, uh, finally got full range of motion back on April 10th.\n\n**Insurance Rep:** That\u2019s great to hear! And I see you returned to work on modified duties in June? \n\n**Claimant AK:** Yeah, um, I was back at work June 1st, but I couldn't do all my normal tasks yet.\n\n**Insurance Rep:** Understood. And your maximum medical improvement was reached on July 15th, correct?\n\n**Claimant AK:** Yes, that\u2019s right. But it was a long process, you know? \n\n**Insurance Rep:** I can imagine. Um, so what's the next step for you? We will need to gather all of your medical records and any lost wage documentation...  \n\n**Claimant AK:** Okay, I can do that. I have most of my records from, um, Dr. Mark Lee and Dr. Johnson.\n\n**Insurance Rep:** Perfect! You can send those to us via email or fax. Do you have our fax number?\n\n**Claimant AK:** I think I do, um, let me just grab it... [muffled sounds] Okay, I\u2019ve got it.\n\n**Insurance Rep:** Great! Once we have all the info, we can begin processing your claim. Is there anything else you need help with?\n\n**Claimant AK:** No, that\u2019s all for now. Thank you so much!\n\n**Insurance Rep:** You\u2019re welcome! Just give us a shout if you have more questions. Have a great day!\n\n**Claimant AK:** You too! Bye.\n\n[Call ends]",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:18:52.353083",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Initial Phone Call Transcript",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 17.192379500018433,
+        "tokens": {
+          "prompt_tokens": 834,
+          "completion_tokens": 747,
+          "total_tokens": 1581
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:19:14.783325",
+      "type": "other_text_data",
+      "document_type": "settlement_adjuster_notes",
+      "document_text": "Settlement Adjuster Notes for Claim CLM123456\n\nClaimant: AK  \nAge: 26  \nOccupation: Warehouse Worker  \nPolicy No: POL987654  \nIncident Date: 11/28/2021  \nReported Date: 12/05/2021  \n\n**Medical Treatment Summary:**  \nClaimant AK sustained a fractured left wrist and a sprained right ankle due to a fall from a height of 5 feet while unloading boxes at work. Initial treatment commenced 1 day post-incident (11/29/21) with Dr. Emily Johnson, who immobilized the wrist and prescribed pain medication. Surgery was performed on 12/12/21 to repair the fracture. Following surgery, AK began physical therapy (PT) on 01/15/2022, progressing well and achieving full range of motion by 04/10/2022. AK returned to modified work duties on 06/01/2022 and reached Maximum Medical Improvement (MMI) on 07/15/2022.\n\n**Total Expenses Calculation:**  \n- Medical Expenses:  \n  - Surgery: $2,500  \n  - Physical Therapy: 12 sessions x $150 = $1,800  \n  - Medications: ~$300  \nTotal Medical Expenses: $4,600  \n\n- Wage Loss Analysis:  \nAK was unable to work from the incident date until 06/01/22, totaling approx. 6 months. Given AK's wage of $3,000/month, wage loss calculates to:  \n($3,000 x 6 months = $18,000)  \n\n- Total Expenses (Medical + Wage Loss):  \n$4,600 + $18,000 = $22,600  \n\n**Settlement Analysis:**  \nBased on the severity of the injuries and the extensive treatment required, a settlement in the ballpark of $22,600 is justified. This includes compensation for pain and suffering (estimated at ~$10,000). Therefore, total settlement recommendation is approx. $32,600.  \n\n**Negotiation Strategy:**  \n- Initial offer to be set at $28,000 to allow room for negotiation.  \n- Highlight the permanent effects of the injury on AK\u2019s day-to-day activities and work capabilities.  \n- Emphasize the medical documentation supporting the claim and the full compliance with treatment protocols.  \n\n**Settlement Authority Recommendation:**  \nRecommend approval for settlement authority up to $32,600 based on the comprehensive nature of the claim, medical expenses, and wage loss analysis. Further discussions with legal counsel may be warranted to finalize negotiation strategy.  \n\n**Additional Notes:**  \n- Per 2/15 phone call, claimant remains compliant with all follow-ups and treatment plans.  \n- Review of prior notes show no discrepancies in the claim history.  \n\nEnd of report.",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:19:14.783325",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Settlement Adjuster Notes",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 22.414393300015945,
+        "tokens": {
+          "prompt_tokens": 850,
+          "completion_tokens": 670,
+          "total_tokens": 1520
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:19:30.140924",
+      "type": "other_text_data",
+      "document_type": "claimant_statement",
+      "document_text": "I, AK, am writing this statement about the incident that happened on November 28th, 2021, while I was working at the Downtown Warehouse located at 123 Main St, Cityville. It was a typical day at work, we were unloading a shipment of boxes from a truck, and I was using a pallet jack to move some boxes closer to the loading dock. I guess I was not really paying attention to my balancing, and before I knew it, I tripped over a stray box that was left on the ground, and I fell from a height of about 5 feet. It all happened so fast, I couldn't believe it, I was just trying to do my job, you know??? \n\nThe impact was harsh, my left wrist took the brunt of the fall, and it really, really hurt - I felt an immediate pain shooting through my whole arm. My right ankle got sprained too on impact when I tried to catch myself. The guys, like John Doe and Jane Smith, witnessed the whole thing and rushed to help me. They called for help, and I was brought to the local hospital on November 29th where Dr. Emily Johnson examined my injuries and treated my wrist with a splint since it was so messed up. \n\nI later learned that I had a fracture in my wrist, and on December 12th, I had to undergo surgery to fix it. The pain was just so so painful, and I couldn\u2019t do a lot of the things I usually did at home. I couldn\u2019t even lift a glass without wincing in pain - it was a total nightmare!!! The struggle to get comfortable and the constant throbbing feeling was unbearable!!!  After the surgery, I began my physical therapy sessions with Dr. Mark Lee on January 15th 2022... and it took a good while to rehab, but I eventually regained full range of motion by April 10th, 2022. \n\nEmotionally, this incident completely turned my life upside down. I went from being independent and hardworking to needing assistance with simple tasks. I was feeling pretty down, and it was hard returning to work. I managed to return to modified duties on June 1st, 2022 although I still felt anxious about my wrist and whether it was really healed. After what felt like forever, I finally achieved maximum medical improvement on July 15th, 2022, but it was a long, painful road.\n\nThis incident impacted my daily life significantly, work was no longer just about lifting boxes, it became about dealing with this fear of re-injury, and I had to constantly remind myself to not push too hard!!!! I feel like my quality of life was affected by this injury and I don't want any other worker to go through what I did. Thank you for considering my claim!!!",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:19:30.140924",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Claimant Statement",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 15.344035800022539,
+        "tokens": {
+          "prompt_tokens": 835,
+          "completion_tokens": 620,
+          "total_tokens": 1455
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:19:51.029122",
+      "type": "other_text_data",
+      "document_type": "adjuster_notes_initial",
+      "document_text": "**Initial Adjuster Notes for Claim CLM123456**  \n**Date:** 01/15/2024  \n**Time:** 10:30am  \n**Adjuster:** John Smith, Adjuster ID: 45678  \n  \n**Claimant Info:**  \n- Name: AK  \n- Age: 26, Occupation: Warehouse Worker  \n- Policy No: POL987654  \n  \n**Incident Overview:**  \n- Date of Incident: 11/28/2021  \n- Location: Downtown Warehouse, 123 Main St, Cityville  \n- Mechanism of Injury: Fell from height of approx 5 ft while unloading boxes.  \n- Witnesses: John Doe, Jane Smith (statements pending).  \n- Equipment: Forklift, Pallet Jack involved.  \n  \n**Injury Assessment:**  \n- Primary Injury: Fractured left wrist  \n- Secondary Injuries: Sprained right ankle  \n- Treating Drs: Dr. Emily Johnson (wrist) & Dr. Mark Lee (ankle).  \n- Initial Tx included immobilization of wrist w/ splint + pain meds.  \n- Surgery for wrist fracture occurred on 12/12/2021.  \n- PT started on 1/15/2022. Full ROM achieved by 4/10/2022.  \n- Claimant returned to modified duties on 6/1/2022.  \n- MMI reached on 7/15/2022.  \n  \n**Liability Evaluation:**  \n- Preliminary review suggests potential employer liability due to unsafe unloading procedures.  \n- Further investigation required, including witness statements & safety protocols.  \n  \n**Initial Actions Taken:**  \n- Reviewed claim file and medical records for completeness.  \n- Performed initial contact w/ claimant on 1/10/2024.  \n- Scheduled IME for 1/22/2024 to assess current status of injuries.  \n- Requested LOI from treating physicians regarding future treatment plans.  \n- Sent follow-up email to clmt re: status of pending documents.  \n  \n**Next Steps:**  \n- Review IME results once received.  \n- Obtain witness statements (John Doe, Jane Smith) by 1/25/2024.  \n- Evaluate potential for BI claim.  \n- Continue communications w/ clmt and medical providers.  \n- Prepare for possible QME if necessary based on IME findings.  \n  \n**Notes:**  \n- Need to clarify any additional Tx required post-PT.  \n- Follow-up on any missed appointments or complications.  \n- Ensure all documentation is accurate and complete for further eval.",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:19:51.029122",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Initial Adjuster Notes",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 20.87736169999698,
+        "tokens": {
+          "prompt_tokens": 833,
+          "completion_tokens": 660,
+          "total_tokens": 1493
+        }
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_type": "fhir_processor",
+    "bundle_file": "Aubrey96_Kunde533_a793a189-7e7f-48b6-ea63-43036cef8d3d.json",
+    "processing_timestamp": "2025-10-25T03:15:49.588581",
+    "total_encounters_evaluated": 3,
+    "relevant_encounters": 2,
+    "processing_stats": {
+      "total_evaluated": 3,
+      "relevant_encounters": 2,
+      "classification_errors": 0,
+      "note_generation_errors": 0,
+      "api_calls": 0,
+      "total_cost": 0.0,
+      "skipped_irrelevant": 1
+    },
+    "cost_summary": {
+      "total_cost": 0.00313095,
+      "total_calls": 15,
+      "total_tokens": 7847,
+      "average_cost_per_call": 0.00020873
+    },
+    "processor_version": "enhanced_v1.0",
+    "synthetic_documents_added": {
+      "timestamp": "2025-10-28T12:19:51.031144",
+      "generator": "synthetic_document_generator",
+      "documents_added": 5,
+      "total_encounters": 7
+    }
+  }
+}

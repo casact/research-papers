@@ -1,0 +1,129 @@
+{
+  "batch_summary": {
+    "total_files": 1,
+    "successful": 1,
+    "failed": 0,
+    "stage1_success": 1,
+    "stage2_success": 1,
+    "total_documents_processed": 5,
+    "total_processing_time": 237.5997676999541,
+    "total_cost": 0.014925899999999999,
+    "timestamp": "2026-03-03T20:20:44.092138"
+  },
+  "detailed_statistics": {
+    "stage1_stats": {
+      "documents_processed": 0,
+      "successful": 5,
+      "failed": 0,
+      "cost": 0.008632349999999999
+    },
+    "stage2_stats": {
+      "aggregations_processed": 0,
+      "successful": 1,
+      "failed": 0,
+      "cost": 0.006293549999999999
+    },
+    "cost_breakdown": {
+      "medical_provider_letter": 0.0017475,
+      "settlement_adjuster_notes": 0.0018419999999999999,
+      "adjuster_notes_initial": 0.00181815,
+      "phone_transcript": 0.0015733499999999998,
+      "claimant_statement": 0.0016513499999999998
+    },
+    "token_breakdown": {
+      "total_input": 111916,
+      "total_output": 21774,
+      "total_usage": 133690,
+      "by_stage": {
+        "stage1": {
+          "input": 62722,
+          "output": 13094,
+          "total": 75816
+        },
+        "stage2": {
+          "input": 49194,
+          "output": 8680,
+          "total": 57874
+        }
+      },
+      "by_document_type": {
+        "medical_provider_letter": {
+          "input": 13428,
+          "output": 2468,
+          "total": 15896
+        },
+        "settlement_adjuster_notes": {
+          "input": 14608,
+          "output": 2488,
+          "total": 17096
+        },
+        "adjuster_notes_initial": {
+          "input": 11018,
+          "output": 3306,
+          "total": 14324
+        },
+        "phone_transcript": {
+          "input": 11578,
+          "output": 2350,
+          "total": 13928
+        },
+        "claimant_statement": {
+          "input": 12090,
+          "output": 2482,
+          "total": 14572
+        }
+      }
+    },
+    "success_rates": {
+      "stage1": {
+        "medical_provider_letter": {
+          "successful": 1,
+          "attempted": 1
+        },
+        "settlement_adjuster_notes": {
+          "successful": 1,
+          "attempted": 1
+        },
+        "adjuster_notes_initial": {
+          "successful": 1,
+          "attempted": 1
+        },
+        "phone_transcript": {
+          "successful": 1,
+          "attempted": 1
+        },
+        "claimant_statement": {
+          "successful": 1,
+          "attempted": 1
+        }
+      },
+      "stage2": {
+        "successful": 1,
+        "attempted": 1
+      }
+    },
+    "method_performance": {
+      "function_calling": {
+        "success": 6,
+        "total": 6,
+        "cost": 0.014925899999999999
+      }
+    }
+  },
+  "claim_details": [
+    {
+      "claim_id": 4596967859,
+      "file": "C:\\Path\\output\\2_data-add_documents\\AB_4596967859_with_other_text_data.json",
+      "success": true,
+      "stage1_documents": 5,
+      "processing_time": 237.59751960006543,
+      "cost": 0.014925899999999999,
+      "errors": []
+    }
+  ],
+  "processing_metadata": {
+    "config_file": "None",
+    "total_api_calls": 0,
+    "cloud_enabled": false
+  }
+}

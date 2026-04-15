@@ -1,0 +1,198 @@
+{
+  "name": "extract_phone_transcript_features",
+  "description": "Extract structured features from initial phone call transcript for early claim assessment",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "structured_features": {
+        "type": "object",
+        "description": "Structured features from phone transcript",
+        "properties": {
+          "incident_type": {
+            "type": "string",
+            "description": "Type of incident (e.g., 'fall from height', 'struck by equipment', 'repetitive motion', 'lifting injury')"
+          },
+          "incident_date": {
+            "type": "string",
+            "description": "Date of incident if mentioned (YYYY-MM-DD format)"
+          },
+          "body_parts_affected": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "List of affected body parts mentioned by claimant (e.g., ['lower back', 'right shoulder'])"
+          },
+          "injury_type_and_body_part": {
+            "type": "string",
+            "description": "Specific injury and affected body part (e.g., 'lower back strain from lifting', 'right shoulder rotator cuff injury', 'left knee contusion')"
+          },
+          "initial_pain_level": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10,
+            "description": "Pain level on 1-10 scale if mentioned by claimant"
+          },
+          "immediate_functional_limitations": {
+            "type": "string",
+            "description": "Functional restrictions described by claimant (e.g., 'cannot lift, limited walking', 'unable to use right arm', 'difficulty standing')"
+          },
+          "emergency_care_required": {
+            "type": "boolean",
+            "description": "Whether emergency room or hospital care was required or mentioned"
+          },
+          "claimant_age_and_occupation": {
+            "type": "object",
+            "properties": {
+              "age": {"type": "number"},
+              "occupation": {"type": "string"}
+            },
+            "description": "Claimant's age and job type information if mentioned"
+          },
+          "mechanism_of_injury": {
+            "type": "string",
+            "description": "How injury occurred (e.g., 'lifting_heavy_object', 'fall_from_ladder', 'struck_by_equipment', 'repetitive_motion')"
+          },
+          "safety_protocol_compliance": {
+            "type": "string",
+            "enum": ["full", "partial", "none", "unknown"],
+            "description": "Level of safety protocol compliance: full (all protocols followed), partial (some protocols followed), none (no protocols followed), unknown (not discussed)"
+          },
+          "equipment_involvement": {
+            "type": "string",
+            "description": "Equipment involved in injury (e.g., 'concrete vibrator', 'forklift', 'ladder', 'none')"
+          },
+          "witness_availability": {
+            "type": "boolean",
+            "description": "Whether witnesses to the incident are available"
+          },
+          "hospital_er_treatment": {
+            "type": "boolean",
+            "description": "Whether hospital or emergency room treatment was mentioned or received"
+          },
+          "specialist_referral": {
+            "type": "boolean",
+            "description": "Whether specialist referral was mentioned or recommended"
+          },
+          "surgery_potential": {
+            "type": "boolean",
+            "description": "Whether surgery was discussed as a potential treatment"
+          },
+          "work_absence_expected": {
+            "type": "string",
+            "description": "Expected time off work (e.g., '2_weeks', '1_month', '3_months', 'unknown')"
+          },
+          "claimant_cooperation_level": {
+            "type": "string",
+            "enum": ["high", "medium", "low"],
+            "description": "Level of claimant cooperation during phone call"
+          },
+          "narrative_consistency": {
+            "type": "string",
+            "enum": ["consistent", "inconsistent"],
+            "description": "Whether claimant's story is internally consistent"
+          },
+          "immediate_reporting": {
+            "type": "boolean",
+            "description": "Whether incident was reported promptly (same day or next day)"
+          },
+          "family_financial_pressure": {
+            "type": "string",
+            "enum": ["high", "medium", "low", "unknown"],
+            "description": "Indicators of family financial pressure that might influence claim behavior"
+          },
+          "injury_severity_initial": {
+            "type": "string",
+            "enum": ["minor", "moderate", "major", "catastrophic"],
+            "description": "Initial injury severity assessment based on claimant's description"
+          },
+          "liability_indicators": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Liability indicators mentioned (e.g., ['equipment malfunction', 'no safety training', 'wet floor'])"
+          },
+          "immediate_medical_attention": {
+            "type": "boolean",
+            "description": "Whether claimant received immediate medical attention"
+          },
+          "medical_facility_type": {
+            "type": "string",
+            "enum": ["emergency_room", "urgent_care", "primary_care", "none"],
+            "description": "Type of medical facility visited initially"
+          },
+          "work_stoppage": {
+            "type": "boolean",
+            "description": "Whether claimant stopped working immediately after incident"
+          },
+          "estimated_time_off_work_days": {
+            "type": "number",
+            "description": "Initial estimate of time off work in days (claimant's expectation)"
+          },
+          "credibility_assessment": {
+            "type": "string",
+            "enum": ["high", "medium", "low"],
+            "description": "Initial credibility assessment based on account consistency and detail level"
+          },
+          "red_flags": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Any red flags identified (e.g., ['inconsistent timeline', 'delayed reporting', 'vague details'])"
+          },
+          "witness_mentioned": {
+            "type": "boolean",
+            "description": "Whether witnesses to the incident were mentioned"
+          },
+          "prior_injuries_mentioned": {
+            "type": "boolean",
+            "description": "Whether claimant mentioned any prior injuries to same body part"
+          }
+        },
+        "required": [
+          "incident_type",
+          "incident_date",
+          "body_parts_affected",
+          "injury_type_and_body_part",
+          "initial_pain_level",
+          "immediate_functional_limitations",
+          "emergency_care_required",
+          "mechanism_of_injury",
+          "safety_protocol_compliance",
+          "equipment_involvement",
+          "witness_availability",
+          "hospital_er_treatment",
+          "specialist_referral",
+          "surgery_potential",
+          "work_absence_expected",
+          "claimant_cooperation_level",
+          "narrative_consistency",
+          "immediate_reporting"
+        ]
+      },
+      "narrative_analysis": {
+        "type": "string",
+        "description": "Rich text analysis (400-800 characters) covering: (1) Summary of claimant's account and incident details, (2) Initial risk assessment based on severity indicators and mechanism, (3) Red flags, credibility concerns, or positive indicators identified, (4) Early cost predictors and expected claim trajectory, (5) Recommended next steps for claim handling and investigation"
+      },
+      "confidence_metadata": {
+        "type": "object",
+        "properties": {
+          "overall_confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Confidence in extracted information from phone transcript (often lower than formal documents)"
+          },
+          "data_quality": {
+            "type": "string",
+            "enum": ["excellent", "good", "fair", "poor"],
+            "description": "Quality of phone transcript (clarity, completeness, audio quality)"
+          },
+          "missing_information": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Critical information not captured in initial phone call"
+          }
+        },
+        "required": ["overall_confidence", "data_quality", "missing_information"]
+      }
+    },
+    "required": ["structured_features", "narrative_analysis", "confidence_metadata"]
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "claim_id": 7909573436,
+  "patient_initials": "AG",
+  "patient_metadata": {
+    "age": "43",
+    "gender": "Male",
+    "name": "Antione404 Sheldon401 Gerhold939"
+  },
+  "encounters": [
+    {
+      "encounter_id": "7a819d1a-21ca-d7c8-9aab-c0b7e6400244",
+      "document_type": "clinical_note",
+      "document_text": "**Clinical Note**\n\n**Patient Name:** [Patient Name]  \n**Date of Encounter:** February 26, 1974  \n**Encounter Type:** Wellness  \n**Encounter Name:** Encounter Module Scheduled Wellness  \n**Encounter Cost:** $136.80  \n\n**Chief Complaint:**  \nThe patient presents for a scheduled wellness check. No acute complaints reported; however, the patient expresses concerns regarding living conditions and educational background.\n\n**Assessment:**  \nDuring the wellness examination, the following findings were noted:\n\n1. **Housing Unsatisfactory:** The patient reports living in substandard housing conditions, which may contribute to potential health risks. The living environment is characterized by inadequate sanitation, lack of heating, and overcrowding. These factors are significant social determinants of health that could lead to increased healthcare utilization and chronic health issues over time.\n\n2. **Only Received Primary School Education:** The patient has completed only primary school education, which may limit access to health information and resources. This educational background may also impact the patient's ability to navigate the healthcare system effectively and understand health-related information, potentially leading to poorer health outcomes.\n\n**Plan:**  \n1. **Social Determinants of Health Assessment:** Refer the patient to a social worker for a comprehensive assessment of housing conditions and educational resources. The social worker will assist in identifying community resources and programs that may provide support for housing improvement and educational opportunities.\n\n2. **Health Education:** Provide the patient with educational materials regarding health maintenance, preventive care, and available community resources. Schedule a follow-up appointment to discuss the information and address any questions.\n\n3. **Routine Health Screenings:** Recommend routine screenings based on age and risk factors, including:\n   - Blood pressure monitoring\n   - Lipid panel\n   - Blood glucose testing\n   - Immunizations as per CDC guidelines\n\n4. **Follow-Up Appointment:** Schedule a follow-up visit in 3 months to reassess the patient\u00e2\u20ac\u2122s health status, review any changes in living conditions, and evaluate the effectiveness of the interventions initiated.\n\n5. **Documentation and Billing:** Ensure that all findings and interventions are documented appropriately for billing purposes. The encounter will be billed under wellness check with additional considerations for social determinants of health.\n\n**Conclusion:**  \nThe patient\u00e2\u20ac\u2122s wellness check revealed significant social determinants that may impact health outcomes. A multidisciplinary approach involving social services and health education is essential to address these issues and promote better health management. The total cost of the encounter is $136.80, categorized as low cost with potential implications for future healthcare needs.\n\n**Provider Signature:**  \n[Provider Name, Credentials]  \n[Provider Contact Information]  \n[Date of Note Completion]",
+      "encounter_date": "1974-02-26",
+      "source_file": "synthea_native",
+      "encounter_metadata": {
+        "resource_type": "Encounter",
+        "synthea_type": "wellness",
+        "synthea_name": "Encounter Module Scheduled Wellness",
+        "classification": {
+          "is_relevant": true,
+          "confidence": 0.7,
+          "reason": "While the encounter is a wellness check, the findings of unsatisfactory housing and limited education may indicate underlying social determinants of health that could lead to increased healthcare needs and costs over time.",
+          "category": "low_cost",
+          "cost_indicators": [
+            "potential for increased healthcare utilization",
+            "impact of social determinants on health",
+            "need for future interventions"
+          ]
+        },
+        "processing_timestamp": "2025-10-25T02:00:04.986204"
+      }
+    },
+    {
+      "date": "2025-10-28T12:12:14.562778",
+      "type": "other_text_data",
+      "document_type": "medical_provider_letter",
+      "document_text": "[Your Medical Practice Name]  \n[Your Address]  \n[City, State, Zip Code]  \n[Phone Number]  \n[Date: January 15th, 1974]  \n\n[Insurance Company Name]  \n[Insurance Adjuster Name]  \n[Insurance Company Address]  \n[City, State, Zip Code]  \n\nRE: Claimant: AG  \nClaim Number: CLM-19740226-001  \nPolicy Number: POL-AG-1974-002  \n\nDear [Insurance Adjuster Name],  \n\nI am writing to provide a comprehensive medical summary regarding my patient, AG, who sustained injuries on February 26, 1974, while working at a downtown construction site. As per your request, I am detailing the clinical findings, treatment plan, prognosis, and work restrictions for your review.  \n\n**Clinical Summary:**  \nAG, a 43-year-old construction worker, presented to our facility on February 27, 1974, with a primary complaint of severe pain and swelling in the left wrist following a fall from scaffolding. Initial examination revealed a fractured left wrist, contusions on the right knee, and a sprained left ankle. An X-ray performed on the same day confirmed the fracture.  \n\n**Examination Findings:**  \nUpon physical examination, the following findings were noted:  \n- Left wrist: Deformity with limited range of motion (ROM), tenderness, and swelling.  \n- Right knee: Bruising with full passive range of motion, no instability.  \n- Left ankle: Mild swelling and tenderness, with negative anterior drawer test.  \n\n**Treatment Plan:**  \nAG was treated with immobilization of the left wrist using a cast, and pain management was initiated with NSAIDs prescribed prn. On March 5, 1974, AG underwent surgical intervention for the wrist fracture, which included open reduction and internal fixation. Post-operative care included physical therapy (PT) starting March 15, 1974, focusing on regaining strength and mobility.  \n\n**Prognosis:**  \nAG has shown significant progress since the initiation of treatment. As of June 1, 1974, he has reached maximum medical improvement (MMI) with a functional capacity to perform modified duties at work. The prognosis for full recovery is good, although some limitations in wrist motion may persist.  \n\n**Work Restrictions:**  \nI recommend that AG continues with modified duties, avoiding heavy lifting and repetitive wrist movements for the next 6 weeks. A follow-up evaluation is scheduled for July 15, 1974, to reassess his condition and determine any further work restrictions.  \n\nPlease feel free to reach out if you require any additional information or clarification regarding AG's treatment and recovery process. Thank you for your attention to this matter.  \n\nSincerely,  \nDr. Richard Lee, MD  \n[Your Medical Practice Name]  \n[Your Medical License Number]  \n[Contact Information]  \n\n**Attachments:**  \n- Medical Records  \n- Treatment Plan  \n- Progress Notes  \n\n*This letter is intended for the use of the individual or entity to which it is addressed and may contain information that is privileged or confidential.*",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:12:14.562778",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Medical Provider Letter",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 23.24790800001938,
+        "tokens": {
+          "prompt_tokens": 781,
+          "completion_tokens": 762,
+          "total_tokens": 1543
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:13:00.566329",
+      "type": "other_text_data",
+      "document_type": "phone_transcript",
+      "document_text": "[Background noise of a busy office]\n\n**Insurance Rep (IR):** Thank you for calling Bright Future Insurance, this is Lisa speaking. How can I assist you today?\n\n**Claimant (AG):** Hi, uh, this is AG. I\u2019m calling about my claim, um... CLM-19740226-001. \n\n**IR:** Okay, AG. Let me pull up your file. Just a sec... [typing noises] Alright, I see here that you reported an incident happened on February 26th at a, um, construction site downtown?\n\n**AG:** Yeah, that's right. I was, um, working on some maintenance, and I fell from the scaffolding. It was, uh, really scary. I think I... I didn\u2019t see that the harness got, like, loose or something.\n\n**IR:** Oh no! That sounds terrible. So, I see you have a fractured left wrist. Did anything else happen during the fall? \n\n**AG:** Yeah, I also hurt my right knee \u2013 uh, contusions or something like that, and I sprained my left ankle too. I was really in a lot of pain... \n\n**IR:** I can only imagine. And you mentioned you were treated by Dr. Richard Lee and Dr. Sarah Connors?\n\n**AG:** Right, uh, Dr. Lee did the surgery on March 5th. It was for the wrist, and they, uh, put me in a cast afterward. \n\n**IR:** Got it. And you started physical therapy after that, correct?\n\n**AG:** Yeah, I started physical therapy on March 15th... um, pretty soon after the surgery. It was tough but necessary, I guess. \n\n**IR:** That\u2019s good to hear you\u2019re getting the treatment you need. So, you returned to modified duties on April 15th?\n\n**AG:** Yup, and they said I, uh, reached maximum medical improvement by June 1st. But, um, sometimes it still aches a bit, you know? \n\n**IR:** Understandable! We\u2019ll definitely take that into account. Alright, AG, so the next steps will be for you to submit any, um, medical records related to your treatment, like those from Dr. Lee and Dr. Connors, if you haven\u2019t already.  \n\n**AG:** Oh, I think I\u2019ve sent some of those, but I can double-check just to be sure.\n\n**IR:** Perfect! And once we, um, receive everything, we\u2019ll start the evaluation process and keep you updated as we go along. You might, um, hear from us within the next week or so?\n\n**AG:** Sounds good. I\u2019ll, uh, get those records sent over. Thank you for your help!\n\n**IR:** No problem at all, AG. It's my pleasure! If you need anything else in the meantime, don\u2019t hesitate to call back. Have a great day! \n\n**AG:** You too, bye! \n\n**IR:** Bye! [call disconnects]",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:13:00.566329",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Initial Phone Call Transcript",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 45.99253280000994,
+        "tokens": {
+          "prompt_tokens": 806,
+          "completion_tokens": 709,
+          "total_tokens": 1515
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:13:22.559513",
+      "type": "other_text_data",
+      "document_type": "settlement_adjuster_notes",
+      "document_text": "Claimant: AG (CLM-19740226-001)  \nAge: 43, Occupation: Construction Worker  \nIncident Date: 02/26/1974, Reported Date: 03/01/1974  \nLocation: Downtown Construction Site  \nMechanism of Injury: Fell from scaffolding while performing maintenance work  \nWitnesses: John Doe, Jane Smith  \n\n**Medical Treatment Summary:**  \n- Primary Injury: Fractured left wrist  \n- Secondary Injuries: Contusions on right knee, Sprained left ankle  \n- Treating Physicians: Dr. Richard Lee, Dr. Sarah Connors  \n- Initial Treatment: Immobilization with cast, pain management prescribed  \n- Key Milestones:  \n  - Initial X-ray on 02/27/1974  \n  - Surgery for wrist fracture on 03/05/1974  \n  - Physical Therapy (PT) started on 03/15/1974  \n- Maximum Medical Improvement (MMI) achieved on 06/01/1974  \n- Return to work status: Modified duties on 04/15/1974  \n\n**Total Expenses Calculation:**  \n- Medical Expenses:  \n  - Surgery: ~$4,000  \n  - PT (12 visits @ $500 each): ($500 x 12 visits = $6,000)  \n  - Follow-up visits: ~$1,500  \n  - Total Medical: ~$11,500  \n- Wage Loss Analysis:  \n  - Approx. 8 weeks off work @ $800/week = $6,400  \n- Total Expenses: ~$17,900  \n\n**Settlement Analysis:**  \n- Considering injuries and treatment, est. total expenses are $17,900.  \n- Claimant has suffered significant pain and suffering due to the injury.  \n- Current wage loss indicates a significant impact on claimant's life due to a construction worker's heavy reliance on physical ability.  \n\n**Negotiation Strategy:**  \n- Approach settlement discussions with a focus on total expenses, pain and suffering, and impact on future work capacity.  \n- Highlight the clear negligence (fall from scaffolding) and the presence of witnesses.  \n- Prepare to counter any low initial offers by emphasizing the long-term effects of the injuries.  \n\n**Settlement Authority Recommendation:**  \n- Recommend settlement authority up to $25,000 to allow for negotiation flexibility, taking into account the medical expenses, wage loss, and potential future implications of the claimant's injuries.  \n- Per file review, claimant's case is strong, and a fair settlement is advisable to mitigate further litigation risks.  \n\n**Conclusion:**  \nAG's case is well-documented, and with the medical treatment summary, total expenses calculated, and wage loss analysis, a reasonable settlement offer should be pursued. Negotiation should focus on the thorough documentation of the injuries, treatment, and financial impact on AG's life due to this incident.  \n\n**Next Steps:**  \n- Contact treating physicians for any additional medical documents.  \n- Schedule a follow-up meeting to discuss negotiation strategy.  \n- Ensure all documentation is filed correctly in the claim record.",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:13:22.559513",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Settlement Adjuster Notes",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 21.985043500026222,
+        "tokens": {
+          "prompt_tokens": 822,
+          "completion_tokens": 751,
+          "total_tokens": 1573
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:13:40.604609",
+      "type": "other_text_data",
+      "document_type": "claimant_statement",
+      "document_text": "I, AG, was working at the downtown construction site on February 26th, 1974, when the incident occured that changed everything for me. It was a regular day, or at least I thought so, and I was up on the scaffolding doing maintenance work, pretty typical for a construction worker like me. I had my safety harness on, but there was a moment when the scaffolding just... it wasn't stable, like it should've been, and before I knew it, I lost my balance and fell. It all happened so fast and I couldn't believe it. I hit the ground and felt a really, really sharp pain in my left wrist. I heard my wrist crack, and I knew immediately something was really wrong. I also landed awkwardly on my right knee and sprained my left ankle. After the fall, I was in so much pain, it was hard to think straight.\n\nJohn Doe and Jane Smith were there, and they witnessed the whole thing. I remember them rushing over to help me, but at that moment, I just wanted the pain to stop. I was taken in for my first treatment the next day, where Dr. Richard Lee did an X-ray and confirmed that my left wrist was fractured. I remember the fear of wondering how long it would take to heal and if I could even go back to work. They did surgery on March 5th to fix my wrist and put me in a cast, and I started physical therapy on March 15th.\n\nDuring my recovery, I was unable to do anything that I normally could, and it really, really hurt me emotionally. Not being able to work meant not only the physical impacts but also the mental toll; construction is my life, it's what I do best, and being sidelined was tough. I couldn\u2019t lift heavy things and could barely do simple tasks around the house, which made me feel useless. I was worried about finances, bills piling up, and how much time I would miss from work. I didn\u2019t return to work normally until April 15th, when I was finally able to do some modified duties.\n\nEven after I got back to work, my life didn\u2019t feel normal. I was constantly worried about my injuries and if I would ever be 'me' again. I felt like I was always limping or favoring my wrist and worried every time I climbed up scaffolding again. My wife noticed how much it affected me, always telling me to take it easy but I didn\u2019t want to let anyone down. By June 1st, I finally felt like I achieved my Maximum Medical Improvement, but the experience really changed me. The pain I endured was not just physical but emotional as well. I never thought an accident like this would impact my everyday life so much, but now, every time I'm on the site, I\u2019m reminded of that day.",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:13:40.604609",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Claimant Statement",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 18.030416699999478,
+        "tokens": {
+          "prompt_tokens": 807,
+          "completion_tokens": 623,
+          "total_tokens": 1430
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:14:00.666402",
+      "type": "other_text_data",
+      "document_type": "adjuster_notes_initial",
+      "document_text": "Adjuster Notes for Claim #: CLM-19740226-001  \nClaimant: AG  \nDate: 1/15/2024  \n\n10:30am spoke w/ clmt AG.  \n- AG, 43 y/o, construction worker, reported incident on 2/26/1974 at downtown construction site.  \n- Mechanism: fell from scaffolding while performing maintenance work.  \n- Witnesses: John Doe, Jane Smith present at time of incident.  \n\nInjury Assessment:  \n- Primary: Fractured left wrist.  \n- Secondary: Contusions on right knee, sprained left ankle.  \n- Treating Drs: Dr. Richard Lee, Dr. Sarah Connors.  \n- Initial Tx: immobilization of wrist w/ cast; pain management initiated.  \n- Timeline:  \n  - 2/27 - first medical treatment, X-ray done.  \n  - 3/5 - surgery for wrist fracture.  \n  - 3/15 - PT started.  \n  - 4/15 - returned to modified duties.  \n  - MMI achieved on 6/1.  \n\nLiability Evaluation:  \n- Initial review indicates potential liability on part of employer for lack of adequate safety measures (scaffolding issue).  \n- Need to gather LOI from witnesses (John & Jane).  \n\nInitial Actions Taken:  \n- Reviewed claim file and medical records.  \n- Contacted treating physicians for detailed Tx notes and prognosis.  \n- Obtained IME schedule for 2/20/2024.  \n\nNext Steps:  \n- Follow-up w/ SIU for any further investigation needed.  \n- Await medical records from Dr. Lee & Dr. Connors.  \n- Prepare for potential QME if disputes arise from IME findings.  \n- Email sent to clmt regarding next steps and upcoming appointments.  \n\nOverall, claimant appears to be recovering well but ongoing monitoring of Tx and impact on work abilities necessary.  \n- Need to assess BI and PD impacts for settlement considerations.  \n- Follow up on 2/20 IME results by 2/25 for evaluation.  \n\nEnd of notes.",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:14:00.666402",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Initial Adjuster Notes",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 20.050114300043788,
+        "tokens": {
+          "prompt_tokens": 805,
+          "completion_tokens": 545,
+          "total_tokens": 1350
+        }
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_type": "fhir_processor",
+    "bundle_file": "Antione404_Gerhold939_f86ceb29-43dd-03c5-8857-0f147d160b79.json",
+    "processing_timestamp": "2025-10-25T02:00:04.987206",
+    "total_encounters_evaluated": 1,
+    "relevant_encounters": 1,
+    "processing_stats": {
+      "total_evaluated": 1,
+      "relevant_encounters": 1,
+      "classification_errors": 0,
+      "note_generation_errors": 0,
+      "api_calls": 0,
+      "total_cost": 0.0,
+      "skipped_irrelevant": 0
+    },
+    "cost_summary": {
+      "total_cost": 0.0015498,
+      "total_calls": 8,
+      "total_tokens": 3981,
+      "average_cost_per_call": 0.000193725
+    },
+    "processor_version": "enhanced_v1.0",
+    "synthetic_documents_added": {
+      "timestamp": "2025-10-28T12:14:00.666402",
+      "generator": "synthetic_document_generator",
+      "documents_added": 5,
+      "total_encounters": 6
+    }
+  }
+}

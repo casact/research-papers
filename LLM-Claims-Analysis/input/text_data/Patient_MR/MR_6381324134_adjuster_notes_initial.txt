@@ -1,0 +1,203 @@
+# Initial Adjuster Investigation Notes
+
+**Claim Number:** 2024-MC-087432  
+**Adjuster:** Sarah Mitchell  
+**Date of Notes:** March 18, 2024  
+**Investigation Start Date:** March 15, 2024  
+
+---
+
+## CLAIM SUMMARY
+**Injured Worker:** Marcus J. Rodriguez, DOB 06/12/1989, Age 34  
+**Employer:** Hillside Construction LLC  
+**Policy Number:** WC-7429-TX-8841  
+**Date of Loss:** 03/14/2024 at 2:15 PM  
+**Date Reported:** 03/15/2024  
+**Injury:** Lumbar compression fracture L2 with secondary contusions  
+
+---
+
+## LIABILITY ASSESSMENT
+
+**Liability Determination:** ACCEPTED - Clear compensability  
+
+**Analysis:**
+- Injury occurred during course and scope of employment at active construction worksite
+- Employee performing assigned duties (concrete finishing) using employer-provided equipment
+- Equipment malfunction (concrete vibrator CV-4000) directly caused loss of balance and fall
+- Incident witnessed by multiple employees including site foreman and safety inspector
+- No evidence of intoxication, horseplay, or deviation from work duties
+- Workplace hazard (exposed rebar without caps) contributed to severity of injury
+
+**Contributing Factors:**
+- Equipment failure of gas-powered concrete vibrator
+- Exposed #5 rebar without safety caps installed
+- Standard construction site operations in progress
+
+**Compensability Ruling:** 100% work-related injury - no disputed issues identified
+
+---
+
+## COVERAGE ANALYSIS
+
+**Policy Status:** ACTIVE - Coverage confirmed  
+**Policy Period:** 01/01/2024 - 01/01/2025  
+**Premium Status:** Current - no outstanding payments  
+**Coverage Limits:** Statutory limits per Texas Workers' Compensation Act  
+
+**Employee Status Verification:**
+- Employment confirmed with HR Department 03/16/2024
+- Hire date: 04/15/2016 (8 years employment)
+- Position: Concrete Finisher, full-time employee
+- Union member: International Union of Operating Engineers Local 826
+- Average weekly wage calculation in progress - pending payroll records
+
+**Coverage Issues:** None identified  
+**Exclusions Applied:** None  
+**Subrogation Potential:** Investigating equipment manufacturer liability (concrete vibrator malfunction)
+
+---
+
+## MEDICAL REVIEW
+
+**Initial Treatment Summary:**
+- Emergency transport to Cedar Park Regional Medical Center on 03/14/2024
+- Treating physician: Dr. Amanda Chen (Emergency Medicine)
+- Diagnostic imaging: CT scan and MRI of lumbar spine completed
+- Confirmed diagnosis: L2 compression fracture with 25% vertebral height loss
+- Additional injuries: Right gluteal contusion, minor forearm abrasions
+
+**Current Medical Status:**
+- Released from ER same day with TLSO brace
+- Referred to Dr. Robert Hayes (Orthopedic Spine Specialist) - appointment scheduled 03/18/2024
+- Conservative treatment plan indicated
+- Total temporary disability status confirmed
+
+**Medical Bill Summary (as of 03/18/2024):**
+- Cedar Park Regional Medical Center ER: $4,200.00
+- Diagnostic imaging (CT/MRI): $3,200.00
+- DME (TLSO brace): $950.00
+- **Total medical to date: $8,350.00**
+
+**Medical Reasonableness:** Treatment appears appropriate and necessary for diagnosed injury
+
+---
+
+## WAGE LOSS ANALYSIS
+
+**Employment Information:**
+- Current position: Concrete Finisher
+- Physical demands: Heavy work (lifting 50+ lbs, prolonged standing/bending)
+- Union wages: $28.50/hour plus benefits
+- Regular schedule: 40 hours/week, occasional overtime
+
+**TTD Benefits Calculation:**
+- Average weekly wage: $1,140.00 (pending payroll verification)
+- TTD rate: $760.00/week (66.67% of AWW, subject to state maximum)
+- Effective date: 03/15/2024 (first day after 7-day waiting period)
+
+**Return-to-Work Prospects:** Limited due to heavy physical demands of position and spinal injury
+
+---
+
+## INVESTIGATION PLAN
+
+**Immediate Actions Required:**
+1. **Site Inspection** - Schedule within 5 days
+   - Photograph accident location and equipment
+   - Interview witnesses on-site
+   - Document safety protocols and rebar cap procedures
+   - Obtain equipment maintenance records
+
+2. **Witness Statements** - Complete by 03/22/2024
+   - James Patterson (Site Foreman) - priority interview
+   - Carlos Mendez (Co-worker)
+   - Sarah Kim (Safety Inspector)
+
+3. **Employer Documentation** - Request by 03/20/2024
+   - Incident report
+   - Safety training records
+   - Equipment maintenance logs for CV-4000 vibrator
+   - Payroll records for AWW calculation
+
+4. **Medical Records** - Authorize and obtain
+   - Complete ER records from Cedar Park Regional
+   - Orthopedic consultation notes from Dr. Hayes
+   - Prior medical history (2019 back strain, 2021 shoulder surgery)
+
+**Secondary Investigation Items:**
+- Equipment manufacturer contact (potential subrogation)
+- OSHA reportability determination
+- Union representative contact
+- Vocational assessment if prolonged disability indicated
+
+---
+
+## RESERVE RECOMMENDATIONS
+
+**Initial Reserve Setting:**
+- **Medical Reserve:** $65,000
+  - Conservative treatment estimate: $15,000
+  - Potential surgical intervention: $35,000
+  - Physical therapy/rehabilitation: $15,000
+- **Indemnity Reserve:** $45,000
+  - Estimated 26 weeks TTD: $19,760
+  - Potential permanency rating: $25,000
+- **Expense Reserve:** $8,000
+  - Legal/investigation costs
+  - IME if required
+  - Vocational services
+
+**Total Initial Reserve:** $118,000
+
+**Reserve Rationale:** Spinal compression fractures carry significant medical costs and disability potential. Conservative estimate based on similar claims and treating physician specialty. Reserve adequate to cover both conservative and surgical treatment scenarios.
+
+---
+
+## RISK ASSESSMENT
+
+**Litigation Potential:** LOW
+- Clear liability acceptance
+- Good faith investigation approach
+- Cooperative claimant with legitimate injury
+- Strong witness support
+
+**Red Flags:** None identified at this time
+
+**Monitoring Points:**
+- Treatment progression and compliance
+- Return-to-work cooperation
+- Potential for maximum medical improvement delays
+
+---
+
+## DIARY ENTRIES/FOLLOW-UP ACTIONS
+
+**03/20/2024:** Review payroll records and finalize AWW calculation  
+**03/22/2024:** Complete witness statements and site inspection  
+**03/25/2024:** Obtain orthopedic consultation report from Dr. Hayes  
+**04/01/2024:** Review medical progress and treatment plan  
+**04/15/2024:** Assess return-to-work potential and restrictions  
+**05/01/2024:** Reserve adequacy review  
+**05/15/2024:** Medical progress evaluation - surgical consultation status
+
+---
+
+## ADJUSTER NOTES
+
+**General Comments:**
+Claimant appears cooperative and motivated for recovery. Injury is clearly work-related with multiple witnesses. Employer demonstrates good safety awareness and immediate response to incident. Equipment malfunction suggests potential subrogation opportunity with manufacturer.
+
+Family situation (married with two children, primary breadwinner) creates appropriate financial pressure for timely claim resolution but no indicators of exaggerated symptoms or secondary gain motives.
+
+Recommend proactive claim management with early return-to-work planning and close medical monitoring.
+
+**Next Review Date:** 03/25/2024  
+**Priority Level:** Standard  
+**Special Handling:** None required at this time
+
+---
+
+**Adjuster:** Sarah Mitchell, CPCU  
+**Supervisor:** Robert Chen  
+**Date:** March 18, 2024

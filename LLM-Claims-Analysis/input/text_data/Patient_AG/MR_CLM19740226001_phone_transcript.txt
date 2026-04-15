@@ -1,0 +1,39 @@
+[Background noise of a busy office]
+
+**Insurance Rep (IR):** Thank you for calling Bright Future Insurance, this is Lisa speaking. How can I assist you today?
+
+**Claimant (AG):** Hi, uh, this is AG. I\u2019m calling about my claim, um... CLM-19740226-001. 
+
+**IR:** Okay, AG. Let me pull up your file. Just a sec... [typing noises] Alright, I see here that you reported an incident happened on February 26th at a, um, construction site downtown?
+
+**AG:** Yeah, that's right. I was, um, working on some maintenance, and I fell from the scaffolding. It was, uh, really scary. I think I... I didn\u2019t see that the harness got, like, loose or something.
+
+**IR:** Oh no! That sounds terrible. So, I see you have a fractured left wrist. Did anything else happen during the fall? 
+
+**AG:** Yeah, I also hurt my right knee \u2013 uh, contusions or something like that, and I sprained my left ankle too. I was really in a lot of pain... 
+
+**IR:** I can only imagine. And you mentioned you were treated by Dr. Richard Lee and Dr. Sarah Connors?
+
+**AG:** Right, uh, Dr. Lee did the surgery on March 5th. It was for the wrist, and they, uh, put me in a cast afterward. 
+
+**IR:** Got it. And you started physical therapy after that, correct?
+
+**AG:** Yeah, I started physical therapy on March 15th... um, pretty soon after the surgery. It was tough but necessary, I guess. 
+
+**IR:** That\u2019s good to hear you\u2019re getting the treatment you need. So, you returned to modified duties on April 15th?
+
+**AG:** Yup, and they said I, uh, reached maximum medical improvement by June 1st. But, um, sometimes it still aches a bit, you know? 
+
+**IR:** Understandable! We\u2019ll definitely take that into account. Alright, AG, so the next steps will be for you to submit any, um, medical records related to your treatment, like those from Dr. Lee and Dr. Connors, if you haven\u2019t already.  
+
+**AG:** Oh, I think I\u2019ve sent some of those, but I can double-check just to be sure.
+
+**IR:** Perfect! And once we, um, receive everything, we\u2019ll start the evaluation process and keep you updated as we go along. You might, um, hear from us within the next week or so?
+
+**AG:** Sounds good. I\u2019ll, uh, get those records sent over. Thank you for your help!
+
+**IR:** No problem at all, AG. It's my pleasure! If you need anything else in the meantime, don\u2019t hesitate to call back. Have a great day! 
+
+**AG:** You too, bye! 
+
+**IR:** Bye! [call disconnects]"

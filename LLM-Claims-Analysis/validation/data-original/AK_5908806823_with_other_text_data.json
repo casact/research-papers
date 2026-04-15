@@ -1,0 +1,165 @@
+{
+  "claim_id": 5908806823,
+  "patient_initials": "AK",
+  "patient_metadata": {
+    "age": "20",
+    "gender": "Male",
+    "name": "Antoine384 Gale827 Konopelski743"
+  },
+  "encounters": [
+    {
+      "encounter_id": "552caea4-aff4-8e64-edf8-3bdd397dc6cf",
+      "document_type": "clinical_note",
+      "document_text": "**Clinical Note**\n\n**Patient Name:** [Patient Name]  \n**Date of Encounter:** December 5, 2005  \n**Encounter Type:** Ambulatory  \n**Encounter Name:** PCP Visit for Food Allergy  \n**Encounter Cost:** $85.55  \n\n**Chief Complaint:**  \nThe patient presents for evaluation of suspected food allergies. The patient reports experiencing recurrent episodes of gastrointestinal distress, including nausea, vomiting, and abdominal cramping, following the consumption of certain foods. The patient is particularly concerned about reactions to shellfish and peanuts, which have been noted to cause significant discomfort.\n\n**Assessment:**  \nThe patient is a [age]-year-old [gender] with a history of intermittent gastrointestinal symptoms suggestive of food allergies. A detailed dietary history was obtained, indicating that symptoms typically occur within 1-2 hours post-ingestion of shellfish and peanuts. The patient denies any respiratory symptoms, such as wheezing or difficulty breathing, but reports a history of mild urticaria after consuming these foods. \n\nPhysical examination reveals a well-nourished individual in no acute distress. Vital signs are stable. Abdominal examination is unremarkable, with no tenderness or distension noted. Skin examination shows no active urticaria or eczema at this time. \n\nGiven the clinical presentation and history, the differential diagnosis includes food allergy, specifically to shellfish and peanuts. The potential for anaphylaxis, although not currently evident, necessitates further evaluation and management.\n\n**Plan:**  \n1. **Self-Care Interventions:**  \n   - Educate the patient on the importance of avoiding identified allergens (shellfish and peanuts) and reading food labels carefully to prevent accidental exposure.\n   - Discuss the use of an epinephrine auto-injector (EpiPen) for emergency management of anaphylaxis, should it occur. The patient will be provided with a prescription for an EpiPen and instructed on its use.\n\n2. **Diagnostic Testing:**  \n   - Refer the patient for allergy testing (skin prick tests or serum-specific IgE tests) to confirm the diagnosis of food allergies and assess for any additional sensitivities.\n\n3. **Follow-Up:**  \n   - Schedule a follow-up appointment in 4-6 weeks to review allergy test results and discuss further management strategies, including potential referral to an allergist for comprehensive evaluation and management.\n\n4. **Documentation and Billing:**  \n   - Document the encounter thoroughly for billing purposes, ensuring that all relevant clinical elements are captured, including the assessment of food allergies, education provided, and the prescription for the EpiPen.\n\n**Signature:**  \n[Provider Name, MD/DO]  \n[Provider Contact Information]  \n[Date of Note Completion]  \n\n**Note:** This clinical note is intended for use in the patient's medical record and for billing purposes. All information is confidential and should be handled in accordance with HIPAA regulations.",
+      "encounter_date": "2005-12-05",
+      "source_file": "synthea_native",
+      "encounter_metadata": {
+        "resource_type": "Encounter",
+        "synthea_type": "ambulatory",
+        "synthea_name": "PCP_Visit_For_Food_Allergy",
+        "classification": {
+          "is_relevant": true,
+          "confidence": 0.85,
+          "reason": "The encounter is for a food allergy, which can lead to chronic conditions and ongoing medical needs, potentially resulting in high costs for management and treatment.",
+          "category": "moderate_cost",
+          "cost_indicators": [
+            "diagnostic tests",
+            "medication management",
+            "potential specialist referrals",
+            "emergency care for allergic reactions"
+          ]
+        },
+        "processing_timestamp": "2025-10-25T02:00:32.882313"
+      }
+    },
+    {
+      "date": "2025-10-28T12:16:22.713595",
+      "type": "other_text_data",
+      "document_type": "medical_provider_letter",
+      "document_text": "[Dr. Sarah Johnson, MD]  \n[Springfield Medical Center]  \n[123 Health St.]  \n[Springfield, ST 12345]  \n[Phone: (555) 123-4567]  \n[Date: 01/15/2024]  \n\n[Insurance Adjuster Name]  \n[Insurance Company Name]  \n[456 Insurance Ave.]  \n[Springfield, ST 67890]  \n\nRe: Claimant: Aiden Kelly  \nClaim Number: CLM123456  \nPolicy Number: POL789012  \n\nDear [Insurance Adjuster Name],\n\nI am writing to provide a detailed medical summary regarding the treatment and progress of my patient, Aiden Kelly, following his injury that occured on December 5, 2005. Aiden is a 20-year-old student who sustained a sprained ankle while playing soccer at City Park. The mechanism of injury involved a fall while attempting to kick a soccer ball, resulting in a sprain and a secondary bruise to his knee.\n\n**Examination Findings:**  \nUpon initial assessment on December 6, 2005, Aiden presented with significant swelling and tenderness around the lateral aspect of the ankle. Range of motion (ROM) was limited due to pain, and deep tendon reflexes (DTRs) were WNL (within normal limits). An EMG was not deemed necessary at this time. The knee bruise was noted but did not require additional intervention. \n\n**Treatment Plan:**  \nInitially, the treatment involved RICE (Rest, Ice, Compression, Elevation) protocols, along with a prescription for anti-inflammatory medication to manage pain and inflammation. A follow-up visit on December 12, 2005, showed minimal improvement, and thus physical therapy (PT) was initiated on December 15, 2005. The PT regimen included exercises to improve strength and flexibility, with a focus on gradual weight-bearing activities. Aiden was advised to avoid any strenuous activities, especially sports, until further notice.\n\n**Prognosis:**  \nAiden's prognosis is generally favorable. With adherence to the treatment plan, he is expected to reach maximum medical improvement (MMI) by January 5, 2006. However, it is important to note that full recovery may take additional time, depending on his commitment to the prescribed rehabilitation exercises. \n\n**Work Restrictions:**  \nAs Aiden is a student, he does not have traditional work restrictions. He has been advised to limit physical activities, particularly those that may exacerbate his ankle injury, until he has fully recovered. I will continue to monitor his progress and provide updates as necessary.\n\nPlease do not hesitate to contact my office if you require any additional information or clarification regarding Aiden's case. Thank you for your attention to this matter.\n\nSincerely,  \nDr. Sarah Johnson, MD  \n[Springfield Medical Center]  \n[License Number: 123456]  \n[Signature]  \n\n[Enclosures: Medical Records, Treatment Notes]",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:16:22.713595",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Medical Provider Letter",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 19.431879400042817,
+        "tokens": {
+          "prompt_tokens": 789,
+          "completion_tokens": 707,
+          "total_tokens": 1496
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:16:47.703089",
+      "type": "other_text_data",
+      "document_type": "phone_transcript",
+      "document_text": "[Sound of ringing]\n\n**Insurance Rep:** Good morning! This is Jennifer from Springfield Insurance, how can I help you today?\n\n**Aiden Kelly:** Hi, uh, my name is Aiden Kelly and I\u2019m calling about, um, a claim I need to file. I believe it\u2019s CLM123456?\n\n**Insurance Rep:** Okay, Aiden, let me pull that up for you. Just a moment... [typing sounds] Alright, got it! So, I see here that your incident occurred on December 5th, is that correct?\n\n**Aiden:** Yeah, that\u2019s right. I was, uh, playing soccer at City Park with some friends.\n\n**Insurance Rep:** Soccer, got it. What exactly happened?\n\n**Aiden:** Well, um, I went for a kick and tripped over the goalpost, I guess? And, uh, I fell and kinda sprained my ankle.\n\n**Insurance Rep:** I see. So, that\u2019s the primary injury? A sprained ankle? \n\n**Aiden:** Yeah, and, uh, I also bruised my knee a bit. \n\n**Insurance Rep:** Got it. Just to clarify, who was there with you? Any witnesses?\n\n**Aiden:** Yeah, my friends John Doe and Emily Smith were there. They saw the whole thing.\n\n**Insurance Rep:** Perfect, I\u2019ll note that down. Did you, um, seek any medical treatment right after the injury?\n\n**Aiden:** Yes, I went to see Dr. Sarah Johnson the next day, December 6th. She told me to do RICE\u2014rest, ice, compression, and elevation. Plus, she gave me some anti-inflammatory meds.\n\n**Insurance Rep:** Sounds like a good plan. That\u2019s good you got treated right away. So, the first treatment was on December 6th, and then I see there\u2019s a follow-up on December 12th?\n\n**Aiden:** Yeah, that\u2019s correct. I have, um, another follow-up scheduled next week, too.\n\n**Insurance Rep:** Great! And it looks like you started physical therapy on December 15th, right?\n\n**Aiden:** Yup, that\u2019s right. I\u2019m trying to get back on my feet as soon as possible.\n\n**Insurance Rep:** Understandable! So, just to confirm, your maximum medical improvement is expected by January 5th, 2006?\n\n**Aiden:** Yeah, that\u2019s what Dr. Lee mentioned. \n\n**Insurance Rep:** Thank you for that info, Aiden. Now, I\u2019ll need to go over the next steps with you. I\u2019ll send you an LOI (Letter of Intent) to your email. Once you receive it, please review and sign it, then return it to us?\n\n**Aiden:** Sure, I can do that. How long does it usually take to process these claims?\n\n**Insurance Rep:** Typically, we aim for about 30 days from the time we get all the needed documentation, but it can sometimes take longer if we need more info.\n\n**Aiden:** Oh, okay. That\u2019s good to know. \n\n**Insurance Rep:** Anything else on your mind, Aiden?\n\n**Aiden:** Um, just wondering if I need to submit any medical bills or anything?\n\n**Insurance Rep:** Yes, you\u2019ll want to send all medical bills related to the injury. You can fax them or send them via email, whatever\u2019s easier for you.\n\n**Aiden:** Got it! Thanks for the info. \n\n**Insurance Rep:** No problem! Just remember, if you have any questions while filling out the forms, just give us a call back, okay?\n\n**Aiden:** Will do. Thanks for your help, Jennifer. \n\n**Insurance Rep:** You\u2019re welcome, Aiden! Have a great day and take care!\n\n**Aiden:** You too! Bye!  \n\n[Call ends]",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:16:47.703089",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Initial Phone Call Transcript",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 24.9798746999586,
+        "tokens": {
+          "prompt_tokens": 814,
+          "completion_tokens": 907,
+          "total_tokens": 1721
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:17:10.777425",
+      "type": "other_text_data",
+      "document_type": "settlement_adjuster_notes",
+      "document_text": "**Settlement Adjuster Notes**  \n**Claim Number:** CLM123456  \n**Claimant:** Aiden Kelly  \n**Date of Report:** 02/15/2024  \n\n**Medical Treatment Summary:**  \n- Claimant sustained a sprained ankle and bruised knee after falling while playing soccer on December 5, 2005. Initial treatment commenced on December 6, 2005, including RICE and anti-inflammatories prescribed by Dr. Sarah Johnson.  \n- Follow-up on December 12, 2005, showed progress, but pain persisted.  \n- PT began on December 15, 2005, with approx. 12 sessions until MMI on January 5, 2006.  \n- Total medical expenses include:\n  - Initial visit: $150\n  - Follow-up visit: $100\n  - PT sessions: ($50 x 12 visits = $600)\n  - Medications: $75  \n- **Total Medical Expenses:** $150 + $100 + $600 + $75 = **$925**\n\n**Wage Loss Analysis:**  \n- Aiden is a student, thus no wage loss incurred.  \n- No prior employment, so no wage loss calculations needed.\n\n**Settlement Analysis:**  \n- Considering the nature of the injuries and treatments, the claimant\u2019s pain and suffering are moderate due to the sprain and secondary bruising.  \n- Based on similar cases, a fair settlement range would be between $1,500 to $3,000 for pain & suffering.  \n- Given Aiden\u2019s age and the injury\u2019s impact on his daily activities, an est. settlement of **$2,000** is recommended.\n\n**Negotiation Strategy:**  \n- Start negotiations at $2,500 to leave room for discussions.  \n- Emphasize the claimant's youth and the potential impact on his studies, increasing urgency for a prompt resolution.  \n- Highlight the medical necessity of treatments and that Aiden was compliant with PT.\n\n**Settlement Authority Recommendation:**  \n- Recommend settlement authority up to **$2,000** based on medical expenses, injury severity, and claimant's age.  \n- Final offer should not exceed **$2,500** to avoid excessive negotiation costs.\n\n**Additional Notes:**  \n- Per previous notes, claimant has shown good compliance with treatment and demonstrated improvement over time.  \n- Future implications minimal, but monitor for any ongoing pain that may necessitate further evaluation.",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:17:10.777425",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Settlement Adjuster Notes",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 23.05592070001876,
+        "tokens": {
+          "prompt_tokens": 830,
+          "completion_tokens": 587,
+          "total_tokens": 1417
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:17:31.751874",
+      "type": "other_text_data",
+      "document_type": "claimant_statement",
+      "document_text": "To whom it may concern, my name is Aiden Kelly, and I am writing this statement to detail the incident and its impact on my life. On December 5, 2005, I was playing soccer with some friends at City Park in Springfield, just a typical day of fun and games!!! I\u2019ve done it a thousand times. But that day was different.\n\nWhile going for a header, I landed awkwardly, and I could feel my ankle twist in a way it shouldn't. It really, really hurt\u2014I mean, I can't even begin to describe the pain. I immediately fell to the ground, and my knee hit the grass, leaving me with a bruise that reminded me of how bad it really was. My friends, John Doe and Emily Smith, were right there, and they rushed over to help me up. I was in so much pain and couldn\u2019t even put weight on my foot... It was seriously alarming!!!\n\nAfter the fall, I tried to shake it off, but by the time I got home, I knew I needed to see a doctor. I went to see Dr. Sarah Johnson on December 6, and after a quick eval, she diagnosed me with a sprained ankle and prescribed some anti-inflammatory meds. I started on RICE treatment, which was difficult because all I was thinking about was how I\u2019d miss playing soccer with my friends!!!\n\nThe next week, I followed up with Dr. Michael Lee to monitor the healing. The pain was still there, and I couldn\u2019t walk normally for days. I felt so frustrated. I started PT on December 15, which was another challenge, as I was limited in my movements. The physical therapist worked with me on range of motion exercises, and honestly, it was tough. I remember wanting to just kick the ball like before, but it was like my body was holding me back...I felt so helpless.\n\nNot being able to participate in soccer has impacted my daily life a lot. I can\u2019t just hang out with my friends like we used to, and it made me really down. Being a student, I had to manage my crutches around campus, which was super exhausting, and I struggled to keep up with classes while dealing with pain and frustration. My focus suffered, and I couldn\u2019t concentrate like I usually do. Luckily, I got to around my friends who were really supportive, but it was still so isolating at times.\n\nMy maximum medical improvement was on January 5, 2006, and I do feel better now, but I can\u2019t help but worry about reinjuring it. Soccer is a big part of my life, and this incident shook me up\u2014I just hope I can get back to the way I was before!!!\n\nThank you for taking the time to read my statement.\n\nSincerely,  \nAiden Kelly  \nClaim Number: CLM123456  \nPolicy Number: POL789012",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:17:31.751874",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Claimant Statement",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 20.961387800052762,
+        "tokens": {
+          "prompt_tokens": 815,
+          "completion_tokens": 646,
+          "total_tokens": 1461
+        }
+      }
+    },
+    {
+      "date": "2025-10-28T12:17:55.015797",
+      "type": "other_text_data",
+      "document_type": "adjuster_notes_initial",
+      "document_text": "**Adjuster Notes**  \n**Claim Number:** CLM123456  \n**Claimant:** Aiden Kelly  \n**Date of Review:** 01/15/2024  \n  \n**Incident Info:**  \n- **Date of Incident:** 12/05/2005  \n- **Location:** City Park, Springfield  \n- **Mechanism:** Claimant sustained a sprained ankle after falling while playing soccer.  \n- **Witnesses:** John Doe, Emily Smith present at the scene.  \n  \n**Injury Assessment:**  \n- **Primary Injury:** Sprained ankle.  \n- **Secondary Injuries:** Bruised knee.  \n- **Treating Physicians:** Dr. Sarah Johnson & Dr. Michael Lee.  \n- **Initial Tx:** RICE method recommended (Rest, Ice, Compression, Elevation) + anti-inflammatory meds prescribed.  \n- **Follow-up:** 1st visit on 12/06/2005, further eval on 12/12/2005, and PT initiated on 12/15/2005.  \n- **MMI:** Estimated at 01/05/2006.  \n  \n**Liability Evaluation:**  \n- Preliminary review indicates no clear negligence on part of claimant; incident occurred during recreational activity.  \n- Witness statements should be obtained for further liability determination.  \n- Need to confirm if proper equipment was used and if any issues with playing area existed.  \n  \n**Initial Actions Taken:**  \n- 12/06/2005: Acknowledged claim receipt and initiated review.  \n- 12/07/2005: Contacted treating Dr. Johnson for LOI regarding Tx plan. Awaiting response.  \n- 01/10/2024: Reviewed medical records received from clmt.  \n- 01/12/2024: Email sent to both witnesses for statements.  \n  \n**Next Steps:**  \n- Follow-up w/ Dr. Johnson on 01/20/24 to discuss claimants current status and any ongoing Tx.  \n- Review witness statements upon receipt.  \n- Assess potential for IME if claimant's recovery is prolonged.  \n- Set up a QME if needed based on medical updates.  \n  \n**Notes:**  \n- Need to keep an eye on any further developments in clmt's recovery.  \n- Ensure all docs are in order for potential BI claim if issues persist.  \n- Clmt is a student, thus not currently working.  \n- Monitor for any signs of complications or additional claims from secondary injuries.",
+      "generation_metadata": {
+        "generated_timestamp": "2025-10-28T12:17:55.015797",
+        "generator": "synthetic_document_generator",
+        "document_display_name": "Initial Adjuster Notes",
+        "generation_method": "function_calling",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "provider": "openai",
+        "response_time": 23.240489299991168,
+        "tokens": {
+          "prompt_tokens": 813,
+          "completion_tokens": 623,
+          "total_tokens": 1436
+        }
+      }
+    }
+  ],
+  "processing_metadata": {
+    "source_type": "fhir_processor",
+    "bundle_file": "Antoine384_Konopelski743_ec3da1a8-c47f-51ce-84f6-7084543570be.json",
+    "processing_timestamp": "2025-10-25T02:00:32.882313",
+    "total_encounters_evaluated": 1,
+    "relevant_encounters": 1,
+    "processing_stats": {
+      "total_evaluated": 1,
+      "relevant_encounters": 1,
+      "classification_errors": 0,
+      "note_generation_errors": 0,
+      "api_calls": 0,
+      "total_cost": 0.0,
+      "skipped_irrelevant": 0
+    },
+    "cost_summary": {
+      "total_cost": 0.0025566,
+      "total_calls": 12,
+      "total_tokens": 6337,
+      "average_cost_per_call": 0.00021305
+    },
+    "processor_version": "enhanced_v1.0",
+    "synthetic_documents_added": {
+      "timestamp": "2025-10-28T12:17:55.019828",
+      "generator": "synthetic_document_generator",
+      "documents_added": 5,
+      "total_encounters": 6
+    }
+  }
+}
